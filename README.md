@@ -678,9 +678,90 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 
 
 ### 2.2.3. Análisis de entrevistas 
+#### Segmento 1: Hogares urbanos con viviendas antiguas
+
+Características objetivas del segmento
+
+- Rango de edad: 20 - 59 años.
+- Ubicacion: 100% Lima
+- Nivel educativo: 100% secundaria completa
+- Ocupación: 
+-- 75% independientes
+-- 25% dependiente
+- El segmento esta compuesto por adultos de mediana a mayor edad, con nivel educativo y estabilidad laboral modera.
+<br>
+
+Infraestructura del hogar
+- 100% viviendas con mas de 10 años 
+- 100% consideran que sus instalaciones eléctricas están en buen estado.
+-- 25% menciona necesidad de mantenimiento
+- Existe una percepción de seguridad y conformidad con la infraestructura actual.
+
+Percepción del consumo
+- 25% percepción negativa (preocupados)
+- 75% percepción neutral/positiva
+
+Características subjetivas del segmento
+- 100% prácticos y orientados a lo funcional.
+- 100% conservadores en adopción tecnológica.
+- 75% confiados en su situación actual.
+- 25 % preocupados activamente por el consumo.
+
+Necesidades y motivaciones
+- Control remoto de dispositivos (100%)
+- Visualización del consumo en dinero (25%)
+
+Insights clave
+- Conformidad
+-- 75% esta conforme
+-- 25% esta preocupado.
+- Interés sin accion.
+-- 100% no usa la tecnología pero muestra interés en funciones.
+- Simplicidad ante todo
+-- el 100% pide facilidad de uso
+-- el 75% desconfía de técnicos	
+- Valor percibido en dinero
+-- El 100% quiere ver el consumo eléctrico en soles.
+  
 ## 2.3. Needfinding
 ### 2.3.1. User Personas 
+Segmento 1: Hogares urbanos con viviendas antiguas
+
+<img src="assets/User Persona - seg1 - Rosa Gutierrez.png" alt="UserPersona Rosa Gutierrez">
+
+Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+
+<img src="assets/User Persona - seg2 - Carlos Mendoza.png" alt="UserPersona Carlos Mendoza">
+
 ### 2.3.2. User Task Matrix 
+
+Segmento 1: Hogares urbanos con viviendas antiguas
+
+| Tareas del usuario | Frecuencia | Importancia |
+|--|--|--|
+| Encender manualmente los dispositivos del hogar | Diario | Alta |
+| Apagar manualmente los dispositivos antes de salir o dormir | Diario | Alta |
+| Revisar el recibo de luz | Mensual | Alta |
+| Supervisar el uso de electrodomésticos en casa | Semanal | Media |
+| Ajustar el uso de aparatos según necesidad (uso básico) | Diario | Media |
+| Consultar sobre el consumo eléctrico | Mensual/semanal | Media |
+| Entender el monto de recibo de luz | Semanal | Alta |
+
+Segmento 2:  Pequeños negocios y talleres en zonas urbanas.
+
+| Tareas (Tasks) | Frecuencia | Importancia |
+|--|--|--|
+| Encender equipos al iniciar la jornada | Diario | Alta |
+| Operar maquinaria durante la producción | Diario | Alta |
+| Supervisar el uso correcto de equipos por el personal | Diario | Alta |
+| Apagar equipos al finalizar la jornada | Diario | Alta |
+| Verificar que todos los equipos estén apagados | Interdiario | Alta |
+| Coordinar con el personal sobre el uso de máquinas | Diario | Media |
+| Pagar el recibo de electricidad | Mensual | Alta |
+| Revisar el gasto eléctrico del negocio | Mensual | Alta |
+| Intentar identificar causas de alto consumo eléctrico | Mensual (baja) | Alta |
+| Detectar errores o descuidos (equipos encendidos, fallas) | Mensual (baja) | Alta |
+
 ### 2.3.3. User Journey Mapping 
 ### 2.3.4. Empathy Mapping
 ## 2.4. Big Picture Event Storming
