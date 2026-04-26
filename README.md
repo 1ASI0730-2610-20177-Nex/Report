@@ -907,6 +907,18 @@ Los campos de entrada (buscador y newsletter) usan bordes suaves, fondo oscuro y
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
+<img src="assets/LandingPageDashBoardMockUps.png">
+<img src="assets/LandingPageCrearSesionMockUps.png">
+<img src="assets/LandingPageInicioSesionMockUps.png">
+<img src="assets/LandingPageMockUps1.png">
+<img src="assets/LandingPageMockUps2.png">
+<img src="assets/LandingPageMockUps3.png">
+<img src="assets/LandingPageMockUps4.png">
+<img src="assets/LandingPageMockUps5.png">
+<img src="assets/LandingPageMockUps6.png">
+<img src="assets/LandingPageMockUps7.png">
+<img src="assets/LandingPageMockUps8.png">
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
