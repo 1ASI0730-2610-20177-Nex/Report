@@ -800,7 +800,7 @@ La interfaz prioriza mensajes directos y componentes con una sola intención por
 La marca ElectroCorp se presenta desde el encabezado con logotipo visible y naming consistente. El discurso visual refuerza modernidad, energía y tecnología accesible para hogares peruanos.
 
 <p align="center">
-  <img src="assets/411-branding-logo-electrocorp.png" alt="Branding y logotipo de ElectroCorp" width="260">
+  <img src="assets/411-branding-logo-electrocorp.png" alt="Branding y logotipo de ElectroCorp">
 </p>
 
 
@@ -866,9 +866,6 @@ Esta estructura mantiene legibilidad en desktop y se ajusta en móviles mediante
 
 Se utiliza Font Awesome para iconos funcionales (búsqueda, redes, navegación del carrusel y estados de planes). El criterio de uso prioriza reconocimiento inmediato y baja carga cognitiva.
 
-<p align="center">
-  <img src="assets/412-icons-electrocorp.png" alt="Sistema de iconos de ElectroCorp" width="700">
-</p>
 
 
 **Grid System y layout**
