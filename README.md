@@ -982,6 +982,101 @@ Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líder
 </table>
 
 ### 5.1.3. Source Code Style Guide & Conventions
+#### 5.2.1.3. Sprint Backlog 1.
+<p style="text-align: justify; width: 90%; margin: 20px auto;">
+    El primer objetivo del Sprint Backlog fue el establecer los cimientos del proyecto ElectroCorp centrando los esfuerzos en el diseño de la interfaz (UI/UX), la construcción total de la landing page, la definición de los Sprints en la herramienta de gestión y el desarrollo de documentación base. También se incluyeron tareas generales como configuración de repositorios, organización del equipo y avances del trabajo.
+</p>
+
+<p style="text-align: left; width: 90%; margin: 20px auto;">
+    <b>Enlace de Seguimiento:</b> <a href="https://trello.com/invite/b/69ea69db3f7579b973a8f0d9/ATTIc10bfb6ee54361e0d44f1e36131317e252842AF0/sprint1-electrocorp" target="_blank">Tablero del Sprint 1 en Trello</a>
+    <br><br>
+    <img src="assets/Tablero-Sprint1.png"></img>
+</p>
+
+<table align="center" border="1" width="95%" style="text-align:center">
+  <tr>
+    <td colspan="1"><b>Sprint #</b></td>
+    <td colspan="8"><b>Sprint 1</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="7"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Student Code</b></td>
+    <td><b>Status</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2">US21</td>
+    <td rowspan="2">Visualizar página informativa</td>
+    <td>T01</td>
+    <td>Maquetación HTML inicial</td>
+    <td>Diseñar la estructura base en HTML para la landing page.</td>
+    <td>2</td>
+    <td>Sebastian Tavara</td>
+    <td>U20241e179</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Estilización general</td>
+    <td>Aplicar estilos CSS para definir la apariencia general.</td>
+    <td>2</td>
+     <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="2">US22</td>
+    <td rowspan="2">Landing Page intuitiva</td>
+    <td>T03</td>
+    <td>Diseño de navegación</td>
+    <td>Crear menú de navegación con enlaces funcionales.</td>
+    <td>4</td>
+     <td>Alexander Piero Garfias</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T04</td>
+    <td>Personalización del Navbar</td>
+    <td>Aplicar diseño e identidad visual al menú de navegación.</td>
+    <td>4</td>
+     <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US23</td>
+    <td rowspan="2">Landing Page responsiva</td>
+    <td>T05</td>
+    <td>Adaptar contenido principal</td>
+    <td>Aplicar media queries para que el contenido se adapte a distintos dispositivos.</td>
+    <td>4</td>
+     <td>Alexander Piero Garfias</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T06</td>
+    <td>Navbar adaptable</td>
+    <td>Hacer que el menú de navegación funcione correctamente en pantallas móviles.</td>
+    <td>2</td>
+     <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+</table>
+
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.X. Sprint n 
