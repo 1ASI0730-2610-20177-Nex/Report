@@ -779,10 +779,125 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 ## 3.1. User Stories
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
+
 # Capitulo IV: Product Design
 ## 4.1. Style Guidelines
+
+Las pautas de estilo de ElectroCorp están orientadas a comunicar tecnología accesible, control energético y confianza. El diseño visual busca que cualquier usuario pueda entender rápidamente la propuesta de valor  y navegar sin fricción por la landing page.
+
 ### 4.1.1. General Style Guidelines
+
+**Consistencia visual**
+
+ElectroCorp mantiene una identidad visual uniforme en toda la landing mediante una estructura de secciones por bloques, botones redondeados, tarjetas con bordes suaves y color acento constante. Esta coherencia facilita el reconocimiento de acciones principales como registro, contacto y navegación por anclas.
+
+**Simplicidad y claridad**
+
+La interfaz prioriza mensajes directos y componentes con una sola intención por bloque: presentación del problema, propuesta de valor, planes, testimonios y contacto. Se evita la sobrecarga de elementos para sostener una lectura rápida desde la primera visita.
+
+**Branding**
+
+La marca ElectroCorp se presenta desde el encabezado con logotipo visible y naming consistente. El discurso visual refuerza modernidad, energía y tecnología accesible para hogares peruanos.
+
+<p align="center">
+  <img src="img/411-branding-logo-electrocorp.png" alt="Branding y logotipo de ElectroCorp" width="260">
+</p>
+
+
+**Tipografía**
+
+Se utiliza una familia sans-serif del sistema (`Segoe UI`, `Roboto`, `Helvetica`, `Arial`, `sans-serif`) para asegurar legibilidad, carga rápida y compatibilidad multiplataforma. Los títulos emplean mayor peso tipográfico para jerarquizar contenido y los párrafos usan interlineado amplio para lectura continua.
+
+**Paleta cromática**
+
+La paleta transmite un entorno tecnológico:
+
+- Fondo principal oscuro: `#0a0f18`
+- Tarjetas y bloques secundarios: `#111a28`
+- Color acento principal (acciones y resaltados): `#00d2ff`
+- Color acento secundario para estados hover: `#00a8cc`
+- Texto principal claro: `#e0e6ed`
+- Texto secundario: `#8b9bb4`
+
+**Spacing y ritmo visual**
+
+El espaciado está definido para equilibrio entre densidad de información y respiración visual:
+
+````
+- Secciones: `padding` vertical de 80px
+- Títulos de sección: separación inferior de 20px
+- Párrafos descriptivos: margen inferior de 30px
+- Grillas (cards/imagenes): separación de 30px a 50px
+- Botones principales: `padding` de 12px x 30px
+````
+
+**Patrón de lectura**
+
+La página aplica un flujo tipo F/Z: encabezado fijo para acceso inmediato, hero con propuesta principal y CTA, seguido por bloques temáticos en orden lógico de descubrimiento a conversión.
+
+<p align="center">
+  <img src="img/411-style-web.png" alt="Guía general de estilo para la landing" width="700">
+</p>
+
+
 ### 4.1.2. Web Style Guidelines
+
+**Aplicación de color en web**
+
+El acento cyan (`#00d2ff`) se usa para CTA, enlaces de navegación, líneas de separación y estados interactivos. Los fondos oscuros favorecen contraste y lectura de datos energéticos en contextos nocturnos o de panel.
+
+<p align="center">
+  <img src="img/412-colors-electrocorp.png" alt="Paleta web de ElectroCorp" width="700">
+</p>
+
+
+**Tipografía en interfaz**
+
+Se mantienen tamaños escalables por jerarquía:
+
+- Hero title: 3.5rem
+- Títulos de sección: 2rem
+- Subtítulos de apoyo: 1.2rem
+- Cuerpo descriptivo: 1.1rem aprox.
+
+Esta estructura mantiene legibilidad en desktop y se ajusta en móviles mediante media queries.
+
+**Iconografía**
+
+Se utiliza Font Awesome para iconos funcionales (búsqueda, redes, navegación del carrusel y estados de planes). El criterio de uso prioriza reconocimiento inmediato y baja carga cognitiva.
+
+<p align="center">
+  <img src="img/412-icons-electrocorp.png" alt="Sistema de iconos de ElectroCorp" width="700">
+</p>
+
+
+**Grid System y layout**
+
+La landing combina:
+
+- Grillas flex para galerías y tarjetas (`.grid`, `.service-grid`)
+- Bloques centrados con ancho máximo para contenido textual
+- Header sticky para navegación persistente
+
+Este esquema mejora escaneo visual y mantiene estabilidad estructural en diferentes resoluciones.
+
+**Botones y estados**
+
+Los botones principales son redondeados, con contraste alto y transición hover. Se diferencia claramente entre:
+
+- Botón primario (`header-btn-primary`)
+- Botón secundario/outline (`header-btn-outline`)
+- Botón CTA estándar (`.btn`)
+
+**Input System**
+
+Los campos de entrada (buscador y newsletter) usan bordes suaves, fondo oscuro y foco con color acento para dar feedback visual inmediato y consistente.
+
+<p align="center">
+  <img src="img/412-input-button-system.png" alt="Sistema de botones e inputs de ElectroCorp" width="700">
+</p>
+
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
