@@ -810,6 +810,16 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+
+### 5.1.2. Source Code Management
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+### 5.1.4. Software Deployment Configuration
+
+## 5.2. Landing Page, Services & Applications Implementation
+### 5.2.1. Sprint 1 
+#### 5.2.1.1. Sprint Planning 1
 <table align="center" border="1" width="90%" style="text-align:center;">
     <tr align="left">
         <td>
@@ -864,8 +874,8 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
             - Tavara Correa, Sebastian Oswaldo <br>
             - Tuncar Vila, Ghorghet Saul <br>
             - Cabrejos Chocco, Diego Alexander  <br>
-            -  <br>
-            -  <br>
+            - Alexander Piero Garfias <br>
+            - Ronal Toro Turpo <br>
         </td>
     </tr>
     <tr align="left">
@@ -917,7 +927,7 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
     </tr>
 </table>
 
-### 5.1.2. Source Code Management
+#### 5.2.1.2. Aspect Leaders and Collaborators
 Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líderes (B Boss) y Colaboradores (C Collaborator) para los aspectos esenciales como diseño de la interfaz, desarrollo de la landing page, planificacion de los sprints, documentación y las pruebas iniciales. Gracias a esta distribución se permitió un trabajo más colaborador y organizado para el avance del proyecto
 
 <p style="text-align: justify; width: 90%; margin: 20px auto;">
@@ -981,8 +991,7 @@ Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líder
     </tr>
 </table>
 
-### 5.1.3. Source Code Style Guide & Conventions
-#### 5.2.1.3. Sprint Backlog 1.
+#### 5.2.1.3. Sprint Backlog 1. 
 <p style="text-align: justify; width: 90%; margin: 20px auto;">
     El primer objetivo del Sprint Backlog fue el establecer los cimientos del proyecto ElectroCorp centrando los esfuerzos en el diseño de la interfaz (UI/UX), la construcción total de la landing page, la definición de los Sprints en la herramienta de gestión y el desarrollo de documentación base. También se incluyeron tareas generales como configuración de repositorios, organización del equipo y avances del trabajo.
 </p>
@@ -1077,17 +1086,11 @@ Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líder
   </tr>
 </table>
 
-### 5.1.4. Software Deployment Configuration
-## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.X. Sprint n 
-#### 5.2.X.1. Sprint Planning n
-#### 5.2.X.2. Aspect Leaders and Collaborators
-#### 5.2.X.3. Sprint Backlog n. 
-#### 5.2.X.4. Development Evidence for Sprint Review
-#### 5.2.X.5. Execution Evidence for Sprint Review
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
-#### 5.2.X.8. Team Collaboration Insights during Sprint.
+#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
