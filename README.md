@@ -1329,7 +1329,30 @@ Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líder
 </table>
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-En el presente sprint se logró desarrollar la primera versión del Landing Page de ElectroCorp, la cual presenta de manera clara el propósito de la plataforma y las problemáticas que busca resolver en el ámbito de la domótica y eficiencia energética. La información mostrada fue organizada de forma comprensible y acompañada de elementos visuales (Dark Mode) que refuerzan el mensaje. Asimismo, se consideró un diseño atractivo, responsivo e intuitivo que busca captar la atención de los usuarios y transmitir confianza en la solución propuesta.
+En el presente sprint se logró desarrollar la primera versión del Landing Page de ElectroNex, la cual presenta de manera clara el propósito de la plataforma y las problemáticas que busca resolver en el ámbito de la domótica y eficiencia energética. La información mostrada fue organizada de forma comprensible y acompañada de elementos visuales (Dark Mode) que refuerzan el mensaje. Asimismo, se consideró un diseño atractivo, responsivo e intuitivo que busca captar la atención de los usuarios y transmitir confianza en la solución propuesta.
+
+<p align="left" style="width: 95%; margin: 20px auto; font-family: Arial, sans-serif;">
+    <b>Link de commits del repositorio del landing page:</b> <br>
+    <a href="https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/CodeCommits/?before=90c27441144ccfecc76f4483a635522409e317de+35" target="_blank" style="color: #00d2ff;">
+       https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main
+    </a>
+</p>
+
+Principales avances en implementación con relación al Sprint:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :---: | :---: | :--- | :--- | :---: |
+| Landing Page | main | `90c2744` | feat(dashboard.html): update of the dashboard.html code | updated dashboard.html structure | 26/04/2026 |
+| | main | `3450269` | feat(register.html): update of the register.html code | updated register.html structure | 26/04/2026 |
+| | main | `b2c74f4` | feat(login.html): update of the login.html code | updated login.html structure | 26/04/2026 |
+| | main | `57b5215` | feat(register.css): add and update of the register.css code | added and updated register.css styles | 26/04/2026 |
+| | main | `bd8a982` | feat(testimonials.css): add and update of the testimonials.css code | added and updated testimonials.css styles | 26/04/2026 |
+| | main | `c987614` | feat(sections.css): add and update of the sections.css code | added and updated sections.css styles | 26/04/2026 |
+| | main | `8a0835a` | feat(responsive.css): add and update of the responsive.css code | added and updated responsive.css styles | 26/04/2026 |
+| | main | `f249336` | feat(hero.css): add and update of the hero.css code | added and updated hero.css styles | 26/04/2026 |
+| | main | `cdc4356` | feat(header.css): add and update of the header.css code | added and updated header.css styles | 26/04/2026 |
+| | main | `f522a9c` | feat(i18n.js): add and update of the i18n.js code | added and updated i18n.js logic | 26/04/2026 |
+
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
