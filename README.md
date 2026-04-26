@@ -1089,6 +1089,8 @@ Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líder
 #### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Durante el primer sprint, se desarrolló el Landing Page del proyecto de ElectroCorp como una primera entrega visual y detallando algunos aspectos. Esta implementación se centró únicamente en la estructura, diseño, la traduccion de ingles a español y viceversa, y uno que otro toque personal como la implementacion de una musica de fondo. Aunque no se han implementado accesos de inicio de sesion por el momento.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 ## 5.3. Validation Interviews
