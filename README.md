@@ -1359,7 +1359,7 @@ Durante el primer sprint, se lograron varios hitos importantes en el desarrollo 
 
 - Establecimiento de repositorios: Se crearon y configuraron repositorios en GitHub para gestionar el código y las pruebas, asegurando una correcta organización y control de versiones, ademas de separar en main y developer para evitar posibles errores. <br>
 
-<img src="assets/Repositorios.png"></img><br>
+<img src="assets/Repos.png"></img><br>
 
 - Implementación del Landing Page: Se diseño y se estructuro la landing page de ElectroCorp implementando funcionalidades claves y asegurando que cumpla con lo dictado en la rubrica, como el agregarle un boton de traduccion de idioma y que este en ingles por defecto
 
@@ -1396,6 +1396,7 @@ Durante el primer sprint, se lograron varios hitos importantes en el desarrollo 
   * Contact
     
     <img src="assets/LandingPageMockUps8.png"></img><br>
+    
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Durante el primer sprint, se desarrolló el Landing Page del proyecto de ElectroCorp como una primera entrega visual y detallando algunos aspectos. Esta implementación se centró únicamente en la estructura, diseño, la traduccion de ingles a español y viceversa, y uno que otro toque personal como la implementacion de una musica de fondo. Aunque no se han implementado accesos de inicio de sesion por el momento.
