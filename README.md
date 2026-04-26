@@ -42,19 +42,19 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte:
 
-- 
+- https://github.com/1ASI0730-2610-20177-Nex/Report
 
 #### Link del repositorio de la Landing Page:
 
-- 
+- https://github.com/1ASI0730-2610-20177-Nex/LandingPage
 
 #### Link del repositorio del Frontend:
 
-- 
+- https://github.com/1ASI0730-2610-20177-Nex/Frontend
 
 #### Link del repositorio del Backend:
 
-- 
+- https://github.com/1ASI0730-2610-20177-Nex/Backend
 
 ### **Entrega TB1:**
 [text]
@@ -227,7 +227,7 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 | Tavara Correa, Sebastian Oswaldo      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas | <img src="assets/foto-carnet-sebastian-tavara.jpg"> | Soy Sebastian Oswaldo Tavara Correa estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, me considero una persona estudiosa y muy colaborativa al trabajar en grupo. Me adapto rápidamente a cualquier entorno. Me interesa desarrollar soluciones tecnológicas que tengan un impacto positivo. Creo que el desarrollo de software no debe limitarse en buscar la mayor funcionalidad, sino que también en generar bienestar en la sociedad.
 | Tuncar Vila, Ghorghet Saul|Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/Ghorghet.png"> | Soy Ghorghet Saul Tuncar Vila, tengo 20 años de edad, estudio ingeniería de software en la UPC y estoy comprometido a seguir aprendiendo tecnologías que me ayuden en mi crecimiento como profesional. Me considero una persona empática, responsable, organizada y perfeccionista. Me apasiona aprender cada tema a profundidad y disfruto ayudando a los demás mientras doy lo mejor de mi en cada actividad.
 | Cabrejos Chocco, Diego Alexander      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas | <img src="assets/Diego_Cabrejos.jpg"> | Soy Diego Alexander Cabrejos Chocco estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, soy una persona sociable, creativa, que trabaja bien en equipo y busco que todo el equipo participe en las actividades activamente. Me adapto rapidamente a la modalidad de trabajo. Mi meta es poder crear y desarrollar proyectos tecnologicos que tenga un impacto positivo y que sea entretenido. Lo mas interesante de la Software es que cada vez se va expandiendo, y las opciones para poder desarrollar algun proyecto por mas interesante o loco que paresca el tema, no es impedimento para desarrollar lo que desees. (claro que siempre siguiendo el tema legal)
-| Fernandez Garfias, Alexander |xxxxx| <img src="assets/<Nombre>.jpg"> | Soy Alexander, tengo 21 años y estudio Ingeniería de Software en la UPC. Tengo conocimientos en HTML, CSS y JavaScript, y he trabajado con Angular y Vue. También manejo C++, tengo nociones de Java y Flutter, y conocimientos en Domain-Driven Design (DDD) y Clean Architecture
+| Fernandez Garfias, Alexander |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/<Nombre>.jpg"> | Soy Alexander, tengo 21 años y estudio Ingeniería de Software en la UPC. Tengo conocimientos en HTML, CSS y JavaScript, y he trabajado con Angular y Vue. También manejo C++, tengo nociones de Java y Flutter, y conocimientos en Domain-Driven Design (DDD) y Clean Architecture
 
 ## 1.2 *Solution Profile*
 ### 1.2.1 Antecedentes y problemática
