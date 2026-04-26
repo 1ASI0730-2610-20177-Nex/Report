@@ -800,7 +800,7 @@ La interfaz prioriza mensajes directos y componentes con una sola intención por
 La marca ElectroCorp se presenta desde el encabezado con logotipo visible y naming consistente. El discurso visual refuerza modernidad, energía y tecnología accesible para hogares peruanos.
 
 <p align="center">
-  <img src="img/411-branding-logo-electrocorp.png" alt="Branding y logotipo de ElectroCorp" width="260">
+  <img src="assets/411-branding-logo-electrocorp.png" alt="Branding y logotipo de ElectroCorp" width="260">
 </p>
 
 
@@ -836,7 +836,7 @@ El espaciado está definido para equilibrio entre densidad de información y res
 La página aplica un flujo tipo F/Z: encabezado fijo para acceso inmediato, hero con propuesta principal y CTA, seguido por bloques temáticos en orden lógico de descubrimiento a conversión.
 
 <p align="center">
-  <img src="img/411-style-web.png" alt="Guía general de estilo para la landing" width="700">
+  <img src="assets/411-style-web.png" alt="Guía general de estilo para la landing" width="700">
 </p>
 
 
@@ -847,7 +847,7 @@ La página aplica un flujo tipo F/Z: encabezado fijo para acceso inmediato, hero
 El acento cyan (`#00d2ff`) se usa para CTA, enlaces de navegación, líneas de separación y estados interactivos. Los fondos oscuros favorecen contraste y lectura de datos energéticos en contextos nocturnos o de panel.
 
 <p align="center">
-  <img src="img/412-colors-electrocorp.png" alt="Paleta web de ElectroCorp" width="700">
+  <img src="assets/412-colors-electrocorp.png" alt="Paleta web de ElectroCorp" width="700">
 </p>
 
 
@@ -867,7 +867,7 @@ Esta estructura mantiene legibilidad en desktop y se ajusta en móviles mediante
 Se utiliza Font Awesome para iconos funcionales (búsqueda, redes, navegación del carrusel y estados de planes). El criterio de uso prioriza reconocimiento inmediato y baja carga cognitiva.
 
 <p align="center">
-  <img src="img/412-icons-electrocorp.png" alt="Sistema de iconos de ElectroCorp" width="700">
+  <img src="assets/412-icons-electrocorp.png" alt="Sistema de iconos de ElectroCorp" width="700">
 </p>
 
 
@@ -894,7 +894,7 @@ Los botones principales son redondeados, con contraste alto y transición hover.
 Los campos de entrada (buscador y newsletter) usan bordes suaves, fondo oscuro y foco con color acento para dar feedback visual inmediato y consistente.
 
 <p align="center">
-  <img src="img/412-input-button-system.png" alt="Sistema de botones e inputs de ElectroCorp" width="700">
+  <img src="assets/412-input-button-system.png" alt="Sistema de botones e inputs de ElectroCorp" width="700">
 </p>
 
 
