@@ -955,7 +955,7 @@ Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líder
     </tr>
     <tr align="left">
         <td>- Tuncar Vila, Ghorghet Saul</td>
-        <td align="center">Msa-ware</td>
+        <td align="center">Ghorghet</td>
         <td align="center">C</td>
         <td align="center">-</td>
         <td align="center">-</td>
@@ -973,7 +973,7 @@ Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líder
     </tr>
     <tr align="left">
         <td>- Ronal Toro Turpo</td>
-        <td align="center">JeanLoa</td>
+        <td align="center">Ronal</td>
         <td align="center">C</td>
         <td align="center">C</td>
         <td align="center">C</td>
@@ -982,7 +982,7 @@ Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líder
     </tr>
     <tr align="left">
         <td>- Alexander Piero Garfias</td>
-        <td align="center">HiApple1</td>
+        <td align="center">Dostoyevsk1</td>
         <td align="center">C</td>
         <td align="center">B</td>
         <td align="center">C</td>
