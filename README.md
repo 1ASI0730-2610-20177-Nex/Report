@@ -918,6 +918,69 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 </table>
 
 ### 5.1.2. Source Code Management
+Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líderes (B Boss) y Colaboradores (C Collaborator) para los aspectos esenciales como diseño de la interfaz, desarrollo de la landing page, planificacion de los sprints, documentación y las pruebas iniciales. Gracias a esta distribución se permitió un trabajo más colaborador y organizado para el avance del proyecto
+
+<p style="text-align: justify; width: 90%; margin: 20px auto;">
+    Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líderes (B Boss) y Colaboradores (C Collaborator) para los aspectos esenciales como diseño de la interfaz, desarrollo de la landing page, planificación de los sprints, documentación y las pruebas iniciales. Gracias a esta distribución se permitió un trabajo más colaborativo y organizado para el avance del proyecto.
+</p>
+
+<table align="center" border="1" width="90%" style="text-align:center; border-collapse: collapse;">
+    <tr align="center">
+        <td><b>Miembro del Equipo</b></td>
+        <td><b>Github Username</b></td>
+        <td><b>UI/UX</b></td>
+        <td><b>Landing Page</b></td>
+        <td><b>Sprint Planning</b></td>
+        <td><b>Documentation</b></td>
+        <td><b>Testing</b></td>
+    </tr>
+    <tr align="left">
+        <td>- Tavara Correa, Sebastian Oswaldo</td>
+        <td align="center">SebastianTavara</td>
+        <td align="center">C</td>
+        <td align="center">-</td>
+        <td align="center">B</td>
+        <td align="center">-</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>- Tuncar Vila, Ghorghet Saul</td>
+        <td align="center">Msa-ware</td>
+        <td align="center">C</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>- Cabrejos Chocce, Diego Alexander</td>
+        <td align="center">MOTOX-357</td>
+        <td align="center">B</td>
+        <td align="center">B</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">B</td>
+    </tr>
+    <tr align="left">
+        <td>- </td>
+        <td align="center">JeanLoa</td>
+        <td align="center">C</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">B</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>- </td>
+        <td align="center">HiApple1</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">C</td>
+    </tr>
+</table>
+
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
