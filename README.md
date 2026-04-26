@@ -896,11 +896,128 @@ Los campos de entrada (buscador y newsletter) usan bordes suaves, fondo oscuro y
 
 
 ## 4.2. Information Architecture
+
+La arquitectura de información de ElectroCorp está orientada a conversión y comprensión rápida: primero se presenta el problema energético, luego la solución IoT, la evidencia social (testimonios) y finalmente el contacto/registro.
+
 ### 4.2.1. Organization Systems
+
+Se emplea un sistema de organización secuencial por secciones ancladas:
+
+1. `#hero`: mensaje principal y acceso rápido al dashboard.
+2. `#description`: contexto del problema y propuesta de valor.
+3. `#goals`: objetivos del producto.
+4. `#service`: planes y beneficios.
+5. `#reviews`: prueba social de usuarios.
+6. `#about`: credenciales del equipo.
+7. `#device`: evidencia visual del hardware.
+8. `#contact`: formulario de conversión.
+
+Además, se utiliza organización jerárquica por prioridad visual (hero > CTA > beneficios > conversión).
+
+<p align="center">
+  <img src="assets/LandingPageMockUps1.png">
+  <img src="assets/LandingPageMockUps2.png">
+  <img src="assets/LandingPageMockUps3.png">
+  <img src="assets/LandingPageMockUps4.png">
+  <img src="assets/LandingPageMockUps5.png">
+  <img src="assets/LandingPageMockUps6.png">
+  <img src="assets/LandingPageMockUps7.png">
+  <img src="assets/LandingPageMockUps8.png">
+</p>
+
 ### 4.2.2. Labeling Systems
-### 4.2.3. SEO Tags and Meta Tags 
+
+El sistema de etiquetado usa términos cortos, directos y alineados al idioma activo (ES/EN) mediante `i18n`. Etiquetas principales de navegación:
+
+| Label (EN) | Label (ES) | Propósito |
+|------------|------------|-----------|
+| Home | Inicio | Punto de entrada y propuesta de valor |
+| Description | Descripción | Explica problema y solución |
+| Goals | Objetivos | Comunica alcance del producto |
+| Pricing | Planes | Presenta opciones comerciales |
+| Reviews | Testimonios | Refuerza confianza con casos reales |
+| About us | Nosotros | Presenta al equipo |
+| Smart Plugs | Enchufes Smart | Muestra componente físico IoT |
+| Support | Soporte | Canal de contacto y suscripción |
+
+Etiquetas de acción (CTA):
+
+- Iniciar sesión / Log in
+- Registrarse / Sign up
+- Ir al dashboard / Go to dashboard
+- Empezar gratis / Start for free
+- Contactar ventas / Contact sales
+
+Este enfoque reduce ambigüedad y mejora reconocimiento inmediato.
+
+<p align="center">
+  <img src="assets/422-labeling-system-menu-es.png" alt="Sistema de etiquetado de navegación y CTA" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/422-labeling-system-menu-en.png" alt="Sistema de etiquetado de navegación y CTA" width="700">
+</p>
+
+
+### 4.2.3. SEO Tags and Meta Tags
+
+Actualmente la landing incluye:
+
+````
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ElectroCorp | Smart Energy Management</title>
+````
+
+Para fortalecer posicionamiento SEO de ElectroCorp en búsquedas locales, se recomienda añadir:
+
+````
+<meta name="description" content="ElectroCorp democratiza la domótica en Perú con enchufes inteligentes plug-and-play para controlar y optimizar el consumo eléctrico en tiempo real.">
+<meta name="keywords" content="domótica Perú, enchufes inteligentes, ahorro de energía, IoT hogar, eficiencia energética">
+<meta name="author" content="ElectroCorp Team">
+<meta name="robots" content="index, follow">
+````
+
 ### 4.2.4. Searching Systems
+
+ElectroCorp implementa un buscador por palabras clave en la sección hero que redirige a anclas internas según intención del usuario. El sistema está basado en un diccionario de términos (`search.js`) y navegación con `scrollIntoView`.
+
+Funcionamiento:
+
+- El usuario escribe una consulta (ej. "planes", "soporte", "enchufes").
+- El script normaliza el texto a minúsculas y evalúa coincidencias.
+- Si encuentra match, desplaza suavemente a la sección objetivo.
+- Si no encuentra resultados, muestra una alerta orientativa con ejemplos.
+
+Palabras clave relevantes configuradas:
+
+- Inicio/Descripción: `inicio`, `descripcion`, `startup`
+- Oferta: `servicios`, `planes`, `precios`, `gratis`, `pagos`
+- Confianza: `testimonios`, `opiniones`
+- Equipo: `nosotros`, `about`, `team`
+- Hardware: `enchufes`, `dispositivos`, `hardware`
+- Soporte: `contacto`, `soporte`, `boletin`
+
+Este modelo de búsqueda prioriza rapidez y reducción de fricción para landing pages de una sola pantalla.
+
+
 ### 4.2.5. Navigation Systems
+
+La navegación de ElectroCorp combina un sistema principal por menú superior sticky y navegación contextual por CTA:
+
+- **Navegación global (header fijo):** acceso permanente a todas las secciones por anclas.
+- **Navegación por desplazamiento suave:** transición fluida al seleccionar opciones del menú o resultados del buscador.
+- **Navegación por CTA:** botones que conducen a registro, dashboard o contacto comercial.
+- **Navegación responsive:** reorganización de bloques de cabecera para móviles (brand + acciones + menú).
+- **Navegación por carrusel en testimonios:** controles prev/next para explorar evidencia social sin salir de la sección.
+
+Este sistema mejora la encontrabilidad del contenido clave y sostiene una experiencia lineal de descubrimiento -> confianza -> conversión.
+
+<p align="center">
+  <img src="assets/425-navigation-system-hero.png" alt="Sistema de navegación en header y hero" width="700">
+</p>
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
