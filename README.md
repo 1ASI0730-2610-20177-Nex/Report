@@ -956,27 +956,27 @@ Al momento de realizar el sprint 1, el equipo ElectroNex decidió asignar Líder
         <td>- Cabrejos Chocce, Diego Alexander</td>
         <td align="center">MOTOX-357</td>
         <td align="center">B</td>
-        <td align="center">B</td>
+        <td align="center">C</td>
         <td align="center">C</td>
         <td align="center">C</td>
         <td align="center">B</td>
     </tr>
     <tr align="left">
-        <td>- </td>
+        <td>- Ronal Toro Turpo</td>
         <td align="center">JeanLoa</td>
         <td align="center">C</td>
-        <td align="center">-</td>
-        <td align="center">-</td>
-        <td align="center">B</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
         <td align="center">C</td>
     </tr>
     <tr align="left">
-        <td>- </td>
+        <td>- Alexander Piero Garfias</td>
         <td align="center">HiApple1</td>
-        <td align="center">-</td>
-        <td align="center">-</td>
-        <td align="center">-</td>
-        <td align="center">-</td>
+        <td align="center">C</td>
+        <td align="center">B</td>
+        <td align="center">C</td>
+        <td align="center">B</td>
         <td align="center">C</td>
     </tr>
 </table>
