@@ -1402,6 +1402,77 @@ Repositorio GitHub de la Landing Page: https://github.com/1ASI0730-2610-20177-Ne
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+En el desarrollo del proyecto se aplican convenciones de estilo para mantener consistencia y legibilidad del código en todos los repositorios.
+
+#### HTML
+
+- Declarar `<!DOCTYPE html>` en la primera línea.
+- Mantener estructura base: `<html>`, `<head>`, `<body>`.
+- Definir `<title>` descriptivo por página.
+- Usar indentación consistente según nivel de anidamiento.
+- Cerrar correctamente etiquetas de apertura/cierre.
+- Incluir atributo `alt` en imágenes.
+- Utilizar etiquetas semánticas como `<header>`, `<main>`, `<section>` y `<footer>`.
+
+Referencia: [W3C/W3Schools HTML Syntax](https://www.w3schools.com/html/html5_syntax.asp)
+
+#### CSS
+
+- Usar nombres de clases claros, cortos y en minúsculas.
+- Mantener indentación uniforme y bloques ordenados.
+- Definir colores en formato hexadecimal cuando aplique.
+- Incorporar comentarios breves en secciones complejas.
+- Diseñar interfaces responsivas para distintos dispositivos.
+- Evitar duplicación de estilos mediante reutilización.
+
+Referencia: [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+#### JavaScript
+
+- Nombrar variables y funciones de forma coherente.
+- Finalizar instrucciones con punto y coma.
+- Priorizar `const` sobre `let` cuando el valor no cambia.
+- Usar comparación estricta (`===`, `!==`) cuando sea posible.
+- Mantener funciones pequeñas y enfocadas en una responsabilidad.
+- Evitar código duplicado y modularizar cuando sea necesario.
+
+Referencia: [JavaScript Conventions](https://www.w3schools.com/js/js_conventions.asp)
+
+#### Vue (Vite)
+
+- Nombrar componentes en `PascalCase`.
+- Usar `camelCase` para variables, funciones y propiedades.
+- Mantener la estructura de archivos `.vue`: `<template>`, `<script>`, `<style>`.
+- Organizar el proyecto en carpetas como `components`, `views`, `services` y `assets`.
+- Mantener componentes pequeños, reutilizables y con responsabilidad única.
+- Utilizar Composition API para organizar la lógica cuando sea necesario.
+- Mantener configuraciones de Vite simples y claras.
+
+Referencia: [Vue Style Guide](https://vuejs.org/style-guide/)  
+Referencia: [Vite Documentation](https://vitejs.dev/guide/)
+
+#### C# (Backend)
+
+- Seguir nomenclatura estándar: clases e interfaces en `PascalCase`, variables y métodos en `camelCase`.
+- Usar interfaces con prefijo `I` (ejemplo: `IUserService`).
+- Mantener una indentación consistente.
+- Definir constantes para valores inmutables.
+- Aplicar separación de responsabilidades (controladores, servicios, repositorios).
+- Usar `async` y `await` en operaciones asíncronas.
+- Validar entradas y manejar errores mediante excepciones controladas.
+- Priorizar buenas prácticas de seguridad en APIs.
+
+Referencia: [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+
+#### Gherkin
+
+- Estructurar escenarios con `Given`, `When`, `Then`.
+- Separar escenarios con líneas en blanco para mejor lectura.
+- Usar tablas de ejemplos cuando se requiera parametrización.
+- Escribir pasos en lenguaje claro y verificable.
+
+Referencia: [Gherkin conventions](https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/)
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
