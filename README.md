@@ -1296,8 +1296,21 @@ La arquitectura se basa en una separación clara entre la lógica de presentaci�
 
 ### 4.6.4. Software Architecture Components Diagrams
 Los siguientes diagramas de componentes representan la arquitectura de software del sistema ElectroCorp, diferenciando la vista del frontend y la vista del backend. Estos diagramas permiten identificar los principales componentes del sistema, así como sus responsabilidades y relaciones de interacción dentro de la solución.<br><br>Frontend Components Diagram<br><img src="assets/components-diagram-Frontend.png"><br><br>El diagrama de componentes del frontend muestra la organización de los módulos que conforman la interfaz web de ElectroCorp. En esta vista se incluyen los componentes relacionados con la autenticación, la gestión del estado de la aplicación, la internacionalización, la comunicación con la API y las distintas vistas funcionales, como dispositivos, rutinas, reportes, historial, notificaciones, tiempo real e insights energéticos. Este diagrama permite comprender cómo se estructura la capa cliente para ofrecer una experiencia interactiva, modular y reutilizable.<br><br>Backend Components Diagram<br><img src="assets/component-diagram-Backend.png"><br>El diagrama de componentes del backend presenta la estructura interna del servidor desarrollado con Spring Boot. En él se distinguen los controladores REST, los casos de uso de la capa de aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y la base de datos. Esta representación permite visualizar la arquitectura en capas adoptada por el sistema, así como la manera en que los componentes del backend colaboran para procesar solicitudes, aplicar la lógica de negocio y persistir la información.<br>
+
 ## 4.7. Software Object-Oriented Design
-### 4.7.1. Class Diagrams
+4.7.1. Class Diagrams
+Los siguientes diagramas de clases presentan el diseño orientado a objetos del sistema ElectroCorp, separados en una vista de frontend y una vista de backend. Ambos diagramas se renderizan de forma online a partir de los archivos fuente PlantUML almacenados en el repositorio, utilizando la versión raw de GitHub.
+
+Frontend Class Diagram
+    <img src="assets/471Diagram1.png"></img><br>
+
+
+El diagrama de clases del frontend representa la estructura del lado cliente de la aplicación. Incluye los principales módulos relacionados con la autenticación, la internacionalización, el consumo de la API, las vistas de la interfaz de usuario, los modales, los gráficos y el estado compartido de la aplicación. Además, muestra cómo colaboran los componentes del frontend para ofrecer funcionalidades interactivas como la gestión de dispositivos, las rutinas, los reportes, las notificaciones, el historial y los insights energéticos.
+
+Backend Class Diagram
+    <img src="assets/471Diagram2.png"></img><br>
+
+El diagrama de clases del backend representa el diseño orientado a objetos del lado servidor, implementado con Spring Boot. Incluye los controladores REST, los casos de uso de la aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y las entidades de base de datos. Este diagrama permite visualizar la arquitectura en capas del backend y las relaciones entre la lógica de negocio, la persistencia de datos y la exposición de servicios mediante la API.
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams.
 El diagrama de base de datos fue diseñado a partir de los principales procesos identificados en el sistema, como el registro de usuarios, la gestión de dispositivos, la selección de planes de suscripción, el monitoreo del consumo eléctrico y el servicio de notificaciones. A través de este modelo se definieron las entidades principales, como Usuario, Dispositivo, Suscripción, Plan de Suscripción, Consumo Energético y Notificación, junto con sus respectivas relaciones. Esto permite organizar de manera estructurada la información del sistema, facilitando el control de los dispositivos, el análisis del consumo energético y la automatización de alertas dentro de la plataforma.<br>
