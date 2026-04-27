@@ -1305,9 +1305,103 @@ El diagrama de base de datos fue diseñado a partir de los principales procesos 
 
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
-### 5.1.1. Software Development Environment Configuration
+
+A continuación, se presentará un repositorio central y organizado que servirá como guía para el desarrollo enfocado y consistente de nuestra solución.
+
+### 5.1.1 Software Development Environment Configuration
+
+En esta sección se incluye los links de las aplicaciónes, productos de software realizadas durante el ciclo del proyecto en los programas que se utilizaron. <br>
+
++ **Project Management**<br>
+Esta área se centra en la planificación, organización, coordinación y control de los recursos y actividades necesarias para completar un proyecto de software con éxito. Incluye la gestión del alcance, el tiempo, el costo, la calidad, los riesgos, los recursos humanos y la comunicación para garantizar que el proyecto se entregue dentro del tiempo y el presupuesto establecidos, cumpliendo con los requisitos y objetivos definidos.
+
+  +	<b>Jira Software:</b> Herramienta líder en la industria para la gestión ágil de proyectos. Permite a los equipos planificar, priorizar y realizar un seguimiento del trabajo de manera colaborativa mediante tableros Scrum o Kanban. <br>https://www.atlassian.com/es/software/jira<br><br>
+
++ **Requirements Management**<br>
+Se refiere al proceso de identificar, documentar, verificar y gestionar los requisitos del sistema y del software. Implica entender las necesidades de los usuarios y las partes interesadas, traduciéndolas en requisitos funcionales y no funcionales claros y específicos. El objetivo es garantizar que el software desarrollado satisfaga las necesidades y expectativas de los usuarios finales.
+
+  + **Jira Software:**
+Plataforma de gestión centrada en Historias de Usuario (User Stories), que se organizan en Épicas (Epics) y se clasifican por puntaje de esfuerzo (Story Points). Es utilizada para mantener a todos los miembros del equipo al tanto del progreso del Backlog del producto, ofreciendo una vista en tiempo real compartida que facilita la colaboración eficiente.
+<br> https://www.atlassian.com/es/software/jira<br><br>
+
++ **Product UX/UI Design**<br>
+Este aspecto se enfoca en el diseño de la experiencia del usuario (UX) y la interfaz de usuario (UI) del producto de software. UX se centra en comprender y mejorar la experiencia general del usuario al interactuar con el software, mientras que UI se refiere al diseño visual y la usabilidad de la interfaz de usuario. En este caso realizar un modelo de sitio web para computadoras y celulares.
+
+  + **Figma:**<br>Herramienta de prototipado web y editor de gráficos vectoriales que se aloja en la web, permitiendo establecer los modelos interactivos para versión en Web Browser y Mobile Browser de manera colaborativa.
+https://www.figma.com/design/ 
+
+  + **UXPressia:**<br> Herramienta en línea para el mapeo de la trayectoria del cliente. Sus herramientas nos permitieron establecer las bases del modelado de User Persona, Empathy Map y Journey Map.<br>https://uxpressia.com/ 
+
+  + **MIRO:**<br>Pizarra digital colaborativa en línea, usada para la investigación, la ideación, mapas mentales, flujos as-is / to-be y una variedad de otras actividades colaborativas.<br>https://miro.com/app/dashboard/ 
+
+  + **Lucid Chart:**<br> Es una herramienta de diagramación basada en la web, que permite a los usuarios colaborar y trabajar juntos en tiempo real, creando diseños UML, mapas mentales, prototipos de software y muchos otros tipos de diagrama.
+https://lucid.app/documents#/dashboard 
+
+  + **dbdiagram.io:**<br> Herramienta gratuita y basada en la web diseñada para dibujar esquemas de bases de datos de forma rápida e intuitiva mediante código (DBML). Se utilizará para diseñar visualmente el modelo Entidad-Relación (ERD), definir las estructuras de las tablas y exportar ágilmente los scripts SQL necesarios para implementar nuestra base de datos en MySQL.
+https://dbdiagram.io/
+
+  + **Structurizr:**<br> Es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución. 
+https://structurizr.com/ 
+
++ **Software Development**<br>
+Es el proceso de crear, diseñar, programar, probar y mantener el software. Incluye la implementación de los requisitos definidos utilizando diferentes lenguajes de programación, herramientas y tecnologías.
+
+  + **GitHub:**<br>Repositorio comunitario basado en la nube cuya función es almacenar, versionar y gestionar los avances del código fuente elaborado por el equipo. <br>
+https://github.com/upc-pre-202610-1asi0729-11896-ECorp
+
+
+  + **Visual Studio Code:**<br> Editor de código fuente potente y ligero que brinda extensiones personalizables, permitiendo que la función del desarrollador sea más eficiente.<br>
+https://code.visualstudio.com/ 
+
+  + **HTML:**<br>  Lenguaje estándar para crear y diseñar sitios web. Utiliza etiquetas para estructurar el contenido. Este lenguaje será utilizado en el presente proyecto para implementar la estructura de la página web.<br>
+https://www.jetbrains.com/help/webstorm/editing-html-files.html 
+
+  + **CSS:**<br> : Lenguaje de hojas de estilo utilizado para controlar el diseño y la presentación de páginas web. Permite establecer colores, fuentes y animaciones. Se utilizará para la implementación del diseño visual de nuestra plataforma.<br>
+https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion 
+
+  + **JavaScript:**<br> Lenguaje de programación de alto nivel que se utiliza para agregar interactividad y dinamismo a los sitios web (validar formularios, animar elementos, etc.). Se utilizará para la elaboración de la lógica frontend de la plataforma.<br>
+https://www.jetbrains.com/help/webstorm/javascript-specific-guidelines.html 
+
+
+  +  **Java:**<br> Es un lenguaje de programación de alto nivel, robusto y orientado a objetos, diseñado para tener la menor cantidad posible de dependencias de implementación. Es ideal para aplicaciones empresariales, desarrollo de apps móviles (Android) y sistemas de escritorio. Se utilizará para gestionar la lógica de servidor y el procesamiento de datos del proyecto.<br>
+https://www.oracle.com/java/technologies/downloads/
+
++ **Software Testing**<br>
+Se refiere a la actividad de verificar y validar el software para garantizar su calidad y funcionamiento correcto. Involucra la ejecución de pruebas funcionales y no funcionales para identificar errores, defectos o problemas en el software antes de su lanzamiento. El objetivo es asegurar que el software sea confiable, robusto y cumpla con los requisitos y expectativas del usuario final.
+
+  + **Lenguaje Gherkin:**<br>Es un lenguaje de dominio específico (DSL) utilizado en el desarrollo de software para escribir pruebas de aceptación en un formato legible por humanos. Utiliza palabras clave como Given, When y Then para describir el estado inicial, la acción y el resultado esperado de un escenario de prueba, lo que facilita la colaboración entre equipos al definir requisitos y pruebas.<br>https://cucumber.io/
+
++ **Software Deployment**<br>
+Es el proceso de implementar y poner en funcionamiento el software en un entorno de producción o en los dispositivos de los usuarios finales. Incluye actividades como la instalación, configuración, migración de datos y puesta en marcha del software. El objetivo es garantizar una implementación exitosa y sin problemas del software en el entorno de producción.
+
+  + **Github Pages:**<br> Servicio de Github que nos permitió alojar nuestra Landing page y nos permitirá alojar nuestro web applications.<br>
+https://pages.github.com/ <br>
+
+
++	**Software Documentation**<br>Se refiere a la creación y mantenimiento de documentos que describen el software, incluyendo su arquitectura, diseño, funcionamiento, instalación, configuración, uso y mantenimiento. La documentación proporciona información útil y detallada sobre el software para desarrolladores, usuarios finales, administradores de sistemas y otras partes interesadas. 
+
+    + **Markdown:**<br>Es un lenguaje de marcado ligero que permite escribir texto con un formato fácil de leer y escribir, que luego puede ser convertido a HTML u otros formatos de presentación. Es ampliamente utilizado para documentar proyectos de software debido a su simplicidad y versatilidad. Markdown permite agregar formato básico como encabezados, listas, enlaces e imágenes utilizando una sintaxis sencilla y fácil de recordar.<br>https://www.markdownguide.org/getting-started/<br><br>
+
 
 ### 5.1.2. Source Code Management
+
+Para administrar el progreso del código de manera efectiva, hemos decidido adoptar la metodología Git Flow. Esta estrategia se enfoca en el uso de ramas para facilitar la gestión de archivos durante el proceso de programación. En resumen, Git Flow nos permite mantener una rama principal ('main') que contiene una versión estable del proyecto en un punto determinado. Al mismo tiempo, utilizamos otra rama de desarrollo para incorporar nuevas características al código base sin afectar la versión estable actual. Esto nos permite avanzar en el desarrollo de nuestra página de destino mientras realizamos pruebas relacionadas con las nuevas modificaciones introducidas en la rama de desarrollo.
+
+Además, hemos optado por utilizar GitHub debido a su función específica llamada GitHub Pages. Esta función permite la visualización eficiente del proyecto mediante la ejecución de archivos '.html' y la generación de un enlace web.
+
+En cuanto a nuestros archivos feature, creamos una nueva rama “feature/sprint-1” para cada nueva funcionalidad que deseamos agregar. Este enfoque modular y organizado asegura un desarrollo progresivo, ya que cada rama “feature/sprint-1” actúa como un espacio aislado para desarrollar y probar una característica específica antes de fusionarla con la rama de desarrollo.<br><br>
+
+Enlace de la Landing Page en GitHub Pages:https://upc-pre-202610-1asi0729-11896-ecorp.github.io/ElectroNex-website/<br><br> 
+
+<img src="assets/landing-page-link-prueba-1.PNG"></img><br>
+
+Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroNex-website <br><br> 
+
+<img src="assets/respositorio-landing.PNG"></img><br>
+
+Repositorio GitHub de los archivos feature: Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Acceptance-Test/tree/feature/sprint-1 <br><br> 
+
+<img src="assets/repositorio-acceptance-test.PNG"></img><br>
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
