@@ -1708,17 +1708,19 @@ Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado 
 | **Cabrejos Chocco, DIego** | Report documentation development and code refactoring. |
 | **Tuncar Vila, Ghorghet** | Cross-browser testing, QA, and broken-link verification. |
 
-* **Link de commits del repositorio del reporte:** [https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/tb01/]
+* **Link de commits del repositorio del reporte:** [https://github.com/1ASI0730-2610-20177-Nex/Report/commits/develop/]
 * **Link de commits del repositorio del landing page:** [https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/tb01/]
 
-   <img src="assets/ContributorsRep.png"></img><br>
+   <img src="assets/ContributorsDocs.png"></img><br>
+   <br>
+   <img src="assets/ComitsDocs1.png"></img><br>
+   <img src="assets/ComitsDocs2.png"></img><br>
+   <img src="assets/ComitsDocs3.png"></img><br>
+    <br>
+   <img src="assets/ContributorsLanding.png"></img><br>
    <img src="assets/Commits1.png"></img><br>
    <img src="assets/Commits2.png"></img><br>
    <img src="assets/Commits3.png"></img><br>
-   <br>
-   <img src="assets/ContributorsRep.png"></img><br>
-   <img src="assets/ComitsWeb1.png"></img><br>
-   <img src="assets/ComitsWeb2.png"></img><br>
 
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
