@@ -1242,7 +1242,49 @@ El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos c
 <img src="assets/designLevelEventStorming.png">
 
 ### 4.6.2. Software Architecture Context Diagram
+En esta sección se presenta el Diagrama de Contexto (Context Level Diagram) correspondiente al Nivel 1 del Modelo C4 para la arquitectura de ElectroCorp. Este diagrama ilustra el panorama general del ecosistema, posicionando al sistema propuesto en el centro para demostrar cómo interactúa directamente con los usuarios finales y los sistemas de software de terceros que complementan su funcionalidad.
+
+<img src="assets/Context-diagram.png">
+
+El entorno del sistema ElectroCorp se compone de los siguientes elementos clave:
+
+**-ElectroCorp User (Actor Principal):** Representa a los propietarios de viviendas o dueños de negocios que interactúan con la plataforma. Su objetivo es monitorear su consumo de energía, configurar límites de presupuesto y establecer rutinas automáticas para sus dispositivos. Adicionalmente, el usuario interactúa con la pasarela de pagos para mantener activa su suscripción mensual y es el receptor final de las alertas del sistema.
+
+**-ElectroCorp System (Sistema Principal):** Es la plataforma integral de software (Web y Móvil) que centraliza la lógica de negocio. Para este alcance del proyecto, el sistema absorbe la responsabilidad de simular el comportamiento y la telemetría de los dispositivos IoT, orquestando las reglas de automatización y el cálculo de tarifas energéticas sin depender de hardware físico externo.
+
+**-Stripe (Sistema Externo de Soporte):** Plataforma comercial externa utilizada como pasarela de pagos. ElectroCorp se comunica con este sistema para delegar el procesamiento seguro de las transacciones financieras y la gestión de las suscripciones de los usuarios.
+
+**-Mailchimp (Sistema Externo de Soporte):** Servicio comercial de envío de correos electrónicos. ElectroCorp le delega el despacho automatizado de reportes mensuales de consumo y la emisión de alertas críticas (por ejemplo, cuando el consumo simulado excede los límites configurados), asegurando que las notificaciones lleguen de manera confiable a la bandeja de entrada del usuario.
+
 ### 4.6.3. Software Architecture Container Diagrams
+A continuación, se detalla el ecosistema técnico de ElectroCorp, destacando el flujo de información desde que el usuario solicita contenido estático hasta que se procesan las reglas de negocio y se persiste la información
+
+<img src="assets/container-diagram.png">
+
+La arquitectura se basa en una separación clara entre la lógica de presentación y la lógica de negocio, estructurada de la siguiente manera:
+
+**1. Contenedores de Aplicación (Frontend):**
+
+**-ElectroCorp Web App:** Actúa como el servidor de contenido estático (HTML, CSS y JS). Su única responsabilidad es entregar los archivos necesarios al navegador del usuario para inicializar la aplicación.
+
+**-ElectroCorp Single Page Application (SPA):** Desarrollada en Angular (TypeScript), es la aplicación que corre directamente en el cliente. Maneja el renderizado dinámico del dashboard, permitiendo que el usuario interactúe con las gráficas de consumo y configure sus dispositivos sin recargar la página.
+
+**-ElectroCorp Mobile Application:** Construida en Flutter, ofrece una interfaz nativa para dispositivos móviles, consumiendo los mismos servicios que la versión web.
+
+**2. Contenedor de Lógica Central (Backend):**
+
+**-Backend API:** Es el núcleo del sistema, desarrollado en Java con Spring Boot. Implementa los principios de Domain-Driven Design (DDD) y expone endpoints REST. Se encarga de la autenticación de usuarios, la lógica de simulación de consumo energético y la coordinación de alertas.
+
+**3. Contenedores de Persistencia e Infraestructura:**
+
+**-Database (MySQL):** Motor de base de datos relacional encargado de la persistencia de perfiles, configuraciones de horarios y el histórico de telemetría de los enchufes inteligentes.
+
+**4. Interacciones con Sistemas Externos:**
+
+**-Stripe (Payment Gateway):** Se integra con la Backend API mediante HTTPS/JSON para gestionar el flujo de pagos de suscripciones de manera segura.
+
+**-Mailchimp (Notification Service):** Servicio externo utilizado para el despacho de correos electrónicos transaccionales, como alertas de picos de voltaje o resúmenes de consumo mensual.
+
 ### 4.6.4. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
