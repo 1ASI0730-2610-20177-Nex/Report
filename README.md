@@ -1291,6 +1291,9 @@ La arquitectura se basa en una separación clara entre la lógica de presentaci�
 ### 4.7.1. Class Diagrams
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams.
+El diagrama de base de datos fue diseñado a partir de los principales procesos identificados en el sistema, como el registro de usuarios, la gestión de dispositivos, la selección de planes de suscripción, el monitoreo del consumo eléctrico y el servicio de notificaciones. A través de este modelo se definieron las entidades principales, como Usuario, Dispositivo, Suscripción, Plan de Suscripción, Consumo Energético y Notificación, junto con sus respectivas relaciones. Esto permite organizar de manera estructurada la información del sistema, facilitando el control de los dispositivos, el análisis del consumo energético y la automatización de alertas dentro de la plataforma.<br>
+<img src="assets/DiagramaERD.png"><br>
+
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
