@@ -1662,6 +1662,32 @@ Durante el primer sprint, se lograron varios hitos importantes en el desarrollo 
 Durante el primer sprint, se desarrolló el Landing Page del proyecto de ElectroCorp como una primera entrega visual y detallando algunos aspectos. Esta implementación se centró únicamente en la estructura, diseño, la traduccion de ingles a español y viceversa, y uno que otro toque personal como la implementacion de una musica de fondo. Aunque no se han implementado accesos de inicio de sesion por el momento.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint1 se llevaron a cabo las siguientes actividades relacionadas con el despliegue de la Landing Page.
+
+Creación de Repositorios y Configuración en GitHub
+* Gestión de Versiones: Se implementaron repositorios en GitHub para centralizar el control del código fuente, asegurando un historial detallado de los cambios realizados en la Landing Page y demás componentes.
+* Preparación del Entorno: Se realizó la configuración técnica de los repositorios para automatizar los flujos de despliegue mediante el uso de GitHub Pages.
+* GitHub Pages:: Se utilizó GitHub Pages como infraestructura de hosting estático, permitiendo que la Landing Page sea accesible de forma pública y segura directamente desde la rama principal del repositorio.
+
+  <img src="assets/GitHubPages1.png"></img><br>
+
+Proceso de Despliegue
+Despliegue de la Landing Page:
+* Se subió el código de la Landing Page al repositorio correspondiente en GitHub.
+* Se configuró GitHub Pages para publicar el sitio en línea.
+
+  <img src="assets/GitHubPages2.png"></img><br>
+
+Verificación del Despliegue:
+Se hizo una comprobacion sitio publicado en GitHub Pages para asegurar que todos los elementos funcionaran correctamente.
+Se ejecutaron pruebas de funcionalidad para verificar la correcta carga del sitio y la ausencia de errores en el contenido desplegado
+
+  <img src="assets/LandingPageMockUps1.png"></img><br>
+
+Durante el Sprint 1, logramos consolidar la infraestructura de publicación del proyecto mediante la implementación de GitHub Pages. Este flujo de trabajo no solo optimizó el despliegue, sino que estableció un ciclo de integración continua eficiente, dejando el camino preparado para escalar la aplicación web de manera ágil en las próximas fases
+
+link de la landing pages: https://1asi0730-2610-20177-nex.github.io/LandingPage/
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
