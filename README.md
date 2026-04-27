@@ -774,6 +774,7 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 <img src = "assets/UserJourneyMap - seg2.png" alt = "User Journey Map segmento 2">
 
 ### 2.3.4. Empathy Mapping
+Segmento 1: Hogares urbanos con viviendas antiguas.<br><img src="assets/EmpathyMap - Seg1.png"><br><br>Segmento 2: Pequeños negocios y talleres en zonas urbanas.<br><img src="assets/EmpathyMap - Seg2.png"><br>
 ## 2.4. Big Picture Event Storming
 ## 2.5. Ubiquitous Language
 # Capitulo III: Requirements Specification
