@@ -19,7 +19,7 @@
 | U20241e107 | Tuncar Vila, Ghorghet Saul|
 | U20241e014 | Cabrejos Chocco, Diego Alexander      |
 | U202019498 | Fernandez Garfias Alexander Piero     |
-
+| U20241e367 | Toro Turpo Ronal                      |
 
 ### Diciembre 2025
 </div>
