@@ -1531,8 +1531,8 @@ En el presente sprint se logró desarrollar la primera versión del Landing Page
 
 <p align="left" style="width: 95%; margin: 20px auto; font-family: Arial, sans-serif;">
     <b>Link de commits del repositorio del landing page:</b> <br>
-    <a href="https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/CodeCommits/?before=90c27441144ccfecc76f4483a635522409e317de+35" target="_blank" style="color: #00d2ff;">
-       https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main
+    <a href="https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/tb01/" target="_blank" style="color: #00d2ff;">
+       https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/tb01/
     </a>
 </p>
 
@@ -1540,16 +1540,31 @@ Principales avances en implementación con relación al Sprint:
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | :--- | :---: | :---: | :--- | :--- | :---: |
-| Landing Page | main | `90c2744` | feat(dashboard.html): update of the dashboard.html code | updated dashboard.html structure | 26/04/2026 |
-| | main | `3450269` | feat(register.html): update of the register.html code | updated register.html structure | 26/04/2026 |
-| | main | `b2c74f4` | feat(login.html): update of the login.html code | updated login.html structure | 26/04/2026 |
-| | main | `57b5215` | feat(register.css): add and update of the register.css code | added and updated register.css styles | 26/04/2026 |
-| | main | `bd8a982` | feat(testimonials.css): add and update of the testimonials.css code | added and updated testimonials.css styles | 26/04/2026 |
-| | main | `c987614` | feat(sections.css): add and update of the sections.css code | added and updated sections.css styles | 26/04/2026 |
-| | main | `8a0835a` | feat(responsive.css): add and update of the responsive.css code | added and updated responsive.css styles | 26/04/2026 |
-| | main | `f249336` | feat(hero.css): add and update of the hero.css code | added and updated hero.css styles | 26/04/2026 |
-| | main | `cdc4356` | feat(header.css): add and update of the header.css code | added and updated header.css styles | 26/04/2026 |
-| | main | `f522a9c` | feat(i18n.js): add and update of the i18n.js code | added and updated i18n.js logic | 26/04/2026 |
+| Landing Page | tb01 | `ada1f6e` | feat: add img folder | added img folder and graphical resources | 26/04/2026 |
+| Landing Page | tb01 | `51738af` | feat: add testimonials styles | added specific styles for testimonials section | 26/04/2026 |
+| Landing Page | tb01 | `4c7f250` | refactor(styles): split global styles into modular CSS files | refactored and modularized global CSS architecture | 26/04/2026 |
+| Landing Page | tb01 | `fc1047c` | feat: add sections styles | added core styles for generic sections | 26/04/2026 |
+| Landing Page | tb01 | `b03bd31` | feat: add responsive styles | added media queries and responsive rules | 26/04/2026 |
+| Landing Page | tb01 | `4185e2b` | feat: add hero styles | added styles for the main hero component | 26/04/2026 |
+| Landing Page | tb01 | `3eee37a` | feat: add header styles | added styles for the navigation header | 26/04/2026 |
+| Landing Page | tb01 | `40b208e` | feat: add base styles | added base configurations and CSS variables | 26/04/2026 |
+| Landing Page | tb01 | `0c9b461` | feat: add auth styles | added styling for authentication pages | 26/04/2026 |
+| Landing Page | tb01 | `fc1adee` | feat(css): add about styles | added specific styles for the about section | 26/04/2026 |
+| Landing Page | tb01 | `edeeee6` | style: update about section styles | updated and fixed about section styling | 26/04/2026 |
+| Landing Page | tb01 | `c65c8cf` | feat(css): add style.css | added main global style.css file | 26/04/2026 |
+| Landing Page | tb01 | `4a1a41e` | feat: add audio folder | added audio folder and background music files | 26/04/2026 |
+| Landing Page | tb01 | `6df2c23` | feat: add testimonials interaction | implemented JS logic for testimonials | 26/04/2026 |
+| Landing Page | tb01 | `009c161` | feat: implement search functionality | added JS logic for search bar and smooth scroll | 26/04/2026 |
+| Landing Page | tb01 | `7519a39` | feat: add newsletter subscription logic | added form validation for newsletter | 26/04/2026 |
+| Landing Page | tb01 | `0ba2851` | feat: implement internationalization (i18n) | implemented English/Spanish translation logic | 26/04/2026 |
+| Landing Page | tb01 | `79294ec` | feat: add audio controls functionality | added JS logic to play/pause background audio | 26/04/2026 |
+| Landing Page | tb01 | `1aab006` | feat(ui): add register page | added HTML structure for register page | 26/04/2026 |
+| Landing Page | tb01 | `472ce0b` | feat(ui): add dashboard UI layout | added base HTML layout for the dashboard | 26/04/2026 |
+| Landing Page | tb01 | `3b49ab0` | feat(ui): add login page | added HTML structure for login page | 26/04/2026 |
+| Landing Page | tb01 | `079ce4f` | feat(uix): merge with new team and redesign project with new theme | merged UI components and applied new dark theme | 26/04/2026 |
+| Landing Page | tb01 | `01d228a` | style(platafomr): add style to plataform section | added basic styling to platform section | 18/04/2026 |
+| Landing Page | tb01 | `7f5a245` | feat(plataform): add plataform section | added HTML structure for platform section | 18/04/2026 |
+
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
