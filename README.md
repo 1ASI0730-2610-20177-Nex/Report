@@ -1302,13 +1302,13 @@ Los siguientes diagramas de componentes representan la arquitectura de software 
 Los siguientes diagramas de clases presentan el diseño orientado a objetos del sistema ElectroCorp, separados en una vista de frontend y una vista de backend. Ambos diagramas se renderizan de forma online a partir de los archivos fuente PlantUML almacenados en el repositorio, utilizando la versión raw de GitHub.
 
 Frontend Class Diagram
-    <img src="assets/471Diagram1.png"></img><br>
+    <img src="assets/471Diagram1.jpeg"></img><br>
 
 
 El diagrama de clases del frontend representa la estructura del lado cliente de la aplicación. Incluye los principales módulos relacionados con la autenticación, la internacionalización, el consumo de la API, las vistas de la interfaz de usuario, los modales, los gráficos y el estado compartido de la aplicación. Además, muestra cómo colaboran los componentes del frontend para ofrecer funcionalidades interactivas como la gestión de dispositivos, las rutinas, los reportes, las notificaciones, el historial y los insights energéticos.
 
 Backend Class Diagram
-    <img src="assets/471Diagram2.png"></img><br>
+    <img src="assets/471Diagram2.jpeg"></img><br>
 
 El diagrama de clases del backend representa el diseño orientado a objetos del lado servidor, implementado con Spring Boot. Incluye los controladores REST, los casos de uso de la aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y las entidades de base de datos. Este diagrama permite visualizar la arquitectura en capas del backend y las relaciones entre la lógica de negocio, la persistencia de datos y la exposición de servicios mediante la API.
 ## 4.8. Database Design
