@@ -776,6 +776,7 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 ### 2.3.4. Empathy Mapping
 Segmento 1: Hogares urbanos con viviendas antiguas.<br><img src="assets/EmpathyMap - Seg1.png"><br><br>Segmento 2: Pequeños negocios y talleres en zonas urbanas.<br><img src="assets/EmpathyMap - Seg2.png"><br>
 ## 2.4. Big Picture Event Storming
+Nos reunimos como equipo mediante Miro para organizar nuestras ideas y desarrollar el Big Picture del proyecto. Durante la sesión realizamos una lluvia de ideas sobre las principales funcionalidades del sistema, identificando procesos como la vinculación de dispositivos, el control operativo, la automatización de rutinas y la gestión de accesos y seguridad. Esto nos permitió visualizar de manera general cómo interactuaría el usuario con la solución propuesta.<br><br><img src="assets/Big Picture Event Storming.png"><br>
 ## 2.5. Ubiquitous Language
 # Capitulo III: Requirements Specification
 ## 3.1. User Stories
