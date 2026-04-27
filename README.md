@@ -1178,6 +1178,7 @@ Este sistema mejora la encontrabilidad del contenido clave y sostiene una experi
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+El wireframe define la estructura básica de la landing page en bloques principales:<br><img src="assets/LandingPageWireframe1.png"><br><img src="assets/LandingPageWireframe2.png"><br><img src="assets/LandingPageWireframe3.png"><br><img src="assets/LandingPageWireframe4.png"><br><img src="assets/LandingPageWireframe5.png"><br><img src="assets/LandingPageWireframe6.png"><br><img src="assets/LandingPageWireframe7.png"><br>
 ### 4.3.2. Landing Page Mock-up
 <img src="assets/LandingPageDashBoardMockUps.png">
 <img src="assets/LandingPageCrearSesionMockUps.png">
