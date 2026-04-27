@@ -1888,8 +1888,6 @@ Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado 
 * **Link de commits del repositorio del reporte:** [https://github.com/1ASI0730-2610-20177-Nex/Report/commits/develop/]
 * **Link de commits del repositorio del landing page:** [https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/tb01/]
 
-   <img src="assets/ContributorsDocs.png"></img><br>
-   <br>
    <img src="assets/ComitsDocs1.png"></img><br>
    <img src="assets/ComitsDocs2.png"></img><br>
    <img src="assets/ComitsDocs3.png"></img><br>
