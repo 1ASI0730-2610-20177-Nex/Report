@@ -847,7 +847,10 @@ Nos reunimos como equipo mediante Miro para organizar nuestras ideas y desarroll
 |**TS-16**|Modo Oscuro Angular UI|<p>**Como** frontend developer</p><p>**Quiero** crear un servicio Angular que modifique la clase del `body`</p><p>**Para** alternar las variables CSS globales (US-39).</p>|<p>**Escenario 1: Clase global**</p><p>Dado que el usuario presiona el switch,</p><p>Cuando el Subject cambia a `true`,</p><p>Entonces se añade la clase `.dark-theme` al document root.</p>|**EP-05**|
 
 <br><br>
+
 ## 3.2. Impact Mapping
+<img src="assets/Impact Mapping.png"><br>
+
 ## 3.3. Product Backlog
 
 # Capitulo IV: Product Design
