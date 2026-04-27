@@ -1195,6 +1195,14 @@ El wireframe define la estructura básica de la landing page en bloques principa
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
+<img src="assets/webAplication-wireframe.png">
+<img src="assets/webAplication-wireframe1.png">
+<img src="assets/webAplication-wireframe2.png">
+<img src="assets/webAplication-wireframe3.png">
+<img src="assets/webAplication-wireframe4.png">
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
 
