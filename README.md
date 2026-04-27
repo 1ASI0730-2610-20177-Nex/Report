@@ -1391,17 +1391,14 @@ Además, hemos optado por utilizar GitHub debido a su función específica llama
 
 En cuanto a nuestros archivos feature, creamos una nueva rama “feature/sprint-1” para cada nueva funcionalidad que deseamos agregar. Este enfoque modular y organizado asegura un desarrollo progresivo, ya que cada rama “feature/sprint-1” actúa como un espacio aislado para desarrollar y probar una característica específica antes de fusionarla con la rama de desarrollo.<br><br>
 
-Enlace de la Landing Page en GitHub Pages:https://upc-pre-202610-1asi0729-11896-ecorp.github.io/ElectroNex-website/<br><br> 
+Enlace de la Landing Page en GitHub Pages:https://1asi0730-2610-20177-nex.github.io/LandingPage/<br><br> 
 
-<img src="assets/landing-page-link-prueba-1.PNG"></img><br>
+<img src="assets/LandingPageMockUps1.png"></img><br>
 
-Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroNex-website <br><br> 
+Repositorio GitHub de la Landing Page: https://github.com/1ASI0730-2610-20177-Nex/LandingPage/tree/tb01 <br><br> 
 
-<img src="assets/respositorio-landing.PNG"></img><br>
+<img src="assets/Repos.png"></img><br>
 
-Repositorio GitHub de los archivos feature: Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Acceptance-Test/tree/feature/sprint-1 <br><br> 
-
-<img src="assets/repositorio-acceptance-test.PNG"></img><br>
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
