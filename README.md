@@ -1689,6 +1689,28 @@ Durante el Sprint 1, logramos consolidar la infraestructura de publicación del 
 link de la landing pages: https://1asi0730-2610-20177-nex.github.io/LandingPage/
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado en el diseño, desarrollo y despliegue de la Landing Page de ElectroCorp. Asegurando que la página cumpliera con los objetivos de conversión y comunicación de nuestra propuesta de valor (IoT plug-and-play). Asimismo, se registraron los avances en la gestión del repositorio de GitHub, evidenciados en los commits y métricas de colaboración que reflejan la participación del equipo.
+
+| Author | Task completed |
+| :--- | :--- |
+| **Alexander Piero Garfias** | Integration of landing page sections, UI/UX core development, and interactive features (i18n, navigation). |
+| **Tavara Correa, Sebastian** | HTML5 semantic structuring and GitHub Pages deployment configuration. |
+| **Cabrejos Chocce, Diego** | Implementation of global CSS, Dark Mode styling, and Responsive Design adjustments. |
+| **Cabrejos Chocco, DIego** | Report documentation development and code refactoring. |
+| **Tuncar Vila, Ghorghet** | Cross-browser testing, QA, and broken-link verification. |
+
+* **Link de commits del repositorio del reporte:** [https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/tb01/]
+* **Link de commits del repositorio del landing page:** [https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/tb01/]
+
+   <img src="assets/ContributorsRep.png"></img><br>
+   <img src="assets/Commits1.png"></img><br>
+   <img src="assets/Commits2.png"></img><br>
+   <img src="assets/Commits3.png"></img><br>
+   <br>
+   <img src="assets/ContributorsRep.png"></img><br>
+   <img src="assets/ComitsWeb1.png"></img><br>
+   <img src="assets/ComitsWeb2.png"></img><br>
+
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
