@@ -1234,13 +1234,12 @@ El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos c
 ![UserFlowDiagram](assets/UserFlowDiagram.png)
 
 
-
-
-
-
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
+
+<img src="assets/designLevelEventStorming.png">
+
 ### 4.6.2. Software Architecture Context Diagram
 ### 4.6.3. Software Architecture Container Diagrams
 ### 4.6.4. Software Architecture Components Diagrams
