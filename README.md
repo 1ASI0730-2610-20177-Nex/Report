@@ -1229,6 +1229,9 @@ Aquí se visualizan los registros recientes de consumo energético organizados p
 **IA Energética (Insights):**  
 Este mockup presenta recomendaciones inteligentes generadas a partir del análisis de los datos de consumo. Se muestran alertas sobre consumo elevado, sugerencias para optimizar el uso de dispositivos y estimaciones de ahorro. Esta funcionalidad busca ayudar al usuario a mejorar su eficiencia energética mediante información clara y accionable.
 ### 4.4.4. Web Applications User Flow Diagrams
+El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos clave como la navegación entre secciones, la interacción con funcionalidades principales y la obtención de resultados esperados. Asimismo, se contemplan escenarios alternativos y puntos de decisión que influyen en la experiencia del usuario, permitiendo comprender cómo se gestionan diferentes situaciones dentro del sistema.
+
+![UserFlowDiagram](assets/UserFlowDiagram.png)
 
 
 
