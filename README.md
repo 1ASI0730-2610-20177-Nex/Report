@@ -1475,6 +1475,21 @@ Referencia: [Gherkin conventions](https://specflow.org/gherkin/gherkin-conventio
 
 ### 5.1.4. Software Deployment Configuration
 
+Para la configuración de despliegue del proyecto se emplean las herramientas Git y GitHub:
+
+- **Git** permite el control de versiones del código fuente, facilitando la gestión de cambios, la creación de ramas de trabajo y la integración de avances de manera organizada.
+- **GitHub** funciona como repositorio remoto, permitiendo la centralización del código, la revisión mediante *pull requests* y el mantenimiento del historial de versiones.
+
+El flujo de despliegue toma el código alojado en **GitHub**  y realiza la publicación del sitio mediante **GitHub Pages**.
+
+Las integraciones a la rama de despliegue se realizan previa validación, ya sea mediante revisión de *pull requests* o pruebas en entorno local, con el objetivo de asegurar la calidad del producto en cada iteración del proyecto.
+
+La versión pública de la *Landing Page* se encuentra disponible en el siguiente enlace:
+
+Referencia: [Landing Page](https://1asi0730-2610-20177-nex.github.io/LandingPage/)
+
+De este modo, cada versión desplegada corresponde a *commits* rastreables dentro del repositorio, lo que garantiza la trazabilidad, el control de cambios y la mantenibilidad del sistema.
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1 
 #### 5.2.1.1. Sprint Planning 1
