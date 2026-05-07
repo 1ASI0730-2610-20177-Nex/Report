@@ -6,12 +6,12 @@
 <h4>Facultad de Ingeniería</h4>
 <h4>Carrera de Ingeniería de Software</h4>
 <h4>Periodo 202610</h4>
-<h4>1ASI0729 Desarrollo de Aplicaciones Open Source</h4>
+<h4>1ASI0730 Aplicaciones Web</h4>
 <h4>NRC 20177</h4>
 <h4>Docente: Jose Miguel Flores ingaruca</h4>
 <h4>Informe del Trabajo Final</h4>
 <h4>Startup: ElectroCorp</h4>
-<h4>Producto: Smart</h4>
+<h4>Producto: Smart Control</h4>
 
 | **Código** | **Apellidos y Nombres**               |
 | :--------: | :------------------------------------ |
@@ -21,7 +21,7 @@
 | U202019498 | Fernandez Garfias Alexander Piero     |
 | U20241e367 | Toro Turpo Ronal                      |
 
-### Diciembre 2025
+### Mayo 2026
 </div>
 <div style="page-break-after: always;"></div>
 
