@@ -1975,6 +1975,73 @@ En este Sprint se marca la transición hacia el desarrollo interactivo, enfocán
 </table>
 
 
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de Liderazgo y Colaboración (Leadership-and-Collaboration Matrix - LACX) definida para el Sprint 2. Para esta iteración, los aspectos funcionales se han dividido en cuatro pilares principales alineados con la construcción de nuestra Single Page Application (SPA) y la mejora continua del sitio público:
+1. **Web App Setup & Routing:** Configuración inicial del framework frontend, enrutamiento (rutas protegidas y públicas) y estructura base del proyecto.
+2. **IAM Presentation (Login/Register):** Diseño e implementación de las interfaces de autenticación y registro de usuarios.
+3. **Dashboard UI Design:** Maquetación e implementación de la vista principal (Home) de la plataforma donde se visualizarán los resúmenes energéticos.
+4. **Landing Page Enhancements:** Aplicación de mejoras, corrección de bugs y conexión de los call-to-action del Landing Page hacia las nuevas rutas de la Web App.
+
+A continuación, se detalla la asignación de líderes (L) y colaboradores (C) para cada uno de estos aspectos:
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+    <table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+    <tr align="center">
+        <td><b>Team Member <br> (Last Name, First Name)</b></td>
+        <td><b>GitHub Username</b></td>
+        <td><b>Web App Setup & Routing <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>IAM Presentation <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Dashboard UI Design <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Landing Page Enhancements <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Testing & QA <br> Leader (L) / Collaborator (C)</b></td>
+    </tr>
+    <tr align="left">
+        <td>Tavara Correa, Sebastian Oswaldo</td>
+        <td align="center">SebastianTavara</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Tuncar Vila, Ghorghet Saul</td>
+        <td align="center">Ghorghet</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Cabrejos Chocce, Diego Alexander</td>
+        <td align="center">MOTOX-357</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Alexander Piero Garfias</td>
+        <td align="center">Dostoyevsk1</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td> Ronal Toro Turpo</td>
+        <td align="center">Ronal</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+    </tr>
+</table>
 
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
