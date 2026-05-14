@@ -6,7 +6,7 @@
 <h4>Facultad de Ingeniería</h4>
 <h4>Carrera de Ingeniería de Software</h4>
 <h4>Periodo 202610</h4>
-<h4>1ASI0729 Desarrollo de Aplicaciones Open Source</h4>
+<h4>1ASI0730 Aplicaciones Web</h4>
 <h4>NRC 20177</h4>
 <h4>Docente: Jose Miguel Flores ingaruca</h4>
 <h4>Informe del Trabajo Final</h4>
