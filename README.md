@@ -6,12 +6,12 @@
 <h4>Facultad de Ingeniería</h4>
 <h4>Carrera de Ingeniería de Software</h4>
 <h4>Periodo 202610</h4>
-<h4>1ASI0729 Desarrollo de Aplicaciones Open Source</h4>
+<h4>1ASI0730 Aplicaciones Web</h4>
 <h4>NRC 20177</h4>
 <h4>Docente: Jose Miguel Flores ingaruca</h4>
 <h4>Informe del Trabajo Final</h4>
 <h4>Startup: ElectroCorp</h4>
-<h4>Producto: Smart</h4>
+<h4>Producto: Smart Control</h4>
 
 | **Código** | **Apellidos y Nombres**               |
 | :--------: | :------------------------------------ |
@@ -21,7 +21,7 @@
 | U202019498 | Fernandez Garfias Alexander Piero     |
 | U20241e367 | Toro Turpo Ronal                      |
 
-### Diciembre 2025
+### Mayo 2026
 </div>
 <div style="page-break-after: always;"></div>
 
@@ -675,7 +675,7 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 | N | Datos |Descripción |Imagen referencial
 |--|--|--|--|
 |1  | Nombre: Orlando<br>Apellido: Trinidad <br>Edad: 48<br>Distrito: La Victoria |El entrevistado Orlando Trinidad Parra, es un hombre de 48 años que reside en La Victoria. Se desempeña como microempresario del rubro textil, específicamente en la confección, operando un taller con varias máquinas industriales. Su negocio se encuentra dentro del segmento de pequeñas y medianas empresas (PYME), lo que implica recursos limitados y alta sensibilidad a los costos operativos.<br><br>Se percibe como una persona:<br>- Responsable y organizada ya que tiene trabajadores que limpian y apagan la maquina que trabajan.<br>- Abierta al cambio tecnológico, pero con criterio económico.<br><br>El taller usa diferentes equipos eléctricos tales como:<br>- Maquinas remalladoras.<br>- Maquinas rectas.<br>- Cortadora.<br>Se puede denotar que el consumo energético es alto y critico, impactando directamente la rentabilidad del negocio<br><br>Problemas detectados:<br>- Errores humanos frecuentes, especialmente en personal nuevo.<br>- Equipos que quedan encendidos o conectados innecesariamente.<br>- Desconocimiento del costo exacto por máquina, solo percibe el gasto total.<br><br>El entrevistado muestra interes en soluciones tecnologicas que le permitan:<br>- Medir el costo real por máquina (no solo consumo)<br>- Automatizar encendido/apagado<br>- Obtener reportes de desperdicio energético|<img src="assets/seg2 - img1.png">
-|2  | Nombre: <br>Apellido: <br>Edad: <br>Distrito: ||<img src="assets/seg2_entrevista2.PNG">
+|2  | Nombre:Roberto Carlos <br>Apellido:Mendoza <br>Edad: 25 <br>Distrito:San Juan de Lurigancho |Roberto Mendoza, tecnico en producción textil y dueño de un pequeño taller de producción lo cual hace que este dentro del segundo segmento de microempresas o negocios pequeños.<br><br>Se percibe como una persona:<br>-Responsable ya que empezó a emprender desde una edad temprana en el mundo textil manejando equipos electricos de alto cosumo electrico.<br><br>Es conciente de que no tiene el control del consumo de sus equipos electricos por lo que le preocupa desperfectos que puedan subir el recibo de electricidad o peor causar accidentes.<br><br> Entre sus principales necesidades encontramos que le gustaria tener mayor control de sus equipos electricos en cuanto a el consumo que estos generan y asi poder detectar patrones que también le indique si podria existir algun desperfecto en los aparatos electricos. |<img src="assets/Entrevista-Roberto_Mendoza.png">
 |3  | Nombre: Lourdes<br>Apellido: Saldarriaga <br>Edad: 46<br>Distrito: La Victoria |Lourdes Saldarriaga, es una mujer de 46 años que reside en La Victoria. Es propietaria de una pequeña tintorería, lo que la ubica dentro del segmento de microempresas o negocios pequeños con operaciones intensivas en uso de equipos eléctricos.<br><br>Se percibe como una persona:<br>- Practica y operativa, enfocada en el funcionamiento diario del negocio más que en análisis detallados<br>- Consciente de riesgos, especialmente después de haber experimentado incidentes (recalentamiento de equipos).<br>- Precavida en inversión, muestra interés condicionado al costo.<br><br>El taller usa diferentes equipos eléctricos tales como:<br>- Lavadoras industriales<br>- Posibles secadoras<br>El negocio tiene dependencia directa de maquinaria eléctrica continua, lo que hace critico el control energético<br><br>Problemas detectados:<br>-Errores humanos: un trabajador olvidó apagar un equipo.<br>- Consecuencia directa: recalentamiento de maquinaria, lo que implica riesgo operativo y económico.<br>- Dependencia del personal para tareas críticas.<br><br>Necesidades detectadas:<br>- Programación automática de encendido y apagado (su prioridad principal)<br>- Monitoreo del consumo energético por máquina y horario<br>- Identificación de picos de consumo| <img src="assets/seg2 - img3.png">
 
 
@@ -1196,55 +1196,93 @@ El wireframe define la estructura básica de la landing page en bloques principa
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
-<img src="assets/webAplication-wireframe.png">
-<img src="assets/webAplication-wireframe1.png">
-<img src="assets/webAplication-wireframe2.png">
-<img src="assets/webAplication-wireframe3.png">
-<img src="assets/webAplication-wireframe4.png">
+<img src="assets/WireframeInicio.png">
+<img src="assets/WireframeRegistrarse.png">
+<img src="assets/WireframeIniciarSesion.png">
+<img src="assets/WireframeInicioApp.png">
+<img src="assets/WireframeCentroEnergetico.png">
+<img src="assets/WireframeAnaliticaAvanzada.png">
+<img src="assets/WireframeDispositivos.png">
+<img src="assets/WireframeHistorial.png">
+<img src="assets/WireframeIAEnergetica.png">
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+<img src="assets/ApplicationWireflowDiagrams.png">
+
 ### 4.4.3. Web Applications Mock-ups
+**Inicio:**
+Pantalla principal informativa para usuarios no registrados.
+<img src="assets/mockupInicio.png"><br>
 
-![Mockp-Center](assets/Application-Web-MockUp-Center.png)
+**Registro:**
+Pantalla donde los usuarios pueden crear una cuenta para acceder a las funcionalidades de la aplicación.
+<img src="assets/mockupRegistrarse.png"><br>
 
-**Centro Energético:**  
+**Incio de sesión:**
+Pantalla donde los usuarios registrados ingresan sus credenciales para acceder a la plataforma.
+<img src="assets/mockupIniciarSesion.png"><br>
+
+**Panel principal:**
+Pantalla principal del usuario autenticado, desde donde puede acceder a las principales funcionalidades y módulos de la aplicación.
+<img src="assets/mockupInicioApp.png"> <br>
+
+
+**Centro Energético:**
 Este mockup representa la vista principal de la aplicación, donde el usuario puede visualizar un resumen general de su consumo energético. Se muestran indicadores clave como el consumo mensual, el gasto estimado, el porcentaje de ahorro y la cantidad de dispositivos registrados. Además, incluye un gráfico de línea que permite analizar el comportamiento del consumo durante la semana. Desde esta sección, el usuario puede agregar nuevos registros de consumo o simular datos para análisis.
+<img src="assets/mockupCentroEnergetico.png"><br>
 
----
-
-![Mockp-Analitycs](assets/Application-Web-MockUp-Analytics.png)
 
 **Analítica Avanzada:**  
 En esta vista se presentan métricas más detalladas del consumo energético. El usuario puede identificar la hora pico de consumo, el día con mayor uso, el promedio diario y una predicción del gasto mensual. También se incluye un gráfico de barras que distribuye el consumo por dispositivo, facilitando la toma de decisiones informadas para optimizar el uso de energía.
-
----
-
-![Mockp-Devices](assets/Application-Web-MockUp-Devices.png)
+<img src="assets/mockupAnaliticaAvanzada.png"><br>
 
 **Gestión de Dispositivos:**  
 Este mockup muestra la interfaz para administrar los dispositivos eléctricos del usuario. Permite buscar dispositivos, agregarlos, activarlos o desactivarlos, así como eliminarlos. Cada dispositivo presenta su estado actual, lo que impacta directamente en el cálculo del consumo energético. Esta sección es clave para el control y personalización del sistema.
-
----
-
-![Mockp-History](assets/Application-Web-MockUp-History.png)
+<img src="assets/mockupDispositivos.png"><br>
 
 **Historial de Consumo:**  
 Aquí se visualizan los registros recientes de consumo energético organizados por día. El usuario puede revisar fácilmente su historial, exportar los datos en formato CSV para análisis externo o limpiar los registros almacenados. Esta sección permite llevar un seguimiento detallado del comportamiento energético a lo largo del tiempo.
+<img src="assets/mockupHistorial.png"><br>
 
----
-
-![Mockp-Suggestions](assets/Application-Web-MockUp-Suggestions.png)
-
-**IA Energética (Insights):**  
+**IA Energética:**  
 Este mockup presenta recomendaciones inteligentes generadas a partir del análisis de los datos de consumo. Se muestran alertas sobre consumo elevado, sugerencias para optimizar el uso de dispositivos y estimaciones de ahorro. Esta funcionalidad busca ayudar al usuario a mejorar su eficiencia energética mediante información clara y accionable.
+<img src="assets/mockupIAEnergetica.png"><br>
+
 ### 4.4.4. Web Applications User Flow Diagrams
-El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos clave como la navegación entre secciones, la interacción con funcionalidades principales y la obtención de resultados esperados. Asimismo, se contemplan escenarios alternativos y puntos de decisión que influyen en la experiencia del usuario, permitiendo comprender cómo se gestionan diferentes situaciones dentro del sistema.
 
-![UserFlowDiagram](assets/UserFlowDiagram.png)
+User goal (Segmento 1): Tener mayor control sobre los dispositivos del hogar.<br><br>
+<img src="assets/userFlowUno.png"><br><br>
 
+User goal (Segmento 1): Controlar electrodomesticos remotamente desde el celular.<br><br>
+<img src="assets/userFlowUno.png"><br><br>
+User goal (Segmento 1): Entender claramente cuanto consumen los dispositivos electricos de su hogar<br><br>
+<img src="assets/userFlowDos.png"><br><br>
+
+
+User goal (Segmento 2): Reducir gastos operativos relacionados al consumo eléctrico.<br><br>
+<img src="assets/userFlowDos.png"><br><br>
+
+User goal (Segmento 2): Tener mayor control sobre equipos y maquinaria.<br><br>
+<img src="assets/userFlowUno.png"><br><br>
+
+User goal (Segmento 2): Evitar pérdidas económicas por descuidos.<br><br>
+<img src="assets/userFlowTres.png"><br><br>
+
+User goal (Segmento 2): Reducir errores humanos en el uso de maquinaria.<br><br>
+<img src= "assets/userFlowCuatro.png"><br><br>
+
+User goal(Segmento 2): Mantener un cierre ordenado y seguro del local.<br><br>
+<img src= "assets/userFlowTres.png"><br><br>
 
 ## 4.5. Web Applications Prototyping
+<br>
+<img src="assets/webApplicationsPrototyping.png">
+<br>
+
+[Link del video donde se explican los User Flow Diagrams](https://drive.google.com/drive/folders/1_bX6HCFnoZP9HkTFrvXY1ZZRJRJhyuJp?usp=sharing)
+<br>
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
 
@@ -1910,7 +1948,333 @@ Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado 
    <img src="assets/Commits2.png"></img><br>
    <img src="assets/Commits3.png"></img><br>
 
-## 5.3. Validation Interviews
+### 5.2.2. Sprint 2 
+En este Sprint se marca la transición hacia el desarrollo interactivo, enfocándonos en la construcción y despliegue de la primera versión funcional de nuestra Frontend Web Application (SPA).
+#### 5.2.2.1. Sprint Planning 2
+<table align="center" border="1" width="90%" style="text-align:left;">
+    <tr>
+        <td><b>Sprint #</b></td>
+        <td>Sprint 2</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+        <td><b>Date</b></td>
+        <td>2026-05-03</td>
+    </tr>
+    <tr>
+        <td><b>Time</b></td>
+        <td>11:00 AM</td>
+    </tr>
+    <tr>
+        <td><b>Location</b></td>
+        <td>Modalidad Remota por Whatsapp / Microsoft Teams</td>
+    </tr>
+    <tr>
+        <td><b>Prepared By</b></td>
+        <td>Cabrejos Chocce, Diego Alexander</td>
+    </tr>
+    <tr>
+        <td><b>Attendees (to planning meeting)</b></td>
+        <td> - Tavara Correa, Sebastian Oswaldo <br>
+            - Tuncar Vila, Ghorghet Saul <br>
+            - Cabrejos Chocco, Diego Alexander  <br>
+            - Alexander Piero Garfias <br>
+            - Ronal Toro Turpo <br></td>
+    </tr>
+    <tr>
+        <td><b>Sprint n - 1 Review Summary</b></td>
+        <td>El equipo logró desarrollar y desplegar la primera versión de la Landing Page en GitHub Pages exitosamente. Se completó el 100% de los Story Points comprometidos y el diseño responsivo, junto con la funcionalidad de i18n, funcionan según lo esperado.</td>
+    </tr>
+    <tr>
+        <td><b>Sprint n - 1 Retrospective Summary</b></td>
+        <td>El equipo identificó que la división de tareas fue efectiva, pero se acordó mejorar el nivel de detalle en los mensajes de los commits y utilizar ramas "feature" más específicas y pequeñas para evitar conflictos de integración en GitHub en este nuevo Sprint.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+        <td><b>Sprint 2 Goal</b></td>
+        <td>
+            <b>Our focus is on</b> desarrollar la primera versión de la Frontend Web Application (SPA) y aplicar mejoras a la Landing Page actual.<br><br>
+            <b>We believe it delivers</b> el entorno base para que los usuarios puedan registrarse, iniciar sesión y visualizar la maqueta interactiva del dashboard principal de gestión energética de ElectroNex.<br><br>
+            <b>This will be confirmed when</b> la Web Application esté desplegada, los flujos de navegación entre el Login, Register y Dashboard operen correctamente (ruteo) y se conecten exitosamente mediante enlaces desde los call-to-action del Landing Page.
+        </td>
+    </tr>
+    <tr>
+        <td><b>Sprint 2 Velocity</b></td>
+        <td>42</td>
+    </tr>
+    <tr>
+        <td><b>Sum of Story Points</b></td>
+        <td>42</td>
+    </tr>
+</table>
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de Liderazgo y Colaboración (Leadership-and-Collaboration Matrix - LACX) definida para el Sprint 2. Para esta iteración, los aspectos funcionales se han dividido en cuatro pilares principales alineados con la construcción de nuestra Single Page Application (SPA) y la mejora continua del sitio público:
+1. **Web App Setup & Routing:** Configuración inicial del framework frontend, enrutamiento (rutas protegidas y públicas) y estructura base del proyecto.
+2. **IAM Presentation (Login/Register):** Diseño e implementación de las interfaces de autenticación y registro de usuarios.
+3. **Dashboard UI Design:** Maquetación e implementación de la vista principal (Home) de la plataforma donde se visualizarán los resúmenes energéticos.
+4. **Landing Page Enhancements:** Aplicación de mejoras, corrección de bugs y conexión de los call-to-action del Landing Page hacia las nuevas rutas de la Web App.
+
+A continuación, se detalla la asignación de líderes (L) y colaboradores (C) para cada uno de estos aspectos:
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+    <table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+    <tr align="center">
+        <td><b>Team Member <br> (Last Name, First Name)</b></td>
+        <td><b>GitHub Username</b></td>
+        <td><b>Web App Setup & Routing <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>IAM Presentation <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Dashboard UI Design <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Landing Page Enhancements <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Testing & QA <br> Leader (L) / Collaborator (C)</b></td>
+    </tr>
+    <tr align="left">
+        <td>Tavara Correa, Sebastian Oswaldo</td>
+        <td align="center">SebastianTavara</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Tuncar Vila, Ghorghet Saul</td>
+        <td align="center">Ghorghet</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Cabrejos Chocce, Diego Alexander</td>
+        <td align="center">MOTOX-357</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Alexander Piero Garfias</td>
+        <td align="center">Dostoyevsk1</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td> Ronal Toro Turpo</td>
+        <td align="center">Ronal</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+    </tr>
+</table>
+
+#### 5.2.2.3. Sprint Backlog 2. 
+El objetivo principal de este segundo Sprint es dar el salto desde el sitio estático (Landing Page) hacia la plataforma interactiva, construyendo la primera versión de la Single Page Application (SPA) para la Web App. En este Sprint Backlog hemos priorizado las historias técnicas de inicialización del framework frontend (Angular/Vue), la creación del sistema de enrutamiento (routing) y el desarrollo de las interfaces de Autenticación (Login, Register) y el Dashboard principal (Home). Además, se incluyen tareas de refinamiento para enlazar la Landing Page con estas nuevas rutas.
+
+<p style="text-align: left; width: 90%; margin: 20px auto;">
+    <b>Enlace de Seguimiento:</b> <a href="https://trello.com/invite/b/6a03f7421c316f3c5d885e7f/ATTI5a49117f1b9d8c247078bac2838d81a9E7DF4656/sprint2-electro" target="_blank">Tablero del Sprint 2 en Trello</a>
+    <br><br>
+    <img src="assets/Tablero-Sprint2.png" alt="Sprint 2 Trello Board"></img>
+</p>
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+  <tr>
+    <td colspan="2"><b>Sprint #</b></td>
+    <td colspan="6"><b>Sprint 2</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">TS-12</td>
+    <td rowspan="2">Frontend SPA Consumidor REST</td>
+    <td>T13</td>
+    <td>Inicialización de proyecto SPA</td>
+    <td>Crear la base del proyecto frontend y configurar las librerías de estilos base (Material/CSS).</td>
+    <td>5</td>
+    <td>Sebastian Tavara</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T14</td>
+    <td>Configuración de Enrutamiento (Router)</td>
+    <td>Implementar la tabla de rutas principales (/login, /register, /dashboard).</td>
+    <td>5</td>
+    <td>Sebastian Tavara</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-07</td>
+    <td rowspan="2">Registro inicial del usuario</td>
+    <td>T15</td>
+    <td>Maquetación vista Register</td>
+    <td>Diseñar e implementar la estructura HTML/CSS del formulario de creación de cuenta.</td>
+    <td>6</td>
+    <td>Ronal Toro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T16</td>
+    <td>Implementación vista Login</td>
+    <td>Construir la pantalla de inicio de sesión con sus validaciones de formulario.</td>
+    <td>6</td>
+    <td>Ghorghet Tuncar</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-19</td>
+    <td rowspan="2">Administrar múltiples dispositivos (Dashboard)</td>
+    <td>T17</td>
+    <td>Diseño del Home / Dashboard</td>
+    <td>Estructurar el layout principal (Sidebar, Header y contenedor de contenido).</td>
+    <td>6</td>
+    <td>Diego Cabrejos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T18</td>
+    <td>Tarjetas de resumen energético</td>
+    <td>Maquetar las tarjetas de dispositivos conectados, consumo actual y alertas en el Home.</td>
+    <td>6</td>
+    <td>Diego Cabrejos</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1">US-39</td>
+    <td rowspan="1">Activar Modo Oscuro</td>
+    <td>T19</td>
+    <td>Sistema de temas UI (Dark Mode)</td>
+    <td>Implementar la lógica y variables CSS para alternar temas en las vistas de la Web App.</td>
+    <td>4</td>
+    <td>Ghorghet Tuncar</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1">US-05</td>
+    <td rowspan="1">Interfaz interactiva (LP)</td>
+    <td>T20</td>
+    <td>Conexión LP - Web App</td>
+    <td>Ajustar los Call-to-Action del Landing Page para redirigir correctamente a la Web App desplegada.</td>
+    <td>4</td>
+    <td>Alexander Garfias</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este Sprint, el equipo se enfocó en dos frentes principales: la actualización del Landing Page y la construcción de la primera versión de nuestra Frontend Web Application (SPA). Se implementó la estructura base del proyecto, el sistema de enrutamiento y la conexión entre ambas plataformas. A continuación, se detallan los commits más representativos de este esfuerzo extraídos de nuestros repositorios oficiales.
+
+Link de commits del repositorio del Landing Page:
+https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main/
+
+Link de commits del repositorio de la Web App:
+https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+  <tr>
+    <td><b>Repository</b></td>
+    <td><b>Branch</b></td>
+    <td><b>Commit Id</b></td>
+    <td><b>Commit Message</b></td>
+    <td><b>Commit Message Body</b></td>
+    <td><b>Commited on (Date)</b></td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/LandingPage</td>
+    <td>main</td>
+    <td>`767a6f0`</td>
+    <td>Fix: Update Landing Page</td>
+    <td>Correcciones generales y actualización de enlaces y estructura en la página principal.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/LandingPage</td>
+    <td>main</td>
+    <td>`f7aeda8`</td>
+    <td>feat: feat faq_qx and faq_ax</td>
+    <td>Implementación de la sección de preguntas frecuentes (FAQ) interactiva.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/LandingPage</td>
+    <td>main</td>
+    <td>`b01eaa9`</td>
+    <td>fix and feat: fix index.html, add que-frequents and direction</td>
+    <td>Adición de las secciones de preguntas frecuentes y dirección en el HTML principal.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`533f7b4`</td>
+    <td>fix: fix deployment link</td>
+    <td>Corrección del enlace de despliegue en la configuración de la aplicación web.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`a37449d`</td>
+    <td>feat : add enpoint for becepetor in development</td>
+    <td>Configuración de variables de entorno para apuntar a la API mockeada con Beeceptor.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`b2d184d`</td>
+    <td>feat: configure routes</td>
+    <td>Implementación del sistema de enrutamiento (Vue Router) para la navegación de la SPA.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`10a1627`</td>
+    <td>feat: add forms for management</td>
+    <td>Creación de los componentes de formularios para la gestión de entidades en la plataforma.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`c9da5ed`</td>
+    <td>feat: add home list view</td>
+    <td>Maquetación y lógica de la vista principal (Home) para el listado de elementos.</td>
+    <td>10/05/2026</td>
+  </tr>
+</table>
+
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
