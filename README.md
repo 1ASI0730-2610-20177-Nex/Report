@@ -891,7 +891,11 @@ clave en nuestro proyecto.
 <br><br>
 
 ## 3.2. Impact Mapping
-<img src="assets/Impact Mapping.png"><br>
+<br><b>Segmento 1:
+<img src="assets/Impact-Mapping-Segmento-1.png">
+<br><b>Segmento 2:
+<img src="assets/Impact-Mapping-Segmento-2.png">
+
 
 ## 3.3. Product Backlog
 
