@@ -1203,7 +1203,7 @@ El wireframe define la estructura básica de la landing page en bloques principa
 <img src="assets/WireframeCentroEnergetico.png">
 <img src="assets/WireframeAnaliticaAvanzada.png">
 <img src="assets/WireframeDispositivos.png">
-<img src="assets/WireframeHistorial.png">
+<img src="assets/Wireframehistorial.png">
 <img src="assets/WireframeIAEnergetica.png">
 
 
