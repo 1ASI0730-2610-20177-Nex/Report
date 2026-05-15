@@ -2152,7 +2152,91 @@ El objetivo principal de este segundo Sprint es dar el salto desde el sitio est�
   </tr>
 </table>
 
-## 5.3. Validation Interviews
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este Sprint, el equipo se enfocó en dos frentes principales: la actualización del Landing Page y la construcción de la primera versión de nuestra Frontend Web Application (SPA). Se implementó la estructura base del proyecto, el sistema de enrutamiento y la conexión entre ambas plataformas. A continuación, se detallan los commits más representativos de este esfuerzo extraídos de nuestros repositorios oficiales.
+
+Link de commits del repositorio del Landing Page:
+https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main/
+
+Link de commits del repositorio de la Web App:
+https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+  <tr>
+    <td><b>Repository</b></td>
+    <td><b>Branch</b></td>
+    <td><b>Commit Id</b></td>
+    <td><b>Commit Message</b></td>
+    <td><b>Commit Message Body</b></td>
+    <td><b>Commited on (Date)</b></td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/LandingPage</td>
+    <td>main</td>
+    <td>`767a6f0`</td>
+    <td>Fix: Update Landing Page</td>
+    <td>Correcciones generales y actualización de enlaces y estructura en la página principal.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/LandingPage</td>
+    <td>main</td>
+    <td>`f7aeda8`</td>
+    <td>feat: feat faq_qx and faq_ax</td>
+    <td>Implementación de la sección de preguntas frecuentes (FAQ) interactiva.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/LandingPage</td>
+    <td>main</td>
+    <td>`b01eaa9`</td>
+    <td>fix and feat: fix index.html, add que-frequents and direction</td>
+    <td>Adición de las secciones de preguntas frecuentes y dirección en el HTML principal.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`533f7b4`</td>
+    <td>fix: fix deployment link</td>
+    <td>Corrección del enlace de despliegue en la configuración de la aplicación web.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`a37449d`</td>
+    <td>feat : add enpoint for becepetor in development</td>
+    <td>Configuración de variables de entorno para apuntar a la API mockeada con Beeceptor.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`b2d184d`</td>
+    <td>feat: configure routes</td>
+    <td>Implementación del sistema de enrutamiento (Vue Router) para la navegación de la SPA.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`10a1627`</td>
+    <td>feat: add forms for management</td>
+    <td>Creación de los componentes de formularios para la gestión de entidades en la plataforma.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`c9da5ed`</td>
+    <td>feat: add home list view</td>
+    <td>Maquetación y lógica de la vista principal (Home) para el listado de elementos.</td>
+    <td>10/05/2026</td>
+  </tr>
+</table>
+
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
