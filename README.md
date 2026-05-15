@@ -2391,8 +2391,9 @@ Durante este Sprint, el equipo gestionó el despliegue continuo de dos productos
    <img src="assets/LandingPage-Mockup-Home.png" alt="Deploy Landing Page V2">
 
 2. **Frontend Web Application (SPA):** Se configuró un nuevo entorno de despliegue en la nube utilizando **Render** (o tu proveedor en la nube correspondiente, ej. Vercel/Netlify), conectándolo directamente a la rama `main` del repositorio `electrocorp-webapp` para habilitar un flujo de Integración y Despliegue Continuo (CI/CD).
-   * *URL:* https://electrocorp-webapp.onrender.com/billing/plans
-   <img src="assets/assets/Webapp-Mockup-Home.png" alt="Deploy Web App">
+   * *URL:*frontend-theta-ten-69.vercel.app
+   * *URL:*stirring-macaron-e87e1f.netlify.app
+   <img src="assets/Webapp-Mockup-Home.png" alt="Deploy Web App">
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
