@@ -1603,24 +1603,6 @@ De este modo, cada versión desplegada corresponde a *commits* rastreables dentr
         </td>
     </tr>
     <tr align="left">
-        <td>
-            <b>Sprint n - 1</b> <br>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            No existe Spring anterior para realizar una retrospectiva. Sin embargo se debe de desarrollar en la brevedad posible las User Stories y la planificación del Product Backlog  
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b> <br>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-            No existe un sprint anterior para realizar una retrospectiva. Sin embargo, basándonos en lo avanzado, debemos priorizar la correcta definición y desarrollo de las User Stories y una planificación eficiente del Product Backlog.
-        </td>
-    </tr>
-    <tr align="left">
         <td colspan="2">
             <b>SPRINT GOAL & USER STORIES</b>
         </td>
