@@ -2387,12 +2387,12 @@ Para la entrega actual (TB1), los requerimientos establecen el despliegue de una
 Durante este Sprint, el equipo gestionó el despliegue continuo de dos productos distintos, asegurando que ambos estén disponibles públicamente de forma segura:
 
 1. **Landing Page (Actualización):** Se mantuvo y actualizó el despliegue estático a través de **GitHub Pages**, asegurando que los nuevos Call-to-Action apunten correctamente a la Web App.
-   * *URL:* https://upc-pre-202610-1asi0729-11896-ecorp.github.io/electrocorp-website/
+   * *URL:*  https://1asi0730-2610-20177-nex.github.io/LandingPage/
    <img src="assets/LandingPage-Mockup-Home.png" alt="Deploy Landing Page V2">
 
 2. **Frontend Web Application (SPA):** Se configuró un nuevo entorno de despliegue en la nube utilizando **Render** (o tu proveedor en la nube correspondiente, ej. Vercel/Netlify), conectándolo directamente a la rama `main` del repositorio `electrocorp-webapp` para habilitar un flujo de Integración y Despliegue Continuo (CI/CD).
-   * *URL:*frontend-theta-ten-69.vercel.app
-   * *URL:*stirring-macaron-e87e1f.netlify.app
+   * *URL:* frontend-theta-ten-69.vercel.app
+   * *URL:* stirring-macaron-e87e1f.netlify.app
    <img src="assets/Webapp-Mockup-Home.png" alt="Deploy Web App">
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
