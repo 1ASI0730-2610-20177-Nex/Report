@@ -1276,6 +1276,10 @@ User goal(Segmento 2): Mantener un cierre ordenado y seguro del local.<br><br>
 <img src= "assets/userFlowTres.png"><br><br>
 
 ## 4.5. Web Applications Prototyping
+<br>
+<img src="assets/webApplicationsPrototyping.png">
+<br>
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
 
