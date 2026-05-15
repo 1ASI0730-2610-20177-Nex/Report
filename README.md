@@ -1984,11 +1984,11 @@ En este Sprint se marca la transición hacia el desarrollo interactivo, enfocán
             - Ronal Toro Turpo <br></td>
     </tr>
     <tr>
-        <td><b>Sprint n - 1 Review Summary</b></td>
+        <td><b>Sprint 1 Review Summary</b></td>
         <td>El equipo logró desarrollar y desplegar la primera versión de la Landing Page en GitHub Pages exitosamente. Se completó el 100% de los Story Points comprometidos y el diseño responsivo, junto con la funcionalidad de i18n, funcionan según lo esperado.</td>
     </tr>
     <tr>
-        <td><b>Sprint n - 1 Retrospective Summary</b></td>
+        <td><b>Sprint 1 Retrospective Summary</b></td>
         <td>El equipo identificó que la división de tareas fue efectiva, pero se acordó mejorar el nivel de detalle en los mensajes de los commits y utilizar ramas "feature" más específicas y pequeñas para evitar conflictos de integración en GitHub en este nuevo Sprint.</td>
     </tr>
     <tr>
@@ -2274,6 +2274,69 @@ https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
     <td>10/05/2026</td>
   </tr>
 </table>
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este Sprint logramos consolidar la primera interacción real y conectada de la plataforma ElectroCorp, logrando avances significativos en dos frentes simultáneos:
+
+**1. Frontend Web Application (SPA):**
+Desplegamos la primera versión interactiva de nuestra aplicación web. Los usuarios ahora pueden visualizar y navegar de manera fluida (gracias al sistema de enrutamiento) por los formularios de inicio de sesión (Login) y creación de cuenta (Register). Una vez dentro, pueden acceder a la maqueta interactiva del Dashboard principal (Home), el cual incluye las tarjetas de resumen energético, gestión de dispositivos y soporte para la alternancia de temas de interfaz (Dark Mode).
+
+**2. Landing Page (Actualizaciones):**
+Mejoramos la experiencia del usuario visitante integrando soporte para un tercer idioma (Portugués) en nuestro sistema i18n. Además, simplificamos el flujo de compra en la sección de planes de servicio, adecuando su estilo visual para que mantenga consistencia con la nueva Web App. 
+
+**Video Demostrativo del Sprint 2:**
+En el siguiente video se ilustra y explica la navegación entre el Landing Page actualizado (mostrando el cambio a portugués y el nuevo flujo de planes) y la nueva Web Application, demostrando el flujo de ruteo hacia el Login, Register y el Dashboard principal.
+ link: " "
+
+Imagenes del Web App:
+
+ * Home
+    
+    <img src="assets/Webapp-Mockup_Login.png"></img><br>
+  
+
+Imágenes del Landing Page Actualizada:
+  
+* Home
+
+  <img src="assets/LandingPage-Mockup-Home.png"></img><br>
+
+* Pricing:
+
+  <img src="assets/LandingPage-Mockup-Pricing.png"></img><br>
+
+* FAQ:
+
+  <img src="assets/LandingPage-Mockup-FAQ.png"></img><br>
+
+* Smart Plugs:
+
+  <img src="assets/LandingPage-Mockup-SmartPlugs.png"></img><br>
+
+* Reviews:
+
+  <img src="assets/LandingPage-Mockup-Reviews.png"></img><br>
+
+* Description:
+
+  <img src="assets/LandingPage-Mockup-Description.png"></img><br>
+
+* Goals:
+
+  <img src="assets/LandingPage-Mockup-Goals.png"></img><br>
+
+* About Us:
+
+  <img src="assets/LandingPage-Mockup-About.png"></img><br>
+
+* Direction:
+
+  <img src="assets/LandingPage-Mockup-Direction.png"></img><br>
+
+* Support:
+
+  <img src="assets/LandingPage-Mockup-Support.png"></img><br>
 
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
