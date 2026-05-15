@@ -1280,6 +1280,9 @@ User goal(Segmento 2): Mantener un cierre ordenado y seguro del local.<br><br>
 <img src="assets/webApplicationsPrototyping.png">
 <br>
 
+[Link del video donde se explican los User Flow Diagrams](https://drive.google.com/drive/folders/1_bX6HCFnoZP9HkTFrvXY1ZZRJRJhyuJp?usp=sharing)
+<br>
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
 
