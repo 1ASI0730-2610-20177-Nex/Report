@@ -1250,10 +1250,30 @@ Este mockup presenta recomendaciones inteligentes generadas a partir del anális
 <img src="assets/mockupIAEnergetica.png"><br>
 
 ### 4.4.4. Web Applications User Flow Diagrams
-El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos clave como la navegación entre secciones, la interacción con funcionalidades principales y la obtención de resultados esperados. Asimismo, se contemplan escenarios alternativos y puntos de decisión que influyen en la experiencia del usuario, permitiendo comprender cómo se gestionan diferentes situaciones dentro del sistema.
 
-![UserFlowDiagram](assets/UserFlowDiagram.png)
+User goal (Segmento 1): Tener mayor control sobre los dispositivos del hogar.<br><br>
+<img src="assets/userFlowUno.png"><br><br>
 
+User goal (Segmento 1): Controlar electrodomesticos remotamente desde el celular.<br><br>
+<img src="assets/userFlowUno.png"><br><br>
+User goal (Segmento 1): Entender claramente cuanto consumen los dispositivos electricos de su hogar<br><br>
+<img src="assets/userFlowDos.png"><br><br>
+
+
+User goal (Segmento 2): Reducir gastos operativos relacionados al consumo eléctrico.<br><br>
+<img src="assets/userFlowDos.png"><br><br>
+
+User goal (Segmento 2): Tener mayor control sobre equipos y maquinaria.<br><br>
+<img src="assets/userFlowUno.png"><br><br>
+
+User goal (Segmento 2): Evitar pérdidas económicas por descuidos.<br><br>
+<img src="assets/userFlowTres.png"><br><br>
+
+User goal (Segmento 2): Reducir errores humanos en el uso de maquinaria.<br><br>
+<img src= "assets/userFlowCuatro.png"><br><br>
+
+User goal(Segmento 2): Mantener un cierre ordenado y seguro del local.<br><br>
+<img src= "assets/userFlowTres.png"><br><br>
 
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
