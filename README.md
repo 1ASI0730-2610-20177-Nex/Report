@@ -1211,39 +1211,44 @@ El wireframe define la estructura básica de la landing page en bloques principa
 <img src="assets/ApplicationWireflowDiagrams.png">
 
 ### 4.4.3. Web Applications Mock-ups
+**Inicio:**
+Pantalla principal informativa para usuarios no registrados.
+<img src="assets/mockupInicio.png"><br>
 
-![Mockp-Center](assets/Application-Web-MockUp-Center.png)
+**Registro:**
+Pantalla donde los usuarios pueden crear una cuenta para acceder a las funcionalidades de la aplicación.
+<img src="assets/mockupRegistrarse.png"><br>
 
-**Centro Energético:**  
+**Incio de sesión:**
+Pantalla donde los usuarios registrados ingresan sus credenciales para acceder a la plataforma.
+<img src="assets/mockupIniciarSesion.png"><br>
+
+**Panel principal:**
+Pantalla principal del usuario autenticado, desde donde puede acceder a las principales funcionalidades y módulos de la aplicación.
+<img src="assets/mockupInicioApp.png"> <br>
+
+
+**Centro Energético:**
 Este mockup representa la vista principal de la aplicación, donde el usuario puede visualizar un resumen general de su consumo energético. Se muestran indicadores clave como el consumo mensual, el gasto estimado, el porcentaje de ahorro y la cantidad de dispositivos registrados. Además, incluye un gráfico de línea que permite analizar el comportamiento del consumo durante la semana. Desde esta sección, el usuario puede agregar nuevos registros de consumo o simular datos para análisis.
+<img src="assets/mockupCentroEnergetico.png"><br>
 
----
-
-![Mockp-Analitycs](assets/Application-Web-MockUp-Analytics.png)
 
 **Analítica Avanzada:**  
 En esta vista se presentan métricas más detalladas del consumo energético. El usuario puede identificar la hora pico de consumo, el día con mayor uso, el promedio diario y una predicción del gasto mensual. También se incluye un gráfico de barras que distribuye el consumo por dispositivo, facilitando la toma de decisiones informadas para optimizar el uso de energía.
-
----
-
-![Mockp-Devices](assets/Application-Web-MockUp-Devices.png)
+<img src="assets/mockupAnaliticaAvanzada.png"><br>
 
 **Gestión de Dispositivos:**  
 Este mockup muestra la interfaz para administrar los dispositivos eléctricos del usuario. Permite buscar dispositivos, agregarlos, activarlos o desactivarlos, así como eliminarlos. Cada dispositivo presenta su estado actual, lo que impacta directamente en el cálculo del consumo energético. Esta sección es clave para el control y personalización del sistema.
-
----
-
-![Mockp-History](assets/Application-Web-MockUp-History.png)
+<img src="assets/mockupDispositivos.png"><br>
 
 **Historial de Consumo:**  
 Aquí se visualizan los registros recientes de consumo energético organizados por día. El usuario puede revisar fácilmente su historial, exportar los datos en formato CSV para análisis externo o limpiar los registros almacenados. Esta sección permite llevar un seguimiento detallado del comportamiento energético a lo largo del tiempo.
+<img src="assets/mockupHistorial.png"><br>
 
----
-
-![Mockp-Suggestions](assets/Application-Web-MockUp-Suggestions.png)
-
-**IA Energética (Insights):**  
+**IA Energética:**  
 Este mockup presenta recomendaciones inteligentes generadas a partir del análisis de los datos de consumo. Se muestran alertas sobre consumo elevado, sugerencias para optimizar el uso de dispositivos y estimaciones de ahorro. Esta funcionalidad busca ayudar al usuario a mejorar su eficiencia energética mediante información clara y accionable.
+<img src="assets/mockupIAEnergetica.png"><br>
+
 ### 4.4.4. Web Applications User Flow Diagrams
 El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos clave como la navegación entre secciones, la interacción con funcionalidades principales y la obtención de resultados esperados. Asimismo, se contemplan escenarios alternativos y puntos de decisión que influyen en la experiencia del usuario, permitiendo comprender cómo se gestionan diferentes situaciones dentro del sistema.
 
