@@ -724,6 +724,60 @@ Insights clave
 -- el 75% desconfía de técnicos	
 - Valor percibido en dinero
 -- El 100% quiere ver el consumo eléctrico en soles.
+
+#### Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+Características objetivas del segmento
+- Rango edad: 39 -48 anios
+- Ubicacion: zonas urbanas (La Vcitoria y Villa el Salvador)
+- Tipo de negocio:
+-- 33% confecction textil.
+-- 33% lavanderia/tintereria
+-- 33% moda (vestidos de Quinceaniera)
+
+Infraestructura y equipos electricos
+
+- 100% dependen de maquinaria electrica critica
+- Tipos de equipos mas comunes:
+-- 66% Maquinas de confeccion.
+-- 33% Lavadoras.
+-- 100% Equipos complementarios (planchas, secadoras, iluminacion, ventilacion).
+- El consumo energetico es estructural, el negocio no puede operar sin electricidad.
+
+Impacto economico del uso de la energia
+
+- 100 % considera el costo electrico como "alto" o "critico"
+-- Orlando: "bastante critico"
+-- Katherine: "critico"
+-- Lourdes: aunque no lo dice explicito, su preocupación por incidentes y control lo respalda.
+
+Características subjetivas del segmento
+
+- 100% utiliza metodos manuales de control energetico
+-- Apagador por personal (66%)
+-- Uso de llave/palanca general (33%)
+- Consecuencia:
+-- 67% ha tenido problemas por descuidos
+-- Olvidos por personal (66%)
+-- Incidentes menores o riesgos (recalentamiento, consumo innecesario)
+
+Necesidades y motivaciones comunes:
+
+- Programacion automatica (67%)
+- Alertas (uso/consumo) (67%)
+- Reportes de consumo (100%)
+- Visualización del gasto energético en dinero (33%)
+
+Insights clave
+
+- Control vs Desorden
+el 100% necesita control energetico, pero actualmente depende de procesos manuales vulnerables.
+- Costo como driver principal
+el 100% toma decisiones basado en impacto económico, no en métricas técnicas.
+- Tecnologia pero simple
+el 100% acepta tecnología siempre que sea fácil de implementar, económica y no invasiva.
+- Segmento en transición
+-- El 67% es tradicional (operativo)
+-- El 33% es moderno
   
 ## 2.3. Needfinding
 ### 2.3.1. User Personas 
@@ -1607,24 +1661,6 @@ De este modo, cada versión desplegada corresponde a *commits* rastreables dentr
         </td>
     </tr>
     <tr align="left">
-        <td>
-            <b>Sprint n - 1</b> <br>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            No existe Spring anterior para realizar una retrospectiva. Sin embargo se debe de desarrollar en la brevedad posible las User Stories y la planificación del Product Backlog  
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b> <br>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-            No existe un sprint anterior para realizar una retrospectiva. Sin embargo, basándonos en lo avanzado, debemos priorizar la correcta definición y desarrollo de las User Stories y una planificación eficiente del Product Backlog.
-        </td>
-    </tr>
-    <tr align="left">
         <td colspan="2">
             <b>SPRINT GOAL & USER STORIES</b>
         </td>
@@ -2287,4 +2323,8 @@ https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
 ## Conclusiones y recomendaciones
 ## Video About-the-Team.
 # Bibliografía 
+
+- Promart. (s.f.). Smatrul Enchufe Inteligente Wifi Compatible con Alexa Google Home. https://www.promart.pe/smatrul-enchufe-inteligente-wifi-compatible-con-alexa-google-home-1001455515/p
+- Instituto Nacional de Estadística e Informática. (2018). Perú: Características de las viviendas particulares y los hogares. Acceso a servicios básicos (Publicación Digital Lib1538). https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1538/parte01.pdf
+
 # Anexos
