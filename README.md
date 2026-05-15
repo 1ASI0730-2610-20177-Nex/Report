@@ -30,10 +30,10 @@
 
 | Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
 | :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|   TB1   | 22/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
-|   TP1   |            |       |                                                            |
+|   AV1   | 22/04/2026 | Tavara Correa, Sebastian Oswaldo; Tuncar Vila, Ghorghet Saul; Cabrejos Chocco, Diego Alexander; Fernandez Garfias Alexander Piero; Toro Turpo Ronal  | Avance del trabajo: Completando el contenido del Documento |
+|   TB1   | 09/05/2026 | Tavara Correa, Sebastian Oswaldo; Tuncar Vila, Ghorghet Saul; Cabrejos Chocco, Diego Alexander; Fernandez Garfias Alexander Piero; Toro Turpo Ronal  | Avance del trabajo:Primer entregable de la Web App, mejorar el contenido del Documento, y  actualizar La Landing Page y que este conectada con la Web App|
+|   AV2   |            |       |                                                            |
 |   TB2   |            |       |                                                            |
-|   TF1   |            |       |                                                            |
 
 <div style="page-break-after: always;"></div>
 
@@ -191,12 +191,12 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 ## Student Outcome
 
-Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
-| Criterio Especifico | Acciones realizadas | Conclusiones |
-|--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Ghorghet Tuncar <br> TB1: <br> TP1: <br> TB2: <br> TF1: |	 |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Ghorghet Tuncar <br> TB1: <br> TP1: <br> TB2: <br> TF1: |	 |
+### Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
 
+| Criterio Específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Sebastian Tavara** <br>AV1: Realizó entrevistas clave para poder entender al usuario.<br>TB1: Comunicó al equipo los hallazgos de las pruebas iniciales sobre la App Web desplegada, sugiriendo ajustes desde la perspectiva del usuario final.<br><br>**Diego Cabrejos** <br>AV1: Expuso la estructura y los avances del desarrollo de la Landing Page durante las reuniones del equipo.<br>TB1: Expuso las actualizaciones implementadas en la Landing Page de ElectroCorp, explicando las correcciones de errores y las mejoras visuales realizadas para esta entrega.<br><br>**Alexander Fernandez** <br>AV1: Expuso la estructura general de la aplicación, explicó la función de los módulos principales del sistema y comunicó al equipo cómo se relacionaban las secciones del frontend con la lógica del backend durante el desarrollo inicial del proyecto.<br>TB1: Explicó el proceso y la configuración técnica requerida para realizar el primer despliegue de la App Web, asegurando que el equipo comprendiera el entorno de producción.<br><br>**Ronal Toro** <br>AV1: Realizó entrevistas clave para el proyecto, así como las user stories, el product backlog y el ubiquitous language.<br>TB1: Comunicó el estado de avance de las historias de usuario durante la revisión del sprint, validando qué requerimientos se cumplieron con el despliegue.<br><br>**Ghorghet Tuncar** <br>AV1: Expuso en las reuniones de equipo la estructura de las historias de usuario y los criterios de aceptación para el proyecto ElectroCorp. Explicó detalladamente el diseño y las interacciones de los Diagramas de Contexto y Contenedores (Modelo C4) de la arquitectura del software. Además, comunicó oralmente las normativas de la Guía de Estilos de Código, asegurando que todos los miembros comprendieran las convenciones a seguir durante el desarrollo.<br>TB1: Sustentó los ajustes arquitectónicos necesarios durante el paso a producción de la App Web, guiando al equipo para mantener los estándares técnicos. | **Sebastian Tavara** <br>Fue muy interesante poder estar cerca al usuario y poder tener una mejor visión del problema al que nos enfrentábamos.<br><br>**Alexander Fernandez** <br>La comunicación oral en la etapa inicial permitió transmitir con claridad la estructura funcional del sistema y facilitó que el equipo comprendiera mejor cómo se integraban las principales partes de la aplicación.<br><br>**Ghorghet Tuncar** <br>AV1: Durante esta primera etapa, el equipo logró establecer un canal de comunicación oral constante y efectivo. A través de exposiciones en reuniones regulares, los integrantes lograron articular y transmitir ideas complejas sobre la arquitectura del sistema, el flujo de desarrollo y las normas de codificación. Esto permitió alinear la visión del proyecto (ElectroCorp), resolver dudas técnicas en tiempo real y asegurar que todos los miembros compartieran un entendimiento claro de los objetivos iniciales.<br><br>**TB1 (Grupal):** El primer despliegue de la App Web y la actualización de la Landing Page exigieron una coordinación oral precisa. El equipo logró discutir y resolver en tiempo real los retos técnicos de llevar el proyecto a producción, manteniendo una división de tareas clara y efectiva entre el código estático y la lógica desplegada. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Sebastian Tavara** <br>AV1: Análisis de entrevista, User Persona.<br>TB1: Documentó los reportes de usabilidad y los posibles bugs encontrados al interactuar con el primer despliegue de la aplicación.<br><br>**Diego Cabrejos** <br>AV1: Redactó y estructuró la documentación técnica del Sprint 1 (Sprint Planning y Sprint Backlog) en el informe del proyecto. Además, comunicó el progreso del desarrollo a través de código semántico y descriptivo en la Landing Page, documentando los cambios mediante mensajes de commit claros en el repositorio de GitHub.<br>TB1: Documentó los cambios y correcciones de la Landing Page mediante mensajes de commit claros en el repositorio, y actualizó la documentación técnica de la interfaz.<br><br>**Alexander Fernandez** <br>AV1: Redactó contenido técnico relacionado con la estructura funcional de la aplicación, describió la organización inicial del sistema y documentó por escrito la lógica general de los módulos implementados en el proyecto.<br>TB1: Redactó la documentación técnica sobre el despliegue de la App Web, incluyendo las configuraciones de entorno y dependencias utilizadas en producción.<br><br>**Ronal Toro** <br>TB1: Actualizó el Sprint Backlog marcando las tareas completadas y redactó las notas de la versión (Release Notes) correspondientes a esta primera entrega.<br><br>**Ghorghet Tuncar** <br>AV1: Redactó y estructuró el Product Backlog y las historias de usuario (User Stories y Technical Stories) utilizando el lenguaje Gherkin para asegurar la claridad de los requisitos. Diseñó y documentó la arquitectura del sistema elaborando los Diagramas de Contexto y de Contenedores. También redactó la Guía de Estilos y Convenciones de Código para estandarizar el desarrollo del proyecto en HTML, CSS, JavaScript y Java dentro del informe técnico.<br>TB1: Actualizó los diagramas de arquitectura para reflejar el entorno de despliegue y registró las nuevas normativas de código adoptadas en esta fase. | **Sebastian Tavara** <br>Ayudó muchísimo el crear el User Persona para poder modelar el comportamiento de cada segmento en una sola persona.<br><br>**Alexander Fernandez** <br>La comunicación escrita en la etapa inicial ayudó a dejar organizada la estructura del sistema y permitió describir con claridad la función de los módulos principales, facilitando la comprensión del proyecto desde una perspectiva técnica y académica.<br><br>**Ghorghet Tuncar** <br>AV1: En este primer avance, el equipo demostró una sólida capacidad para documentar técnicamente el proyecto con gran nivel de detalle y profesionalismo. Mediante la redacción de artefactos clave como el Product Backlog, las historias de usuario bajo el estándar Gherkin, los diagramas de arquitectura C4 y las guías de estilo, se logró plasmar por escrito la complejidad técnica y los requisitos del sistema. Esta documentación clara y estructurada garantiza que cualquier perfil técnico o de negocio pueda comprender el alcance y las bases del desarrollo de ElectroCorp.<br><br>**TB1 (Grupal):** La comunicación escrita fue fundamental para el control de versiones en esta etapa. Registrar las actualizaciones del código, los pasos de despliegue y la actualización del backlog permitió mantener la trazabilidad del proyecto y asegurar la replicabilidad técnica del entorno. |
 
 # Capitulo I: Introducción
 
@@ -2333,7 +2333,7 @@ Imagenes del Web App:
 
  * Home
     
-    <img src="assets/Webapp-Mockup_Home.png"></img><br>
+    <img src="assets/Webapp-Mockup-Home.png"></img><br>
   
 
 Imágenes del Landing Page Actualizada:
@@ -2377,6 +2377,12 @@ Imágenes del Landing Page Actualizada:
 * Support:
 
   <img src="assets/LandingPage-Mockup-Support.png"></img><br>
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Para la entrega actual (TB1), los requerimientos establecen el despliegue de una nueva versión del Landing Page y la primera versión de la Frontend Web Application. La construcción y despliegue de los Web Services (RESTful API), así como su respectiva documentación mediante OpenAPI Specification (Swagger), están programados para la siguiente fase del proyecto (AV2). Por lo tanto, las evidencias de documentación de servicios no son aplicables para este Sprint.
+
+#
 
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
