@@ -2293,7 +2293,7 @@ Imagenes del Web App:
 
  * Home
     
-    <img src="assets/Webapp-Mockup_Login.png"></img><br>
+    <img src="assets/Webapp-Mockup_Home.png"></img><br>
   
 
 Imágenes del Landing Page Actualizada:
