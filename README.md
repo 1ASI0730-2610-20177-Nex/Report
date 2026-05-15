@@ -1208,6 +1208,8 @@ El wireframe define la estructura básica de la landing page en bloques principa
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+<img src="assets/ApplicationWireflowDiagrams.png">
+
 ### 4.4.3. Web Applications Mock-ups
 
 ![Mockp-Center](assets/Application-Web-MockUp-Center.png)
