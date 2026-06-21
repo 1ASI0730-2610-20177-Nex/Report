@@ -2407,6 +2407,12 @@ Durante el Sprint 2, la colaboración del equipo se intensificó al tener que ma
 | **Fernandez Garfias Alexander Piero** | Maquetación del Dashboard (Home), integración de Layout y estilos Dark Mode. |
 | **Toro Turpo Ronal y Tuncar Vila, Ghorghet Saul** | Pruebas de navegación (QA) e implementación de validaciones visuales en formularios. |
 
+### 5.2.3. Sprint 3
+
+El Sprint 3 representa la transición de ElectroCorp desde una aplicación centrada principalmente en la presentación visual hacia una solución con capacidades de gestión, analítica y persistencia de datos. Durante esta iteración se mejoró la Frontend Web Application incorporando módulos para administrar hogares, dispositivos, consumos y planes; además, se construyó la primera versión del Backend Web Service mediante ASP.NET Core, Entity Framework Core y MySQL.
+
+El alcance desarrollado permite disponer de una arquitectura dividida por contextos funcionales, rutas de navegación para las operaciones principales, recursos REST para el intercambio de información y una migración inicial de base de datos. También se incorporó documentación interactiva con Swagger/OpenAPI para facilitar la validación de los servicios.
+
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
