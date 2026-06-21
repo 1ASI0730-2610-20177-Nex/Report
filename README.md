@@ -30,10 +30,10 @@
 
 | Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
 | :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|   TB1   | 22/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
-|   TP1   |            |       |                                                            |
+|   AV1   | 22/04/2026 | Tavara Correa, Sebastian Oswaldo; Tuncar Vila, Ghorghet Saul; Cabrejos Chocco, Diego Alexander; Fernandez Garfias Alexander Piero; Toro Turpo Ronal  | Avance del trabajo: Completando el contenido del Documento |
+|   TB1   | 09/05/2026 | Tavara Correa, Sebastian Oswaldo; Tuncar Vila, Ghorghet Saul; Cabrejos Chocco, Diego Alexander; Fernandez Garfias Alexander Piero; Toro Turpo Ronal  | Avance del trabajo:Primer entregable de la Web App, mejorar el contenido del Documento, y  actualizar La Landing Page y que este conectada con la Web App|
+|   AV2   |            |       |                                                            |
 |   TB2   |            |       |                                                            |
-|   TF1   |            |       |                                                            |
 
 <div style="page-break-after: always;"></div>
 
@@ -191,12 +191,12 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 ## Student Outcome
 
-Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
-| Criterio Especifico | Acciones realizadas | Conclusiones |
-|--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Ghorghet Tuncar <br> TB1: <br> TP1: <br> TB2: <br> TF1: |	 |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Ghorghet Tuncar <br> TB1: <br> TP1: <br> TB2: <br> TF1: |	 |
+### Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
 
+| Criterio Específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Sebastian Tavara** <br>AV1: Realizó entrevistas clave para poder entender al usuario.<br>TB1: Comunicó al equipo los hallazgos de las pruebas iniciales sobre la App Web desplegada, sugiriendo ajustes desde la perspectiva del usuario final.<br><br>**Diego Cabrejos** <br>AV1: Expuso la estructura y los avances del desarrollo de la Landing Page durante las reuniones del equipo.<br>TB1: Expuso las actualizaciones implementadas en la Landing Page de ElectroCorp, explicando las correcciones de errores y las mejoras visuales realizadas para esta entrega.<br><br>**Alexander Fernandez** <br>AV1: Expuso la estructura general de la aplicación, explicó la función de los módulos principales del sistema y comunicó al equipo cómo se relacionaban las secciones del frontend con la lógica del backend durante el desarrollo inicial del proyecto.<br>TB1: Explicó el proceso y la configuración técnica requerida para realizar el primer despliegue de la App Web, asegurando que el equipo comprendiera el entorno de producción.<br><br>**Ronal Toro** <br>AV1: Realizó entrevistas clave para el proyecto, así como las user stories, el product backlog y el ubiquitous language.<br>TB1: Comunicó el estado de avance de las historias de usuario durante la revisión del sprint, validando qué requerimientos se cumplieron con el despliegue.<br><br>**Ghorghet Tuncar** <br>AV1: Expuso en las reuniones de equipo la estructura de las historias de usuario y los criterios de aceptación para el proyecto ElectroCorp. Explicó detalladamente el diseño y las interacciones de los Diagramas de Contexto y Contenedores (Modelo C4) de la arquitectura del software. Además, comunicó oralmente las normativas de la Guía de Estilos de Código, asegurando que todos los miembros comprendieran las convenciones a seguir durante el desarrollo.<br>TB1: Sustentó los ajustes arquitectónicos necesarios durante el paso a producción de la App Web, guiando al equipo para mantener los estándares técnicos. | **Sebastian Tavara** <br>Fue muy interesante poder estar cerca al usuario y poder tener una mejor visión del problema al que nos enfrentábamos.<br><br>**Alexander Fernandez** <br>La comunicación oral en la etapa inicial permitió transmitir con claridad la estructura funcional del sistema y facilitó que el equipo comprendiera mejor cómo se integraban las principales partes de la aplicación.<br><br>**Ghorghet Tuncar** <br>AV1: Durante esta primera etapa, el equipo logró establecer un canal de comunicación oral constante y efectivo. A través de exposiciones en reuniones regulares, los integrantes lograron articular y transmitir ideas complejas sobre la arquitectura del sistema, el flujo de desarrollo y las normas de codificación. Esto permitió alinear la visión del proyecto (ElectroCorp), resolver dudas técnicas en tiempo real y asegurar que todos los miembros compartieran un entendimiento claro de los objetivos iniciales.<br><br>**TB1 (Grupal):** El primer despliegue de la App Web y la actualización de la Landing Page exigieron una coordinación oral precisa. El equipo logró discutir y resolver en tiempo real los retos técnicos de llevar el proyecto a producción, manteniendo una división de tareas clara y efectiva entre el código estático y la lógica desplegada. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Sebastian Tavara** <br>AV1: Análisis de entrevista, User Persona.<br>TB1: Documentó los reportes de usabilidad y los posibles bugs encontrados al interactuar con el primer despliegue de la aplicación.<br><br>**Diego Cabrejos** <br>AV1: Redactó y estructuró la documentación técnica del Sprint 1 (Sprint Planning y Sprint Backlog) en el informe del proyecto. Además, comunicó el progreso del desarrollo a través de código semántico y descriptivo en la Landing Page, documentando los cambios mediante mensajes de commit claros en el repositorio de GitHub.<br>TB1: Documentó los cambios y correcciones de la Landing Page mediante mensajes de commit claros en el repositorio, y actualizó la documentación técnica de la interfaz.<br><br>**Alexander Fernandez** <br>AV1: Redactó contenido técnico relacionado con la estructura funcional de la aplicación, describió la organización inicial del sistema y documentó por escrito la lógica general de los módulos implementados en el proyecto.<br>TB1: Redactó la documentación técnica sobre el despliegue de la App Web, incluyendo las configuraciones de entorno y dependencias utilizadas en producción.<br><br>**Ronal Toro** <br>TB1: Actualizó el Sprint Backlog marcando las tareas completadas y redactó las notas de la versión (Release Notes) correspondientes a esta primera entrega.<br><br>**Ghorghet Tuncar** <br>AV1: Redactó y estructuró el Product Backlog y las historias de usuario (User Stories y Technical Stories) utilizando el lenguaje Gherkin para asegurar la claridad de los requisitos. Diseñó y documentó la arquitectura del sistema elaborando los Diagramas de Contexto y de Contenedores. También redactó la Guía de Estilos y Convenciones de Código para estandarizar el desarrollo del proyecto en HTML, CSS, JavaScript y Java dentro del informe técnico.<br>TB1: Actualizó los diagramas de arquitectura para reflejar el entorno de despliegue y registró las nuevas normativas de código adoptadas en esta fase. | **Sebastian Tavara** <br>Ayudó muchísimo el crear el User Persona para poder modelar el comportamiento de cada segmento en una sola persona.<br><br>**Alexander Fernandez** <br>La comunicación escrita en la etapa inicial ayudó a dejar organizada la estructura del sistema y permitió describir con claridad la función de los módulos principales, facilitando la comprensión del proyecto desde una perspectiva técnica y académica.<br><br>**Ghorghet Tuncar** <br>AV1: En este primer avance, el equipo demostró una sólida capacidad para documentar técnicamente el proyecto con gran nivel de detalle y profesionalismo. Mediante la redacción de artefactos clave como el Product Backlog, las historias de usuario bajo el estándar Gherkin, los diagramas de arquitectura C4 y las guías de estilo, se logró plasmar por escrito la complejidad técnica y los requisitos del sistema. Esta documentación clara y estructurada garantiza que cualquier perfil técnico o de negocio pueda comprender el alcance y las bases del desarrollo de ElectroCorp.<br><br>**TB1 (Grupal):** La comunicación escrita fue fundamental para el control de versiones en esta etapa. Registrar las actualizaciones del código, los pasos de despliegue y la actualización del backlog permitió mantener la trazabilidad del proyecto y asegurar la replicabilidad técnica del entorno. |
 
 # Capitulo I: Introducción
 
@@ -945,7 +945,11 @@ clave en nuestro proyecto.
 <br><br>
 
 ## 3.2. Impact Mapping
-<img src="assets/Impact Mapping.png"><br>
+<br><b>Segmento 1:
+<img src="assets/Impact-Mapping-Segmento-1.png">
+<br><b>Segmento 2:
+<img src="assets/Impact-Mapping-Segmento-2.png">
+
 
 ## 3.3. Product Backlog
 
@@ -1257,7 +1261,7 @@ El wireframe define la estructura básica de la landing page en bloques principa
 <img src="assets/WireframeCentroEnergetico.png">
 <img src="assets/WireframeAnaliticaAvanzada.png">
 <img src="assets/WireframeDispositivos.png">
-<img src="assets/WireframeHistorial.png">
+<img src="assets/Wireframehistorial.png">
 <img src="assets/WireframeIAEnergetica.png">
 
 
@@ -2020,11 +2024,11 @@ En este Sprint se marca la transición hacia el desarrollo interactivo, enfocán
             - Ronal Toro Turpo <br></td>
     </tr>
     <tr>
-        <td><b>Sprint n - 1 Review Summary</b></td>
+        <td><b>Sprint 1 Review Summary</b></td>
         <td>El equipo logró desarrollar y desplegar la primera versión de la Landing Page en GitHub Pages exitosamente. Se completó el 100% de los Story Points comprometidos y el diseño responsivo, junto con la funcionalidad de i18n, funcionan según lo esperado.</td>
     </tr>
     <tr>
-        <td><b>Sprint n - 1 Retrospective Summary</b></td>
+        <td><b>Sprint 1 Retrospective Summary</b></td>
         <td>El equipo identificó que la división de tareas fue efectiva, pero se acordó mejorar el nivel de detalle en los mensajes de los commits y utilizar ramas "feature" más específicas y pequeñas para evitar conflictos de integración en GitHub en este nuevo Sprint.</td>
     </tr>
     <tr>
@@ -2310,6 +2314,226 @@ https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
     <td>10/05/2026</td>
   </tr>
 </table>
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este Sprint logramos consolidar la primera interacción real y conectada de la plataforma ElectroCorp, logrando avances significativos en dos frentes simultáneos:
+
+**1. Frontend Web Application (SPA):**
+Desplegamos la primera versión interactiva de nuestra aplicación web. Los usuarios ahora pueden visualizar y navegar de manera fluida (gracias al sistema de enrutamiento) por los formularios de inicio de sesión (Login) y creación de cuenta (Register). Una vez dentro, pueden acceder a la maqueta interactiva del Dashboard principal (Home), el cual incluye las tarjetas de resumen energético, gestión de dispositivos y soporte para la alternancia de temas de interfaz (Dark Mode).
+
+**2. Landing Page (Actualizaciones):**
+Mejoramos la experiencia del usuario visitante integrando soporte para un tercer idioma (Portugués) en nuestro sistema i18n. Además, simplificamos el flujo de compra en la sección de planes de servicio, adecuando su estilo visual para que mantenga consistencia con la nueva Web App. 
+
+**Video Demostrativo del Sprint 2:**
+En el siguiente video se ilustra y explica la navegación entre el Landing Page actualizado (mostrando el cambio a portugués y el nuevo flujo de planes) y la nueva Web Application, demostrando el flujo de ruteo hacia el Login, Register y el Dashboard principal.
+ link: " "
+
+Imagenes del Web App:
+
+ * Home
+    
+    <img src="assets/Webapp-Mockup-Home.png"></img><br>
+  
+
+Imágenes del Landing Page Actualizada:
+  
+* Home
+
+  <img src="assets/LandingPage-Mockup-Home.png"></img><br>
+
+* Pricing:
+
+  <img src="assets/LandingPage-Mockup-Pricing.png"></img><br>
+
+* FAQ:
+
+  <img src="assets/LandingPage-Mockup-FAQ.png"></img><br>
+
+* Smart Plugs:
+
+  <img src="assets/LandingPage-Mockup-SmartPlugs.png"></img><br>
+
+* Reviews:
+
+  <img src="assets/LandingPage-Mockup-Reviews.png"></img><br>
+
+* Description:
+
+  <img src="assets/LandingPage-Mockup-Description.png"></img><br>
+
+* Goals:
+
+  <img src="assets/LandingPage-Mockup-Goals.png"></img><br>
+
+* About Us:
+
+  <img src="assets/LandingPage-Mockup-About.png"></img><br>
+
+* Direction:
+
+  <img src="assets/LandingPage-Mockup-Direction.png"></img><br>
+
+* Support:
+
+  <img src="assets/LandingPage-Mockup-Support.png"></img><br>
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Para la entrega actual (TB1), los requerimientos establecen el despliegue de una nueva versión del Landing Page y la primera versión de la Frontend Web Application. La construcción y despliegue de los Web Services (RESTful API), así como su respectiva documentación mediante OpenAPI Specification (Swagger), están programados para la siguiente fase del proyecto (AV2). Por lo tanto, las evidencias de documentación de servicios no son aplicables para este Sprint.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, el equipo gestionó el despliegue continuo de dos productos distintos, asegurando que ambos estén disponibles públicamente de forma segura:
+
+1. **Landing Page (Actualización):** Se mantuvo y actualizó el despliegue estático a través de **GitHub Pages**, asegurando que los nuevos Call-to-Action apunten correctamente a la Web App.
+   * *URL:*  https://1asi0730-2610-20177-nex.github.io/LandingPage/
+   <img src="assets/LandingPage-Mockup-Home.png" alt="Deploy Landing Page V2">
+
+2. **Frontend Web Application (SPA):** Se configuró un nuevo entorno de despliegue en la nube utilizando **Render** (o tu proveedor en la nube correspondiente, ej. Vercel/Netlify), conectándolo directamente a la rama `main` del repositorio `electrocorp-webapp` para habilitar un flujo de Integración y Despliegue Continuo (CI/CD).
+   * *URL:* frontend-theta-ten-69.vercel.app
+   * *URL:* stirring-macaron-e87e1f.netlify.app
+   <img src="assets/Webapp-Mockup-Home.png" alt="Deploy Web App">
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2, la colaboración del equipo se intensificó al tener que manejar dos repositorios en paralelo (Website y WebApp). Utilizamos GitHub para centralizar el código y organizar las ramas (features). Todos los miembros participaron activamente en la implementación de la SPA, dividiéndose componentes específicos como el layout, autenticación y vistas del dashboard, tal como se evidencia en los analíticos de la plataforma.
+
+| Team Member | Task completed |
+| :--- | :--- |
+| **Tavara Correa, Sebastian** | Configuración base del proyecto SPA y enrutamiento principal. |
+| **Fernandez Garfias Alexander Piero** | Implementación de las interfaces de Login y Register en la Web App. |
+| **Cabrejos Chocce, Diego** | Actualización del Landing Page y conexión de hipervínculos hacia la Web App. |
+| **Fernandez Garfias Alexander Piero** | Maquetación del Dashboard (Home), integración de Layout y estilos Dark Mode. |
+| **Toro Turpo Ronal y Tuncar Vila, Ghorghet Saul** | Pruebas de navegación (QA) e implementación de validaciones visuales en formularios. |
+
+### 5.2.3. Sprint 3
+
+El Sprint 3 representa la transición de ElectroCorp desde una aplicación centrada principalmente en la presentación visual hacia una solución con capacidades de gestión, analítica y persistencia de datos. Durante esta iteración se mejoró la Frontend Web Application incorporando módulos para administrar hogares, dispositivos, consumos y planes; además, se construyó la primera versión del Backend Web Service mediante ASP.NET Core, Entity Framework Core y MySQL.
+
+El alcance desarrollado permite disponer de una arquitectura dividida por contextos funcionales, rutas de navegación para las operaciones principales, recursos REST para el intercambio de información y una migración inicial de base de datos. También se incorporó documentación interactiva con Swagger/OpenAPI para facilitar la validación de los servicios.
+
+#### 5.2.3.1. Sprint Planning 3
+
+<table align="center" border="1" width="90%" style="text-align:left; border-collapse:collapse;">
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td>Sprint 3</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td><b>Date</b></td>
+    <td>Inicio de actividades: 16/05/2026<br>Cierre técnico revisado: 20/06/2026</td>
+  </tr>
+  <tr>
+    <td><b>Time</b></td>
+    <td>Coordinación asincrónica y reuniones de seguimiento durante la iteración</td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td>Modalidad remota mediante WhatsApp y GitHub</td>
+  </tr>
+  <tr>
+    <td><b>Prepared By</b></td>
+    <td>Cabrejos Chocco, Diego Alexander</td>
+  </tr>
+  <tr>
+    <td><b>Attendees (to planning meeting)</b></td>
+    <td>
+      - Tavara Correa, Sebastian Oswaldo<br>
+      - Tuncar Vila, Ghorghet Saul<br>
+      - Cabrejos Chocco, Diego Alexander<br>
+      - Fernandez Garfias, Alexander Piero<br>
+      - Toro Turpo, Ronal
+    </td>
+  </tr>
+  <tr>
+    <td><b>Sprint 2 Review Summary</b></td>
+    <td>En el Sprint 2 se obtuvo la primera versión navegable de la Frontend Web Application, incluyendo la estructura SPA, las rutas principales, el Dashboard y la conexión visual con la Landing Page. Esta base permitió que el Sprint 3 se enfocara en funcionalidades de negocio y en la creación de los servicios backend.</td>
+  </tr>
+  <tr>
+    <td><b>Sprint 2 Retrospective Summary</b></td>
+    <td>El equipo identificó la necesidad de reemplazar progresivamente los datos simulados por servicios REST persistentes, organizar el código por contextos funcionales y mejorar la trazabilidad de las contribuciones mediante commits semánticos y tareas más pequeñas.</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td><b>Sprint 3 Goal</b></td>
+    <td>
+      <b>Our focus is on</b> mejorar la Frontend Web Application con módulos de gestión de hogares y dispositivos, consulta de consumos, analítica por equipo y presentación de planes; además de construir el primer Backend Web Service de ElectroCorp.<br><br>
+      <b>We believe it delivers</b> una base funcional y persistente para que los usuarios puedan administrar los elementos de su entorno energético y para que la aplicación disponga de contratos REST documentados para usuarios, hogares, dispositivos y consumos.<br><br>
+      <b>This will be confirmed when</b> la aplicación frontend compile para producción, las rutas y formularios principales estén implementados, el backend exponga operaciones CRUD bajo <code>/api/v1</code>, la migración inicial cree las tablas requeridas y los endpoints puedan visualizarse mediante Swagger/OpenAPI.
+    </td>
+  </tr>
+  <tr>
+    <td><b>Selected User Stories</b></td>
+    <td>US-08, US-10, US-16, US-19, US-25 y US-27; complementadas por las historias técnicas relacionadas con servicios REST, persistencia y documentación de API.</td>
+  </tr>
+  <tr>
+    <td><b>Sprint 3 Velocity</b></td>
+    <td>23 Story Points completados. La US-27, estimada en 8 Story Points, quedó parcialmente desarrollada porque se implementó el flujo visual de selección y checkout, pero no la integración real con Stripe.</td>
+  </tr>
+  <tr>
+    <td><b>Sum of Story Points</b></td>
+    <td>31 Story Points comprometidos</td>
+  </tr>
+</table>
+
+La Definition of Done considerada para este Sprint exige que cada incremento tenga una ruta o endpoint identificable, mantenga una estructura coherente con la arquitectura del proyecto, compile sin errores en el entorno correspondiente y cuente con evidencia verificable. Las integraciones que todavía dependen de servicios simulados o proveedores externos se registran como pendientes y no se consideran completamente cerradas.
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Para el Sprint 3 se definieron seis aspectos de trabajo. La letra **L** identifica al líder principal del aspecto y la letra **C** a quienes participaron como colaboradores o revisores.
+
+1. **Frontend Management & Navigation:** vistas, formularios, Sidebar y rutas para hogares y dispositivos.
+2. **Analytics & Payments Presentation:** historial de consumos, analítica por dispositivo, catálogo de planes y checkout visual.
+3. **Backend REST & Architecture:** estructura de la solución, controladores, comandos, consultas, servicios y repositorios.
+4. **Database & Migrations:** configuración de MySQL, Entity Framework Core, relaciones y migración inicial.
+5. **API Documentation & QA:** Swagger/OpenAPI, contratos HTTP, validación de respuestas y revisión técnica.
+6. **Sprint Tracking & Documentation:** planificación, backlog, evidencias, conclusiones y actualización del informe.
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Team Member</b></td>
+    <td><b>GitHub Username</b></td>
+    <td><b>Frontend Management & Navigation</b></td>
+    <td><b>Analytics & Payments Presentation</b></td>
+    <td><b>Backend REST & Architecture</b></td>
+    <td><b>Database & Migrations</b></td>
+    <td><b>API Documentation & QA</b></td>
+    <td><b>Sprint Tracking & Documentation</b></td>
+  </tr>
+  <tr>
+    <td align="left">Tavara Correa, Sebastian Oswaldo</td>
+    <td>SebastianTavara</td>
+    <td>C</td><td>C</td><td>C</td><td>C</td><td>C</td><td><b>L</b></td>
+  </tr>
+  <tr>
+    <td align="left">Tuncar Vila, Ghorghet Saul</td>
+    <td>Ghorghet</td>
+    <td>C</td><td>C</td><td>C</td><td>C</td><td><b>L</b></td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Cabrejos Chocco, Diego Alexander</td>
+    <td>MOTOX-357</td>
+    <td><b>L</b></td><td>C</td><td>C</td><td>C</td><td>C</td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Fernandez Garfias, Alexander Piero</td>
+    <td>Dostoyevsk1</td>
+    <td>C</td><td><b>L</b></td><td><b>L</b></td><td>C</td><td>C</td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Toro Turpo, Ronal</td>
+    <td>Ronal</td>
+    <td>C</td><td>C</td><td>C</td><td><b>L</b></td><td>C</td><td>C</td>
+  </tr>
+</table>
+
+La matriz refleja el liderazgo por especialidad, pero no limita la colaboración. La integración entre frontend, backend y base de datos requirió revisión cruzada de contratos, nombres de campos, rutas, datos de prueba y criterios de aceptación.
 
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
