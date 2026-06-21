@@ -2535,6 +2535,85 @@ Para el Sprint 3 se definieron seis aspectos de trabajo. La letra **L** identifi
 
 La matriz refleja el liderazgo por especialidad, pero no limita la colaboración. La integración entre frontend, backend y base de datos requirió revisión cruzada de contratos, nombres de campos, rutas, datos de prueba y criterios de aceptación.
 
+#### 5.2.3.3. Sprint Backlog 3
+
+El Sprint Backlog 3 se organizó alrededor de dos incrementos: la ampliación de la Frontend Web Application y la creación del Backend Web Service. Las tareas marcadas como **To-Review** representan componentes implementados que todavía requieren una validación end-to-end con el backend real. La integración con Stripe se conserva como **To-do** porque el repositorio únicamente contiene el flujo visual de checkout.
+
+> **Enlace de seguimiento:** agregar aquí el enlace del tablero de Trello o GitHub Projects utilizado por el equipo para el Sprint 3.
+>
+> <!-- CAPTURA PENDIENTE: insertar una imagen completa del tablero del Sprint 3 con las columnas To-do, In-Process, To-Review y Done. -->
+>
+> `<img src="assets/Tablero-Sprint3.png" alt="Sprint 3 Board"></img>`
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td colspan="2"><b>Sprint #</b></td>
+    <td colspan="6"><b>Sprint 3</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User/Technical Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status</b></td>
+  </tr>
+  <tr>
+    <td>US-19</td><td>Administrar múltiples dispositivos</td><td>T21</td><td>Actualizar navegación y Sidebar</td><td>Incorporar accesos a Homes, Devices, Consumptions, Analytics y Payments dentro de la SPA.</td><td>5</td><td>Diego Cabrejos</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-19</td><td>Administrar múltiples dispositivos</td><td>T22</td><td>Frontend CRUD de hogares</td><td>Implementar listado, formulario de creación y edición, eliminación y rutas del módulo Homes.</td><td>6</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-08 / US-10</td><td>Emparejar y nombrar dispositivos</td><td>T23</td><td>Frontend CRUD de dispositivos</td><td>Implementar listado, registro, edición, eliminación y asignación de nombre, tipo, potencia, estado y hogar.</td><td>8</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-16</td><td>Consultar historial de consumo</td><td>T24</td><td>Gestión de consumos</td><td>Crear las vistas para listar, registrar, editar, eliminar y filtrar registros de consumo.</td><td>8</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-25</td><td>Revisar consumo por equipo</td><td>T25</td><td>Analítica agrupada por dispositivo</td><td>Calcular y mostrar el consumo total en kWh agrupado por dispositivo.</td><td>6</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-27</td><td>Pagar suscripción con tarjeta</td><td>T26</td><td>Catálogo de planes y checkout visual</td><td>Implementar el plan actual, catálogo Starter/Professional/Enterprise y formulario visual de pago.</td><td>6</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-08 / US-27</td><td>Integración Stripe SDK</td><td>T27</td><td>Procesamiento real de pagos</td><td>Integrar Stripe o una pasarela equivalente, validar tokens y almacenar la referencia de la transacción.</td><td>8</td><td>Equipo Backend</td><td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS-11</td><td>Endpoints CRUD de dispositivos</td><td>T28</td><td>Estructura inicial del backend</td><td>Crear la solución ASP.NET Core y organizar Profile, Devices, Analytics y Shared como contextos funcionales.</td><td>8</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-11</td><td>Servicios REST de perfil</td><td>T29</td><td>CRUD de usuarios</td><td>Implementar recursos, assemblers, comandos, consultas, servicios, repositorio y controlador de Users.</td><td>6</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-11</td><td>Endpoints CRUD de dispositivos</td><td>T30</td><td>CRUD de hogares y dispositivos</td><td>Implementar las operaciones REST de Homes y Devices bajo la versión <code>/api/v1</code>.</td><td>10</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-16 / TS</td><td>Servicios de historial</td><td>T31</td><td>CRUD de consumos</td><td>Implementar las operaciones REST para crear, consultar, actualizar y eliminar consumos.</td><td>8</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS</td><td>Persistencia relacional</td><td>T32</td><td>Entity Framework Core y MySQL</td><td>Configurar DbContext, repositorios, Unit of Work y migración inicial para users, homes, devices y consumptions.</td><td>6</td><td>Ronal Toro / Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS</td><td>Documentación y manejo HTTP</td><td>T33</td><td>Swagger, CORS y Problem Details</td><td>Configurar OpenAPI, política CORS, localización y respuestas de error estandarizadas.</td><td>6</td><td>Ghorghet Tuncar / Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS</td><td>Configuración del cliente REST</td><td>T34</td><td>Actualizar variables de entorno</td><td>Separar los endpoints de desarrollo y producción utilizados por la Frontend Web Application.</td><td>2</td><td>Diego Cabrejos</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS</td><td>Integración end-to-end</td><td>T35</td><td>Conectar frontend con <code>/api/v1</code></td><td>Reemplazar Beeceptor por el backend real y validar contratos de Homes, Devices y Consumptions.</td><td>6</td><td>Diego Cabrejos / Alexander Fernandez</td><td>To-Review</td>
+  </tr>
+  <tr>
+    <td>TS</td><td>Quality Assurance</td><td>T36</td><td>Build, pruebas y evidencias</td><td>Ejecutar el build de producción, probar rutas y endpoints y registrar capturas para el Sprint Review.</td><td>6</td><td>Ghorghet Tuncar / Sebastian Tavara / Ronal Toro</td><td>To-Review</td>
+  </tr>
+</table>
+
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
