@@ -1346,6 +1346,26 @@ User goal(Segmento 2): Mantener un cierre ordenado y seguro del local.<br><br>
 
 <img src="assets/designLevelEventStorming.png">
 
+#### Bounded context Billing
+
+<img src="assets/designLevelEventStorming-Billing.png">
+
+#### Bounded context IAM
+
+<img src="assets/designLevelEventStorming-IAM.png">
+
+#### Bounded context Notifications
+
+<img src="assets/designLevelEventStorming-Notifications.png">
+
+#### Bounded context Device Control
+
+<img src="assets/designLevelEventStorming-DeviceControl.png">
+
+#### Bounded context Energy Monitoring
+
+<img src="assets/designLevelEventStorming-EnergyMonitoring.png">
+
 ### 4.6.2. Software Architecture Context Diagram
 En esta sección se presenta el Diagrama de Contexto (Context Level Diagram) correspondiente al Nivel 1 del Modelo C4 para la arquitectura de ElectroCorp. Este diagrama ilustra el panorama general del ecosistema, posicionando al sistema propuesto en el centro para demostrar cómo interactúa directamente con los usuarios finales y los sistemas de software de terceros que complementan su funcionalidad.
 
