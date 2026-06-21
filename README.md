@@ -2413,6 +2413,77 @@ El Sprint 3 representa la transición de ElectroCorp desde una aplicación centr
 
 El alcance desarrollado permite disponer de una arquitectura dividida por contextos funcionales, rutas de navegación para las operaciones principales, recursos REST para el intercambio de información y una migración inicial de base de datos. También se incorporó documentación interactiva con Swagger/OpenAPI para facilitar la validación de los servicios.
 
+#### 5.2.3.1. Sprint Planning 3
+
+<table align="center" border="1" width="90%" style="text-align:left; border-collapse:collapse;">
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td>Sprint 3</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td><b>Date</b></td>
+    <td>Inicio de actividades: 16/05/2026<br>Cierre técnico revisado: 20/06/2026</td>
+  </tr>
+  <tr>
+    <td><b>Time</b></td>
+    <td>Coordinación asincrónica y reuniones de seguimiento durante la iteración</td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td>Modalidad remota mediante WhatsApp, Microsoft Teams y GitHub</td>
+  </tr>
+  <tr>
+    <td><b>Prepared By</b></td>
+    <td>Cabrejos Chocco, Diego Alexander</td>
+  </tr>
+  <tr>
+    <td><b>Attendees (to planning meeting)</b></td>
+    <td>
+      - Tavara Correa, Sebastian Oswaldo<br>
+      - Tuncar Vila, Ghorghet Saul<br>
+      - Cabrejos Chocco, Diego Alexander<br>
+      - Fernandez Garfias, Alexander Piero<br>
+      - Toro Turpo, Ronal
+    </td>
+  </tr>
+  <tr>
+    <td><b>Sprint 2 Review Summary</b></td>
+    <td>En el Sprint 2 se obtuvo la primera versión navegable de la Frontend Web Application, incluyendo la estructura SPA, las rutas principales, el Dashboard y la conexión visual con la Landing Page. Esta base permitió que el Sprint 3 se enfocara en funcionalidades de negocio y en la creación de los servicios backend.</td>
+  </tr>
+  <tr>
+    <td><b>Sprint 2 Retrospective Summary</b></td>
+    <td>El equipo identificó la necesidad de reemplazar progresivamente los datos simulados por servicios REST persistentes, organizar el código por contextos funcionales y mejorar la trazabilidad de las contribuciones mediante commits semánticos y tareas más pequeñas.</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td><b>Sprint 3 Goal</b></td>
+    <td>
+      <b>Our focus is on</b> mejorar la Frontend Web Application con módulos de gestión de hogares y dispositivos, consulta de consumos, analítica por equipo y presentación de planes; además de construir el primer Backend Web Service de ElectroCorp.<br><br>
+      <b>We believe it delivers</b> una base funcional y persistente para que los usuarios puedan administrar los elementos de su entorno energético y para que la aplicación disponga de contratos REST documentados para usuarios, hogares, dispositivos y consumos.<br><br>
+      <b>This will be confirmed when</b> la aplicación frontend compile para producción, las rutas y formularios principales estén implementados, el backend exponga operaciones CRUD bajo <code>/api/v1</code>, la migración inicial cree las tablas requeridas y los endpoints puedan visualizarse mediante Swagger/OpenAPI.
+    </td>
+  </tr>
+  <tr>
+    <td><b>Selected User Stories</b></td>
+    <td>US-08, US-10, US-16, US-19, US-25 y US-27; complementadas por las historias técnicas relacionadas con servicios REST, persistencia y documentación de API.</td>
+  </tr>
+  <tr>
+    <td><b>Sprint 3 Velocity</b></td>
+    <td>23 Story Points completados. La US-27, estimada en 8 Story Points, quedó parcialmente desarrollada porque se implementó el flujo visual de selección y checkout, pero no la integración real con Stripe.</td>
+  </tr>
+  <tr>
+    <td><b>Sum of Story Points</b></td>
+    <td>31 Story Points comprometidos</td>
+  </tr>
+</table>
+
+La Definition of Done considerada para este Sprint exige que cada incremento tenga una ruta o endpoint identificable, mantenga una estructura coherente con la arquitectura del proyecto, compile sin errores en el entorno correspondiente y cuente con evidencia verificable. Las integraciones que todavía dependen de servicios simulados o proveedores externos se registran como pendientes y no se consideran completamente cerradas.
+
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
