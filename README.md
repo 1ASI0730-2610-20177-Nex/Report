@@ -2672,6 +2672,44 @@ commits de Frontend
 commits de Backend
 `<img src="assets/Sprint3-Backend-Commit.png" alt="Backend commit Sprint 3"></img>`
 
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se trabajó sobre los repositorios oficiales de Frontend y Backend. La trazabilidad de GitHub muestra primero la incorporación de los módulos de Analytics y Payments en la SPA y, posteriormente, la creación de la solución backend de ElectroCorp.
+
+- **Frontend Repository:** https://github.com/1ASI0730-2610-20177-Nex/Frontend
+- **Frontend Commit History:** https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
+- **Backend Repository:** https://github.com/1ASI0730-2610-20177-Nex/Backend
+- **Backend Commit History:** https://github.com/1ASI0730-2610-20177-Nex/Backend/commits/main/
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Repository</b></td>
+    <td><b>Branch</b></td>
+    <td><b>Commit Id</b></td>
+    <td><b>Commit Message</b></td>
+    <td><b>Evidence / Scope</b></td>
+    <td><b>Committed on</b></td>
+  </tr>
+  <tr><td>Frontend</td><td>main</td><td><code>49545df</code></td><td>feat: add entity in analytics</td><td>Incorpora la entidad utilizada para representar los consumos en el contexto Analytics.</td><td>16/05/2026</td></tr>
+  <tr><td>Frontend</td><td>main</td><td><code>c91aa48</code></td><td>feat: add assembler in analytics</td><td>Agrega el ensamblador para transformar la respuesta REST en entidades del frontend.</td><td>16/05/2026</td></tr>
+  <tr><td>Frontend</td><td>main</td><td><code>88ecda0</code></td><td>feat: add api for analytics</td><td>Agrega el cliente API para las operaciones de consumos.</td><td>16/05/2026</td></tr>
+  <tr><td>Frontend</td><td>main</td><td><code>4b32d59</code></td><td>feat: add application in analytics</td><td>Incorpora el store de aplicación para carga, creación, edición y eliminación de consumos.</td><td>16/05/2026</td></tr>
+  <tr><td>Frontend</td><td>main</td><td><code>5186195</code></td><td>feat: add views for payments</td><td>Agrega las vistas de plan actual, catálogo de planes y checkout.</td><td>16/05/2026</td></tr>
+  <tr><td>Frontend</td><td>main</td><td><code>33fc163</code></td><td>feat: add routes for analytics</td><td>Registra las rutas de consumos y analítica por dispositivo.</td><td>16/05/2026</td></tr>
+  <tr><td>Frontend</td><td>main</td><td><code>c876b42</code></td><td>feat: add routes for payments</td><td>Registra las rutas de selección de plan y checkout.</td><td>16/05/2026</td></tr>
+  <tr><td>Frontend</td><td>main</td><td><code>7c388ae</code></td><td>fix: update sidebar and routes</td><td>Ajusta la navegación para exponer los nuevos módulos de la aplicación.</td><td>16/05/2026</td></tr>
+  <tr><td>Frontend</td><td>main</td><td><code>2fada7d</code></td><td>Fix: adapt environment</td><td>Actualiza la URL del servicio utilizada en el entorno de producción.</td><td>17/05/2026</td></tr>
+  <tr><td>Backend</td><td>main</td><td><code>f84e276</code></td><td>feat: intial commit</td><td>Consolida la primera versión del backend de ElectroCorp con los contextos Profile, Devices y Analytics, persistencia MySQL, migración inicial y Swagger.</td><td>20/06/2026</td></tr>
+</table>
+
+<!-- CAPTURA PENDIENTE: insertar la vista de commits del repositorio Frontend mostrando los commits de Analytics, Payments y Environment. -->
+`<img src="assets/Sprint3-Frontend-Commits.png" alt="Frontend commits Sprint 3"></img>`
+
+<!-- CAPTURA PENDIENTE: insertar la vista del commit f84e276 del repositorio Backend. -->
+`<img src="assets/Sprint3-Backend-Commit.png" alt="Backend commit Sprint 3"></img>`
+
+Las evidencias muestran una organización modular del frontend mediante los contextos `management`, `analytics`, `payments` y `shared`. En el backend se observa la separación de `Profile`, `Devices`, `Analytics` y `Shared`, cada uno con capas de dominio, aplicación, infraestructura e interfaces REST según las necesidades del módulo.
+
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
