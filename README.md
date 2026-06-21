@@ -2672,43 +2672,93 @@ commits de Frontend
 commits de Backend
 `<img src="assets/Sprint3-Backend-Commit.png" alt="Backend commit Sprint 3"></img>`
 
-#### 5.2.3.4. Development Evidence for Sprint Review
+#### 5.2.3.5. Execution Evidence for Sprint Review
 
-Durante el Sprint 3 se trabajó sobre los repositorios oficiales de Frontend y Backend. La trazabilidad de GitHub muestra primero la incorporación de los módulos de Analytics y Payments en la SPA y, posteriormente, la creación de la solución backend de ElectroCorp.
+La ejecución fue revisada en dos niveles: compilación de la Frontend Web Application y validación estructural de los servicios backend. Sobre el paquete entregado del frontend se ejecutaron los siguientes comandos:
 
-- **Frontend Repository:** https://github.com/1ASI0730-2610-20177-Nex/Frontend
-- **Frontend Commit History:** https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
-- **Backend Repository:** https://github.com/1ASI0730-2610-20177-Nex/Backend
-- **Backend Commit History:** https://github.com/1ASI0730-2610-20177-Nex/Backend/commits/main/
+```bash
+npm ci
+npm run build
+```
 
-<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
-  <tr>
-    <td><b>Repository</b></td>
-    <td><b>Branch</b></td>
-    <td><b>Commit Id</b></td>
-    <td><b>Commit Message</b></td>
-    <td><b>Evidence / Scope</b></td>
-    <td><b>Committed on</b></td>
-  </tr>
-  <tr><td>Frontend</td><td>main</td><td><code>49545df</code></td><td>feat: add entity in analytics</td><td>Incorpora la entidad utilizada para representar los consumos en el contexto Analytics.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>c91aa48</code></td><td>feat: add assembler in analytics</td><td>Agrega el ensamblador para transformar la respuesta REST en entidades del frontend.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>88ecda0</code></td><td>feat: add api for analytics</td><td>Agrega el cliente API para las operaciones de consumos.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>4b32d59</code></td><td>feat: add application in analytics</td><td>Incorpora el store de aplicación para carga, creación, edición y eliminación de consumos.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>5186195</code></td><td>feat: add views for payments</td><td>Agrega las vistas de plan actual, catálogo de planes y checkout.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>33fc163</code></td><td>feat: add routes for analytics</td><td>Registra las rutas de consumos y analítica por dispositivo.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>c876b42</code></td><td>feat: add routes for payments</td><td>Registra las rutas de selección de plan y checkout.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>7c388ae</code></td><td>fix: update sidebar and routes</td><td>Ajusta la navegación para exponer los nuevos módulos de la aplicación.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>2fada7d</code></td><td>Fix: adapt environment</td><td>Actualiza la URL del servicio utilizada en el entorno de producción.</td><td>17/05/2026</td></tr>
-  <tr><td>Backend</td><td>main</td><td><code>f84e276</code></td><td>feat: intial commit</td><td>Consolida la primera versión del backend de ElectroCorp con los contextos Profile, Devices y Analytics, persistencia MySQL, migración inicial y Swagger.</td><td>20/06/2026</td></tr>
-</table>
+El build de producción finalizó correctamente el **21/06/2026** utilizando Vite. Como resultado, se transformaron **544 módulos** y se generó el directorio `dist` con los recursos optimizados de las vistas de hogares, dispositivos, consumos, analítica y pagos.
 
-<!-- CAPTURA PENDIENTE: insertar la vista de commits del repositorio Frontend mostrando los commits de Analytics, Payments y Environment. -->
-`<img src="assets/Sprint3-Frontend-Commits.png" alt="Frontend commits Sprint 3"></img>`
+```text
+vite v8.0.11 building client environment for production...
+✓ 544 modules transformed.
+✓ built successfully
+```
 
-<!-- CAPTURA PENDIENTE: insertar la vista del commit f84e276 del repositorio Backend. -->
-`<img src="assets/Sprint3-Backend-Commit.png" alt="Backend commit Sprint 3"></img>`
+Las rutas funcionales identificadas en la SPA son las siguientes:
 
-Las evidencias muestran una organización modular del frontend mediante los contextos `management`, `analytics`, `payments` y `shared`. En el backend se observa la separación de `Profile`, `Devices`, `Analytics` y `Shared`, cada uno con capas de dominio, aplicación, infraestructura e interfaces REST según las necesidades del módulo.
+| Contexto | Ruta | Resultado esperado |
+| :--- | :--- | :--- |
+| Shared | `/home` | Presenta la página principal de la aplicación. |
+| Management | `/management/homes` | Lista los hogares registrados. |
+| Management | `/management/homes/new` | Presenta el formulario de creación de hogar. |
+| Management | `/management/homes/:id/edit` | Presenta el formulario de edición de hogar. |
+| Management | `/management/devices` | Lista los dispositivos administrados. |
+| Management | `/management/devices/new` | Presenta el formulario de registro de dispositivo. |
+| Management | `/management/devices/:id/edit` | Presenta el formulario de edición de dispositivo. |
+| Analytics | `/analytics/consumptions` | Muestra el historial de consumos. |
+| Analytics | `/analytics/consumptions/new` | Permite registrar un consumo. |
+| Analytics | `/analytics/consumptions/:id/edit` | Permite editar un consumo. |
+| Analytics | `/analytics/devices` | Agrupa el consumo total por dispositivo. |
+| Payments | `/payments/plan` | Muestra el plan actual. |
+| Payments | `/payments/plans` | Muestra los planes disponibles. |
+| Payments | `/payments/checkout/:planId` | Presenta el formulario visual de checkout. |
+
+**Evidencias visuales que deben incorporarse en el informe:**
+
+<!-- CAPTURA PENDIENTE: listado de hogares. -->
+`<img src="assets/Sprint3-Frontend-Homes.png" alt="Homes module"></img>`
+
+<!-- CAPTURA PENDIENTE: listado y formulario de dispositivos. -->
+`<img src="assets/Sprint3-Frontend-Devices.png" alt="Devices module"></img>`
+
+<!-- CAPTURA PENDIENTE: historial de consumos. -->
+`<img src="assets/Sprint3-Frontend-Consumptions.png" alt="Consumptions module"></img>`
+
+<!-- CAPTURA PENDIENTE: analítica agrupada por dispositivo. -->
+`<img src="assets/Sprint3-Frontend-Analytics.png" alt="Device analytics"></img>`
+
+<!-- CAPTURA PENDIENTE: catálogo de planes y checkout. -->
+`<img src="assets/Sprint3-Frontend-Payments.png" alt="Payments module"></img>`
+
+Para ejecutar el backend en un equipo con .NET SDK 10 y MySQL disponibles se utiliza:
+
+```bash
+cd Backend-main/Electro.Corporation.Platform
+dotnet restore
+dotnet run
+```
+
+En el perfil de desarrollo, la solución está configurada para iniciar en:
+
+- `http://localhost:5191`
+- `https://localhost:7003`
+- Swagger UI: `http://localhost:5191/swagger`
+
+Al iniciar la aplicación, Entity Framework Core aplica las migraciones pendientes mediante `Database.Migrate()`. La migración inicial crea las tablas `users`, `homes`, `devices` y `consumptions`; además, configura la relación entre `devices` y `homes` y un índice único para el correo del usuario.
+
+| Caso de validación | Resultado de la revisión | Estado |
+| :--- | :--- | :---: |
+| Instalación de dependencias frontend | `npm ci` finaliza correctamente. | Passed |
+| Build de producción frontend | Vite transforma 544 módulos y genera `dist`. | Passed |
+| Rutas de Homes y Devices | Las rutas, listas y formularios se encuentran implementados. | Passed |
+| Historial y analítica de consumos | El módulo contiene CRUD, filtro y agrupación de kWh por dispositivo. | Passed |
+| Catálogo y checkout | El flujo visual está implementado; no procesa cobros reales. | Partial |
+| Backend REST | Controladores, recursos, servicios y repositorios se encuentran en el código entregado. | Implemented |
+| Migración MySQL | La migración inicial se encuentra versionada en el repositorio. | Implemented |
+| Integración frontend-backend | El frontend todavía utiliza URLs de Beeceptor y debe apuntarse al backend bajo `/api/v1`. | To-Review |
+| Swagger y ejecución del backend | Debe adjuntarse una captura obtenida en el equipo del proyecto con .NET y MySQL activos. | Evidence pending |
+
+**Observaciones técnicas de cierre:**
+
+- El frontend entregado todavía consume Beeceptor en los archivos `.env.development` y `.env.production`; por ello, la conexión definitiva debe reemplazarse por la URL pública o local del Backend Web Service.
+- Antes de declarar la integración end-to-end como terminada se deben validar los contratos de `homeId` y `userId`, así como la correspondencia de los métodos de creación, actualización y eliminación de dispositivos en el cliente API.
+- El módulo Payments implementa la experiencia visual, pero la US-27 no queda completamente cerrada hasta integrar Stripe o una pasarela equivalente.
+- Las credenciales de base de datos deben administrarse mediante variables de entorno o secretos y no permanecer embebidas en los archivos de configuración de producción.
 
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
