@@ -2433,7 +2433,7 @@ El alcance desarrollado permite disponer de una arquitectura dividida por contex
   </tr>
   <tr>
     <td><b>Location</b></td>
-    <td>Modalidad remota mediante WhatsApp, Microsoft Teams y GitHub</td>
+    <td>Modalidad remota mediante WhatsApp y GitHub</td>
   </tr>
   <tr>
     <td><b>Prepared By</b></td>
@@ -2483,6 +2483,57 @@ El alcance desarrollado permite disponer de una arquitectura dividida por contex
 </table>
 
 La Definition of Done considerada para este Sprint exige que cada incremento tenga una ruta o endpoint identificable, mantenga una estructura coherente con la arquitectura del proyecto, compile sin errores en el entorno correspondiente y cuente con evidencia verificable. Las integraciones que todavía dependen de servicios simulados o proveedores externos se registran como pendientes y no se consideran completamente cerradas.
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Para el Sprint 3 se definieron seis aspectos de trabajo. La letra **L** identifica al líder principal del aspecto y la letra **C** a quienes participaron como colaboradores o revisores.
+
+1. **Frontend Management & Navigation:** vistas, formularios, Sidebar y rutas para hogares y dispositivos.
+2. **Analytics & Payments Presentation:** historial de consumos, analítica por dispositivo, catálogo de planes y checkout visual.
+3. **Backend REST & Architecture:** estructura de la solución, controladores, comandos, consultas, servicios y repositorios.
+4. **Database & Migrations:** configuración de MySQL, Entity Framework Core, relaciones y migración inicial.
+5. **API Documentation & QA:** Swagger/OpenAPI, contratos HTTP, validación de respuestas y revisión técnica.
+6. **Sprint Tracking & Documentation:** planificación, backlog, evidencias, conclusiones y actualización del informe.
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Team Member</b></td>
+    <td><b>GitHub Username</b></td>
+    <td><b>Frontend Management & Navigation</b></td>
+    <td><b>Analytics & Payments Presentation</b></td>
+    <td><b>Backend REST & Architecture</b></td>
+    <td><b>Database & Migrations</b></td>
+    <td><b>API Documentation & QA</b></td>
+    <td><b>Sprint Tracking & Documentation</b></td>
+  </tr>
+  <tr>
+    <td align="left">Tavara Correa, Sebastian Oswaldo</td>
+    <td>SebastianTavara</td>
+    <td>C</td><td>C</td><td>C</td><td>C</td><td>C</td><td><b>L</b></td>
+  </tr>
+  <tr>
+    <td align="left">Tuncar Vila, Ghorghet Saul</td>
+    <td>Ghorghet</td>
+    <td>C</td><td>C</td><td>C</td><td>C</td><td><b>L</b></td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Cabrejos Chocco, Diego Alexander</td>
+    <td>MOTOX-357</td>
+    <td><b>L</b></td><td>C</td><td>C</td><td>C</td><td>C</td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Fernandez Garfias, Alexander Piero</td>
+    <td>Dostoyevsk1</td>
+    <td>C</td><td><b>L</b></td><td><b>L</b></td><td>C</td><td>C</td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Toro Turpo, Ronal</td>
+    <td>Ronal</td>
+    <td>C</td><td>C</td><td>C</td><td><b>L</b></td><td>C</td><td>C</td>
+  </tr>
+</table>
+
+La matriz refleja el liderazgo por especialidad, pero no limita la colaboración. La integración entre frontend, backend y base de datos requirió revisión cruzada de contratos, nombres de campos, rutas, datos de prueba y criterios de aceptación.
 
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
