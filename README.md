@@ -28,8 +28,6 @@
 
 ## Registro de Versiones del Informe
 
-## Registro de Versiones del Informe
-
 | Versión | Fecha | Autor | Descripción de modificación |
 | :---: | :---: | :--- | :--- |
 | AV1 | 22/04/2026 | Tavara Correa, Sebastian Oswaldo; Tuncar Vila, Ghorghet Saul; Cabrejos Chocco, Diego Alexander; Fernandez Garfias Alexander Piero; Toro Turpo Ronal | Primer avance del informe: desarrollo de la información de la startup, identificación de la problemática, definición de los segmentos objetivo, requerimientos iniciales y documentación base del proyecto. |
