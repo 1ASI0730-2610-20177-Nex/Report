@@ -2854,6 +2854,60 @@ El backend incorpora un manejador global de excepciones y una fábrica de Proble
 <!-- CAPTURA PENDIENTE: tablas users, homes, devices y consumptions dentro de MySQL Workbench. -->
 `<img src="assets/Sprint3-Backend-MySQL.png" alt="MySQL database Sprint 3"></img>`
 
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Para este Sprint se prepararon artefactos y configuraciones diferenciadas para el despliegue del frontend y del backend. El frontend cuenta con un build de producción verificable mediante Vite. El backend incluye configuración para el entorno Production, pero necesita una instancia pública de MySQL, secretos de conexión y una plataforma compatible con .NET 10 para completar el despliegue público.
+
+**Frontend Web Application**
+
+El artefacto de producción se genera mediante:
+
+```bash
+npm ci
+npm run build
+```
+
+La salida se almacena en el directorio `dist`, que puede publicarse en Vercel, Netlify o un servicio equivalente. Los despliegues registrados previamente en el documento del proyecto son los siguientes y deben ser confirmados por el equipo para establecer cuál corresponde a la versión final del Sprint 3:
+
+- `https://frontend-theta-ten-69.vercel.app`
+- `https://stirring-macaron-e87e1f.netlify.app`
+
+Para la versión definitiva, la variable `VITE_ELECTROCORP_PLATFORM_API_URL` debe apuntar a la URL pública del backend y los paths de los recursos deben conservar compatibilidad con `/api/v1/homes`, `/api/v1/devices` y `/api/v1/consumptions`.
+
+**Backend Web Service**
+
+El backend puede desplegarse en una plataforma compatible con contenedores o .NET, como Azure App Service, Google Cloud Run, AWS App Runner, Render o Railway. El entorno de producción debe proporcionar, como mínimo, los siguientes secretos o variables:
+
+```text
+DATABASE_URL
+DATABASE_USER
+DATABASE_PASSWORD
+DATABASE_SCHEMA
+ASPNETCORE_ENVIRONMENT=Production
+```
+
+La base de datos debe ser una instancia MySQL accesible desde el servicio backend. Luego del despliegue se debe validar el endpoint de Swagger o, en caso Swagger se desactive en producción, probar directamente las rutas `/api/v1/users`, `/api/v1/homes`, `/api/v1/devices` y `/api/v1/consumptions` con Postman.
+
+| Componente | Evidencia disponible | Estado del Sprint 3 |
+| :--- | :--- | :---: |
+| Frontend source | Repositorio GitHub y rutas funcionales. | Completed |
+| Frontend production build | Build exitoso con Vite y directorio `dist`. | Verified |
+| Frontend public URL | Existen URLs previas en Vercel/Netlify; corresponde confirmar la versión desplegada. | To-Review |
+| Backend source | Repositorio GitHub con ASP.NET Core, EF Core y MySQL. | Completed |
+| Backend public URL | No se encontró una URL pública dentro de los archivos entregados. | Pending |
+| MySQL production database | Migración inicial disponible; instancia cloud y secretos pendientes de evidencia. | Pending |
+| End-to-end production integration | Requiere reemplazar Beeceptor por la URL real del backend. | To-Review |
+
+<!-- CAPTURA PENDIENTE: despliegue público del Frontend mostrando la URL en el navegador. -->
+`<img src="assets/Sprint3-Deployment-Frontend.png" alt="Frontend deployment Sprint 3"></img>`
+
+<!-- CAPTURA PENDIENTE: panel del servicio backend desplegado y estado Running/Healthy. -->
+`<img src="assets/Sprint3-Deployment-Backend.png" alt="Backend deployment Sprint 3"></img>`
+
+<!-- CAPTURA PENDIENTE: prueba desde Postman o Swagger contra la URL pública del backend. -->
+`<img src="assets/Sprint3-Deployment-API-Test.png" alt="Public API test Sprint 3"></img>`
+
+Como criterio de cierre del despliegue, el equipo debe comprobar que una operación creada desde el frontend sea persistida por el backend en MySQL y permanezca disponible después de recargar la aplicación. Esta validación constituye la evidencia end-to-end necesaria para cerrar T35.
 
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
