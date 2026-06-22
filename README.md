@@ -2562,11 +2562,7 @@ La matriz refleja el liderazgo por especialidad, pero no limita la colaboración
 
 El Sprint Backlog 3 se organizó alrededor de dos incrementos: la ampliación de la Frontend Web Application y la creación del Backend Web Service. Las tareas marcadas como **To-Review** representan componentes implementados que todavía requieren una validación end-to-end con el backend real. La integración con Stripe se conserva como **To-do** porque el repositorio únicamente contiene el flujo visual de checkout.
 
-> **Enlace de seguimiento:** agregar aquí el enlace del tablero de Trello o GitHub Projects utilizado por el equipo para el Sprint 3.
->
-> <!-- CAPTURA PENDIENTE: insertar una imagen completa del tablero del Sprint 3 con las columnas To-do, In-Process, To-Review y Done. -->
->
-> `<img src="assets/Tablero-Sprint3.png" alt="Sprint 3 Board"></img>`
+> **Enlace de seguimiento:** https://trello.com/b/Ox2SHhpy
 
 <table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
   <tr>
@@ -2640,7 +2636,9 @@ El Sprint Backlog 3 se organizó alrededor de dos incrementos: la ampliación de
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-Durante el Sprint 3 se trabajó sobre los repositorios oficiales de Frontend y Backend. La trazabilidad de GitHub muestra primero la incorporación de los módulos de Analytics y Payments en la SPA y, posteriormente, la creación de la solución backend de ElectroCorp.
+Durante el Sprint 3 se trabajó sobre los repositorios oficiales de Frontend y Backend de ElectroCorp. En el Frontend se incorporaron las funcionalidades correspondientes a los módulos de Analytics y Payments, además de mejoras en las rutas, los estilos, la barra lateral y la configuración del entorno.
+
+En el Backend se realizaron inicialmente actividades de preparación de la arquitectura base, documentación, localización de mensajes y refactorización del módulo de autenticación. Posteriormente, se incorporó la primera versión específica del backend de ElectroCorp, organizada mediante bounded contexts y preparada para exponer servicios REST, almacenar información en MySQL y documentar sus endpoints mediante Swagger.
 
 - **Frontend Repository:** https://github.com/1ASI0730-2610-20177-Nex/Frontend
 - **Frontend Commit History:** https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
@@ -2656,24 +2654,173 @@ Durante el Sprint 3 se trabajó sobre los repositorios oficiales de Frontend y B
     <td><b>Evidence / Scope</b></td>
     <td><b>Committed on</b></td>
   </tr>
-  <tr><td>Frontend</td><td>main</td><td><code>49545df</code></td><td>feat: add entity in analytics</td><td>Incorpora la entidad utilizada para representar los consumos en el contexto Analytics.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>c91aa48</code></td><td>feat: add assembler in analytics</td><td>Agrega el ensamblador para transformar la respuesta REST en entidades del frontend.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>88ecda0</code></td><td>feat: add api for analytics</td><td>Agrega el cliente API para las operaciones de consumos.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>4b32d59</code></td><td>feat: add application in analytics</td><td>Incorpora el store de aplicación para carga, creación, edición y eliminación de consumos.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>5186195</code></td><td>feat: add views for payments</td><td>Agrega las vistas de plan actual, catálogo de planes y checkout.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>33fc163</code></td><td>feat: add routes for analytics</td><td>Registra las rutas de consumos y analítica por dispositivo.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>c876b42</code></td><td>feat: add routes for payments</td><td>Registra las rutas de selección de plan y checkout.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>7c388ae</code></td><td>fix: update sidebar and routes</td><td>Ajusta la navegación para exponer los nuevos módulos de la aplicación.</td><td>16/05/2026</td></tr>
-  <tr><td>Frontend</td><td>main</td><td><code>2fada7d</code></td><td>Fix: adapt environment</td><td>Actualiza la URL del servicio utilizada en el entorno de producción.</td><td>17/05/2026</td></tr>
-  <tr><td>Backend</td><td>main</td><td><code>f84e276</code></td><td>feat: intial commit</td><td>Consolida la primera versión del backend de ElectroCorp con los contextos Profile, Devices y Analytics, persistencia MySQL, migración inicial y Swagger.</td><td>20/06/2026</td></tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>49545df</code></td>
+    <td>feat: add entity in analytics</td>
+    <td>Incorpora la entidad utilizada para representar los registros de consumo energético dentro del contexto Analytics.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>c91aa48</code></td>
+    <td>feat: add assembler in analytics</td>
+    <td>Agrega el assembler encargado de transformar las respuestas REST en entidades utilizadas por el Frontend.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>88ecda0</code></td>
+    <td>feat: add api for analytics</td>
+    <td>Agrega el cliente API para ejecutar operaciones relacionadas con los registros de consumo energético.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>4b32d59</code></td>
+    <td>feat: add application in analytics</td>
+    <td>Incorpora la lógica de aplicación necesaria para cargar, crear, actualizar y eliminar registros de consumo.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>cb6b229</code></td>
+    <td>feat: add plans in payments</td>
+    <td>Agrega la información y representación de los planes disponibles dentro del módulo Payments.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>5186195</code></td>
+    <td>feat: add views for payments</td>
+    <td>Agrega las vistas correspondientes al plan actual, catálogo de planes y proceso de checkout.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>33fc163</code></td>
+    <td>feat: add routes for analytics</td>
+    <td>Registra las rutas necesarias para acceder a los consumos y a la analítica de los dispositivos.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>c876b42</code></td>
+    <td>feat: add routes for payments</td>
+    <td>Registra las rutas correspondientes a la selección de planes, visualización del plan actual y checkout.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>8e0e27d</code></td>
+    <td>style: add styles for payments</td>
+    <td>Incorpora los estilos visuales necesarios para las páginas y componentes del módulo Payments.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>7c388ae</code></td>
+    <td>fix: update sidebar and routes</td>
+    <td>Actualiza la barra lateral y la configuración de rutas para exponer correctamente los nuevos módulos.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>2fada7d</code></td>
+    <td>Fix: adapt environment</td>
+    <td>Ajusta la configuración del entorno y la dirección utilizada para conectarse con los servicios de la aplicación.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>d253089</code></td>
+    <td>refactor: standardize xml documentation, simplify using directives, and apply consistent code formatting across assemblers and controllers.</td>
+    <td>Estandariza la documentación XML, simplifica las directivas using y aplica un formato consistente en assemblers y controladores.</td>
+    <td>31/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>f63d9d8</code></td>
+    <td>docs: update humanizer usage description in readme to include snake_case and plural table names.</td>
+    <td>Actualiza la documentación del proyecto para describir el uso de snake_case y nombres de tablas en plural.</td>
+    <td>31/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>6e340be</code></td>
+    <td>refactor: remove redundant fields and use primary constructor parameters in authentication-controller.</td>
+    <td>Refactoriza el controlador de autenticación, elimina campos redundantes y utiliza parámetros de constructor primario.</td>
+    <td>01/06/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>03514b7</code></td>
+    <td>feat: add spanish localization for iam domain error messages.</td>
+    <td>Agrega la localización al español de los mensajes de error pertenecientes al dominio IAM.</td>
+    <td>01/06/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>f45e86d</code></td>
+    <td>feat: add user-created-successfully localized resources for the iam module.</td>
+    <td>Incorpora recursos localizados para informar la creación satisfactoria de usuarios dentro del módulo IAM.</td>
+    <td>01/06/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>a0046a8</code></td>
+    <td>docs: hyphenate sign-up in xml documentation for iuser-command-service.</td>
+    <td>Corrige y estandariza la documentación XML del servicio de comandos de usuario relacionado con el registro.</td>
+    <td>01/06/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>f84e276</code></td>
+    <td>feat: intial commit</td>
+    <td>Incorpora la primera versión específica del backend de ElectroCorp con los bounded contexts Analytics, Devices, Profile y Shared, servicios REST, persistencia con Entity Framework Core y MySQL, migración inicial y documentación mediante Swagger.</td>
+    <td>20/06/2026</td>
+  </tr>
 </table>
 
-commits de Frontend
-<!-- CAPTURA PENDIENTE: insertar la vista de commits del repositorio Frontend mostrando los commits de Analytics, Payments y Environment. -->
-`<img src="assets/Sprint3-Frontend-Commits.png" alt="Frontend commits Sprint 3"></img>`
+commits Frontend
 
-commits de Backend
-`<img src="assets/Sprint3-Backend-Commit.png" alt="Backend commit Sprint 3"></img>`
+commits Backend
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
