@@ -3020,12 +3020,7 @@ npm ci
 npm run build
 ```
 
-La salida se almacena en el directorio `dist`, que puede publicarse en Vercel, Netlify o un servicio equivalente. Los despliegues registrados previamente en el documento del proyecto son los siguientes y deben ser confirmados por el equipo para establecer cuál corresponde a la versión final del Sprint 3:
-
-- `https://frontend-theta-ten-69.vercel.app`
-- `https://stirring-macaron-e87e1f.netlify.app`
-
-Para la versión definitiva, la variable `VITE_ELECTROCORP_PLATFORM_API_URL` debe apuntar a la URL pública del backend y los paths de los recursos deben conservar compatibilidad con `/api/v1/homes`, `/api/v1/devices` y `/api/v1/consumptions`.
+La salida se almacena en el directorio `dist`,
 
 **Backend Web Service**
 
@@ -3051,16 +3046,21 @@ La base de datos debe ser una instancia MySQL accesible desde el servicio backen
 | MySQL production database | Migración inicial disponible; instancia cloud y secretos pendientes de evidencia. | Pending |
 | End-to-end production integration | Requiere reemplazar Beeceptor por la URL real del backend. | To-Review |
 
-<!-- CAPTURA PENDIENTE: despliegue público del Frontend mostrando la URL en el navegador. -->
-`<img src="assets/Sprint3-Deployment-Frontend.png" alt="Frontend deployment Sprint 3"></img>`
+Backend
+link del Backend: https://electrocorp-platform-u1f4.onrender.com/
 
-<!-- CAPTURA PENDIENTE: panel del servicio backend desplegado y estado Running/Healthy. -->
-`<img src="assets/Sprint3-Deployment-Backend.png" alt="Backend deployment Sprint 3"></img>`
+<img src="assets/backend-devices-getdevices.png"></img><br>
+<img src="assets/backend-devices-getdevicesbyid.png"></img><br>
+<img src="assets/backend-devices-putdevicesbyid.png"></img><br>
+<img src="assets/backend-users-signin.png"></img><br>
 
-<!-- CAPTURA PENDIENTE: prueba desde Postman o Swagger contra la URL pública del backend. -->
-`<img src="assets/Sprint3-Deployment-API-Test.png" alt="Public API test Sprint 3"></img>`
+Frontend
+link del Frontend: https://electrocorp-appweb.onrender.com
 
-Como criterio de cierre del despliegue, el equipo debe comprobar que una operación creada desde el frontend sea persistida por el backend en MySQL y permanezca disponible después de recargar la aplicación. Esta validación constituye la evidencia end-to-end necesaria para cerrar T35.
+<img src="assets/frontend-billing.png"></img><br>
+<img src="assets/frontend-dashboard.png"></img><br>
+<img src="assets/frontend-notifications.png"></img><br>
+<img src="assets/frontend-signin.png"></img><br>
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
@@ -3082,22 +3082,6 @@ Durante el Sprint 3 el equipo afrontó un incremento de complejidad al trabajar 
 - Se identificó que los ambientes simulados, como Beeceptor, son útiles para avanzar en paralelo, pero deben reemplazarse y verificarse antes de considerar terminada la integración.
 - La concentración de una gran parte del backend en un único commit dificulta la trazabilidad individual. Para el siguiente Sprint se acordó trabajar con ramas `feature/*`, Pull Requests pequeños y commits semánticos por cada caso de uso.
 - Las tareas de despliegue deben asignarse desde el inicio del Sprint y no únicamente al final, debido a que requieren configuración de secretos, base de datos y compatibilidad entre entornos.
-
-Backend
-link del Backend: https://electrocorp-platform-u1f4.onrender.com/
-
-"img src="assets/backend-devices-getdevices.png"
-"img src="assets/backend-devices-getdevicesbyid.png"
-"img src="assets/backend-devices-putdevicesbyid.png"
-"img src="assets/backend-users-signin.png"
-
-Frontend
-link del Frontend: https://electrocorp-appweb.onrender.com
-
-"img src="assets/frontend-billing.png"
-"img src="assets/frontend-dashboard.png"
-"img src="assets/frontend-notifications.png"
-"img src="assets/frontend-signin.png"
 
 
 ### 5.3.1. Diseño de Entrevistas
