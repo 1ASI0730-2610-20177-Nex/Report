@@ -3083,6 +3083,23 @@ Durante el Sprint 3 el equipo afrontó un incremento de complejidad al trabajar 
 - La concentración de una gran parte del backend en un único commit dificulta la trazabilidad individual. Para el siguiente Sprint se acordó trabajar con ramas `feature/*`, Pull Requests pequeños y commits semánticos por cada caso de uso.
 - Las tareas de despliegue deben asignarse desde el inicio del Sprint y no únicamente al final, debido a que requieren configuración de secretos, base de datos y compatibilidad entre entornos.
 
+Backend
+link del Backend: https://electrocorp-platform-u1f4.onrender.com/
+
+"img src="assets/backend-devices-getdevices.png"
+"img src="assets/backend-devices-getdevicesbyid.png"
+"img src="assets/backend-devices-putdevicesbyid.png"
+"img src="assets/backend-users-signin.png"
+
+Frontend
+link del Frontend: https://electrocorp-appweb.onrender.com
+
+"img src="assets/frontend-billing.png"
+"img src="assets/frontend-dashboard.png"
+"img src="assets/frontend-notifications.png"
+"img src="assets/frontend-signin.png"
+
+
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
