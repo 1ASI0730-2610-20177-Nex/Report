@@ -2760,6 +2760,101 @@ Al iniciar la aplicación, Entity Framework Core aplica las migraciones pendient
 - El módulo Payments implementa la experiencia visual, pero la US-27 no queda completamente cerrada hasta integrar Stripe o una pasarela equivalente.
 - Las credenciales de base de datos deben administrarse mediante variables de entorno o secretos y no permanecer embebidas en los archivos de configuración de producción.
 
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+El Backend Web Service fue desarrollado con ASP.NET Core y expone una API REST versionada bajo el prefijo `/api/v1`. La documentación interactiva se genera mediante Swagger/OpenAPI y se habilita en el entorno Development.
+
+**Base URL de desarrollo:**
+
+```text
+http://localhost:5191/api/v1
+```
+
+**Swagger UI:**
+
+```text
+http://localhost:5191/swagger
+```
+
+| Recurso | Método | Endpoint | Descripción | Respuesta exitosa esperada |
+| :--- | :---: | :--- | :--- | :---: |
+| Users | GET | `/api/v1/users` | Lista todos los usuarios. | 200 OK |
+| Users | GET | `/api/v1/users/{id}` | Obtiene un usuario por identificador. | 200 OK |
+| Users | POST | `/api/v1/users` | Registra un usuario. | 201 Created |
+| Users | PUT | `/api/v1/users/{id}` | Actualiza un usuario existente. | 200 OK |
+| Users | DELETE | `/api/v1/users/{id}` | Elimina un usuario. | 204 No Content |
+| Homes | GET | `/api/v1/homes` | Lista todos los hogares. | 200 OK |
+| Homes | GET | `/api/v1/homes/{id}` | Obtiene un hogar por identificador. | 200 OK |
+| Homes | POST | `/api/v1/homes` | Registra un hogar asociado a un usuario. | 201 Created |
+| Homes | PUT | `/api/v1/homes/{id}` | Actualiza un hogar. | 200 OK |
+| Homes | DELETE | `/api/v1/homes/{id}` | Elimina un hogar. | 204 No Content |
+| Devices | GET | `/api/v1/devices` | Lista todos los dispositivos. | 200 OK |
+| Devices | GET | `/api/v1/devices/{id}` | Obtiene un dispositivo por identificador. | 200 OK |
+| Devices | POST | `/api/v1/devices` | Registra un dispositivo asociado a un hogar. | 201 Created |
+| Devices | PUT | `/api/v1/devices/{id}` | Actualiza un dispositivo. | 200 OK |
+| Devices | DELETE | `/api/v1/devices/{id}` | Elimina un dispositivo. | 204 No Content |
+| Consumptions | GET | `/api/v1/consumptions` | Lista los registros de consumo. | 200 OK |
+| Consumptions | GET | `/api/v1/consumptions/{id}` | Obtiene un consumo por identificador. | 200 OK |
+| Consumptions | POST | `/api/v1/consumptions` | Registra el consumo de un dispositivo. | 201 Created |
+| Consumptions | PUT | `/api/v1/consumptions/{id}` | Actualiza un consumo. | 200 OK |
+| Consumptions | DELETE | `/api/v1/consumptions/{id}` | Elimina un consumo. | 204 No Content |
+
+**Ejemplo de solicitud para crear un usuario:**
+
+```json
+{
+  "name": "Diego Cabrejos",
+  "email": "diego@example.com",
+  "password": "change-this-password",
+  "plan": "Professional",
+  "subscription": "Monthly"
+}
+```
+
+**Ejemplo de solicitud para crear un hogar:**
+
+```json
+{
+  "name": "Casa Principal",
+  "type": "House",
+  "userId": 1
+}
+```
+
+**Ejemplo de solicitud para crear un dispositivo:**
+
+```json
+{
+  "name": "Televisor Sala",
+  "type": "Smart Plug",
+  "powerWatts": 120,
+  "status": "Active",
+  "homeId": 1
+}
+```
+
+**Ejemplo de solicitud para crear un consumo:**
+
+```json
+{
+  "deviceId": 1,
+  "kwh": 2.75,
+  "date": "2026-06-20T18:30:00Z"
+}
+```
+
+El backend incorpora un manejador global de excepciones y una fábrica de Problem Details para representar errores HTTP de forma consistente. Asimismo, habilita CORS para permitir las solicitudes de la aplicación frontend durante la etapa de desarrollo y utiliza recursos de localización en español e inglés para los mensajes de los contextos principales.
+
+<!-- CAPTURA PENDIENTE: Swagger UI con los controladores Users, Homes, Devices y Consumptions expandidos. -->
+`<img src="assets/Sprint3-Backend-Swagger.png" alt="Swagger OpenAPI Sprint 3"></img>`
+
+<!-- CAPTURA PENDIENTE: ejecución de un POST exitoso desde Swagger y su respuesta 201. -->
+`<img src="assets/Sprint3-Backend-Post-Device.png" alt="Swagger POST Device"></img>`
+
+<!-- CAPTURA PENDIENTE: tablas users, homes, devices y consumptions dentro de MySQL Workbench. -->
+`<img src="assets/Sprint3-Backend-MySQL.png" alt="MySQL database Sprint 3"></img>`
+
+
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
