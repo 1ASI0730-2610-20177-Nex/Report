@@ -2433,6 +2433,7 @@ El Sprint 3 representa la transición de ElectroCorp desde una aplicación centr
 
 El alcance desarrollado permite disponer de una arquitectura dividida por contextos funcionales, rutas de navegación para las operaciones principales, recursos REST para el intercambio de información y una migración inicial de base de datos. También se incorporó documentación interactiva con Swagger/OpenAPI para facilitar la validación de los servicios.
 
+
 #### 5.2.3.1. Sprint Planning 3
 
 <table align="center" border="1" width="90%" style="text-align:left; border-collapse:collapse;">
@@ -2504,6 +2505,7 @@ El alcance desarrollado permite disponer de una arquitectura dividida por contex
 
 La Definition of Done considerada para este Sprint exige que cada incremento tenga una ruta o endpoint identificable, mantenga una estructura coherente con la arquitectura del proyecto, compile sin errores en el entorno correspondiente y cuente con evidencia verificable. Las integraciones que todavía dependen de servicios simulados o proveedores externos se registran como pendientes y no se consideran completamente cerradas.
 
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
 Para el Sprint 3 se definieron seis aspectos de trabajo. La letra **L** identifica al líder principal del aspecto y la letra **C** a quienes participaron como colaboradores o revisores.
@@ -2554,6 +2556,7 @@ Para el Sprint 3 se definieron seis aspectos de trabajo. La letra **L** identifi
 </table>
 
 La matriz refleja el liderazgo por especialidad, pero no limita la colaboración. La integración entre frontend, backend y base de datos requirió revisión cruzada de contratos, nombres de campos, rutas, datos de prueba y criterios de aceptación.
+
 
 #### 5.2.3.3. Sprint Backlog 3
 
@@ -2672,6 +2675,7 @@ commits de Frontend
 commits de Backend
 `<img src="assets/Sprint3-Backend-Commit.png" alt="Backend commit Sprint 3"></img>`
 
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
 La ejecución fue revisada en dos niveles: compilación de la Frontend Web Application y validación estructural de los servicios backend. Sobre el paquete entregado del frontend se ejecutaron los siguientes comandos:
@@ -2759,6 +2763,7 @@ Al iniciar la aplicación, Entity Framework Core aplica las migraciones pendient
 - Antes de declarar la integración end-to-end como terminada se deben validar los contratos de `homeId` y `userId`, así como la correspondencia de los métodos de creación, actualización y eliminación de dispositivos en el cliente API.
 - El módulo Payments implementa la experiencia visual, pero la US-27 no queda completamente cerrada hasta integrar Stripe o una pasarela equivalente.
 - Las credenciales de base de datos deben administrarse mediante variables de entorno o secretos y no permanecer embebidas en los archivos de configuración de producción.
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -2854,6 +2859,7 @@ El backend incorpora un manejador global de excepciones y una fábrica de Proble
 <!-- CAPTURA PENDIENTE: tablas users, homes, devices y consumptions dentro de MySQL Workbench. -->
 `<img src="assets/Sprint3-Backend-MySQL.png" alt="MySQL database Sprint 3"></img>`
 
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Para este Sprint se prepararon artefactos y configuraciones diferenciadas para el despliegue del frontend y del backend. El frontend cuenta con un build de producción verificable mediante Vite. El backend incluye configuración para el entorno Production, pero necesita una instancia pública de MySQL, secretos de conexión y una plataforma compatible con .NET 10 para completar el despliegue público.
@@ -2908,6 +2914,27 @@ La base de datos debe ser una instancia MySQL accesible desde el servicio backen
 `<img src="assets/Sprint3-Deployment-API-Test.png" alt="Public API test Sprint 3"></img>`
 
 Como criterio de cierre del despliegue, el equipo debe comprobar que una operación creada desde el frontend sea persistida por el backend en MySQL y permanezca disponible después de recargar la aplicación. Esta validación constituye la evidencia end-to-end necesaria para cerrar T35.
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3 el equipo afrontó un incremento de complejidad al trabajar simultáneamente con frontend, backend, base de datos y documentación de servicios. La colaboración dejó de centrarse únicamente en componentes visuales y pasó a requerir coordinación sobre contratos REST, entidades, rutas, migraciones y configuración de entornos.
+
+| Team Member | Contribution during Sprint 3 |
+| :--- | :--- |
+| **Tavara Correa, Sebastian Oswaldo** | Apoyó el seguimiento del Sprint, la actualización de la documentación y la organización de las evidencias para el Sprint Review. |
+| **Tuncar Vila, Ghorghet Saul** | Participó en la revisión de la arquitectura de servicios, documentación Swagger/OpenAPI, criterios HTTP y validación funcional de endpoints. |
+| **Cabrejos Chocco, Diego Alexander** | Lideró la revisión de navegación y experiencia del frontend, realizó la adaptación del entorno de producción y apoyó la integración y documentación del Sprint 3. |
+| **Fernandez Garfias, Alexander Piero** | Implementó los principales incrementos de Analytics y Payments en el frontend y consolidó la primera versión del Backend Web Service de ElectroCorp. |
+| **Toro Turpo, Ronal** | Colaboró en la revisión del modelo relacional, migración de base de datos, persistencia y pruebas de los flujos de hogares, dispositivos y consumos. |
+
+**Principales aprendizajes de colaboración:**
+
+- La separación por contextos funcionales facilitó que el equipo comprendiera dónde ubicar cada responsabilidad y redujo el acoplamiento entre módulos.
+- La documentación con Swagger mejoró la comunicación entre quienes trabajan en frontend y backend, porque permitió observar los contratos esperados sin depender únicamente de explicaciones verbales.
+- Se identificó que los ambientes simulados, como Beeceptor, son útiles para avanzar en paralelo, pero deben reemplazarse y verificarse antes de considerar terminada la integración.
+- La concentración de una gran parte del backend en un único commit dificulta la trazabilidad individual. Para el siguiente Sprint se acordó trabajar con ramas `feature/*`, Pull Requests pequeños y commits semánticos por cada caso de uso.
+- Las tareas de despliegue deben asignarse desde el inicio del Sprint y no únicamente al final, debido a que requieren configuración de secretos, base de datos y compatibilidad entre entornos.
 
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
