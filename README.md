@@ -3305,6 +3305,58 @@ El Sprint Backlog 4 prioriza el cierre final de ElectroCorp como producto integr
 
 Durante este Sprint, el equipo trabajo en el cierre final de los repositorios principales y en la alineacion del informe con la implementacion real. Las evidencias principales se encuentran en los historiales de commits, ramas de release y tags de version:
 
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Repository</b></td>
+    <td><b>Branch</b></td>
+    <td><b>Development Evidence</b></td>
+    <td><b>Scope / Result</b></td>
+    <td><b>Status</b></td>
+  </tr>
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td>Actualización de Dashboard y vistas internas</td>
+    <td>Se consolidaron las vistas de dashboard, facturación, notificaciones, inicio de sesión y módulos internos de la Web Application.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td>Configuración de conexión con backend</td>
+    <td>Se revisó la configuración de entorno para consumir la API desplegada y reducir la dependencia de datos simulados.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td>Mejoras de navegación y presentación</td>
+    <td>Se corrigieron rutas, enlaces del Sidebar y consistencia visual entre módulos.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td>Validación de endpoints REST</td>
+    <td>Se probaron endpoints de usuarios, dispositivos, autenticación y demás recursos principales mediante Swagger/Thunder Client.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td>Despliegue en Render</td>
+    <td>Se publicó el Backend Web Service y se verificó su respuesta desde una URL pública.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Report</td>
+    <td>develop</td>
+    <td>Actualización de Sprint 4</td>
+    <td>Se incorporaron planificación, backlog, evidencias de desarrollo, ejecución, servicios, despliegue y colaboración del Sprint 4.</td>
+    <td>Completed</td>
+  </tr>
+</table>
+
 * **Backend Platform:** https://github.com/1ASI0730-2610-20177-Nex/Backend/commits/main/
 * **Frontend Web App:** https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
 * **Landing Page:** https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main/
