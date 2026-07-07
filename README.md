@@ -2452,6 +2452,27 @@ Las entrevistas de validacion mantienen el mismo enfoque de la seccion 2.2, pero
 
 
 ### 5.3.3. Evaluaciones según heurísticas
+
+Para asegurar que el sistema no solo sea funcional (que guarde datos en la BD), sino también usable y accesible, se aplicó una evaluación heurística basada en los principios de Jakob Nielsen y estándares de Inclusive Design.<br><br>
+El presente apartado describe la evaluación de usabilidad aplicada al prototipo funcional. Se seleccionaron diez heurísticas clave orientadas a garantizar una interacción intuitiva y eficiente. La evaluación permitió identificar puntos de mejora en el flujo de registro de usuarios y dispositivos, asegurando que la arquitectura de información sea coherente con las necesidades detectadas en el Modelo Entidad-Relación y las expectativas del usuario final bajo criterios de diseño inclusivo.<br><br>
+
+A continuación, se presenta la evaluación del sistema basada en las 10 heurísticas de Jakob Nielsen, adaptadas a nuestra propuesta.<br><br>
+
+| ID | Heurística / Principio | Eval. (1-5) | Observaciones / Hallazgos |
+| :--- | :--- | :---: | :--- |
+| **H1** | Visibilidad del estado del sistema | 5 | El usuario recibe avisos claros y barras de carga cada vez que guarda información nueva. |
+| **H2** | Relación sistema-mundo real | 4 | Se utilizan términos sencillos y fáciles de entender en lugar de palabras técnicas complejas. |
+| **H3** | Control y libertad del usuario | 4 | Es fácil retroceder, cancelar una acción o salir de cualquier pantalla sin perder el control. |
+| **H4** | Consistencia y estándares | 5 | Todos los botones y menús mantienen el mismo estilo y ubicación en toda la aplicación. |
+| **H5** | Prevención de errores | 5 | El sistema verifica automáticamente que los datos ingresados sean correctos antes de guardarlos. |
+| **H6** | Reconocimiento vs. Recuerdo | 5 | La información guardada aparece en pantalla, así el usuario no tiene que memorizar nada. |
+| **H7** | Flexibilidad y eficiencia | 4 | El proceso para registrar un dispositivo es rápido y requiere muy pocos pasos. |
+| **H8** | Estética y diseño minimalista | 5 | El diseño es limpio y solo muestra la información que el usuario realmente necesita ver. |
+| **H9** | Ayuda reconocimiento de errores | 4 | Si algo sale mal, el sistema explica claramente qué ocurrió y cómo solucionarlo. |
+| **H10** | Inclusive Design | 4 | El diseño es fácil de leer y se adapta correctamente a diferentes tamaños de pantalla. |
+
+
+
 ## 5.4. Video About-the-Product.
 # Conclusiones
 ## Conclusiones y recomendaciones
