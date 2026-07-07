@@ -3085,6 +3085,370 @@ Durante el Sprint 3 el equipo afrontó un incremento de complejidad al trabajar 
 - Las tareas de despliegue deben asignarse desde el inicio del Sprint y no únicamente al final, debido a que requieren configuración de secretos, base de datos y compatibilidad entre entornos.
 
 ### 5.2.4. Sprint 4
+En este Sprint se consolida la entrega final TF1 del producto ElectroCorp. El trabajo se enfoco en cerrar la brecha entre las historias de usuario, la implementacion real, los diagramas de arquitectura, la documentacion del informe, los despliegues y el flujo Gitflow de los repositorios. A diferencia del Sprint 3, que priorizo construir la base funcional del backend y la integracion inicial con la Web Application, el Sprint 4 se centro en dejar el producto defendible, coherente y trazable para la evaluacion final.
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table align="center" border="1" width="90%" style="text-align:left;">
+    <tr><td><b>Sprint #</b></td><td>Sprint 4</td></tr>
+    <tr><td colspan="2" align="center"><b>Sprint Planning Background</b></td></tr>
+    <tr><td><b>Date</b></td><td>2026-07-05</td></tr>
+    <tr><td><b>Time</b></td><td>09:00 PM</td></tr>
+    <tr><td><b>Location</b></td><td>Modalidad Remota por Whatsapp / Microsoft Teams</td></tr>
+    <tr><td><b>Prepared By</b></td><td>Cabrejos Chocco, Diego Alexander</td></tr>
+    <tr><td><b>Attendees (to planning meeting)</b></td><td> 
+      - Tavara Correa, Sebastian Oswaldo<br>
+      - Tuncar Vila, Ghorghet Saul<br>
+      - Cabrejos Chocco, Diego Alexander<br>
+      - Fernandez Garfias, Alexander Piero<br>
+      - Toro Turpo, Ronal </td></tr>
+    <tr><td><b>Sprint 3 Review Summary</b></td><td>El equipo completo la base funcional del backend, la integracion con la Web Application y la documentacion inicial de servicios mediante Swagger/OpenAPI. Tambien se identifico la necesidad de reforzar la alineacion final con DDD, command/query services, event integration, evidencias de despliegue, validaciones, diagramas y trazabilidad de historias de usuario.</td></tr>
+    <tr><td><b>Sprint 3 Retrospective Summary</b></td><td>El equipo acordo cerrar inconsistencias entre el informe y el producto real, actualizar los diagramas para reflejar la arquitectura implementada, evitar afirmaciones obsoletas como flujos simulados o bases de datos incorrectas, y ordenar los repositorios mediante Gitflow antes de la entrega final.</td></tr>
+    <tr><td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td></tr>
+    <tr><td><b>Sprint 4 Goal</b></td><td><b>Estamos concentrados en</b> consolidar la experiencia completa y confiable de ElectroCorp, asegurando que todas las herramientas de gestión energética funcionen de manera integrada, estable y fluida para el usuario final..<br><br><b>Creemos que entregar</b> un ecosistema robusto y de alta disponibilidad brindará a las familias y dueños de negocios la total confianza para delegar el monitoreo diario de su consumo y la administración de sus dispositivos en nuestra plataforma.<br><br><b>Esto sera confirmado cuando</b> los clientes puedan interactuar con sus ambientes de forma ininterrumpida, acceder a reportes precisos que les permitan tomar decisiones de ahorro, y experimentar el beneficio real de la eficiencia energética a través de un servicio completamente operativo y seguro.</td></tr>
+    <tr><td><b>Sprint 4 Velocity</b></td><td>60</td></tr>
+    <tr><td><b>Sum of Story Points</b></td><td>60</td></tr>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+Para el Sprint 4 se organizó el trabajo del equipo en aspectos alineados con la estabilización final del producto. La letra **L** representa al líder del aspecto y la letra **C** representa a los colaboradores.
+
+1. **Frontend Integration & UI Stabilization:** integración visual de módulos, revisión de rutas, corrección de estilos y navegación.
+2. **Backend CRUD & REST Services:** implementación, corrección y validación de endpoints para las colecciones principales.
+3. **Database & Persistence:** validación de tablas, relaciones, migraciones, datos de prueba y persistencia MySQL.
+4. **Notifications, Billing & Reports:** revisión de módulos de notificaciones, facturación, reportes y exportación.
+5. **Deployment & Environment Configuration:** despliegue en Render, configuración de URLs, CORS, variables de entorno y verificación pública.
+6. **Documentation, QA & Sprint Review Evidence:** registro de capturas, pruebas en Thunder Client/Swagger, actualización del informe y revisión final.
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Team Member</b></td>
+    <td><b>GitHub Username</b></td>
+    <td><b>Frontend Integration & UI Stabilization</b></td>
+    <td><b>Backend CRUD & REST Services</b></td>
+    <td><b>Database & Persistence</b></td>
+    <td><b>Notifications, Billing & Reports</b></td>
+    <td><b>Deployment & Environment Configuration</b></td>
+    <td><b>Documentation, QA & Evidence</b></td>
+  </tr>
+  <tr>
+    <td align="left">Tavara Correa, Sebastian Oswaldo</td>
+    <td>SebastianTavara</td>
+    <td>C</td><td>C</td><td>C</td><td>C</td><td>C</td><td><b>L</b></td>
+  </tr>
+  <tr>
+    <td align="left">Tuncar Vila, Ghorghet Saul</td>
+    <td>Ghorghet</td>
+    <td>C</td><td>C</td><td>C</td><td><b>L</b></td><td>C</td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Cabrejos Chocco, Diego Alexander</td>
+    <td>MOTOX-357</td>
+    <td><b>L</b></td><td>C</td><td>C</td><td>C</td><td>C</td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Fernandez Garfias, Alexander Piero</td>
+    <td>Dostoyevsk1</td>
+    <td>C</td><td><b>L</b></td><td>C</td><td>C</td><td><b>L</b></td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Toro Turpo, Ronal</td>
+    <td>Ronal</td>
+    <td>C</td><td>C</td><td><b>L</b></td><td>C</td><td>C</td><td>C</td>
+  </tr>
+</table>
+
+#### 5.2.4.3. Sprint Backlog 4
+
+El Sprint Backlog 4 prioriza el cierre final de ElectroCorp como producto integrado. Las tareas se organizaron para reforzar las historias de usuario y tecnicas que no habian quedado explicitamente trazadas en los Sprints anteriores, ademas de cerrar arquitectura DDD, seguridad, eventos de integracion, documentacion de servicios, despliegues y evidencia del informe final.
+
+<p style="text-align: left; width: 90%; margin: 20px auto;">
+    <b>Enlace de Seguimiento:</b> <a href="https://trello.com/b/ML6kSQte/sprintbacklog4" target="_blank">Tablero del Sprint 4 en Trello</a>
+    <br><br>
+    <img src="assets/TrelloSprint4.png" alt="Sprint 4 Trello Board"></img>
+</p>
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td colspan="2"><b>Sprint #</b></td>
+    <td colspan="7"><b>Sprint 4</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story / Technical Story</b></td>
+    <td colspan="7"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Student Code</b></td>
+    <td><b>Status</b></td>
+  </tr>
+  <tr>
+    <td>US-19</td>
+    <td>Administrar múltiples dispositivos</td>
+    <td>T41</td>
+    <td>Validar listado de dispositivos</td>
+    <td>Verificar que la Web Application muestre los dispositivos registrados y que el backend exponga las operaciones principales para la colección Devices.</td>
+    <td>5</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-11 / US-12</td>
+    <td>Ver estado y controlar dispositivos</td>
+    <td>T42</td>
+    <td>Control ON/OFF y estado</td>
+    <td>Revisar el flujo visual de activación/desactivación y documentar el comportamiento esperado cuando un dispositivo se encuentra activo, inactivo u offline.</td>
+    <td>5</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-15 / US-16</td>
+    <td>Consumo en tiempo real e historial</td>
+    <td>T43</td>
+    <td>Reportes de consumo energético</td>
+    <td>Validar las vistas de consumo, historial y analítica, verificando que los datos se presenten de forma comprensible para usuarios residenciales y comerciales.</td>
+    <td>6</td>
+    <td>Alexander Fernandez</td>
+    <td>U202019498</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-17 / US-29</td>
+    <td>Alertas y notificaciones</td>
+    <td>T44</td>
+    <td>Módulo de notificaciones</td>
+    <td>Implementar o estabilizar la sección de notificaciones para representar alertas de consumo elevado, mensajes del sistema y eventos relevantes.</td>
+    <td>6</td>
+    <td>Ghorghet Tuncar</td>
+    <td>U20241e107</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-32 / US-34</td>
+    <td>Perfil y preferencias</td>
+    <td>T45</td>
+    <td>Gestión de datos del usuario</td>
+    <td>Revisar formularios de perfil, preferencias de alertas y configuración de comunicación con el usuario.</td>
+    <td>4</td>
+    <td>Sebastian Tavara</td>
+    <td>U20241e179</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-36 / US-37</td>
+    <td>Filtrar y exportar historial</td>
+    <td>T46</td>
+    <td>Filtros y exportación CSV</td>
+    <td>Documentar la selección de rangos de fechas, la consulta de historial y la exportación de información para análisis externo.</td>
+    <td>5</td>
+    <td>Ronal Toro</td>
+    <td>U20241e367</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-40</td>
+    <td>Gestionar múltiples locales</td>
+    <td>T47</td>
+    <td>Organización por sedes/locales</td>
+    <td>Representar el flujo de administración de sedes, habitaciones, grupos y dispositivos dentro de la plataforma.</td>
+    <td>5</td>
+    <td>Ronal Toro</td>
+    <td>U20241e367</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-11</td>
+    <td>Endpoints CRUD Dispositivos</td>
+    <td>T48</td>
+    <td>Validación CRUD de colecciones</td>
+    <td>Probar operaciones GET, POST, PUT y DELETE para las colecciones principales mediante Swagger, Thunder Client o Postman.</td>
+    <td>7</td>
+    <td>Alexander Fernandez</td>
+    <td>U202019498</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-13 / TS-15</td>
+    <td>Autenticación y seguridad</td>
+    <td>T49</td>
+    <td>Revisión de inicio de sesión</td>
+    <td>Validar el flujo de acceso, manejo de credenciales, respuesta del endpoint de autenticación y protección básica de rutas.</td>
+    <td>5</td>
+    <td>Ghorghet Tuncar</td>
+    <td>U20241e107</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-Deployment</td>
+    <td>Despliegue final</td>
+    <td>T50</td>
+    <td>Configuración Render y evidencia pública</td>
+    <td>Verificar que el frontend y backend estén disponibles públicamente, registrar URLs y capturas de ejecución.</td>
+    <td>6</td>
+    <td>Alexander Fernandez</td>
+    <td>U202019498</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+Durante este Sprint, el equipo trabajo en el cierre final de los repositorios principales y en la alineacion del informe con la implementacion real. Las evidencias principales se encuentran en los historiales de commits, ramas de release y tags de version:
+
+* **Backend Platform:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-platform/commits/main/
+* **Frontend Web App:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/commits/main/
+* **Landing Page:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website/commits/main/
+* **Report:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-report/commits/main/
+* **Backend Release v2.0.0:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-platform/releases/tag/v2.0.0
+* **Frontend Release v4.0.0:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/releases/tag/v4.0.0
+* **Landing Page Release v4.0.0:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website/releases/tag/v4.0.0
+
+**Backend Platform development evidence**
+
+<img src="assets/md-images-chapter5/commits-1-platform-sprint-4.jpeg" alt="Backend Sprint 4 commits evidence 1"></img><br>
+<img src="assets/md-images-chapter5/commits-2-platform-sprint-4.jpeg" alt="Backend Sprint 4 commits evidence 2"></img><br>
+<img src="assets/md-images-chapter5/releases-platform-sprint-4.jpeg" alt="Backend Sprint 4 release evidence"></img><br>
+<img src="assets/md-images-chapter5/tags-platform-sprint-4.jpeg" alt="Backend Sprint 4 tags evidence"></img><br>
+
+**Frontend Web Application development evidence**
+
+<img src="assets/md-images-chapter5/commits-1-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 commits evidence 1"></img><br>
+<img src="assets/md-images-chapter5/commits-2-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 commits evidence 2"></img><br>
+<img src="assets/md-images-chapter5/releases-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 release evidence"></img><br>
+<img src="assets/md-images-chapter5/tags-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 tags evidence"></img><br>
+
+**Landing Page development evidence**
+
+<img src="assets/md-images-chapter5/commits-1-website-sprint-4.jpeg" alt="Landing Page Sprint 4 commits evidence 1"></img><br>
+<img src="assets/md-images-chapter5/commits-2-website-sprint-4.jpeg" alt="Landing Page Sprint 4 commits evidence 2"></img><br>
+<img src="assets/md-images-chapter5/releases-website-sprint-4.jpeg" alt="Landing Page Sprint 4 release evidence"></img><br>
+<img src="assets/md-images-chapter5/tags-website-sprint-4.jpeg" alt="Landing Page Sprint 4 tags evidence"></img><br>
+
+**Project Report development evidence**
+
+<img src="assets/md-images-chapter5/commits-1-report-sprint-4.jpeg" alt="Report Sprint 4 commits evidence 1"></img><br>
+<img src="assets/md-images-chapter5/commits-2-report-sprint-4.jpeg" alt="Report Sprint 4 commits evidence 2"></img><br>
+
+Como cierre tecnico, el backend incorpora un flujo de Event Integration interno: los eventos de dominio se mantienen dentro de cada bounded context, se traducen a integration events desde application/interfaces y se consumen despues del commit transaccional. Los eventos reforzados incluyen `OperationModeActivatedEvent`, `UserRegisteredEvent`, `SubscriptionActivatedEvent`, `PaymentRegisteredEvent`, `DeviceAssignedToRoomEvent`, `EnergyThresholdExceededEvent`, `SupportTicketCreatedEvent` y `MaintenanceTicketCreatedEvent`. Notifications los usa para crear alertas y Reporting los conserva como actividad para auditoria funcional.
+
+En IAM se refuerzan los puertos `HashingService` y `TokenService`, manteniendo BCrypt para credenciales y JWT Bearer para autenticacion. En la Web Application se mantiene la organizacion por bounded contexts y se corrige Workplace para que el geocoding sea resuelto por servicios de application/infrastructure. El informe se actualiza para que diagramas, README, backlog, deployment y evidencias reflejen el producto final y no una version parcial.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+La ejecucion del Sprint 4 se valida mediante rutas publicas, pantallas funcionales de la Web Application, documentacion del backend y enlaces de release de los repositorios.
+
+| Artifact | URL / Route | Expected result |
+|--|--|--|
+| Backend Health | https://electrocorp-platform.onrender.com/health | Respuesta JSON con estado operativo del servicio. |
+| Backend Root | https://electrocorp-platform.onrender.com/ | Respuesta publica para confirmar disponibilidad del backend. |
+| Swagger UI | https://electrocorp-platform.onrender.com/swagger-ui/index.html | Interfaz de documentacion del API REST accesible desde navegador. |
+| OpenAPI JSON | https://electrocorp-platform.onrender.com/v3/api-docs | Contrato OpenAPI disponible con esquema Bearer JWT. |
+| Reporting Activity | https://electrocorp-platform.onrender.com/api/v1/reports/activity | Ruta preparada para consultar actividad generada por integration events. |
+| Web App Login | https://electrocorp-webapp.onrender.com/iam/login | Pantalla de autenticacion conectada con IAM. |
+| Web App Workplace | https://electrocorp-webapp.onrender.com/spaces/sites | Gestion de sedes, habitaciones y asignaciones de dispositivos. |
+| Web App Energy Reports | https://electrocorp-webapp.onrender.com/energy/reports | Visualizacion de reportes, consumo energetico y metas. |
+| Landing Page | https://upc-pre-202610-1asi0729-11896-ecorp.github.io/electrocorp-website/ | Sitio publico con propuesta de valor, CTA y acceso hacia la Web Application. |
+
+**Backend Platform execution evidence**
+
+<img src="assets/md-images-chapter5/platform-deployed.jpeg" alt="Backend deployed root evidence"></img><br>
+<img src="assets/md-images-chapter5/platform-deployed-health.jpeg" alt="Backend deployed health evidence"></img><br>
+<img src="assets/md-images-chapter5/platform-deployed-swagger.jpeg" alt="Backend deployed Swagger UI evidence"></img><br>
+<img src="assets/md-images-chapter5/platform-deployed-api-docs.jpeg" alt="Backend deployed OpenAPI JSON evidence"></img><br>
+
+**Frontend Web Application execution evidence**
+
+<img src="assets/md-images-chapter5/webapp-deployed.jpeg" alt="Frontend Web Application deployed evidence"></img><br>
+
+**Landing Page execution evidence**
+
+<img src="assets/md-images-chapter5/website-deployed.jpeg" alt="Landing Page deployed evidence"></img><br>
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+La documentacion de servicios se mantiene mediante Swagger/OpenAPI y se complementa con la estructura del codigo por bounded contexts. Esto permite revisar rutas, recursos, seguridad y ejemplos de interaccion sin depender unicamente del informe.
+
+* **Swagger UI:** https://electrocorp-platform.onrender.com/swagger-ui/index.html
+* **OpenAPI JSON:** https://electrocorp-platform.onrender.com/v3/api-docs
+* **Seguridad:** OpenAPI documenta autenticacion HTTP Bearer con formato JWT.
+* **Credenciales:** las contrasenas se almacenan con BCrypt mediante `HashingService`; no se persisten como texto plano.
+* **Servicios de aplicacion:** controllers delgados delegan en command services y query services por contexto.
+* **Event Integration:** los integration events conectan IAM, Billing, Workplace, Device Control, Energy Monitoring, Notifications, Reporting y Service Management sin agregar endpoints publicos innecesarios.
+* **Error handling:** se conserva `ErrorResource` como contrato publico y se centraliza la respuesta de errores mediante el manejo global compartido.
+
+**Bearer JWT authorization evidence**
+
+<img src="assets/md-images-chapter5/platform-bearer.jpeg" alt="Swagger Bearer JWT authorization evidence"></img><br>
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+El despliegue final considera las tres superficies principales del producto y el repositorio del informe. Cada repositorio mantiene ramas de desarrollo, release o main segun corresponda al flujo Gitflow aplicado durante el cierre.
+
+| Component | Platform | Deployment / Version evidence |
+|--|--|--|
+| Landing Page | GitHub Pages | Publicacion desde `main` y release `v4.0.0`, con CTA hacia la Web Application. |
+| Web Application | Render | Release `v4.0.0` integrada a `main`, con rutas de IAM, Billing, Workplace, Energy, Notifications, Reporting y Service Management. |
+| Backend Platform | Render | Release `v2.0.0` integrada a `main`, con health check, Swagger/OpenAPI y API REST por bounded contexts. |
+| Database | Render PostgreSQL | Base de datos PostgreSQL disponible para persistencia de usuarios, planes, sedes, dispositivos, lecturas, alertas, reportes y tickets. |
+| Project Report | GitHub Repository | Informe actualizado en ramas de documentacion y Gitflow hasta `main`, con diagramas y secciones finales sincronizadas. |
+
+**Backend Platform deployment evidence**
+
+<img src="assets/md-images-chapter5/platform-deployment.jpeg" alt="Backend platform deployment evidence"></img><br>
+
+**Database deployment evidence**
+
+<img src="assets/md-images-chapter5/database-deployment.jpeg" alt="Render PostgreSQL database deployment evidence"></img><br>
+
+**Frontend Web Application deployment evidence**
+
+<img src="assets/md-images-chapter5/webapp-deployment.jpeg" alt="Frontend Web Application deployment evidence"></img><br>
+
+**Landing Page deployment evidence**
+
+<img src="assets/md-images-chapter5/website-deployment.jpeg" alt="Landing Page deployment evidence"></img><br>
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 4, el equipo enfoco la colaboracion en cerrar brechas de coherencia entre producto, codigo, despliegues y documentacion. La coordinacion fue clave porque el valor de la entrega final no dependia solo de compilar, sino de que cada modulo pudiera explicarse desde las historias de usuario y desde la arquitectura.
+
+| Area | Collaboration insight |
+|--|--|
+| Backend | Se reforzo la separacion DDD mediante puertos, command/query services, eventos de integracion, seguridad JWT/BCrypt y documentacion OpenAPI. |
+| Frontend | Se mantuvo la arquitectura por contextos y se corrigieron flujos de Workplace para que la capa presentation delegue en servicios de application/infrastructure. |
+| Product Scope | Las historias se revisaron contra la funcionalidad real, dejando explicitas las capacidades implementadas, reforzadas o preparadas para evolucion posterior. |
+| Deployment | Los repositorios principales se ordenaron con Gitflow, releases y tags finales para sustentar la trazabilidad academica. |
+| Documentation | El informe se actualizo con Sprint 4, diagramas, evidencias de servicios y texto alineado al estado real de ElectroCorp. |
+
+**Project Report collaboration evidence**
+
+<img src="assets/md-images-chapter5/insight-report-sprint-4.jpeg" alt="Report Sprint 4 insights evidence"></img><br>
+<img src="assets/md-images-chapter5/contribuitors-report-sprint-4.jpeg" alt="Report Sprint 4 contributors evidence"></img><br>
+
+**Backend Platform collaboration evidence**
+
+<img src="assets/md-images-chapter5/insight-platform-sprint-4.jpeg" alt="Backend Sprint 4 insights evidence"></img><br>
+<img src="assets/md-images-chapter5/contribuitors-platform-sprint-4.jpeg" alt="Backend Sprint 4 contributors evidence"></img><br>
+
+**Frontend Web Application collaboration evidence**
+
+<img src="assets/md-images-chapter5/insight-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 insights evidence"></img><br>
+<img src="assets/md-images-chapter5/contribuitors-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 contributors evidence"></img><br>
+
+**Landing Page collaboration evidence**
+
+<img src="assets/md-images-chapter5/insight-website-sprint-4.jpeg" alt="Landing Page Sprint 4 insights evidence"></img><br>
+<img src="assets/md-images-chapter5/contribuitors-website-sprint-4.jpeg" alt="Landing Page Sprint 4 contributors evidence"></img><br>
 
 ### 5.3.1. Diseño de Entrevistas
 
