@@ -3305,6 +3305,58 @@ El Sprint Backlog 4 prioriza el cierre final de ElectroCorp como producto integr
 
 Durante este Sprint, el equipo trabajo en el cierre final de los repositorios principales y en la alineacion del informe con la implementacion real. Las evidencias principales se encuentran en los historiales de commits, ramas de release y tags de version:
 
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Repository</b></td>
+    <td><b>Branch</b></td>
+    <td><b>Development Evidence</b></td>
+    <td><b>Scope / Result</b></td>
+    <td><b>Status</b></td>
+  </tr>
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td>Actualización de Dashboard y vistas internas</td>
+    <td>Se consolidaron las vistas de dashboard, facturación, notificaciones, inicio de sesión y módulos internos de la Web Application.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td>Configuración de conexión con backend</td>
+    <td>Se revisó la configuración de entorno para consumir la API desplegada y reducir la dependencia de datos simulados.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td>Mejoras de navegación y presentación</td>
+    <td>Se corrigieron rutas, enlaces del Sidebar y consistencia visual entre módulos.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td>Validación de endpoints REST</td>
+    <td>Se probaron endpoints de usuarios, dispositivos, autenticación y demás recursos principales mediante Swagger/Thunder Client.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td>Despliegue en Render</td>
+    <td>Se publicó el Backend Web Service y se verificó su respuesta desde una URL pública.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Report</td>
+    <td>develop</td>
+    <td>Actualización de Sprint 4</td>
+    <td>Se incorporaron planificación, backlog, evidencias de desarrollo, ejecución, servicios, despliegue y colaboración del Sprint 4.</td>
+    <td>Completed</td>
+  </tr>
+</table>
+
 * **Backend Platform:** https://github.com/1ASI0730-2610-20177-Nex/Backend/commits/main/
 * **Frontend Web App:** https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
 * **Landing Page:** https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main/
@@ -3332,74 +3384,36 @@ Durante este Sprint, el equipo trabajo en el cierre final de los repositorios pr
 Como cierre tecnico, el backend incorpora un flujo de Event Integration interno: los eventos de dominio se mantienen dentro de cada bounded context, se traducen a integration events desde application/interfaces y se consumen despues del commit transaccional. Los eventos reforzados incluyen `OperationModeActivatedEvent`, `UserRegisteredEvent`, `SubscriptionActivatedEvent`, `PaymentRegisteredEvent`, `DeviceAssignedToRoomEvent`, `EnergyThresholdExceededEvent`, `SupportTicketCreatedEvent` y `MaintenanceTicketCreatedEvent`. Notifications los usa para crear alertas y Reporting los conserva como actividad para auditoria funcional.
 
 En IAM se refuerzan los puertos `HashingService` y `TokenService`, manteniendo BCrypt para credenciales y JWT Bearer para autenticacion. En la Web Application se mantiene la organizacion por bounded contexts y se corrige Workplace para que el geocoding sea resuelto por servicios de application/infrastructure. El informe se actualiza para que diagramas, README, backlog, deployment y evidencias reflejen el producto final y no una version parcial.
-
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-#### 5.2.4.5. Execution Evidence for Sprint Review
+La ejecucion del Sprint 4 se valida mediante rutas publicas, pantallas funcionales de la Web Application, documentacion del backend y enlaces de release de los repositorios.
 
-La ejecución del Sprint 4 fue validada mediante pruebas funcionales sobre la Web Application y pruebas de servicios sobre el Backend Web Service. Para el frontend, se verificó la navegación hacia las secciones principales; para el backend, se validó la respuesta de endpoints REST desplegados y documentados.
+| Artifact | URL / Route | Expected result |
+|--|--|--|
+| Backend Health | https://electrocorp-platform.onrender.com/health | Respuesta JSON con estado operativo del servicio. |
+| Backend Root | https://electrocorp-platform.onrender.com/ | Respuesta publica para confirmar disponibilidad del backend. |
+| Swagger UI | https://electrocorp-platform.onrender.com/swagger-ui/index.html | Interfaz de documentacion del API REST accesible desde navegador. |
+| OpenAPI JSON | https://electrocorp-platform.onrender.com/v3/api-docs | Contrato OpenAPI disponible con esquema Bearer JWT. |
+| Reporting Activity | https://electrocorp-platform.onrender.com/api/v1/reports/activity | Ruta preparada para consultar actividad generada por integration events. |
+| Web App Login | https://electrocorp-webapp.onrender.com/iam/login | Pantalla de autenticacion conectada con IAM. |
+| Web App Workplace | https://electrocorp-webapp.onrender.com/spaces/sites | Gestion de sedes, habitaciones y asignaciones de dispositivos. |
+| Web App Energy Reports | https://electrocorp-webapp.onrender.com/energy/reports | Visualizacion de reportes, consumo energetico y metas. |
+| Landing Page | https://upc-pre-202610-1asi0729-11896-ecorp.github.io/electrocorp-website/ | Sitio publico con propuesta de valor, CTA y acceso hacia la Web Application. |
 
-**Frontend Web Application**
+**Backend Platform execution evidence**
 
-URL pública:
+<img src="assets/md-images-chapter5/platform-deployed.jpeg" alt="Backend deployed root evidence"></img><br>
+<img src="assets/md-images-chapter5/platform-deployed-health.jpeg" alt="Backend deployed health evidence"></img><br>
+<img src="assets/md-images-chapter5/platform-deployed-swagger.jpeg" alt="Backend deployed Swagger UI evidence"></img><br>
+<img src="assets/md-images-chapter5/platform-deployed-api-docs.jpeg" alt="Backend deployed OpenAPI JSON evidence"></img><br>
 
-```text
-https://electrocorp-appweb.onrender.com
-```
+**Frontend Web Application execution evidence**
 
-Rutas y vistas revisadas:
+<img src="assets/md-images-chapter5/webapp-deployed.jpeg" alt="Frontend Web Application deployed evidence"></img><br>
 
-| Módulo | Evidencia | Resultado esperado | Estado |
-| :--- | :--- | :--- | :---: |
-| Sign In | Inicio de sesión | Presenta formulario de autenticación y permite iniciar el flujo de acceso. | Passed |
-| Dashboard | Panel principal | Muestra indicadores generales del sistema y accesos a módulos internos. | Passed |
-| Billing | Facturación / planes | Presenta información relacionada con suscripción, plan o pagos. | Passed |
-| Notifications | Notificaciones | Muestra alertas, mensajes y eventos relevantes para el usuario. | Passed |
-| Sidebar / Navigation | Navegación interna | Permite desplazarse entre módulos principales sin romper el flujo de la SPA. | Passed |
+**Landing Page execution evidence**
 
-**Backend Web Service**
-
-URL pública:
-
-```text
-https://electrocorp-platform-u1f4.onrender.com/
-```
-
-Pruebas realizadas:
-
-| Recurso / Funcionalidad | Método | Ruta referencial | Evidencia | Estado |
-| :--- | :---: | :--- | :--- | :---: |
-| Devices | GET | `/api/v1/devices` | Listado de dispositivos desde backend desplegado. | Passed |
-| Devices | GET | `/api/v1/devices/{id}` | Consulta de dispositivo por identificador. | Passed |
-| Devices | PUT | `/api/v1/devices/{id}` | Actualización de información de dispositivo. | Passed |
-| Users / IAM | POST | `/api/v1/authentication/sign-in` | Inicio de sesión mediante endpoint de autenticación. | Passed |
-| API Health | GET | URL pública base | Servicio responde desde Render. | Passed |
-
-**Comandos de ejecución local referenciales:**
-
-```bash
-# Frontend
-npm install
-npm run dev
-npm run build
-```
-
-```bash
-# Backend
-dotnet restore
-dotnet run
-```
-
-**Criterios de validación del Sprint Review:**
-
-| Criterio | Resultado | Estado |
-| :--- | :--- | :---: |
-| Frontend disponible públicamente | La Web Application se encuentra desplegada en Render. | Passed |
-| Backend disponible públicamente | La API se encuentra desplegada en Render. | Passed |
-| Navegación interna | Las vistas principales se muestran correctamente. | Passed |
-| Servicios REST probados | Se evidencian consultas y actualización de recursos. | Passed |
-| Documentación Swagger/OpenAPI | La API mantiene documentación interactiva para revisión técnica. | Passed |
-| Integración final | Se requiere mantener sincronizadas las URLs de entorno y contratos API. | To-Review |
+<img src="assets/md-images-chapter5/website-deployed.jpeg" alt="Landing Page deployed evidence"></img><br>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
@@ -3520,7 +3534,10 @@ Las entrevistas de validacion mantienen el mismo enfoque de la seccion 2.2, pero
 | N | Datos | Descripcion | Imagen referencial |
 |:---|:---|:---|:---|
 | 1 | **Nombre:** Miguel<br>**Apellido:** Torres<br>**Edad:** 20<br>**Distrito:** Chosica | Miguel, durante la entrevista pudo validar que la propuesta de ElectroCorp es bastante clara. Entendió perfectamente que la plataforma sirve para monitorear el consumo eléctrico en tiempo real, lo que le permitió identificar qué aparatos gastan más y así reducir sus facturas. Le parece que el flujo para registrarse y elegir un plan es bastante intuitivo y sencillo de seguir.<br><br>Sobre la organización, siente que la estructura de la aplicación es clara, facilitando la gestión de dispositivos por hogar o ambiente sin complicaciones. Además, considera que la interfaz es lo suficientemente simple para que otros miembros de su familia la usen sin necesidad de explicaciones previas. En cuanto a lo que le genera más confianza, destaca las alertas y el monitoreo en tiempo real; sin embargo, su principal duda es la compatibilidad de la plataforma con dispositivos adicionales, como computadoras o equipos con sistema operativo iOS. | <img src="assets/entrevista2Miguel.jpeg"> |
-| 2 | **Nombre:** Jesus<br>**Apellido:** Huaman<br>**Edad:** 20<br>**Distrito:** Manchay | El entrevistado es Jesús, de 20 años, vamos a conocer su opinión sobre nuestra propuesta y la plataforma web. En general, su evaluación fue bastante positiva. Jesús comentó que el problema que resolvemos con ElectroCorp se entiende a primera vista y le pareció que la aplicación es muy intuitiva, por lo que no cree que sea difícil de usar, incluso para personas que no están acostumbradas a la tecnología. Sobre el diseño y la seguridad, dijo que el mensaje de ahorro y control del hogar le resultó muy claro y confiable. Valoró bastante que no se le pidan datos personales innecesarios durante el registro, ya que eso le da más tranquilidad. En cuanto a la facilidad de uso, considera que el flujo para elegir un plan y registrarse es sencillo y lógico; cree que cualquier persona puede aprender a usarlo correctamente con muy poco tiempo de práctica. Jesús también entiende perfectamente cómo están organizados los hogares, las habitaciones y los dispositivos, y mencionó que la estructura se siente familiar porque se parece a otras herramientas conocidas del mercado. Además, le parecieron muy útiles los indicadores de consumo y las alertas, ya que considera que presentan la información de una forma tan sencilla que realmente ayudan a las familias a tomar mejores decisiones sobre su gasto de energía. Incluso aseguró que su familia podría manejarla sin problemas, mencionando que, para aquellos que no son muy tecnológicos, una semana de uso sería más que suficiente para que se acostumbren por completo. Como una sugerencia para seguir mejorando, recomendó que sería muy útil incluir más información detallada sobre cómo se gestiona la energía específicamente en empresas o casas antiguas, y que podemos seguir tomando como ejemplo las aplicaciones líderes del mercado para asegurar que el flujo de uso sea siempre lo más amigable posible. En resumen, su opinión nos confirma que nuestra plataforma es clara, fácil de manejar y cumple muy bien con su objetivo de ser una herramienta útil para cualquier hogar. | <img src="assets/entrevista2Jesus.jpeg"> |
+
+| ID | Entrevistado | Resumen de la Entrevista | Evidencia |
+| :--- | :--- | :--- | :--- |
+| 2 | **Nombre:** Jesus<br>**Apellido:** Huaman<br>**Edad:** 20<br>**Distrito:** Manchay | El entrevistado es Jesús, de 20 años, vamos a conocer su opinión sobre nuestra propuesta y la plataforma web. En general, su evaluación fue bastante positiva. Jesús comentó que el problema que resolvemos con ElectroCorp se entiende a primera vista y le pareció que la aplicación es muy intuitiva, por lo que no cree que sea difícil de usar, incluso para personas que no están acostumbradas a la tecnología. Sobre el diseño y la seguridad, dijo que el mensaje de ahorro y control del hogar le resultó muy claro y confiable. Valoró bastante que no se le pidan datos personales innecesarios durante el registro, ya que eso le da más tranquilidad. En cuanto a la facilidad de uso, considera que el flujo para elegir un plan y registrarse es sencillo y lógico; cree que cualquier persona puede aprender a usarlo correctamente con muy poco tiempo de práctica. Jesús también entiende perfectamente cómo están organizados los hogares, las habitaciones y los dispositivos, y mencionó que la estructura se siente familiar porque se parece a otras herramientas conocidas del mercado. Además, le parecieron muy útiles los indicadores de consumo y las alertas, ya que considera que presentan la información de una forma tan sencilla que realmente ayudan a las familias a tomar mejores decisiones sobre su gasto de energía. Incluso aseguró que su familia podría manejarla sin problemas, mencionando que, para aquellos que no son muy tecnológicos, una semana de uso sería más que suficiente para que se acostumbren por completo. Como una sugerencia para seguir mejorando, recomendó que sería muy útil incluir más información detallada sobre cómo se gestiona la energía específicamente en empresas o casas antiguas, y que podemos seguir tomando como ejemplo las aplicaciones líderes del mercado para asegurar que el flujo de uso sea siempre lo más amigable posible. En resumen, su opinión nos confirma que nuestra plataforma es clara, fácil de manejar y cumple muy bien con su objetivo de ser una herramienta útil para cualquier hogar. | <img src="assets/entrevista2Jesus.png"> |
 | 3 | **Nombre:**<br>**Apellido:**<br>**Edad:**<br>**Distrito:** | | <img src="assets/.png"> |
 
 #### Segmento 2
@@ -3529,7 +3546,7 @@ Las entrevistas de validacion mantienen el mismo enfoque de la seccion 2.2, pero
 |:---|:---|:---|:---|
 | 1 | **Nombre:**<br>**Apellido:**<br>**Edad:**<br>**Distrito:** | | <img src="assets/.png" width="150"> |
 | 2 | **Nombre:**<br>**Apellido:**<br>**Edad:**<br>**Distrito:** | | <img src="assets/.png" width="150"> |
-| 3 | **Nombre:**<br>**Apellido:**<br>**Edad:**<br>**Distrito:** | | <img src="assets/.png" width="150"> |
+| 3 | **Nombre: Roberto**<br>**Apellido: Mendoza**<br>**Edad: 25**<br>**Distrito: San Juan de Lurigancho** |Roberto es un microempresario el cual en su opinión le gustaron varias de las funcions del producto de ElectroCorp como por ejemplo la funcion del control de dispositivos para el ahorro de energia al ser trabajr con varios equipos que consumen mucha electricidad y estos genera un gasto extra en su opinión | <img src="assets/EntrevistaValidacionSeg2.png" width="150"> |
 
 
 ### 5.3.3. Evaluaciones según heurísticas
