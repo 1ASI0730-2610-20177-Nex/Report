@@ -1293,7 +1293,7 @@ Es el gestor de equipos. Desde aquí, el usuario puede añadir nuevos dispositiv
 
 Es el archivo de actividades. Muestra un registro ordenado cronológicamente de todas las acciones pasadas, eventos y datos de consumo, permitiendo realizar consultas para auditorías o seguimiento.
 <br>
-<img src="assets/WireframeHistorial.png"><br><br>
+<img src="assets/Wireframehistorial.png"><br><br>
 
 
 Es el asistente inteligente. Esta sección utiliza inteligencia artificial para analizar el comportamiento del usuario y ofrecer recomendaciones personalizadas que ayudan a optimizar el ahorro energético.
