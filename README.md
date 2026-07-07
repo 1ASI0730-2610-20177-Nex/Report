@@ -28,12 +28,13 @@
 
 ## Registro de Versiones del Informe
 
-| Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
-| :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|   TB1   | 22/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
-|   TP1   |            |       |                                                            |
-|   TB2   |            |       |                                                            |
-|   TF1   |            |       |                                                            |
+| Versión | Fecha | Autor | Descripción de modificación |
+| :---: | :---: | :--- | :--- |
+| AV1 | 22/04/2026 | Tavara Correa, Sebastian Oswaldo; Tuncar Vila, Ghorghet Saul; Cabrejos Chocco, Diego Alexander; Fernandez Garfias Alexander Piero; Toro Turpo Ronal | Primer avance del informe: desarrollo de la información de la startup, identificación de la problemática, definición de los segmentos objetivo, requerimientos iniciales y documentación base del proyecto. |
+| TB1 | 09/05/2026 | Tavara Correa, Sebastian Oswaldo; Tuncar Vila, Ghorghet Saul; Cabrejos Chocco, Diego Alexander; Fernandez Garfias Alexander Piero; Toro Turpo Ronal | Primera entrega del producto: implementación y actualización de la Landing Page, desarrollo de la primera versión de la Frontend Web Application, conexión entre ambas aplicaciones y actualización de la documentación técnica del proyecto. |
+| AV2 | 18/06/2026 | Tavara Correa, Sebastian Oswaldo; Tuncar Vila, Ghorghet Saul; Cabrejos Chocco, Diego Alexander; Fernandez Garfias Alexander Piero; Toro Turpo Ronal | Segundo avance del producto y del informe: mejora del Frontend mediante los módulos Analytics y Payments, actualización de rutas, Sidebar y configuración del entorno; creación de la primera versión del Backend REST de ElectroCorp con persistencia en MySQL y documentación mediante Swagger/OpenAPI; incorporación completa del Sprint 3, sus evidencias de desarrollo y ejecución, colaboración del equipo y actualización del Student Outcome 3. |
+| TB2 | 2/07/2026 | Tavara Correa, Sebastian Oswaldo; Tuncar Vila, Ghorghet Saul; Cabrejos Chocco, Diego Alexander; Fernandez Garfias Alexander Piero; Toro Turpo Ronal | Tercer avance del producto y del informe: mejora del Frontend y configuración del entorno; creación de la segunda versión del Backend REST de ElectroCorp con persistencia en MySQL y documentación mediante Swagger/OpenAPI; incorporación completa del Sprint 4, sus evidencias de desarrollo y ejecución, colaboración del equipo y actualización del Student Outcome
+proyecto. |
 
 <div style="page-break-after: always;"></div>
 
@@ -191,12 +192,12 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 ## Student Outcome
 
-Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
-| Criterio Especifico | Acciones realizadas | Conclusiones |
-|--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Ghorghet Tuncar <br> TB1: <br> TP1: <br> TB2: <br> TF1: |	 |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Ghorghet Tuncar <br> TB1: <br> TP1: <br> TB2: <br> TF1: |	 |
+### Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
 
+| Criterio Específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Sebastian Tavara**<br>AV1: Realizó entrevistas clave para comprender las necesidades y dificultades de los usuarios.<br>TB1: Comunicó al equipo los hallazgos de las pruebas iniciales realizadas sobre la App Web desplegada, sugiriendo ajustes desde la perspectiva del usuario final.<br>AV2: Comunicó durante las reuniones del equipo los resultados de las revisiones funcionales realizadas sobre el Frontend y el Backend, señalando las evidencias pendientes para el Sprint Review.<br><br>**Diego Cabrejos**<br>AV1: Expuso la estructura y los avances del desarrollo de la Landing Page durante las reuniones del equipo.<br>TB1: Expuso las actualizaciones implementadas en la Landing Page de ElectroCorp, explicando las correcciones de errores y las mejoras visuales realizadas para esta entrega.<br>AV2: Explicó las mejoras realizadas en la navegación del Frontend, la actualización del Sidebar, la incorporación de nuevas rutas y la configuración del entorno para conectar la aplicación con los servicios del Backend.<br><br>**Alexander Fernandez**<br>AV1: Expuso la estructura general de la aplicación, explicó la función de los módulos principales del sistema y comunicó al equipo cómo se relacionaban las secciones del Frontend con la lógica del Backend durante el desarrollo inicial del proyecto.<br>TB1: Explicó el proceso y la configuración técnica requerida para realizar el primer despliegue de la App Web, asegurando que el equipo comprendiera el entorno de producción.<br>AV2: Expuso la implementación de los módulos Analytics y Payments en el Frontend, así como la arquitectura inicial del Backend, explicando la relación entre los controladores, servicios, repositorios, entidades y endpoints REST.<br><br>**Ronal Toro**<br>AV1: Realizó entrevistas clave para el proyecto y presentó las User Stories, el Product Backlog y el Ubiquitous Language.<br>TB1: Comunicó el estado de avance de las historias de usuario durante la revisión del Sprint, validando qué requerimientos se cumplieron con el despliegue.<br>AV2: Explicó al equipo la estructura relacional utilizada para almacenar usuarios, hogares, dispositivos y consumos, además del funcionamiento de las migraciones y la persistencia mediante MySQL.<br><br>**Ghorghet Tuncar**<br>AV1: Expuso en las reuniones de equipo la estructura de las historias de usuario y los criterios de aceptación del proyecto ElectroCorp. Explicó detalladamente el diseño y las interacciones de los Diagramas de Contexto y Contenedores del modelo C4. Además, comunicó las normativas de la Guía de Estilos de Código, asegurando que todos los miembros comprendieran las convenciones a seguir durante el desarrollo.<br>TB1: Sustentó los ajustes arquitectónicos necesarios durante el paso a producción de la App Web, guiando al equipo para mantener los estándares técnicos.<br>AV2: Presentó la documentación de los servicios REST mediante Swagger/OpenAPI y explicó los métodos HTTP, códigos de respuesta y criterios utilizados para validar los endpoints del Backend. | **Sebastian Tavara**<br>AV1: Fue importante mantenerse cerca de los usuarios para comprender mejor el problema y obtener una visión más clara de sus necesidades.<br><br>**Alexander Fernandez**<br>AV1: La comunicación oral durante la etapa inicial permitió transmitir con claridad la estructura funcional del sistema y facilitó que el equipo comprendiera cómo se integraban las principales partes de la aplicación.<br><br>**Ghorghet Tuncar**<br>AV1: Durante esta primera etapa, el equipo logró establecer un canal de comunicación oral constante y efectivo. Mediante exposiciones y reuniones regulares, los integrantes comunicaron ideas relacionadas con la arquitectura del sistema, el flujo de desarrollo y las normas de codificación. Esto permitió alinear la visión de ElectroCorp, resolver dudas técnicas y asegurar que todos los miembros compartieran un entendimiento claro de los objetivos iniciales.<br><br>**TB1 (Grupal):** El primer despliegue de la App Web y la actualización de la Landing Page exigieron una coordinación oral precisa. El equipo logró discutir y resolver los retos técnicos relacionados con la publicación del producto, manteniendo una división de tareas clara entre el código estático, la lógica de la aplicación y el proceso de despliegue.<br><br>**AV2 (Grupal):** Durante el Sprint 3, la comunicación oral permitió coordinar el trabajo realizado en el Frontend, Backend y base de datos. Las explicaciones desarrolladas durante las reuniones ayudaron a comprender los contratos REST, las rutas de navegación, la arquitectura del Backend, la estructura de persistencia y las evidencias requeridas para el Sprint Review. Esto facilitó la identificación de funcionalidades completadas, integraciones pendientes y responsabilidades técnicas dentro del equipo. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Sebastian Tavara**<br>AV1: Elaboró el análisis de las entrevistas y el User Persona correspondiente a los segmentos objetivo.<br>TB1: Documentó los reportes de usabilidad y los posibles errores encontrados al interactuar con el primer despliegue de la aplicación.<br>AV2: Registró los resultados de las validaciones funcionales, organizó las evidencias correspondientes al Sprint Review y apoyó en la actualización del estado de las tareas desarrolladas durante el Sprint 3.<br><br>**Diego Cabrejos**<br>AV1: Redactó y estructuró la documentación técnica del Sprint 1, incluyendo el Sprint Planning y el Sprint Backlog. Además, comunicó el progreso del desarrollo mediante mensajes de commit semánticos y descriptivos en el repositorio de la Landing Page.<br>TB1: Documentó los cambios y correcciones realizados en la Landing Page mediante mensajes de commit claros en el repositorio y actualizó la documentación técnica de la interfaz.<br>AV2: Redactó y estructuró la documentación correspondiente al Sprint 3, incluyendo el Sprint Planning, Sprint Backlog, evidencias de desarrollo, ejecución, despliegue y colaboración. También documentó los cambios del Frontend mediante commits relacionados con las rutas, el Sidebar y la configuración del entorno.<br><br>**Alexander Fernandez**<br>AV1: Redactó contenido técnico relacionado con la estructura funcional de la aplicación, describió la organización inicial del sistema y documentó la lógica general de los módulos implementados en el proyecto.<br>TB1: Redactó la documentación técnica sobre el despliegue de la App Web, incluyendo las configuraciones de entorno y dependencias utilizadas en producción.<br>AV2: Documentó mediante commits semánticos la incorporación de Analytics y Payments en el Frontend y la creación de la primera versión del Backend. Asimismo, organizó el código mediante entidades, resources, assemblers, controladores, servicios y repositorios para facilitar su comprensión técnica.<br><br>**Ronal Toro**<br>TB1: Actualizó el Sprint Backlog marcando las tareas completadas y redactó las notas de la versión correspondientes a la primera entrega.<br>AV2: Apoyó en la documentación del modelo relacional, las tablas de usuarios, hogares, dispositivos y consumos, así como en la descripción de las migraciones y las pruebas de persistencia realizadas mediante MySQL.<br><br>**Ghorghet Tuncar**<br>AV1: Redactó y estructuró el Product Backlog y las historias de usuario utilizando el lenguaje Gherkin para asegurar la claridad de los requisitos. Diseñó y documentó la arquitectura del sistema mediante los Diagramas de Contexto y Contenedores. También redactó la Guía de Estilos y Convenciones de Código para estandarizar el desarrollo del proyecto en HTML, CSS, JavaScript y Java.<br>TB1: Actualizó los diagramas de arquitectura para reflejar el entorno de despliegue y registró las nuevas normativas de código adoptadas durante esta fase.<br>AV2: Redactó la documentación de los servicios REST, detallando los endpoints, métodos HTTP, respuestas esperadas y contratos presentados mediante Swagger/OpenAPI. También registró observaciones relacionadas con la validación de solicitudes y el manejo de errores del Backend. | **Sebastian Tavara**<br>AV1: La elaboración del User Persona permitió representar las características, comportamientos y necesidades principales de cada segmento objetivo dentro de un perfil comprensible para todo el equipo.<br><br>**Alexander Fernandez**<br>AV1: La comunicación escrita durante la etapa inicial permitió organizar la estructura del sistema y describir con claridad la función de los módulos principales, facilitando la comprensión del proyecto desde una perspectiva técnica y académica.<br><br>**Ghorghet Tuncar**<br>AV1: Durante el primer avance, el equipo demostró capacidad para documentar técnicamente el proyecto mediante artefactos como el Product Backlog, las historias de usuario escritas bajo el estándar Gherkin, los diagramas de arquitectura C4 y las guías de estilo. Esta documentación permitió que perfiles técnicos y de negocio comprendieran el alcance y las bases del desarrollo de ElectroCorp.<br><br>**TB1 (Grupal):** La comunicación escrita fue fundamental para mantener el control de versiones durante esta etapa. El registro de las actualizaciones del código, los pasos de despliegue y la actualización del Product Backlog permitieron conservar la trazabilidad del proyecto y asegurar la replicabilidad técnica del entorno.<br><br>**AV2 (Grupal):** La comunicación escrita permitió mantener la trazabilidad del Sprint 3 mediante commits, documentación técnica, contratos REST y evidencias de ejecución. La descripción de los endpoints, rutas, migraciones y configuraciones de entorno facilitó la comprensión del funcionamiento general de ElectroCorp y de sus componentes técnicos. Asimismo, la documentación permitió diferenciar las funcionalidades completadas de aquellas que todavía requieren integración, pruebas adicionales o despliegue. |
 
 # Capitulo I: Introducción
 
@@ -675,7 +676,7 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 | N | Datos |Descripción |Imagen referencial
 |--|--|--|--|
 |1  | Nombre: Orlando<br>Apellido: Trinidad <br>Edad: 48<br>Distrito: La Victoria |El entrevistado Orlando Trinidad Parra, es un hombre de 48 años que reside en La Victoria. Se desempeña como microempresario del rubro textil, específicamente en la confección, operando un taller con varias máquinas industriales. Su negocio se encuentra dentro del segmento de pequeñas y medianas empresas (PYME), lo que implica recursos limitados y alta sensibilidad a los costos operativos.<br><br>Se percibe como una persona:<br>- Responsable y organizada ya que tiene trabajadores que limpian y apagan la maquina que trabajan.<br>- Abierta al cambio tecnológico, pero con criterio económico.<br><br>El taller usa diferentes equipos eléctricos tales como:<br>- Maquinas remalladoras.<br>- Maquinas rectas.<br>- Cortadora.<br>Se puede denotar que el consumo energético es alto y critico, impactando directamente la rentabilidad del negocio<br><br>Problemas detectados:<br>- Errores humanos frecuentes, especialmente en personal nuevo.<br>- Equipos que quedan encendidos o conectados innecesariamente.<br>- Desconocimiento del costo exacto por máquina, solo percibe el gasto total.<br><br>El entrevistado muestra interes en soluciones tecnologicas que le permitan:<br>- Medir el costo real por máquina (no solo consumo)<br>- Automatizar encendido/apagado<br>- Obtener reportes de desperdicio energético|<img src="assets/seg2 - img1.png">
-|2  | Nombre: <br>Apellido: <br>Edad: <br>Distrito: ||<img src="assets/seg2_entrevista2.PNG">
+|2  | Nombre:Roberto Carlos <br>Apellido:Mendoza <br>Edad: 25 <br>Distrito:San Juan de Lurigancho |Roberto Mendoza, tecnico en producción textil y dueño de un pequeño taller de producción lo cual hace que este dentro del segundo segmento de microempresas o negocios pequeños.<br><br>Se percibe como una persona:<br>-Responsable ya que empezó a emprender desde una edad temprana en el mundo textil manejando equipos electricos de alto cosumo electrico.<br><br>Es conciente de que no tiene el control del consumo de sus equipos electricos por lo que le preocupa desperfectos que puedan subir el recibo de electricidad o peor causar accidentes.<br><br> Entre sus principales necesidades encontramos que le gustaria tener mayor control de sus equipos electricos en cuanto a el consumo que estos generan y asi poder detectar patrones que también le indique si podria existir algun desperfecto en los aparatos electricos. |<img src="assets/Entrevista-Roberto_Mendoza.png">
 |3  | Nombre: Lourdes<br>Apellido: Saldarriaga <br>Edad: 46<br>Distrito: La Victoria |Lourdes Saldarriaga, es una mujer de 46 años que reside en La Victoria. Es propietaria de una pequeña tintorería, lo que la ubica dentro del segmento de microempresas o negocios pequeños con operaciones intensivas en uso de equipos eléctricos.<br><br>Se percibe como una persona:<br>- Practica y operativa, enfocada en el funcionamiento diario del negocio más que en análisis detallados<br>- Consciente de riesgos, especialmente después de haber experimentado incidentes (recalentamiento de equipos).<br>- Precavida en inversión, muestra interés condicionado al costo.<br><br>El taller usa diferentes equipos eléctricos tales como:<br>- Lavadoras industriales<br>- Posibles secadoras<br>El negocio tiene dependencia directa de maquinaria eléctrica continua, lo que hace critico el control energético<br><br>Problemas detectados:<br>-Errores humanos: un trabajador olvidó apagar un equipo.<br>- Consecuencia directa: recalentamiento de maquinaria, lo que implica riesgo operativo y económico.<br>- Dependencia del personal para tareas críticas.<br><br>Necesidades detectadas:<br>- Programación automática de encendido y apagado (su prioridad principal)<br>- Monitoreo del consumo energético por máquina y horario<br>- Identificación de picos de consumo| <img src="assets/seg2 - img3.png">
 
 
@@ -724,6 +725,60 @@ Insights clave
 -- el 75% desconfía de técnicos	
 - Valor percibido en dinero
 -- El 100% quiere ver el consumo eléctrico en soles.
+
+#### Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+Características objetivas del segmento
+- Rango edad: 39 -48 anios
+- Ubicacion: zonas urbanas (La Vcitoria y Villa el Salvador)
+- Tipo de negocio:
+-- 33% confecction textil.
+-- 33% lavanderia/tintereria
+-- 33% moda (vestidos de Quinceaniera)
+
+Infraestructura y equipos electricos
+
+- 100% dependen de maquinaria electrica critica
+- Tipos de equipos mas comunes:
+-- 66% Maquinas de confeccion.
+-- 33% Lavadoras.
+-- 100% Equipos complementarios (planchas, secadoras, iluminacion, ventilacion).
+- El consumo energetico es estructural, el negocio no puede operar sin electricidad.
+
+Impacto economico del uso de la energia
+
+- 100 % considera el costo electrico como "alto" o "critico"
+-- Orlando: "bastante critico"
+-- Katherine: "critico"
+-- Lourdes: aunque no lo dice explicito, su preocupación por incidentes y control lo respalda.
+
+Características subjetivas del segmento
+
+- 100% utiliza metodos manuales de control energetico
+-- Apagador por personal (66%)
+-- Uso de llave/palanca general (33%)
+- Consecuencia:
+-- 67% ha tenido problemas por descuidos
+-- Olvidos por personal (66%)
+-- Incidentes menores o riesgos (recalentamiento, consumo innecesario)
+
+Necesidades y motivaciones comunes:
+
+- Programacion automatica (67%)
+- Alertas (uso/consumo) (67%)
+- Reportes de consumo (100%)
+- Visualización del gasto energético en dinero (33%)
+
+Insights clave
+
+- Control vs Desorden
+el 100% necesita control energetico, pero actualmente depende de procesos manuales vulnerables.
+- Costo como driver principal
+el 100% toma decisiones basado en impacto económico, no en métricas técnicas.
+- Tecnologia pero simple
+el 100% acepta tecnología siempre que sea fácil de implementar, económica y no invasiva.
+- Segmento en transición
+-- El 67% es tradicional (operativo)
+-- El 33% es moderno
   
 ## 2.3. Needfinding
 ### 2.3.1. User Personas 
@@ -824,46 +879,46 @@ clave en nuestro proyecto.
 ## 3.1. User Stories
 |**Epic/User Story ID**|**Título**|**Descripción**|**Criterio de aceptación**|**Relación (EPIC ID)**|
 | - | - | - | - | - |
-|**US-01**|Visualizar información de la startup y testimonios|<p>Como usuario visitante, quiero acceder a la descripción de la empresa y leer opiniones de usuarios para confirmar la calidad del servicio.</p>|<p>**Escenario 1:** Información consolidada</p><p>Dado que navego en la página,</p><p>Cuando hago scroll por el contenido,</p><p>Entonces leo sobre la democratización de la domótica y los testimonios de clientes reales.</p>|**EP-05**|
-|**US-02**|Motor de búsqueda inteligente|<p>Como usuario visitante, quiero usar una barra de búsqueda para encontrar secciones de la página rápidamente.</p>|<p>**Escenario 1:** Búsqueda exitosa</p><p>Dado que busco información de costos,</p><p>Cuando escribo "precios" y doy clic a la lupa,</p><p>Entonces la página hace un scroll suave hacia "Our Plans".</p>|**EP-05**|
-|**US-03**|Cambio de idioma (ES/EN)|<p>Como usuario visitante, quiero poder cambiar el idioma de la página web para leerla en mi idioma nativo.</p>|<p>**Escenario 1:** Traducción dinámica</p><p>Dado que la página está en inglés,</p><p>Cuando doy clic al ícono del mundo (ES),</p><p>Entonces todos los textos cambian instantáneamente al español.</p>|**EP-05**|
-|**US-04**|Suscripción al boletín de noticias|<p>Como usuario visitante, quiero suscribirme al boletín en un formulario para recibir consejos de ahorro y ofertas.</p>|<p>**Escenario 1:** Envío de formulario</p><p>Dado que ingreso mi email en la sección de contacto,</p><p>Cuando presiono "Submit",</p><p>Entonces aparece un mensaje de agradecimiento temporal y la caja se limpia.</p>|**EP-05**|
-|**US-05**|Interfaz interactiva (Menú y Audio)|<p>Como usuario visitante, quiero interactuar con un menú fluido y pausar/reproducir la música de fondo a mi gusto.</p>|<p>**Escenario 1:** Navegación y control</p><p>Dado que estoy en la web,</p><p>Cuando uso el Navbar dinámico o presiono el botón flotante de audio,</p><p>Entonces la página me redirige a la sección deseada o pausa la música (ElectroCorp.mp3).</p>|**EP-05**|
-|**US-06**|Comparar planes de servicio|<p>Como usuario visitante, quiero ver las diferencias entre el plan Free y Enterprise para elegir el adecuado.</p>|<p>**Escenario 1:** Tarjetas de precio</p><p>Dado que bajo a la sección "Pricing",</p><p>Cuando visualizo las tarjetas,</p><p>Entonces noto que el plan Enterprise está resaltado como premium.</p>|**EP-05**|
-|**US-07**|Registro inicial del usuario|<p>Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos.</p>|<p>**Escenario 1:** Registro Exitoso</p><p>Dado que el usuario no tiene cuenta,</p><p>Cuando ingresa su email y contraseña,</p><p>Entonces el sistema crea la cuenta.</p>|**EP-01**|
-|**US-08**|Emparejar dispositivo|<p>Como usuario, quiero vincular un enchufe inteligente desde la app.</p>|<p>**Escenario 1:** Vinculación exitosa</p><p>Dado que el usuario está en "Agregar",</p><p>Cuando ingresa el código del equipo,</p><p>Entonces el equipo aparece en su lista.</p>|**EP-01**|
-|**US-09**|Asistente de instalación|<p>Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema.</p>|<p>**Escenario 1:** Tutorial de inicio</p><p>Dado que es el primer inicio de sesión,</p><p>Cuando el usuario entra a la app,</p><p>Entonces se muestra un tutorial de pasos básicos.</p>|**EP-01**|
-|**US-10**|Nombrar dispositivos|<p>Como usuario, quiero asignar nombres personalizados a mis dispositivos.</p>|<p>**Escenario 1:** Edición de nombre</p><p>Dado que el equipo fue vinculado,</p><p>Cuando el usuario edita el nombre a "Lámpara",</p><p>Entonces el nuevo nombre se guarda en la base de datos.</p>|**EP-01**|
-|**US-11**|Ver estado en tiempo real|<p>Como usuario, quiero ver si un dispositivo está encendido o apagado.</p>|<p>**Escenario 1:** Feedback visual</p><p>Dado que el usuario observa el dashboard,</p><p>Cuando un equipo cambia de estado físico,</p><p>Entonces el icono se actualiza en la app.</p>|**EP-02**|
-|**US-12**|Encender y apagar remotamente|<p>Como usuario, quiero controlar mis dispositivos desde el celular.</p>|<p>**Escenario 1:** Acción remota</p><p>Dado que el equipo está apagado,</p><p>Cuando el usuario hace clic en encender,</p><p>Entonces el dispositivo cambia a ON.</p>|**EP-02**|
-|**US-13**|Programar horarios de encendido|<p>Como usuario, quiero programar horarios automáticos.</p>|<p>**Escenario 1:** Creación de horario</p><p>Dado que el usuario selecciona un enchufe,</p><p>Cuando configura la hora de encendido,</p><p>Entonces el sistema respeta el horario diariamente.</p>|**EP-02**|
-|**US-14**|Crear rutinas automáticas|<p>Como usuario, quiero definir rutinas de automatización general.</p>|<p>**Escenario 1:** Rutina nocturna</p><p>Dado que el usuario crea una rutina "Dormir",</p><p>Cuando llega la hora programada,</p><p>Entonces todos los dispositivos seleccionados se apagan a la vez.</p>|**EP-02**|
-|**US-15**|Ver consumo en tiempo real|<p>Como usuario, quiero monitorear el consumo energético en vivo.</p>|<p>**Escenario 1:** Monitor de Watts</p><p>Dado que el enchufe está activo,</p><p>Cuando el usuario abre la gráfica,</p><p>Entonces visualiza los Watts consumidos actualizados.</p>|**EP-03**|
-|**US-16**|Consultar historial de consumo|<p>Como usuario, quiero revisar el historial de consumo por día o semana.</p>|<p>**Escenario 1:** Filtro de historial</p><p>Dado que el usuario está en reportes,</p><p>Cuando selecciona "Últimos 7 días",</p><p>Entonces se muestra un gráfico diario.</p>|**EP-03**|
-|**US-17**|Recibir alertas por alto consumo|<p>Como usuario, quiero recibir alertas por consumos inusuales de energía.</p>|<p>**Escenario 1:** Alerta en app</p><p>Dado que el límite es 500W,</p><p>Cuando se supera la cifra de manera sostenida,</p><p>Entonces aparece una notificación push.</p>|**EP-03**|
-|**US-18**|Ver recomendaciones de ahorro|<p>Como usuario, quiero recibir sugerencias para ahorrar energía.</p>|<p>**Escenario 1:** Tips inteligentes</p><p>Dado que el consumo es ineficiente en cierto horario,</p><p>Cuando revisa el panel de sugerencias,</p><p>Entonces el sistema recomienda crear nuevas rutinas.</p>|**EP-03**|
-|**US-19**|Administrar múltiples dispositivos|<p>Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla.</p>|<p>**Escenario 1:** Vista general</p><p>Dado que el usuario tiene 5 equipos,</p><p>Cuando ingresa al inicio,</p><p>Entonces visualiza las 5 tarjetas operables.</p>|**EP-04**|
-|**US-20**|Crear perfiles de acceso|<p>Como administrador, quiero dar acceso a familiares con permisos limitados.</p>|<p>**Escenario 1:** Rol de invitado</p><p>Dado que el administrador invita a un familiar,</p><p>Cuando este inicia sesión en su dispositivo,</p><p>Entonces solo puede apagar/encender equipos.</p>|**EP-04**|
-|**US-21**|Bloquear acceso no autorizado|<p>Como usuario, quiero proteger mi cuenta de extraños.</p>|<p>**Escenario 1:** Timeout por inactividad</p><p>Dado que la app web queda abierta sin interactuar,</p><p>Cuando pasan 30 minutos sin uso,</p><p>Entonces la sesión expira.</p>|**EP-04**|
-|**US-22**|Registrar actividad de control|<p>Como administrador, quiero ver quién controló un equipo.</p>|<p>**Escenario 1:** Log de auditoría</p><p>Dado que se ejecutó una acción,</p><p>Cuando se revisa el log de eventos,</p><p>Entonces se detalla el nombre del usuario y la hora.</p>|**EP-04**|
-|**US-23**|Controlar equipos del negocio|<p>Como dueño de negocio, quiero controlar equipos del local desde mi móvil.</p>|<p>**Escenario 1:** Control comercial</p><p>Dado que el dueño está en su domicilio,</p><p>Cuando apaga el grupo de luz del local,</p><p>Entonces se refleja instantáneamente en el negocio.</p>|**EP-02**|
-|**US-24**|Programar equipos por horario comercial|<p>Como dueño, quiero automatizar el local según el horario de atención.</p>|<p>**Escenario 1:** Automatización de horario</p><p>Dado que el horario es de 9am a 6pm,</p><p>Cuando se activa la rutina comercial,</p><p>Entonces los equipos siguen automáticamente el horario.</p>|**EP-02**|
-|**US-25**|Revisar consumo por área o equipo|<p>Como dueño, quiero identificar qué áreas consumen más.</p>|<p>**Escenario 1:** Desglose por zona</p><p>Dado que hay varios equipos registrados,</p><p>Cuando revisa el reporte corporativo,</p><p>Entonces visualiza un gráfico detallado por zonas.</p>|**EP-03**|
-|**US-26**|Compartir acceso con personal|<p>Como dueño, quiero permitir que empleados controlen ciertos equipos.</p>|<p>**Escenario 1:** Control limitado</p><p>Dado que un empleado de almacén entra a la app,</p><p>Cuando visualiza el dashboard principal,</p><p>Entonces solo ve el control de su área correspondiente.</p>|**EP-04**|
-|**US-27**|Pagar suscripción con tarjeta|<p>Como usuario, quiero ingresar mi tarjeta de forma segura para adquirir el plan Premium.</p>|<p>**Escenario 1:** Pasarela Stripe</p><p>Dado que el usuario elige el plan Enterprise,</p><p>Cuando ingresa sus datos válidos,</p><p>Entonces Stripe procesa exitosamente el cobro mensual.</p>|**EP-06**|
-|**US-28**|Cancelar suscripción Premium|<p>Como usuario, quiero anular mi suscripción para detener cobros.</p>|<p>**Escenario 1:** Detención de cobros</p><p>Dado que el usuario accede a configuración de facturación,</p><p>Cuando confirma la cancelación del servicio,</p><p>Entonces el plan se degrada a final de mes.</p>|**EP-06**|
-|**US-29**|Recibir alertas por correo|<p>Como usuario, quiero que el sistema me notifique a mi correo si algo inusual pasa con mi consumo.</p>|<p>**Escenario 1:** Despacho vía Mailchimp</p><p>Dado que hay un evento crítico registrado,</p><p>Cuando el backend lo procesa,</p><p>Entonces recibo un email de alerta inmediata.</p>|**EP-07**|
-|**US-30**|Recibir reporte mensual|<p>Como usuario, quiero recibir un resumen mensual en mi email para saber cuánto ahorré.</p>|<p>**Escenario 1:** Envío automatizado</p><p>Dado que es el último día del mes,</p><p>Cuando el cronjob se activa,</p><p>Entonces me envía un correo con mis estadísticas.</p>|**EP-07**|
-|**US-31**|Recuperar contraseña|<p>Como usuario, quiero poder restablecer mi contraseña si la olvido.</p>|<p>**Escenario 1:** Email de recuperación</p><p>Dado que el usuario hace clic en "Olvidé mi contraseña",</p><p>Cuando ingresa su email,</p><p>Entonces recibe un enlace seguro por tiempo limitado.</p>|**EP-04**|
-|**US-32**|Editar perfil de usuario|<p>Como usuario, quiero cambiar mis datos personales de perfil.</p>|<p>**Escenario 1:** Guardado de cambios</p><p>Dado que el usuario edita su nombre o teléfono,</p><p>Cuando da clic en guardar,</p><p>Entonces la información se actualiza en la base de datos MySQL.</p>|**EP-04**|
-|**US-33**|Eliminar cuenta|<p>Como usuario, quiero borrar definitivamente mi cuenta y datos.</p>|<p>**Escenario 1:** Purga de información</p><p>Dado que el usuario confirma la eliminación total,</p><p>Cuando el sistema procesa la solicitud,</p><p>Entonces sus datos se borran irreversiblemente.</p>|**EP-04**|
-|**US-34**|Configurar preferencias|<p>Como usuario, quiero elegir qué tipo de alertas me llegan.</p>|<p>**Escenario 1:** Switch de preferencias</p><p>Dado que el usuario apaga el interruptor de correos mensuales,</p><p>Cuando se guarda la preferencia,</p><p>Entonces su email es removido de la lista de envíos de resúmenes.</p>|**EP-07**|
-|**US-35**|Simular conexión de equipo|<p>Como desarrollador, quiero simular un dispositivo nuevo para pruebas de la plataforma.</p>|<p>**Escenario 1:** Inyección de dispositivo virtual</p><p>Dado que se dispara el evento simulador mediante API,</p><p>Cuando ocurre la validación,</p><p>Entonces el equipo aparece en la cuenta del usuario.</p>|**EP-01**|
-|**US-36**|Filtrar historial por fechas|<p>Como usuario, quiero establecer un rango de fechas para ver consumos pasados.</p>|<p>**Escenario 1:** Filtro de calendario</p><p>Dado que el usuario abre la herramienta de fechas,</p><p>Cuando selecciona desde y hasta,</p><p>Entonces la gráfica se redibuja excluyendo el resto de días.</p>|**EP-03**|
-|**US-37**|Exportar historial a Excel|<p>Como usuario corporativo, quiero descargar mis datos de consumo.</p>|<p>**Escenario 1:** Generación de CSV</p><p>Dado que se visualiza la tabla en pantalla,</p><p>Cuando se hace clic en Exportar,</p><p>Entonces el navegador descarga un archivo CSV estructurado.</p>|**EP-03**|
-|**US-38**|Agrupar dispositivos|<p>Como usuario, quiero agrupar mis enchufes por habitaciones.</p>|<p>**Escenario 1:** Operación masiva por grupo</p><p>Dado que el usuario ha creado el grupo "Iluminación Sala",</p><p>Cuando apaga el grupo,</p><p>Entonces todos los enchufes asignados a la sala se apagan simultáneamente.</p>|**EP-02**|
-|**US-39**|Activar Modo Oscuro|<p>Como usuario, quiero activar un tema oscuro en mi dashboard para evitar la fatiga visual nocturna.</p>|<p>**Escenario 1:** Toggle Dark Mode</p><p>Dado que el usuario entra a configuraciones de UI,</p><p>Cuando activa el switch de Modo Oscuro,</p><p>Entonces los colores de la aplicación SPA cambian a la paleta Dark.</p>|**EP-05**|
-|**US-40**|Gestionar múltiples locales|<p>Como dueño de negocio, quiero gestionar distintas sucursales desde una sola cuenta centralizada.</p>|<p>**Escenario 1:** Selector de Sucursal</p><p>Dado que el usuario posee el plan Enterprise,</p><p>Cuando despliega el menú de ubicaciones superior,</p><p>Entonces puede saltar del "Local A" al "Local B" cambiando el dashboard.</p>|**EP-04**|
+|**US-01**|Visualizar información de la startup y testimonios|<p>Como usuario visitante, quiero acceder a la descripción de la empresa y leer opiniones de usuarios para confirmar la calidad del servicio.</p>|<p>**Escenario 1:** Información consolidada</p><p>Dado que navego en la página,</p><p>Cuando hago scroll por el contenido,</p><p>Entonces leo sobre la democratización de la domótica y los testimonios de clientes reales.</p><p>**Escenario 2:** Error al cargar testimonios</p><p>Dado que la página tiene problemas de conexión con el servidor,</p><p>Cuando intento cargar la sección de testimonios,</p><p>Entonces se muestra un mensaje "No se pudieron cargar los testimonios" y un placeholder genérico.</p>|**EP-05**|
+|**US-02**|Motor de búsqueda inteligente|<p>Como usuario visitante, quiero usar una barra de búsqueda para encontrar secciones de la página rápidamente.</p>|<p>**Escenario 1:** Búsqueda exitosa</p><p>Dado que busco información de costos,</p><p>Cuando escribo "precios" y doy clic a la lupa,</p><p>Entonces la página hace un scroll suave hacia "Our Plans".</p><p>**Escenario 2:** Búsqueda sin resultados</p><p>Dado que busco un término que no existe en el sitio,</p><p>Cuando escribo "garantía" y presiono Enter,</p><p>Entonces aparece el mensaje "No se encontraron resultados para tu búsqueda" y no ocurre ningún scroll.</p>|**EP-05**|
+|**US-03**|Cambio de idioma (ES/EN)|<p>Como usuario visitante, quiero poder cambiar el idioma de la página web para leerla en mi idioma nativo.</p>|<p>**Escenario 1:** Traducción dinámica</p><p>Dado que la página está en inglés,</p><p>Cuando doy clic al ícono del mundo (ES),</p><p>Entonces todos los textos cambian instantáneamente al español.</p><p>**Escenario 2:** Fallo en la traducción dinámica</p><p>Dado que la página está en inglés y el archivo de traducción no se cargó correctamente,</p><p>Cuando doy clic al ícono del mundo (ES),</p><p>Entonces los textos permanecen en inglés y se muestra una advertencia en consola del navegador.</p>|**EP-05**|
+|**US-04**|Suscripción al boletín de noticias|<p>Como usuario visitante, quiero suscribirme al boletín en un formulario para recibir consejos de ahorro y ofertas.</p>|<p>**Escenario 1:** Envío de formulario</p><p>Dado que ingreso mi email en la sección de contacto,</p><p>Cuando presiono "Submit",</p><p>Entonces aparece un mensaje de agradecimiento temporal y la caja se limpia.</p><p>**Escenario 2:** Email inválido</p><p>Dado que ingreso un correo con formato incorrecto (ej. "correo-invalido"),</p><p>Cuando presiono "Submit",</p><p>Entonces el campo se resalta en rojo y aparece el mensaje "Ingresa un correo electrónico válido".</p>|**EP-05**|
+|**US-05**|Interfaz interactiva (Menú y Audio)|<p>Como usuario visitante, quiero interactuar con un menú fluido y pausar/reproducir la música de fondo a mi gusto.</p>|<p>**Escenario 1:** Navegación y control</p><p>Dado que estoy en la web,</p><p>Cuando uso el Navbar dinámico o presiono el botón flotante de audio,</p><p>Entonces la página me redirige a la sección deseada o pausa la música (ElectroCorp.mp3).</p><p>**Escenario 2:** Archivo de audio no disponible</p><p>Dado que el archivo ElectroCorp.mp3 no se encuentra en el servidor,</p><p>Cuando presiono el botón flotante de audio,</p><p>Entonces no ocurre ningún cambio de estado y se registra un error silencioso en consola.</p>|**EP-05**|
+|**US-06**|Comparar planes de servicio|<p>Como usuario visitante, quiero ver las diferencias entre el plan Free y Enterprise para elegir el adecuado.</p>|<p>**Escenario 1:** Tarjetas de precio</p><p>Dado que bajo a la sección "Pricing",</p><p>Cuando visualizo las tarjetas,</p><p>Entonces noto que el plan Enterprise está resaltado como premium.</p><p>**Escenario 2:** Planes no disponibles</p><p>Dado que hay una falla en la carga de datos de precios,</p><p>Cuando bajo a la sección "Pricing",</p><p>Entonces las tarjetas muestran un estado de carga (spinner) y luego un mensaje "Planes temporalmente no disponibles".</p>|**EP-05**|
+|**US-07**|Registro inicial del usuario|<p>Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos.</p>|<p>**Escenario 1:** Registro Exitoso</p><p>Dado que el usuario no tiene cuenta,</p><p>Cuando ingresa su email y contraseña,</p><p>Entonces el sistema crea la cuenta.</p><p>**Escenario 2:** Email duplicado</p><p>Dado que el correo electrónico ya está registrado en la base de datos,</p><p>Cuando ingresa su email y contraseña para crear una cuenta,</p><p>Entonces el sistema muestra el mensaje "El correo electrónico ya está registrado" y no crea la cuenta.</p>|**EP-01**|
+|**US-08**|Emparejar dispositivo|<p>Como usuario, quiero vincular un enchufe inteligente desde la app.</p>|<p>**Escenario 1:** Vinculación exitosa</p><p>Dado que el usuario está en "Agregar",</p><p>Cuando ingresa el código del equipo,</p><p>Entonces el equipo aparece en su lista.</p><p>**Escenario 2:** Código de dispositivo inválido</p><p>Dado que el usuario ingresa un código que no existe en el sistema,</p><p>Cuando confirma el código del equipo,</p><p>Entonces aparece el mensaje "Código no válido. Verifica el número en la parte posterior del dispositivo".</p>|**EP-01**|
+|**US-09**|Asistente de instalación|<p>Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema.</p>|<p>**Escenario 1:** Tutorial de inicio</p><p>Dado que es el primer inicio de sesión,</p><p>Cuando el usuario entra a la app,</p><p>Entonces se muestra un tutorial de pasos básicos.</p><p>**Escenario 2:** Tutorial cerrado prematuramente</p><p>Dado que el usuario cierra el tutorial antes de completarlo,</p><p>Cuando presiona el botón "Saltar",</p><p>Entonces el tutorial se cierra y se muestra un tooltip recordatorio en la esquina superior.</p>|**EP-01**|
+|**US-10**|Nombrar dispositivos|<p>Como usuario, quiero asignar nombres personalizados a mis dispositivos.</p>|<p>**Escenario 1:** Edición de nombre</p><p>Dado que el equipo fue vinculado,</p><p>Cuando el usuario edita el nombre a "Lámpara",</p><p>Entonces el nuevo nombre se guarda en la base de datos.</p><p>**Escenario 2:** Nombre vacío o inválido</p><p>Dado que el usuario intenta guardar el nombre sin escribir nada,</p><p>Cuando presiona el botón "Guardar",</p><p>Entonces el campo se resalta en rojo y aparece "El nombre no puede estar vacío".</p>|**EP-01**|
+|**US-11**|Ver estado en tiempo real|<p>Como usuario, quiero ver si un dispositivo está encendido o apagado.</p>|<p>**Escenario 1:** Feedback visual</p><p>Dado que el usuario observa el dashboard,</p><p>Cuando un equipo cambia de estado físico,</p><p>Entonces el icono se actualiza en la app.</p><p>**Escenario 2:** Dispositivo desconectado</p><p>Dado que el dispositivo perdió la conexión Wi-Fi,</p><p>Cuando el usuario observa el dashboard,</p><p>Entonces el icono muestra un estado "Desconectado" con un indicador gris y la leyenda "Sin señal".</p>|**EP-02**|
+|**US-12**|Encender y apagar remotamente|<p>Como usuario, quiero controlar mis dispositivos desde el celular.</p>|<p>**Escenario 1:** Acción remota</p><p>Dado que el equipo está apagado,</p><p>Cuando el usuario hace clic en encender,</p><p>Entonces el dispositivo cambia a ON.</p><p>**Escenario 2:** Dispositivo offline</p><p>Dado que el equipo está desconectado de la red eléctrica o Wi-Fi,</p><p>Cuando el usuario hace clic en encender,</p><p>Entonces aparece un mensaje emergente "El dispositivo no responde. Verifica su conexión".</p>|**EP-02**|
+|**US-13**|Programar horarios de encendido|<p>Como usuario, quiero programar horarios automáticos.</p>|<p>**Escenario 1:** Creación de horario</p><p>Dado que el usuario selecciona un enchufe,</p><p>Cuando configura la hora de encendido,</p><p>Entonces el sistema respeta el horario diariamente.</p><p>**Escenario 2:** Hora inválida o en el pasado</p><p>Dado que el usuario selecciona una hora que ya ocurrió hoy,</p><p>Cuando configura y guarda la hora de encendido,</p><p>Entonces el sistema muestra "La hora programada debe ser futura" y no guarda la configuración.</p>|**EP-02**|
+|**US-14**|Crear rutinas automáticas|<p>Como usuario, quiero definir rutinas de automatización general.</p>|<p>**Escenario 1:** Rutina nocturna</p><p>Dado que el usuario crea una rutina "Dormir",</p><p>Cuando llega la hora programada,</p><p>Entonces todos los dispositivos seleccionados se apagan a la vez.</p><p>**Escenario 2:** Rutina sin dispositivos asignados</p><p>Dado que el usuario crea una rutina pero no selecciona ningún dispositivo,</p><p>Cuando intenta guardar la rutina,</p><p>Entonces el botón "Guardar" permanece deshabilitado y se muestra "Selecciona al menos un dispositivo".</p>|**EP-02**|
+|**US-15**|Ver consumo en tiempo real|<p>Como usuario, quiero monitorear el consumo energético en vivo.</p>|<p>**Escenario 1:** Monitor de Watts</p><p>Dado que el enchufe está activo,</p><p>Cuando el usuario abre la gráfica,</p><p>Entonces visualiza los Watts consumidos actualizados.</p><p>**Escenario 2:** Sin datos de consumo disponibles</p><p>Dado que el enchufe está recién vinculado y aún no registra consumo,</p><p>Cuando el usuario abre la gráfica,</p><p>Entonces se muestra un gráfico vacío con la leyenda "Esperando datos de consumo...".</p>|**EP-03**|
+|**US-16**|Consultar historial de consumo|<p>Como usuario, quiero revisar el historial de consumo por día o semana.</p>|<p>**Escenario 1:** Filtro de historial</p><p>Dado que el usuario está en reportes,</p><p>Cuando selecciona "Últimos 7 días",</p><p>Entonces se muestra un gráfico diario.</p><p>**Escenario 2:** Rango sin datos registrados</p><p>Dado que el usuario selecciona un rango de fechas futuro,</p><p>Cuando selecciona "Próximos 7 días",</p><p>Entonces se muestra un gráfico sin barras con el mensaje "No hay datos de consumo en este período".</p>|**EP-03**|
+|**US-17**|Recibir alertas por alto consumo|<p>Como usuario, quiero recibir alertas por consumos inusuales de energía.</p>|<p>**Escenario 1:** Alerta en app</p><p>Dado que el límite es 500W,</p><p>Cuando se supera la cifra de manera sostenida,</p><p>Entonces aparece una notificación push.</p><p>**Escenario 2:** Límite de consumo no configurado</p><p>Dado que el usuario nunca configuró un límite de consumo,</p><p>Cuando se supera un consumo elevado de manera sostenida,</p><p>Entonces el sistema no envía ninguna notificación push.</p>|**EP-03**|
+|**US-18**|Ver recomendaciones de ahorro|<p>Como usuario, quiero recibir sugerencias para ahorrar energía.</p>|<p>**Escenario 1:** Tips inteligentes</p><p>Dado que el consumo es ineficiente en cierto horario,</p><p>Cuando revisa el panel de sugerencias,</p><p>Entonces el sistema recomienda crear nuevas rutinas.</p><p>**Escenario 2:** Sin recomendaciones disponibles</p><p>Dado que el consumo del usuario ya es eficiente en todos los horarios,</p><p>Cuando revisa el panel de sugerencias,</p><p>Entonces se muestra el mensaje "Tu consumo es óptimo. Sigue así!" sin recomendaciones.</p>|**EP-03**|
+|**US-19**|Administrar múltiples dispositivos|<p>Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla.</p>|<p>**Escenario 1:** Vista general</p><p>Dado que el usuario tiene 5 equipos,</p><p>Cuando ingresa al inicio,</p><p>Entonces visualiza las 5 tarjetas operables.</p><p>**Escenario 2:** Lista de dispositivos vacía</p><p>Dado que el usuario no ha vinculado ningún dispositivo aún,</p><p>Cuando ingresa al inicio del dashboard,</p><p>Entonces se muestra una ilustración y el mensaje "Aún no tienes dispositivos vinculados. Agrega tu primer enchufe".</p>|**EP-04**|
+|**US-20**|Crear perfiles de acceso|<p>Como administrador, quiero dar acceso a familiares con permisos limitados.</p>|<p>**Escenario 1:** Rol de invitado</p><p>Dado que el administrador invita a un familiar,</p><p>Cuando este inicia sesión en su dispositivo,</p><p>Entonces solo puede apagar/encender equipos.</p><p>**Escenario 2:** Correo del invitado inválido o repetido</p><p>Dado que el administrador ingresa un correo que ya tiene acceso o tiene formato inválido,</p><p>Cuando envía la invitación,</p><p>Entonces el sistema muestra "El correo ingresado no es válido o ya tiene un perfil de acceso".</p>|**EP-04**|
+|**US-21**|Bloquear acceso no autorizado|<p>Como usuario, quiero proteger mi cuenta de extraños.</p>|<p>**Escenario 1:** Timeout por inactividad</p><p>Dado que la app web queda abierta sin interactuar,</p><p>Cuando pasan 30 minutos sin uso,</p><p>Entonces la sesión expira.</p><p>**Escenario 2:** Sesión expirada durante una acción activa</p><p>Dado que el usuario está realizando una configuración y la sesión expira,</p><p>Cuando intenta guardar los cambios,</p><p>Entonces se redirige a la pantalla de inicio de sesión y los cambios no guardados se pierden.</p>|**EP-04**|
+|**US-22**|Registrar actividad de control|<p>Como administrador, quiero ver quién controló un equipo.</p>|<p>**Escenario 1:** Log de auditoría</p><p>Dado que se ejecutó una acción,</p><p>Cuando se revisa el log de eventos,</p><p>Entonces se detalla el nombre del usuario y la hora.</p><p>**Escenario 2:** Log de actividades vacío</p><p>Dado que no se ha ejecutado ninguna acción de control en el período consultado,</p><p>Cuando se revisa el log de eventos,</p><p>Entonces se muestra la tabla vacía con el mensaje "No se registraron actividades en este período".</p>|**EP-04**|
+|**US-23**|Controlar equipos del negocio|<p>Como dueño de negocio, quiero controlar equipos del local desde mi móvil.</p>|<p>**Escenario 1:** Control comercial</p><p>Dado que el dueño está en su domicilio,</p><p>Cuando apaga el grupo de luz del local,</p><p>Entonces se refleja instantáneamente en el negocio.</p><p>**Escenario 2:** Dispositivo del negocio sin conexión</p><p>Dado que el router del local comercial está apagado,</p><p>Cuando el dueño intenta apagar el grupo de luz del local desde su domicilio,</p><p>Entonces aparece el mensaje "Equipo offline. No se pudo ejecutar la acción".</p>|**EP-02**|
+|**US-24**|Programar equipos por horario comercial|<p>Como dueño, quiero automatizar el local según el horario de atención.</p>|<p>**Escenario 1:** Automatización de horario</p><p>Dado que el horario es de 9am a 6pm,</p><p>Cuando se activa la rutina comercial,</p><p>Entonces los equipos siguen automáticamente el horario.</p><p>**Escenario 2:** Rango de horario inválido</p><p>Dado que el dueño configura una hora de inicio posterior a la hora de fin,</p><p>Cuando guarda la rutina comercial,</p><p>Entonces el sistema muestra "La hora de inicio debe ser anterior a la hora de fin" y no guarda la rutina.</p>|**EP-02**|
+|**US-25**|Revisar consumo por área o equipo|<p>Como dueño, quiero identificar qué áreas consumen más.</p>|<p>**Escenario 1:** Desglose por zona</p><p>Dado que hay varios equipos registrados,</p><p>Cuando revisa el reporte corporativo,</p><p>Entonces visualiza un gráfico detallado por zonas.</p><p>**Escenario 2:** Área sin dispositivos registrados</p><p>Dado que el área consultada no tiene equipos asignados,</p><p>Cuando revisa el reporte corporativo filtrando por esa zona,</p><p>Entonces el gráfico aparece vacío con el mensaje "No hay dispositivos en esta área".</p>|**EP-03**|
+|**US-26**|Compartir acceso con personal|<p>Como dueño, quiero permitir que empleados controlen ciertos equipos.</p>|<p>**Escenario 1:** Control limitado</p><p>Dado que un empleado de almacén entra a la app,</p><p>Cuando visualiza el dashboard principal,</p><p>Entonces solo ve el control de su área correspondiente.</p><p>**Escenario 2:** Credenciales del empleado inválidas</p><p>Dado que el empleado ingresa una contraseña incorrecta en su inicio de sesión,</p><p>Cuando intenta acceder al dashboard principal,</p><p>Entonces el sistema muestra "Credenciales inválidas" y no permite el ingreso.</p>|**EP-04**|
+|**US-27**|Pagar suscripción con tarjeta|<p>Como usuario, quiero ingresar mi tarjeta de forma segura para adquirir el plan Premium.</p>|<p>**Escenario 1:** Pasarela Stripe</p><p>Dado que el usuario elige el plan Enterprise,</p><p>Cuando ingresa sus datos válidos,</p><p>Entonces Stripe procesa exitosamente el cobro mensual.</p><p>**Escenario 2:** Tarjeta rechazada</p><p>Dado que el usuario ingresa una tarjeta con fondos insuficientes o datos incorrectos,</p><p>Cuando confirma el pago en la pasarela Stripe,</p><p>Entonces Stripe retorna un error y se muestra "La transacción fue rechazada. Verifica los datos de tu tarjeta".</p>|**EP-06**|
+|**US-28**|Cancelar suscripción Premium|<p>Como usuario, quiero anular mi suscripción para detener cobros.</p>|<p>**Escenario 1:** Detención de cobros</p><p>Dado que el usuario accede a configuración de facturación,</p><p>Cuando confirma la cancelación del servicio,</p><p>Entonces el plan se degrada a final de mes.</p><p>**Escenario 2:** Suscripción ya cancelada previamente</p><p>Dado que el usuario ya canceló su suscripción en el pasado,</p><p>Cuando accede a configuración de facturación y confirma la cancelación,</p><p>Entonces el sistema muestra "Tu suscripción ya se encuentra cancelada" sin realizar ningún cambio.</p>|**EP-06**|
+|**US-29**|Recibir alertas por correo|<p>Como usuario, quiero que el sistema me notifique a mi correo si algo inusual pasa con mi consumo.</p>|<p>**Escenario 1:** Despacho vía Mailchimp</p><p>Dado que hay un evento crítico registrado,</p><p>Cuando el backend lo procesa,</p><p>Entonces recibo un email de alerta inmediata.</p><p>**Escenario 2:** Error en el envío del correo</p><p>Dado que la API de Mailchimp no responde o el correo del usuario es inválido,</p><p>Cuando el backend procesa el evento crítico,</p><p>Entonces no se envía el email y se registra un error en los logs del servidor.</p>|**EP-07**|
+|**US-30**|Recibir reporte mensual|<p>Como usuario, quiero recibir un resumen mensual en mi email para saber cuánto ahorré.</p>|<p>**Escenario 1:** Envío automatizado</p><p>Dado que es el último día del mes,</p><p>Cuando el cronjob se activa,</p><p>Entonces me envía un correo con mis estadísticas.</p><p>**Escenario 2:** Cronjob falla en la generación del reporte</p><p>Dado que el servidor tiene una sobrecarga en el último día del mes,</p><p>Cuando el cronjob se activa para generar el reporte,</p><p>Entonces el reporte no se genera y se reintenta automáticamente al día siguiente.</p>|**EP-07**|
+|**US-31**|Recuperar contraseña|<p>Como usuario, quiero poder restablecer mi contraseña si la olvido.</p>|<p>**Escenario 1:** Email de recuperación</p><p>Dado que el usuario hace clic en "Olvidé mi contraseña",</p><p>Cuando ingresa su email,</p><p>Entonces recibe un enlace seguro por tiempo limitado.</p><p>**Escenario 2:** Email no registrado</p><p>Dado que el usuario ingresa un correo que no existe en el sistema,</p><p>Cuando presiona "Enviar enlace de recuperación",</p><p>Entonces el sistema muestra "No encontramos una cuenta asociada a este correo electrónico".</p>|**EP-04**|
+|**US-32**|Editar perfil de usuario|<p>Como usuario, quiero cambiar mis datos personales de perfil.</p>|<p>**Escenario 1:** Guardado de cambios</p><p>Dado que el usuario edita su nombre o teléfono,</p><p>Cuando da clic en guardar,</p><p>Entonces la información se actualiza en la base de datos MySQL.</p><p>**Escenario 2:** Datos inválidos en el formulario</p><p>Dado que el usuario ingresa un número de teléfono con formato incorrecto,</p><p>Cuando da clic en guardar,</p><p>Entonces el campo se resalta en rojo y aparece "Ingresa un número de teléfono válido".</p>|**EP-04**|
+|**US-33**|Eliminar cuenta|<p>Como usuario, quiero borrar definitivamente mi cuenta y datos.</p>|<p>**Escenario 1:** Purga de información</p><p>Dado que el usuario confirma la eliminación total,</p><p>Cuando el sistema procesa la solicitud,</p><p>Entonces sus datos se borran irreversiblemente.</p><p>**Escenario 2:** Confirmación fallida por token expirado</p><p>Dado que el usuario inició el proceso de eliminación pero tardó en confirmar,</p><p>Cuando el sistema procesa la solicitud de eliminación total,</p><p>Entonces el token de confirmación expiró y se muestra "Solicitud expirada. Inicia nuevamente el proceso de eliminación".</p>|**EP-04**|
+|**US-34**|Configurar preferencias|<p>Como usuario, quiero elegir qué tipo de alertas me llegan.</p>|<p>**Escenario 1:** Switch de preferencias</p><p>Dado que el usuario apaga el interruptor de correos mensuales,</p><p>Cuando se guarda la preferencia,</p><p>Entonces su email es removido de la lista de envíos de resúmenes.</p><p>**Escenario 2:** Fallo al guardar preferencias</p><p>Dado que ocurre un error de conexión con la base de datos,</p><p>Cuando el usuario guarda la preferencia,</p><p>Entonces aparece el mensaje "Error al guardar tus preferencias. Intenta nuevamente".</p>|**EP-07**|
+|**US-35**|Simular conexión de equipo|<p>Como desarrollador, quiero simular un dispositivo nuevo para pruebas de la plataforma.</p>|<p>**Escenario 1:** Inyección de dispositivo virtual</p><p>Dado que se dispara el evento simulador mediante API,</p><p>Cuando ocurre la validación,</p><p>Entonces el equipo aparece en la cuenta del usuario.</p><p>**Escenario 2:** Datos inválidos en la simulación</p><p>Dado que la solicitud API contiene un formato JSON incorrecto o campos obligatorios vacíos,</p><p>Cuando ocurre la validación del evento simulador,</p><p>Entonces la API retorna un error HTTP 400 con el mensaje "Datos de simulación inválidos".</p>|**EP-01**|
+|**US-36**|Filtrar historial por fechas|<p>Como usuario, quiero establecer un rango de fechas para ver consumos pasados.</p>|<p>**Escenario 1:** Filtro de calendario</p><p>Dado que el usuario abre la herramienta de fechas,</p><p>Cuando selecciona desde y hasta,</p><p>Entonces la gráfica se redibuja excluyendo el resto de días.</p><p>**Escenario 2:** Rango de fechas sin datos</p><p>Dado que el usuario selecciona un rango de fechas anterior a la instalación de sus dispositivos,</p><p>Cuando selecciona desde y hasta,</p><p>Entonces la gráfica se redibuja vacía con el mensaje "No hay registros en este rango de fechas".</p>|**EP-03**|
+|**US-37**|Exportar historial a Excel|<p>Como usuario corporativo, quiero descargar mis datos de consumo.</p>|<p>**Escenario 1:** Generación de CSV</p><p>Dado que se visualiza la tabla en pantalla,</p><p>Cuando se hace clic en Exportar,</p><p>Entonces el navegador descarga un archivo CSV estructurado.</p><p>**Escenario 2:** Error en la descarga del archivo</p><p>Dado que el servidor está temporalmente ocupado o la consulta es muy grande,</p><p>Cuando se hace clic en Exportar,</p><p>Entonces aparece el mensaje "Error al generar el archivo. Intenta nuevamente más tarde".</p>|**EP-03**|
+|**US-38**|Agrupar dispositivos|<p>Como usuario, quiero agrupar mis enchufes por habitaciones.</p>|<p>**Escenario 1:** Operación masiva por grupo</p><p>Dado que el usuario ha creado el grupo "Iluminación Sala",</p><p>Cuando apaga el grupo,</p><p>Entonces todos los enchufes asignados a la sala se apagan simultáneamente.</p><p>**Escenario 2:** Grupo sin dispositivos asignados</p><p>Dado que el usuario creó el grupo pero no asignó ningún enchufe,</p><p>Cuando intenta apagar el grupo,</p><p>Entonces se muestra "El grupo no contiene dispositivos" y no ocurre ninguna acción.</p>|**EP-02**|
+|**US-39**|Activar Modo Oscuro|<p>Como usuario, quiero activar un tema oscuro en mi dashboard para evitar la fatiga visual nocturna.</p>|<p>**Escenario 1:** Toggle Dark Mode</p><p>Dado que el usuario entra a configuraciones de UI,</p><p>Cuando activa el switch de Modo Oscuro,</p><p>Entonces los colores de la aplicación SPA cambian a la paleta Dark.</p><p>**Escenario 2:** Preferencia de tema no persistida</p><p>Dado que el usuario activa el Modo Oscuro pero las cookies están deshabilitadas en el navegador,</p><p>Cuando recarga la página,</p><p>Entonces el tema vuelve al modo claro por defecto.</p>|**EP-05**|
+|**US-40**|Gestionar múltiples locales|<p>Como dueño de negocio, quiero gestionar distintas sucursales desde una sola cuenta centralizada.</p>|<p>**Escenario 1:** Selector de Sucursal</p><p>Dado que el usuario posee el plan Enterprise,</p><p>Cuando despliega el menú de ubicaciones superior,</p><p>Entonces puede saltar del "Local A" al "Local B" cambiando el dashboard.</p><p>**Escenario 2:** Usuario sin plan Enterprise</p><p>Dado que el usuario posee el plan Free y no el Enterprise,</p><p>Cuando despliega el menú de ubicaciones superior,</p><p>Entonces solo ve el local actual y un mensaje "Actualiza a Enterprise para gestionar múltiples sucursales".</p>|**EP-04**|
 
 <br><br>
 
@@ -891,7 +946,11 @@ clave en nuestro proyecto.
 <br><br>
 
 ## 3.2. Impact Mapping
-<img src="assets/Impact Mapping.png"><br>
+<br><b>Segmento 1:
+<img src="assets/Impact-Mapping-Segmento-1.png">
+<br><b>Segmento 2:
+<img src="assets/Impact-Mapping-Segmento-2.png">
+
 
 ## 3.3. Product Backlog
 
@@ -1196,59 +1255,117 @@ El wireframe define la estructura básica de la landing page en bloques principa
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
-<img src="assets/webAplication-wireframe.png">
-<img src="assets/webAplication-wireframe1.png">
-<img src="assets/webAplication-wireframe2.png">
-<img src="assets/webAplication-wireframe3.png">
-<img src="assets/webAplication-wireframe4.png">
+<img src="assets/WireframeInicio.png">
+<img src="assets/WireframeRegistrarse.png">
+<img src="assets/WireframeIniciarSesion.png">
+<img src="assets/WireframeInicioApp.png">
+<img src="assets/WireframeCentroEnergetico.png">
+<img src="assets/WireframeAnaliticaAvanzada.png">
+<img src="assets/WireframeDispositivos.png">
+<img src="assets/Wireframehistorial.png">
+<img src="assets/WireframeIAEnergetica.png">
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+<img src="assets/ApplicationWireflowDiagrams.png">
+
 ### 4.4.3. Web Applications Mock-ups
+**Inicio:**
+Pantalla principal informativa para usuarios no registrados.
+<img src="assets/mockupInicio.png"><br>
 
-![Mockp-Center](assets/Application-Web-MockUp-Center.png)
+**Registro:**
+Pantalla donde los usuarios pueden crear una cuenta para acceder a las funcionalidades de la aplicación.
+<img src="assets/mockupRegistrarse.png"><br>
 
-**Centro Energético:**  
+**Incio de sesión:**
+Pantalla donde los usuarios registrados ingresan sus credenciales para acceder a la plataforma.
+<img src="assets/mockupIniciarSesion.png"><br>
+
+**Panel principal:**
+Pantalla principal del usuario autenticado, desde donde puede acceder a las principales funcionalidades y módulos de la aplicación.
+<img src="assets/mockupInicioApp.png"> <br>
+
+
+**Centro Energético:**
 Este mockup representa la vista principal de la aplicación, donde el usuario puede visualizar un resumen general de su consumo energético. Se muestran indicadores clave como el consumo mensual, el gasto estimado, el porcentaje de ahorro y la cantidad de dispositivos registrados. Además, incluye un gráfico de línea que permite analizar el comportamiento del consumo durante la semana. Desde esta sección, el usuario puede agregar nuevos registros de consumo o simular datos para análisis.
+<img src="assets/mockupCentroEnergetico.png"><br>
 
----
-
-![Mockp-Analitycs](assets/Application-Web-MockUp-Analytics.png)
 
 **Analítica Avanzada:**  
 En esta vista se presentan métricas más detalladas del consumo energético. El usuario puede identificar la hora pico de consumo, el día con mayor uso, el promedio diario y una predicción del gasto mensual. También se incluye un gráfico de barras que distribuye el consumo por dispositivo, facilitando la toma de decisiones informadas para optimizar el uso de energía.
-
----
-
-![Mockp-Devices](assets/Application-Web-MockUp-Devices.png)
+<img src="assets/mockupAnaliticaAvanzada.png"><br>
 
 **Gestión de Dispositivos:**  
 Este mockup muestra la interfaz para administrar los dispositivos eléctricos del usuario. Permite buscar dispositivos, agregarlos, activarlos o desactivarlos, así como eliminarlos. Cada dispositivo presenta su estado actual, lo que impacta directamente en el cálculo del consumo energético. Esta sección es clave para el control y personalización del sistema.
-
----
-
-![Mockp-History](assets/Application-Web-MockUp-History.png)
+<img src="assets/mockupDispositivos.png"><br>
 
 **Historial de Consumo:**  
 Aquí se visualizan los registros recientes de consumo energético organizados por día. El usuario puede revisar fácilmente su historial, exportar los datos en formato CSV para análisis externo o limpiar los registros almacenados. Esta sección permite llevar un seguimiento detallado del comportamiento energético a lo largo del tiempo.
+<img src="assets/mockupHistorial.png"><br>
 
----
-
-![Mockp-Suggestions](assets/Application-Web-MockUp-Suggestions.png)
-
-**IA Energética (Insights):**  
+**IA Energética:**  
 Este mockup presenta recomendaciones inteligentes generadas a partir del análisis de los datos de consumo. Se muestran alertas sobre consumo elevado, sugerencias para optimizar el uso de dispositivos y estimaciones de ahorro. Esta funcionalidad busca ayudar al usuario a mejorar su eficiencia energética mediante información clara y accionable.
+<img src="assets/mockupIAEnergetica.png"><br>
+
 ### 4.4.4. Web Applications User Flow Diagrams
-El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos clave como la navegación entre secciones, la interacción con funcionalidades principales y la obtención de resultados esperados. Asimismo, se contemplan escenarios alternativos y puntos de decisión que influyen en la experiencia del usuario, permitiendo comprender cómo se gestionan diferentes situaciones dentro del sistema.
 
-![UserFlowDiagram](assets/UserFlowDiagram.png)
+User goal (Segmento 1): Tener mayor control sobre los dispositivos del hogar.<br><br>
+<img src="assets/userFlowUno.png"><br><br>
 
+User goal (Segmento 1): Controlar electrodomesticos remotamente desde el celular.<br><br>
+<img src="assets/userFlowUno.png"><br><br>
+User goal (Segmento 1): Entender claramente cuanto consumen los dispositivos electricos de su hogar<br><br>
+<img src="assets/userFlowDos.png"><br><br>
+
+
+User goal (Segmento 2): Reducir gastos operativos relacionados al consumo eléctrico.<br><br>
+<img src="assets/userFlowDos.png"><br><br>
+
+User goal (Segmento 2): Tener mayor control sobre equipos y maquinaria.<br><br>
+<img src="assets/userFlowUno.png"><br><br>
+
+User goal (Segmento 2): Evitar pérdidas económicas por descuidos.<br><br>
+<img src="assets/userFlowTres.png"><br><br>
+
+User goal (Segmento 2): Reducir errores humanos en el uso de maquinaria.<br><br>
+<img src= "assets/userFlowCuatro.png"><br><br>
+
+User goal(Segmento 2): Mantener un cierre ordenado y seguro del local.<br><br>
+<img src= "assets/userFlowTres.png"><br><br>
 
 ## 4.5. Web Applications Prototyping
+<br>
+<img src="assets/webApplicationsPrototyping.png">
+<br>
+
+[Link del video donde se explican los User Flow Diagrams](https://drive.google.com/drive/folders/1_bX6HCFnoZP9HkTFrvXY1ZZRJRJhyuJp?usp=sharing)
+<br>
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
 
 <img src="assets/designLevelEventStorming.png">
+
+#### Bounded context Billing
+
+<img src="assets/designLevelEventStorming-Billing.png">
+
+#### Bounded context IAM
+
+<img src="assets/designLevelEventStorming-IAM.png">
+
+#### Bounded context Notifications
+
+<img src="assets/designLevelEventStorming-Notifications.png">
+
+#### Bounded context Device Control
+
+<img src="assets/designLevelEventStorming-DeviceControl.png">
+
+#### Bounded context Energy Monitoring
+
+<img src="assets/designLevelEventStorming-EnergyMonitoring.png">
 
 ### 4.6.2. Software Architecture Context Diagram
 En esta sección se presenta el Diagrama de Contexto (Context Level Diagram) correspondiente al Nivel 1 del Modelo C4 para la arquitectura de ElectroCorp. Este diagrama ilustra el panorama general del ecosistema, posicionando al sistema propuesto en el centro para demostrar cómo interactúa directamente con los usuarios finales y los sistemas de software de terceros que complementan su funcionalidad.
@@ -1562,24 +1679,6 @@ De este modo, cada versión desplegada corresponde a *commits* rastreables dentr
             - Cabrejos Chocco, Diego Alexander  <br>
             - Alexander Piero Garfias <br>
             - Ronal Toro Turpo <br>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b> <br>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            No existe Spring anterior para realizar una retrospectiva. Sin embargo se debe de desarrollar en la brevedad posible las User Stories y la planificación del Product Backlog  
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b> <br>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-            No existe un sprint anterior para realizar una retrospectiva. Sin embargo, basándonos en lo avanzado, debemos priorizar la correcta definición y desarrollo de las User Stories y una planificación eficiente del Product Backlog.
         </td>
     </tr>
     <tr align="left">
@@ -1910,13 +2009,1503 @@ Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado 
    <img src="assets/Commits2.png"></img><br>
    <img src="assets/Commits3.png"></img><br>
 
-## 5.3. Validation Interviews
+### 5.2.2. Sprint 2 
+En este Sprint se marca la transición hacia el desarrollo interactivo, enfocándonos en la construcción y despliegue de la primera versión funcional de nuestra Frontend Web Application (SPA).
+#### 5.2.2.1. Sprint Planning 2
+<table align="center" border="1" width="90%" style="text-align:left;">
+    <tr>
+        <td><b>Sprint #</b></td>
+        <td>Sprint 2</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+        <td><b>Date</b></td>
+        <td>2026-05-03</td>
+    </tr>
+    <tr>
+        <td><b>Time</b></td>
+        <td>11:00 AM</td>
+    </tr>
+    <tr>
+        <td><b>Location</b></td>
+        <td>Modalidad Remota por Whatsapp / Microsoft Teams</td>
+    </tr>
+    <tr>
+        <td><b>Prepared By</b></td>
+        <td>Cabrejos Chocce, Diego Alexander</td>
+    </tr>
+    <tr>
+        <td><b>Attendees (to planning meeting)</b></td>
+        <td> - Tavara Correa, Sebastian Oswaldo <br>
+            - Tuncar Vila, Ghorghet Saul <br>
+            - Cabrejos Chocco, Diego Alexander  <br>
+            - Alexander Piero Garfias <br>
+            - Ronal Toro Turpo <br></td>
+    </tr>
+    <tr>
+        <td><b>Sprint 1 Review Summary</b></td>
+        <td>El equipo logró desarrollar y desplegar la primera versión de la Landing Page en GitHub Pages exitosamente. Se completó el 100% de los Story Points comprometidos y el diseño responsivo, junto con la funcionalidad de i18n, funcionan según lo esperado.</td>
+    </tr>
+    <tr>
+        <td><b>Sprint 1 Retrospective Summary</b></td>
+        <td>El equipo identificó que la división de tareas fue efectiva, pero se acordó mejorar el nivel de detalle en los mensajes de los commits y utilizar ramas "feature" más específicas y pequeñas para evitar conflictos de integración en GitHub en este nuevo Sprint.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+        <td><b>Sprint 2 Goal</b></td>
+        <td>
+            <b>Our focus is on</b> desarrollar la primera versión de la Frontend Web Application (SPA) y aplicar mejoras a la Landing Page actual.<br><br>
+            <b>We believe it delivers</b> el entorno base para que los usuarios puedan registrarse, iniciar sesión y visualizar la maqueta interactiva del dashboard principal de gestión energética de ElectroNex.<br><br>
+            <b>This will be confirmed when</b> la Web Application esté desplegada, los flujos de navegación entre el Login, Register y Dashboard operen correctamente (ruteo) y se conecten exitosamente mediante enlaces desde los call-to-action del Landing Page.
+        </td>
+    </tr>
+    <tr>
+        <td><b>Sprint 2 Velocity</b></td>
+        <td>42</td>
+    </tr>
+    <tr>
+        <td><b>Sum of Story Points</b></td>
+        <td>42</td>
+    </tr>
+</table>
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de Liderazgo y Colaboración (Leadership-and-Collaboration Matrix - LACX) definida para el Sprint 2. Para esta iteración, los aspectos funcionales se han dividido en cuatro pilares principales alineados con la construcción de nuestra Single Page Application (SPA) y la mejora continua del sitio público:
+1. **Web App Setup & Routing:** Configuración inicial del framework frontend, enrutamiento (rutas protegidas y públicas) y estructura base del proyecto.
+2. **IAM Presentation (Login/Register):** Diseño e implementación de las interfaces de autenticación y registro de usuarios.
+3. **Dashboard UI Design:** Maquetación e implementación de la vista principal (Home) de la plataforma donde se visualizarán los resúmenes energéticos.
+4. **Landing Page Enhancements:** Aplicación de mejoras, corrección de bugs y conexión de los call-to-action del Landing Page hacia las nuevas rutas de la Web App.
+
+A continuación, se detalla la asignación de líderes (L) y colaboradores (C) para cada uno de estos aspectos:
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+    <table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+    <tr align="center">
+        <td><b>Team Member <br> (Last Name, First Name)</b></td>
+        <td><b>GitHub Username</b></td>
+        <td><b>Web App Setup & Routing <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>IAM Presentation <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Dashboard UI Design <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Landing Page Enhancements <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Testing & QA <br> Leader (L) / Collaborator (C)</b></td>
+    </tr>
+    <tr align="left">
+        <td>Tavara Correa, Sebastian Oswaldo</td>
+        <td align="center">SebastianTavara</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Tuncar Vila, Ghorghet Saul</td>
+        <td align="center">Ghorghet</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Cabrejos Chocce, Diego Alexander</td>
+        <td align="center">MOTOX-357</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Alexander Piero Garfias</td>
+        <td align="center">Dostoyevsk1</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td> Ronal Toro Turpo</td>
+        <td align="center">Ronal</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+    </tr>
+</table>
+
+#### 5.2.2.3. Sprint Backlog 2. 
+El objetivo principal de este segundo Sprint es dar el salto desde el sitio estático (Landing Page) hacia la plataforma interactiva, construyendo la primera versión de la Single Page Application (SPA) para la Web App. En este Sprint Backlog hemos priorizado las historias técnicas de inicialización del framework frontend (Angular/Vue), la creación del sistema de enrutamiento (routing) y el desarrollo de las interfaces de Autenticación (Login, Register) y el Dashboard principal (Home). Además, se incluyen tareas de refinamiento para enlazar la Landing Page con estas nuevas rutas.
+
+<p style="text-align: left; width: 90%; margin: 20px auto;">
+    <b>Enlace de Seguimiento:</b> <a href="https://trello.com/invite/b/6a03f7421c316f3c5d885e7f/ATTI5a49117f1b9d8c247078bac2838d81a9E7DF4656/sprint2-electro" target="_blank">Tablero del Sprint 2 en Trello</a>
+    <br><br>
+    <img src="assets/Tablero-Sprint2.png" alt="Sprint 2 Trello Board"></img>
+</p>
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+  <tr>
+    <td colspan="2"><b>Sprint #</b></td>
+    <td colspan="6"><b>Sprint 2</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">TS-12</td>
+    <td rowspan="2">Frontend SPA Consumidor REST</td>
+    <td>T13</td>
+    <td>Inicialización de proyecto SPA</td>
+    <td>Crear la base del proyecto frontend y configurar las librerías de estilos base (Material/CSS).</td>
+    <td>5</td>
+    <td>Sebastian Tavara</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T14</td>
+    <td>Configuración de Enrutamiento (Router)</td>
+    <td>Implementar la tabla de rutas principales (/login, /register, /dashboard).</td>
+    <td>5</td>
+    <td>Sebastian Tavara</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-07</td>
+    <td rowspan="2">Registro inicial del usuario</td>
+    <td>T15</td>
+    <td>Maquetación vista Register</td>
+    <td>Diseñar e implementar la estructura HTML/CSS del formulario de creación de cuenta.</td>
+    <td>6</td>
+    <td>Ronal Toro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T16</td>
+    <td>Implementación vista Login</td>
+    <td>Construir la pantalla de inicio de sesión con sus validaciones de formulario.</td>
+    <td>6</td>
+    <td>Ghorghet Tuncar</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-19</td>
+    <td rowspan="2">Administrar múltiples dispositivos (Dashboard)</td>
+    <td>T17</td>
+    <td>Diseño del Home / Dashboard</td>
+    <td>Estructurar el layout principal (Sidebar, Header y contenedor de contenido).</td>
+    <td>6</td>
+    <td>Diego Cabrejos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T18</td>
+    <td>Tarjetas de resumen energético</td>
+    <td>Maquetar las tarjetas de dispositivos conectados, consumo actual y alertas en el Home.</td>
+    <td>6</td>
+    <td>Diego Cabrejos</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1">US-39</td>
+    <td rowspan="1">Activar Modo Oscuro</td>
+    <td>T19</td>
+    <td>Sistema de temas UI (Dark Mode)</td>
+    <td>Implementar la lógica y variables CSS para alternar temas en las vistas de la Web App.</td>
+    <td>4</td>
+    <td>Ghorghet Tuncar</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1">US-05</td>
+    <td rowspan="1">Interfaz interactiva (LP)</td>
+    <td>T20</td>
+    <td>Conexión LP - Web App</td>
+    <td>Ajustar los Call-to-Action del Landing Page para redirigir correctamente a la Web App desplegada.</td>
+    <td>4</td>
+    <td>Alexander Garfias</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este Sprint, el equipo se enfocó en dos frentes principales: la actualización del Landing Page y la construcción de la primera versión de nuestra Frontend Web Application (SPA). Se implementó la estructura base del proyecto, el sistema de enrutamiento y la conexión entre ambas plataformas. A continuación, se detallan los commits más representativos de este esfuerzo extraídos de nuestros repositorios oficiales.
+
+Link de commits del repositorio del Landing Page:
+https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main/
+
+Link de commits del repositorio de la Web App:
+https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+  <tr>
+    <td><b>Repository</b></td>
+    <td><b>Branch</b></td>
+    <td><b>Commit Id</b></td>
+    <td><b>Commit Message</b></td>
+    <td><b>Commit Message Body</b></td>
+    <td><b>Commited on (Date)</b></td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/LandingPage</td>
+    <td>main</td>
+    <td>`767a6f0`</td>
+    <td>Fix: Update Landing Page</td>
+    <td>Correcciones generales y actualización de enlaces y estructura en la página principal.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/LandingPage</td>
+    <td>main</td>
+    <td>`f7aeda8`</td>
+    <td>feat: feat faq_qx and faq_ax</td>
+    <td>Implementación de la sección de preguntas frecuentes (FAQ) interactiva.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/LandingPage</td>
+    <td>main</td>
+    <td>`b01eaa9`</td>
+    <td>fix and feat: fix index.html, add que-frequents and direction</td>
+    <td>Adición de las secciones de preguntas frecuentes y dirección en el HTML principal.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`533f7b4`</td>
+    <td>fix: fix deployment link</td>
+    <td>Corrección del enlace de despliegue en la configuración de la aplicación web.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`a37449d`</td>
+    <td>feat : add enpoint for becepetor in development</td>
+    <td>Configuración de variables de entorno para apuntar a la API mockeada con Beeceptor.</td>
+    <td>13/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`b2d184d`</td>
+    <td>feat: configure routes</td>
+    <td>Implementación del sistema de enrutamiento (Vue Router) para la navegación de la SPA.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`10a1627`</td>
+    <td>feat: add forms for management</td>
+    <td>Creación de los componentes de formularios para la gestión de entidades en la plataforma.</td>
+    <td>10/05/2026</td>
+  </tr>
+  <tr>
+    <td>1ASI0730-2610-20177-Nex/Frontend</td>
+    <td>main</td>
+    <td>`c9da5ed`</td>
+    <td>feat: add home list view</td>
+    <td>Maquetación y lógica de la vista principal (Home) para el listado de elementos.</td>
+    <td>10/05/2026</td>
+  </tr>
+</table>
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este Sprint logramos consolidar la primera interacción real y conectada de la plataforma ElectroCorp, logrando avances significativos en dos frentes simultáneos:
+
+**1. Frontend Web Application (SPA):**
+Desplegamos la primera versión interactiva de nuestra aplicación web. Los usuarios ahora pueden visualizar y navegar de manera fluida (gracias al sistema de enrutamiento) por los formularios de inicio de sesión (Login) y creación de cuenta (Register). Una vez dentro, pueden acceder a la maqueta interactiva del Dashboard principal (Home), el cual incluye las tarjetas de resumen energético, gestión de dispositivos y soporte para la alternancia de temas de interfaz (Dark Mode).
+
+**2. Landing Page (Actualizaciones):**
+Mejoramos la experiencia del usuario visitante integrando soporte para un tercer idioma (Portugués) en nuestro sistema i18n. Además, simplificamos el flujo de compra en la sección de planes de servicio, adecuando su estilo visual para que mantenga consistencia con la nueva Web App. 
+
+**Video Demostrativo del Sprint 2:**
+En el siguiente video se ilustra y explica la navegación entre el Landing Page actualizado (mostrando el cambio a portugués y el nuevo flujo de planes) y la nueva Web Application, demostrando el flujo de ruteo hacia el Login, Register y el Dashboard principal.
+ link: " "
+
+Imagenes del Web App:
+
+ * Home
+    
+    <img src="assets/Webapp-Mockup-Home.png"></img><br>
+  
+
+Imágenes del Landing Page Actualizada:
+  
+* Home
+
+  <img src="assets/LandingPage-Mockup-Home.png"></img><br>
+
+* Pricing:
+
+  <img src="assets/LandingPage-Mockup-Pricing.png"></img><br>
+
+* FAQ:
+
+  <img src="assets/LandingPage-Mockup-FAQ.png"></img><br>
+
+* Smart Plugs:
+
+  <img src="assets/LandingPage-Mockup-SmartPlugs.png"></img><br>
+
+* Reviews:
+
+  <img src="assets/LandingPage-Mockup-Reviews.png"></img><br>
+
+* Description:
+
+  <img src="assets/LandingPage-Mockup-Description.png"></img><br>
+
+* Goals:
+
+  <img src="assets/LandingPage-Mockup-Goals.png"></img><br>
+
+* About Us:
+
+  <img src="assets/LandingPage-Mockup-About.png"></img><br>
+
+* Direction:
+
+  <img src="assets/LandingPage-Mockup-Direction.png"></img><br>
+
+* Support:
+
+  <img src="assets/LandingPage-Mockup-Support.png"></img><br>
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Para la entrega actual (TB1), los requerimientos establecen el despliegue de una nueva versión del Landing Page y la primera versión de la Frontend Web Application. La construcción y despliegue de los Web Services (RESTful API), así como su respectiva documentación mediante OpenAPI Specification (Swagger), están programados para la siguiente fase del proyecto (AV2). Por lo tanto, las evidencias de documentación de servicios no son aplicables para este Sprint.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, el equipo gestionó el despliegue continuo de dos productos distintos, asegurando que ambos estén disponibles públicamente de forma segura:
+
+1. **Landing Page (Actualización):** Se mantuvo y actualizó el despliegue estático a través de **GitHub Pages**, asegurando que los nuevos Call-to-Action apunten correctamente a la Web App.
+   * *URL:*  https://1asi0730-2610-20177-nex.github.io/LandingPage/
+   <img src="assets/LandingPage-Mockup-Home.png" alt="Deploy Landing Page V2">
+
+2. **Frontend Web Application (SPA):** Se configuró un nuevo entorno de despliegue en la nube utilizando **Render** (o tu proveedor en la nube correspondiente, ej. Vercel/Netlify), conectándolo directamente a la rama `main` del repositorio `electrocorp-webapp` para habilitar un flujo de Integración y Despliegue Continuo (CI/CD).
+   * *URL:* frontend-theta-ten-69.vercel.app
+   * *URL:* stirring-macaron-e87e1f.netlify.app
+   <img src="assets/Webapp-Mockup-Home.png" alt="Deploy Web App">
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2, la colaboración del equipo se intensificó al tener que manejar dos repositorios en paralelo (Website y WebApp). Utilizamos GitHub para centralizar el código y organizar las ramas (features). Todos los miembros participaron activamente en la implementación de la SPA, dividiéndose componentes específicos como el layout, autenticación y vistas del dashboard, tal como se evidencia en los analíticos de la plataforma.
+
+| Team Member | Task completed |
+| :--- | :--- |
+| **Tavara Correa, Sebastian** | Configuración base del proyecto SPA y enrutamiento principal. |
+| **Fernandez Garfias Alexander Piero** | Implementación de las interfaces de Login y Register en la Web App. |
+| **Cabrejos Chocce, Diego** | Actualización del Landing Page y conexión de hipervínculos hacia la Web App. |
+| **Fernandez Garfias Alexander Piero** | Maquetación del Dashboard (Home), integración de Layout y estilos Dark Mode. |
+| **Toro Turpo Ronal y Tuncar Vila, Ghorghet Saul** | Pruebas de navegación (QA) e implementación de validaciones visuales en formularios. |
+
+### 5.2.3. Sprint 3
+
+El Sprint 3 representa la transición de ElectroCorp desde una aplicación centrada principalmente en la presentación visual hacia una solución con capacidades de gestión, analítica y persistencia de datos. Durante esta iteración se mejoró la Frontend Web Application incorporando módulos para administrar hogares, dispositivos, consumos y planes; además, se construyó la primera versión del Backend Web Service mediante ASP.NET Core, Entity Framework Core y MySQL.
+
+El alcance desarrollado permite disponer de una arquitectura dividida por contextos funcionales, rutas de navegación para las operaciones principales, recursos REST para el intercambio de información y una migración inicial de base de datos. También se incorporó documentación interactiva con Swagger/OpenAPI para facilitar la validación de los servicios.
+
+
+#### 5.2.3.1. Sprint Planning 3
+
+<table align="center" border="1" width="90%" style="text-align:left; border-collapse:collapse;">
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td>Sprint 3</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td><b>Date</b></td>
+    <td>Inicio de actividades: 16/05/2026<br>Cierre técnico revisado: 20/06/2026</td>
+  </tr>
+  <tr>
+    <td><b>Time</b></td>
+    <td>Coordinación asincrónica y reuniones de seguimiento durante la iteración</td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td>Modalidad remota mediante WhatsApp y GitHub</td>
+  </tr>
+  <tr>
+    <td><b>Prepared By</b></td>
+    <td>Cabrejos Chocco, Diego Alexander</td>
+  </tr>
+  <tr>
+    <td><b>Attendees (to planning meeting)</b></td>
+    <td>
+      - Tavara Correa, Sebastian Oswaldo<br>
+      - Tuncar Vila, Ghorghet Saul<br>
+      - Cabrejos Chocco, Diego Alexander<br>
+      - Fernandez Garfias, Alexander Piero<br>
+      - Toro Turpo, Ronal
+    </td>
+  </tr>
+  <tr>
+    <td><b>Sprint 2 Review Summary</b></td>
+    <td>En el Sprint 2 se obtuvo la primera versión navegable de la Frontend Web Application, incluyendo la estructura SPA, las rutas principales, el Dashboard y la conexión visual con la Landing Page. Esta base permitió que el Sprint 3 se enfocara en funcionalidades de negocio y en la creación de los servicios backend.</td>
+  </tr>
+  <tr>
+    <td><b>Sprint 2 Retrospective Summary</b></td>
+    <td>El equipo identificó la necesidad de reemplazar progresivamente los datos simulados por servicios REST persistentes, organizar el código por contextos funcionales y mejorar la trazabilidad de las contribuciones mediante commits semánticos y tareas más pequeñas.</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td><b>Sprint 3 Goal</b></td>
+    <td>
+      <b>Our focus is on</b> mejorar la Frontend Web Application con módulos de gestión de hogares y dispositivos, consulta de consumos, analítica por equipo y presentación de planes; además de construir el primer Backend Web Service de ElectroCorp.<br><br>
+      <b>We believe it delivers</b> una base funcional y persistente para que los usuarios puedan administrar los elementos de su entorno energético y para que la aplicación disponga de contratos REST documentados para usuarios, hogares, dispositivos y consumos.<br><br>
+      <b>This will be confirmed when</b> la aplicación frontend compile para producción, las rutas y formularios principales estén implementados, el backend exponga operaciones CRUD bajo <code>/api/v1</code>, la migración inicial cree las tablas requeridas y los endpoints puedan visualizarse mediante Swagger/OpenAPI.
+    </td>
+  </tr>
+  <tr>
+    <td><b>Selected User Stories</b></td>
+    <td>US-08, US-10, US-16, US-19, US-25 y US-27; complementadas por las historias técnicas relacionadas con servicios REST, persistencia y documentación de API.</td>
+  </tr>
+  <tr>
+    <td><b>Sprint 3 Velocity</b></td>
+    <td>23 Story Points completados. La US-27, estimada en 8 Story Points, quedó parcialmente desarrollada porque se implementó el flujo visual de selección y checkout, pero no la integración real con Stripe.</td>
+  </tr>
+  <tr>
+    <td><b>Sum of Story Points</b></td>
+    <td>31 Story Points comprometidos</td>
+  </tr>
+</table>
+
+La Definition of Done considerada para este Sprint exige que cada incremento tenga una ruta o endpoint identificable, mantenga una estructura coherente con la arquitectura del proyecto, compile sin errores en el entorno correspondiente y cuente con evidencia verificable. Las integraciones que todavía dependen de servicios simulados o proveedores externos se registran como pendientes y no se consideran completamente cerradas.
+
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Para el Sprint 3 se definieron seis aspectos de trabajo. La letra **L** identifica al líder principal del aspecto y la letra **C** a quienes participaron como colaboradores o revisores.
+
+1. **Frontend Management & Navigation:** vistas, formularios, Sidebar y rutas para hogares y dispositivos.
+2. **Analytics & Payments Presentation:** historial de consumos, analítica por dispositivo, catálogo de planes y checkout visual.
+3. **Backend REST & Architecture:** estructura de la solución, controladores, comandos, consultas, servicios y repositorios.
+4. **Database & Migrations:** configuración de MySQL, Entity Framework Core, relaciones y migración inicial.
+5. **API Documentation & QA:** Swagger/OpenAPI, contratos HTTP, validación de respuestas y revisión técnica.
+6. **Sprint Tracking & Documentation:** planificación, backlog, evidencias, conclusiones y actualización del informe.
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Team Member</b></td>
+    <td><b>GitHub Username</b></td>
+    <td><b>Frontend Management & Navigation</b></td>
+    <td><b>Analytics & Payments Presentation</b></td>
+    <td><b>Backend REST & Architecture</b></td>
+    <td><b>Database & Migrations</b></td>
+    <td><b>API Documentation & QA</b></td>
+    <td><b>Sprint Tracking & Documentation</b></td>
+  </tr>
+  <tr>
+    <td align="left">Tavara Correa, Sebastian Oswaldo</td>
+    <td>SebastianTavara</td>
+    <td>C</td><td>C</td><td>C</td><td>C</td><td>C</td><td><b>L</b></td>
+  </tr>
+  <tr>
+    <td align="left">Tuncar Vila, Ghorghet Saul</td>
+    <td>Ghorghet</td>
+    <td>C</td><td>C</td><td>C</td><td>C</td><td><b>L</b></td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Cabrejos Chocco, Diego Alexander</td>
+    <td>MOTOX-357</td>
+    <td><b>L</b></td><td>C</td><td>C</td><td>C</td><td>C</td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Fernandez Garfias, Alexander Piero</td>
+    <td>Dostoyevsk1</td>
+    <td>C</td><td><b>L</b></td><td><b>L</b></td><td>C</td><td>C</td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Toro Turpo, Ronal</td>
+    <td>Ronal</td>
+    <td>C</td><td>C</td><td>C</td><td><b>L</b></td><td>C</td><td>C</td>
+  </tr>
+</table>
+
+La matriz refleja el liderazgo por especialidad, pero no limita la colaboración. La integración entre frontend, backend y base de datos requirió revisión cruzada de contratos, nombres de campos, rutas, datos de prueba y criterios de aceptación.
+
+
+#### 5.2.3.3. Sprint Backlog 3
+
+El Sprint Backlog 3 se organizó alrededor de dos incrementos: la ampliación de la Frontend Web Application y la creación del Backend Web Service. Las tareas marcadas como **To-Review** representan componentes implementados que todavía requieren una validación end-to-end con el backend real. La integración con Stripe se conserva como **To-do** porque el repositorio únicamente contiene el flujo visual de checkout.
+
+> **Enlace de seguimiento:** https://trello.com/b/Ox2SHhpy
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td colspan="2"><b>Sprint #</b></td>
+    <td colspan="6"><b>Sprint 3</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User/Technical Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status</b></td>
+  </tr>
+  <tr>
+    <td>US-19</td><td>Administrar múltiples dispositivos</td><td>T21</td><td>Actualizar navegación y Sidebar</td><td>Incorporar accesos a Homes, Devices, Consumptions, Analytics y Payments dentro de la SPA.</td><td>5</td><td>Diego Cabrejos</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-19</td><td>Administrar múltiples dispositivos</td><td>T22</td><td>Frontend CRUD de hogares</td><td>Implementar listado, formulario de creación y edición, eliminación y rutas del módulo Homes.</td><td>6</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-08 / US-10</td><td>Emparejar y nombrar dispositivos</td><td>T23</td><td>Frontend CRUD de dispositivos</td><td>Implementar listado, registro, edición, eliminación y asignación de nombre, tipo, potencia, estado y hogar.</td><td>8</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-16</td><td>Consultar historial de consumo</td><td>T24</td><td>Gestión de consumos</td><td>Crear las vistas para listar, registrar, editar, eliminar y filtrar registros de consumo.</td><td>8</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-25</td><td>Revisar consumo por equipo</td><td>T25</td><td>Analítica agrupada por dispositivo</td><td>Calcular y mostrar el consumo total en kWh agrupado por dispositivo.</td><td>6</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-27</td><td>Pagar suscripción con tarjeta</td><td>T26</td><td>Catálogo de planes y checkout visual</td><td>Implementar el plan actual, catálogo Starter/Professional/Enterprise y formulario visual de pago.</td><td>6</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-08 / US-27</td><td>Integración Stripe SDK</td><td>T27</td><td>Procesamiento real de pagos</td><td>Integrar Stripe o una pasarela equivalente, validar tokens y almacenar la referencia de la transacción.</td><td>8</td><td>Equipo Backend</td><td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS-11</td><td>Endpoints CRUD de dispositivos</td><td>T28</td><td>Estructura inicial del backend</td><td>Crear la solución ASP.NET Core y organizar Profile, Devices, Analytics y Shared como contextos funcionales.</td><td>8</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-11</td><td>Servicios REST de perfil</td><td>T29</td><td>CRUD de usuarios</td><td>Implementar recursos, assemblers, comandos, consultas, servicios, repositorio y controlador de Users.</td><td>6</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-11</td><td>Endpoints CRUD de dispositivos</td><td>T30</td><td>CRUD de hogares y dispositivos</td><td>Implementar las operaciones REST de Homes y Devices bajo la versión <code>/api/v1</code>.</td><td>10</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>US-16 / TS</td><td>Servicios de historial</td><td>T31</td><td>CRUD de consumos</td><td>Implementar las operaciones REST para crear, consultar, actualizar y eliminar consumos.</td><td>8</td><td>Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS</td><td>Persistencia relacional</td><td>T32</td><td>Entity Framework Core y MySQL</td><td>Configurar DbContext, repositorios, Unit of Work y migración inicial para users, homes, devices y consumptions.</td><td>6</td><td>Ronal Toro / Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS</td><td>Documentación y manejo HTTP</td><td>T33</td><td>Swagger, CORS y Problem Details</td><td>Configurar OpenAPI, política CORS, localización y respuestas de error estandarizadas.</td><td>6</td><td>Ghorghet Tuncar / Alexander Fernandez</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS</td><td>Configuración del cliente REST</td><td>T34</td><td>Actualizar variables de entorno</td><td>Separar los endpoints de desarrollo y producción utilizados por la Frontend Web Application.</td><td>2</td><td>Diego Cabrejos</td><td>Done</td>
+  </tr>
+  <tr>
+    <td>TS</td><td>Integración end-to-end</td><td>T35</td><td>Conectar frontend con <code>/api/v1</code></td><td>Reemplazar Beeceptor por el backend real y validar contratos de Homes, Devices y Consumptions.</td><td>6</td><td>Diego Cabrejos / Alexander Fernandez</td><td>To-Review</td>
+  </tr>
+  <tr>
+    <td>TS</td><td>Quality Assurance</td><td>T36</td><td>Build, pruebas y evidencias</td><td>Ejecutar el build de producción, probar rutas y endpoints y registrar capturas para el Sprint Review.</td><td>6</td><td>Ghorghet Tuncar / Sebastian Tavara / Ronal Toro</td><td>To-Review</td>
+  </tr>
+</table>
+
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se trabajó sobre los repositorios oficiales de Frontend y Backend de ElectroCorp. En el Frontend se incorporaron las funcionalidades correspondientes a los módulos de Analytics y Payments, además de mejoras en las rutas, los estilos, la barra lateral y la configuración del entorno.
+
+En el Backend se realizaron inicialmente actividades de preparación de la arquitectura base, documentación, localización de mensajes y refactorización del módulo de autenticación. Posteriormente, se incorporó la primera versión específica del backend de ElectroCorp, organizada mediante bounded contexts y preparada para exponer servicios REST, almacenar información en MySQL y documentar sus endpoints mediante Swagger.
+
+- **Frontend Repository:** https://github.com/1ASI0730-2610-20177-Nex/Frontend
+- **Frontend Commit History:** https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
+- **Backend Repository:** https://github.com/1ASI0730-2610-20177-Nex/Backend
+- **Backend Commit History:** https://github.com/1ASI0730-2610-20177-Nex/Backend/commits/main/
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Repository</b></td>
+    <td><b>Branch</b></td>
+    <td><b>Commit Id</b></td>
+    <td><b>Commit Message</b></td>
+    <td><b>Evidence / Scope</b></td>
+    <td><b>Committed on</b></td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>49545df</code></td>
+    <td>feat: add entity in analytics</td>
+    <td>Incorpora la entidad utilizada para representar los registros de consumo energético dentro del contexto Analytics.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>c91aa48</code></td>
+    <td>feat: add assembler in analytics</td>
+    <td>Agrega el assembler encargado de transformar las respuestas REST en entidades utilizadas por el Frontend.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>88ecda0</code></td>
+    <td>feat: add api for analytics</td>
+    <td>Agrega el cliente API para ejecutar operaciones relacionadas con los registros de consumo energético.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>4b32d59</code></td>
+    <td>feat: add application in analytics</td>
+    <td>Incorpora la lógica de aplicación necesaria para cargar, crear, actualizar y eliminar registros de consumo.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>cb6b229</code></td>
+    <td>feat: add plans in payments</td>
+    <td>Agrega la información y representación de los planes disponibles dentro del módulo Payments.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>5186195</code></td>
+    <td>feat: add views for payments</td>
+    <td>Agrega las vistas correspondientes al plan actual, catálogo de planes y proceso de checkout.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>33fc163</code></td>
+    <td>feat: add routes for analytics</td>
+    <td>Registra las rutas necesarias para acceder a los consumos y a la analítica de los dispositivos.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>c876b42</code></td>
+    <td>feat: add routes for payments</td>
+    <td>Registra las rutas correspondientes a la selección de planes, visualización del plan actual y checkout.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>8e0e27d</code></td>
+    <td>style: add styles for payments</td>
+    <td>Incorpora los estilos visuales necesarios para las páginas y componentes del módulo Payments.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>7c388ae</code></td>
+    <td>fix: update sidebar and routes</td>
+    <td>Actualiza la barra lateral y la configuración de rutas para exponer correctamente los nuevos módulos.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td><code>2fada7d</code></td>
+    <td>Fix: adapt environment</td>
+    <td>Ajusta la configuración del entorno y la dirección utilizada para conectarse con los servicios de la aplicación.</td>
+    <td>16/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>d253089</code></td>
+    <td>refactor: standardize xml documentation, simplify using directives, and apply consistent code formatting across assemblers and controllers.</td>
+    <td>Estandariza la documentación XML, simplifica las directivas using y aplica un formato consistente en assemblers y controladores.</td>
+    <td>31/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>f63d9d8</code></td>
+    <td>docs: update humanizer usage description in readme to include snake_case and plural table names.</td>
+    <td>Actualiza la documentación del proyecto para describir el uso de snake_case y nombres de tablas en plural.</td>
+    <td>31/05/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>6e340be</code></td>
+    <td>refactor: remove redundant fields and use primary constructor parameters in authentication-controller.</td>
+    <td>Refactoriza el controlador de autenticación, elimina campos redundantes y utiliza parámetros de constructor primario.</td>
+    <td>01/06/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>03514b7</code></td>
+    <td>feat: add spanish localization for iam domain error messages.</td>
+    <td>Agrega la localización al español de los mensajes de error pertenecientes al dominio IAM.</td>
+    <td>01/06/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>f45e86d</code></td>
+    <td>feat: add user-created-successfully localized resources for the iam module.</td>
+    <td>Incorpora recursos localizados para informar la creación satisfactoria de usuarios dentro del módulo IAM.</td>
+    <td>01/06/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>a0046a8</code></td>
+    <td>docs: hyphenate sign-up in xml documentation for iuser-command-service.</td>
+    <td>Corrige y estandariza la documentación XML del servicio de comandos de usuario relacionado con el registro.</td>
+    <td>01/06/2026</td>
+  </tr>
+
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td><code>f84e276</code></td>
+    <td>feat: intial commit</td>
+    <td>Incorpora la primera versión específica del backend de ElectroCorp con los bounded contexts Analytics, Devices, Profile y Shared, servicios REST, persistencia con Entity Framework Core y MySQL, migración inicial y documentación mediante Swagger.</td>
+    <td>20/06/2026</td>
+  </tr>
+</table>
+
+commits Frontend
+
+commits Backend
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+La ejecución fue revisada en dos niveles: compilación de la Frontend Web Application y validación estructural de los servicios backend. Sobre el paquete entregado del frontend se ejecutaron los siguientes comandos:
+
+```bash
+npm ci
+npm run build
+```
+
+El build de producción finalizó correctamente el **21/06/2026** utilizando Vite. Como resultado, se transformaron **544 módulos** y se generó el directorio `dist` con los recursos optimizados de las vistas de hogares, dispositivos, consumos, analítica y pagos.
+
+```text
+vite v8.0.11 building client environment for production...
+✓ 544 modules transformed.
+✓ built successfully
+```
+
+Las rutas funcionales identificadas en la SPA son las siguientes:
+
+| Contexto | Ruta | Resultado esperado |
+| :--- | :--- | :--- |
+| Shared | `/home` | Presenta la página principal de la aplicación. |
+| Management | `/management/homes` | Lista los hogares registrados. |
+| Management | `/management/homes/new` | Presenta el formulario de creación de hogar. |
+| Management | `/management/homes/:id/edit` | Presenta el formulario de edición de hogar. |
+| Management | `/management/devices` | Lista los dispositivos administrados. |
+| Management | `/management/devices/new` | Presenta el formulario de registro de dispositivo. |
+| Management | `/management/devices/:id/edit` | Presenta el formulario de edición de dispositivo. |
+| Analytics | `/analytics/consumptions` | Muestra el historial de consumos. |
+| Analytics | `/analytics/consumptions/new` | Permite registrar un consumo. |
+| Analytics | `/analytics/consumptions/:id/edit` | Permite editar un consumo. |
+| Analytics | `/analytics/devices` | Agrupa el consumo total por dispositivo. |
+| Payments | `/payments/plan` | Muestra el plan actual. |
+| Payments | `/payments/plans` | Muestra los planes disponibles. |
+| Payments | `/payments/checkout/:planId` | Presenta el formulario visual de checkout. |
+
+**Evidencias visuales que deben incorporarse en el informe:**
+
+<!-- CAPTURA PENDIENTE: listado de hogares. -->
+`<img src="assets/Sprint3-Frontend-Homes.png" alt="Homes module"></img>`
+
+<!-- CAPTURA PENDIENTE: listado y formulario de dispositivos. -->
+`<img src="assets/Sprint3-Frontend-Devices.png" alt="Devices module"></img>`
+
+<!-- CAPTURA PENDIENTE: historial de consumos. -->
+`<img src="assets/Sprint3-Frontend-Consumptions.png" alt="Consumptions module"></img>`
+
+<!-- CAPTURA PENDIENTE: analítica agrupada por dispositivo. -->
+`<img src="assets/Sprint3-Frontend-Analytics.png" alt="Device analytics"></img>`
+
+<!-- CAPTURA PENDIENTE: catálogo de planes y checkout. -->
+`<img src="assets/Sprint3-Frontend-Payments.png" alt="Payments module"></img>`
+
+Para ejecutar el backend en un equipo con .NET SDK 10 y MySQL disponibles se utiliza:
+
+```bash
+cd Backend-main/Electro.Corporation.Platform
+dotnet restore
+dotnet run
+```
+
+En el perfil de desarrollo, la solución está configurada para iniciar en:
+
+- `http://localhost:5191`
+- `https://localhost:7003`
+- Swagger UI: `http://localhost:5191/swagger`
+
+Al iniciar la aplicación, Entity Framework Core aplica las migraciones pendientes mediante `Database.Migrate()`. La migración inicial crea las tablas `users`, `homes`, `devices` y `consumptions`; además, configura la relación entre `devices` y `homes` y un índice único para el correo del usuario.
+
+| Caso de validación | Resultado de la revisión | Estado |
+| :--- | :--- | :---: |
+| Instalación de dependencias frontend | `npm ci` finaliza correctamente. | Passed |
+| Build de producción frontend | Vite transforma 544 módulos y genera `dist`. | Passed |
+| Rutas de Homes y Devices | Las rutas, listas y formularios se encuentran implementados. | Passed |
+| Historial y analítica de consumos | El módulo contiene CRUD, filtro y agrupación de kWh por dispositivo. | Passed |
+| Catálogo y checkout | El flujo visual está implementado; no procesa cobros reales. | Partial |
+| Backend REST | Controladores, recursos, servicios y repositorios se encuentran en el código entregado. | Implemented |
+| Migración MySQL | La migración inicial se encuentra versionada en el repositorio. | Implemented |
+| Integración frontend-backend | El frontend todavía utiliza URLs de Beeceptor y debe apuntarse al backend bajo `/api/v1`. | To-Review |
+| Swagger y ejecución del backend | Debe adjuntarse una captura obtenida en el equipo del proyecto con .NET y MySQL activos. | Evidence pending |
+
+**Observaciones técnicas de cierre:**
+
+- El frontend entregado todavía consume Beeceptor en los archivos `.env.development` y `.env.production`; por ello, la conexión definitiva debe reemplazarse por la URL pública o local del Backend Web Service.
+- Antes de declarar la integración end-to-end como terminada se deben validar los contratos de `homeId` y `userId`, así como la correspondencia de los métodos de creación, actualización y eliminación de dispositivos en el cliente API.
+- El módulo Payments implementa la experiencia visual, pero la US-27 no queda completamente cerrada hasta integrar Stripe o una pasarela equivalente.
+- Las credenciales de base de datos deben administrarse mediante variables de entorno o secretos y no permanecer embebidas en los archivos de configuración de producción.
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+El Backend Web Service fue desarrollado con ASP.NET Core y expone una API REST versionada bajo el prefijo `/api/v1`. La documentación interactiva se genera mediante Swagger/OpenAPI y se habilita en el entorno Development.
+
+**Base URL de desarrollo:**
+
+```text
+http://localhost:5191/api/v1
+```
+
+**Swagger UI:**
+
+```text
+http://localhost:5191/swagger
+```
+
+| Recurso | Método | Endpoint | Descripción | Respuesta exitosa esperada |
+| :--- | :---: | :--- | :--- | :---: |
+| Users | GET | `/api/v1/users` | Lista todos los usuarios. | 200 OK |
+| Users | GET | `/api/v1/users/{id}` | Obtiene un usuario por identificador. | 200 OK |
+| Users | POST | `/api/v1/users` | Registra un usuario. | 201 Created |
+| Users | PUT | `/api/v1/users/{id}` | Actualiza un usuario existente. | 200 OK |
+| Users | DELETE | `/api/v1/users/{id}` | Elimina un usuario. | 204 No Content |
+| Homes | GET | `/api/v1/homes` | Lista todos los hogares. | 200 OK |
+| Homes | GET | `/api/v1/homes/{id}` | Obtiene un hogar por identificador. | 200 OK |
+| Homes | POST | `/api/v1/homes` | Registra un hogar asociado a un usuario. | 201 Created |
+| Homes | PUT | `/api/v1/homes/{id}` | Actualiza un hogar. | 200 OK |
+| Homes | DELETE | `/api/v1/homes/{id}` | Elimina un hogar. | 204 No Content |
+| Devices | GET | `/api/v1/devices` | Lista todos los dispositivos. | 200 OK |
+| Devices | GET | `/api/v1/devices/{id}` | Obtiene un dispositivo por identificador. | 200 OK |
+| Devices | POST | `/api/v1/devices` | Registra un dispositivo asociado a un hogar. | 201 Created |
+| Devices | PUT | `/api/v1/devices/{id}` | Actualiza un dispositivo. | 200 OK |
+| Devices | DELETE | `/api/v1/devices/{id}` | Elimina un dispositivo. | 204 No Content |
+| Consumptions | GET | `/api/v1/consumptions` | Lista los registros de consumo. | 200 OK |
+| Consumptions | GET | `/api/v1/consumptions/{id}` | Obtiene un consumo por identificador. | 200 OK |
+| Consumptions | POST | `/api/v1/consumptions` | Registra el consumo de un dispositivo. | 201 Created |
+| Consumptions | PUT | `/api/v1/consumptions/{id}` | Actualiza un consumo. | 200 OK |
+| Consumptions | DELETE | `/api/v1/consumptions/{id}` | Elimina un consumo. | 204 No Content |
+
+**Ejemplo de solicitud para crear un usuario:**
+
+```json
+{
+  "name": "Diego Cabrejos",
+  "email": "diego@example.com",
+  "password": "change-this-password",
+  "plan": "Professional",
+  "subscription": "Monthly"
+}
+```
+
+**Ejemplo de solicitud para crear un hogar:**
+
+```json
+{
+  "name": "Casa Principal",
+  "type": "House",
+  "userId": 1
+}
+```
+
+**Ejemplo de solicitud para crear un dispositivo:**
+
+```json
+{
+  "name": "Televisor Sala",
+  "type": "Smart Plug",
+  "powerWatts": 120,
+  "status": "Active",
+  "homeId": 1
+}
+```
+
+**Ejemplo de solicitud para crear un consumo:**
+
+```json
+{
+  "deviceId": 1,
+  "kwh": 2.75,
+  "date": "2026-06-20T18:30:00Z"
+}
+```
+
+El backend incorpora un manejador global de excepciones y una fábrica de Problem Details para representar errores HTTP de forma consistente. Asimismo, habilita CORS para permitir las solicitudes de la aplicación frontend durante la etapa de desarrollo y utiliza recursos de localización en español e inglés para los mensajes de los contextos principales.
+
+<!-- CAPTURA PENDIENTE: Swagger UI con los controladores Users, Homes, Devices y Consumptions expandidos. -->
+`<img src="assets/Sprint3-Backend-Swagger.png" alt="Swagger OpenAPI Sprint 3"></img>`
+
+<!-- CAPTURA PENDIENTE: ejecución de un POST exitoso desde Swagger y su respuesta 201. -->
+`<img src="assets/Sprint3-Backend-Post-Device.png" alt="Swagger POST Device"></img>`
+
+<!-- CAPTURA PENDIENTE: tablas users, homes, devices y consumptions dentro de MySQL Workbench. -->
+`<img src="assets/Sprint3-Backend-MySQL.png" alt="MySQL database Sprint 3"></img>`
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Para este Sprint se prepararon artefactos y configuraciones diferenciadas para el despliegue del frontend y del backend. El frontend cuenta con un build de producción verificable mediante Vite. El backend incluye configuración para el entorno Production, pero necesita una instancia pública de MySQL, secretos de conexión y una plataforma compatible con .NET 10 para completar el despliegue público.
+
+**Frontend Web Application**
+
+El artefacto de producción se genera mediante:
+
+```bash
+npm ci
+npm run build
+```
+
+La salida se almacena en el directorio `dist`,
+
+**Backend Web Service**
+
+El backend puede desplegarse en una plataforma compatible con contenedores o .NET, como Azure App Service, Google Cloud Run, AWS App Runner, Render o Railway. El entorno de producción debe proporcionar, como mínimo, los siguientes secretos o variables:
+
+```text
+DATABASE_URL
+DATABASE_USER
+DATABASE_PASSWORD
+DATABASE_SCHEMA
+ASPNETCORE_ENVIRONMENT=Production
+```
+
+La base de datos debe ser una instancia MySQL accesible desde el servicio backend. Luego del despliegue se debe validar el endpoint de Swagger o, en caso Swagger se desactive en producción, probar directamente las rutas `/api/v1/users`, `/api/v1/homes`, `/api/v1/devices` y `/api/v1/consumptions` con Postman.
+
+| Componente | Evidencia disponible | Estado del Sprint 3 |
+| :--- | :--- | :---: |
+| Frontend source | Repositorio GitHub y rutas funcionales. | Completed |
+| Frontend production build | Build exitoso con Vite y directorio `dist`. | Verified |
+| Frontend public URL | Existen URLs previas en Vercel/Netlify; corresponde confirmar la versión desplegada. | To-Review |
+| Backend source | Repositorio GitHub con ASP.NET Core, EF Core y MySQL. | Completed |
+| Backend public URL | No se encontró una URL pública dentro de los archivos entregados. | Pending |
+| MySQL production database | Migración inicial disponible; instancia cloud y secretos pendientes de evidencia. | Pending |
+| End-to-end production integration | Requiere reemplazar Beeceptor por la URL real del backend. | To-Review |
+
+Backend
+link del Backend: https://electrocorp-platform-u1f4.onrender.com/
+
+<img src="assets/backend-devices-getdevices.png"></img><br>
+<img src="assets/backend-devices-getdevicesbyid.png"></img><br>
+<img src="assets/backend-devices-putdevicesbyid.png"></img><br>
+<img src="assets/backend-users-signin.png"></img><br>
+
+Frontend
+link del Frontend: https://electrocorp-appweb.onrender.com
+
+<img src="assets/frontend-billing.png"></img><br>
+<img src="assets/frontend-dashboard.png"></img><br>
+<img src="assets/frontend-notifications.png"></img><br>
+<img src="assets/frontend-signin.png"></img><br>
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3 el equipo afrontó un incremento de complejidad al trabajar simultáneamente con frontend, backend, base de datos y documentación de servicios. La colaboración dejó de centrarse únicamente en componentes visuales y pasó a requerir coordinación sobre contratos REST, entidades, rutas, migraciones y configuración de entornos.
+
+| Team Member | Contribution during Sprint 3 |
+| :--- | :--- |
+| **Tavara Correa, Sebastian Oswaldo** | Apoyó el seguimiento del Sprint, la actualización de la documentación y la organización de las evidencias para el Sprint Review. |
+| **Tuncar Vila, Ghorghet Saul** | Participó en la revisión de la arquitectura de servicios, documentación Swagger/OpenAPI, criterios HTTP y validación funcional de endpoints. |
+| **Cabrejos Chocco, Diego Alexander** | Lideró la revisión de navegación y experiencia del frontend, realizó la adaptación del entorno de producción y apoyó la integración y documentación del Sprint 3. |
+| **Fernandez Garfias, Alexander Piero** | Implementó los principales incrementos de Analytics y Payments en el frontend y consolidó la primera versión del Backend Web Service de ElectroCorp. |
+| **Toro Turpo, Ronal** | Colaboró en la revisión del modelo relacional, migración de base de datos, persistencia y pruebas de los flujos de hogares, dispositivos y consumos. |
+
+**Principales aprendizajes de colaboración:**
+
+- La separación por contextos funcionales facilitó que el equipo comprendiera dónde ubicar cada responsabilidad y redujo el acoplamiento entre módulos.
+- La documentación con Swagger mejoró la comunicación entre quienes trabajan en frontend y backend, porque permitió observar los contratos esperados sin depender únicamente de explicaciones verbales.
+- Se identificó que los ambientes simulados, como Beeceptor, son útiles para avanzar en paralelo, pero deben reemplazarse y verificarse antes de considerar terminada la integración.
+- La concentración de una gran parte del backend en un único commit dificulta la trazabilidad individual. Para el siguiente Sprint se acordó trabajar con ramas `feature/*`, Pull Requests pequeños y commits semánticos por cada caso de uso.
+- Las tareas de despliegue deben asignarse desde el inicio del Sprint y no únicamente al final, debido a que requieren configuración de secretos, base de datos y compatibilidad entre entornos.
+
+### 5.2.4. Sprint 4
+En este Sprint se consolida la entrega final TF1 del producto ElectroCorp. El trabajo se enfoco en cerrar la brecha entre las historias de usuario, la implementacion real, los diagramas de arquitectura, la documentacion del informe, los despliegues y el flujo Gitflow de los repositorios. A diferencia del Sprint 3, que priorizo construir la base funcional del backend y la integracion inicial con la Web Application, el Sprint 4 se centro en dejar el producto defendible, coherente y trazable para la evaluacion final.
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table align="center" border="1" width="90%" style="text-align:left;">
+    <tr><td><b>Sprint #</b></td><td>Sprint 4</td></tr>
+    <tr><td colspan="2" align="center"><b>Sprint Planning Background</b></td></tr>
+    <tr><td><b>Date</b></td><td>2026-07-05</td></tr>
+    <tr><td><b>Time</b></td><td>09:00 PM</td></tr>
+    <tr><td><b>Location</b></td><td>Modalidad Remota por Whatsapp / Microsoft Teams</td></tr>
+    <tr><td><b>Prepared By</b></td><td>Cabrejos Chocco, Diego Alexander</td></tr>
+    <tr><td><b>Attendees (to planning meeting)</b></td><td> 
+      - Tavara Correa, Sebastian Oswaldo<br>
+      - Tuncar Vila, Ghorghet Saul<br>
+      - Cabrejos Chocco, Diego Alexander<br>
+      - Fernandez Garfias, Alexander Piero<br>
+      - Toro Turpo, Ronal </td></tr>
+    <tr><td><b>Sprint 3 Review Summary</b></td><td>El equipo completo la base funcional del backend, la integracion con la Web Application y la documentacion inicial de servicios mediante Swagger/OpenAPI. Tambien se identifico la necesidad de reforzar la alineacion final con DDD, command/query services, event integration, evidencias de despliegue, validaciones, diagramas y trazabilidad de historias de usuario.</td></tr>
+    <tr><td><b>Sprint 3 Retrospective Summary</b></td><td>El equipo acordo cerrar inconsistencias entre el informe y el producto real, actualizar los diagramas para reflejar la arquitectura implementada, evitar afirmaciones obsoletas como flujos simulados o bases de datos incorrectas, y ordenar los repositorios mediante Gitflow antes de la entrega final.</td></tr>
+    <tr><td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td></tr>
+    <tr><td><b>Sprint 4 Goal</b></td><td><b>Estamos concentrados en</b> consolidar la experiencia completa y confiable de ElectroCorp, asegurando que todas las herramientas de gestión energética funcionen de manera integrada, estable y fluida para el usuario final..<br><br><b>Creemos que entregar</b> un ecosistema robusto y de alta disponibilidad brindará a las familias y dueños de negocios la total confianza para delegar el monitoreo diario de su consumo y la administración de sus dispositivos en nuestra plataforma.<br><br><b>Esto sera confirmado cuando</b> los clientes puedan interactuar con sus ambientes de forma ininterrumpida, acceder a reportes precisos que les permitan tomar decisiones de ahorro, y experimentar el beneficio real de la eficiencia energética a través de un servicio completamente operativo y seguro.</td></tr>
+    <tr><td><b>Sprint 4 Velocity</b></td><td>60</td></tr>
+    <tr><td><b>Sum of Story Points</b></td><td>60</td></tr>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+Para el Sprint 4 se organizó el trabajo del equipo en aspectos alineados con la estabilización final del producto. La letra **L** representa al líder del aspecto y la letra **C** representa a los colaboradores.
+
+1. **Frontend Integration & UI Stabilization:** integración visual de módulos, revisión de rutas, corrección de estilos y navegación.
+2. **Backend CRUD & REST Services:** implementación, corrección y validación de endpoints para las colecciones principales.
+3. **Database & Persistence:** validación de tablas, relaciones, migraciones, datos de prueba y persistencia MySQL.
+4. **Notifications, Billing & Reports:** revisión de módulos de notificaciones, facturación, reportes y exportación.
+5. **Deployment & Environment Configuration:** despliegue en Render, configuración de URLs, CORS, variables de entorno y verificación pública.
+6. **Documentation, QA & Sprint Review Evidence:** registro de capturas, pruebas en Thunder Client/Swagger, actualización del informe y revisión final.
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Team Member</b></td>
+    <td><b>GitHub Username</b></td>
+    <td><b>Frontend Integration & UI Stabilization</b></td>
+    <td><b>Backend CRUD & REST Services</b></td>
+    <td><b>Database & Persistence</b></td>
+    <td><b>Notifications, Billing & Reports</b></td>
+    <td><b>Deployment & Environment Configuration</b></td>
+    <td><b>Documentation, QA & Evidence</b></td>
+  </tr>
+  <tr>
+    <td align="left">Tavara Correa, Sebastian Oswaldo</td>
+    <td>SebastianTavara</td>
+    <td>C</td><td>C</td><td>C</td><td>C</td><td>C</td><td><b>L</b></td>
+  </tr>
+  <tr>
+    <td align="left">Tuncar Vila, Ghorghet Saul</td>
+    <td>Ghorghet</td>
+    <td>C</td><td>C</td><td>C</td><td><b>L</b></td><td>C</td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Cabrejos Chocco, Diego Alexander</td>
+    <td>MOTOX-357</td>
+    <td><b>L</b></td><td>C</td><td>C</td><td>C</td><td>C</td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Fernandez Garfias, Alexander Piero</td>
+    <td>Dostoyevsk1</td>
+    <td>C</td><td><b>L</b></td><td>C</td><td>C</td><td><b>L</b></td><td>C</td>
+  </tr>
+  <tr>
+    <td align="left">Toro Turpo, Ronal</td>
+    <td>Ronal</td>
+    <td>C</td><td>C</td><td><b>L</b></td><td>C</td><td>C</td><td>C</td>
+  </tr>
+</table>
+
+#### 5.2.4.3. Sprint Backlog 4
+
+El Sprint Backlog 4 prioriza el cierre final de ElectroCorp como producto integrado. Las tareas se organizaron para reforzar las historias de usuario y tecnicas que no habian quedado explicitamente trazadas en los Sprints anteriores, ademas de cerrar arquitectura DDD, seguridad, eventos de integracion, documentacion de servicios, despliegues y evidencia del informe final.
+
+<p style="text-align: left; width: 90%; margin: 20px auto;">
+    <b>Enlace de Seguimiento:</b> <a href="https://trello.com/b/ML6kSQte/sprintbacklog4" target="_blank">Tablero del Sprint 4 en Trello</a>
+    <br><br>
+    <img src="assets/TrelloSprint4.png" alt="Sprint 4 Trello Board"></img>
+</p>
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td colspan="2"><b>Sprint #</b></td>
+    <td colspan="7"><b>Sprint 4</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story / Technical Story</b></td>
+    <td colspan="7"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Student Code</b></td>
+    <td><b>Status</b></td>
+  </tr>
+  <tr>
+    <td>US-19</td>
+    <td>Administrar múltiples dispositivos</td>
+    <td>T41</td>
+    <td>Validar listado de dispositivos</td>
+    <td>Verificar que la Web Application muestre los dispositivos registrados y que el backend exponga las operaciones principales para la colección Devices.</td>
+    <td>5</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-11 / US-12</td>
+    <td>Ver estado y controlar dispositivos</td>
+    <td>T42</td>
+    <td>Control ON/OFF y estado</td>
+    <td>Revisar el flujo visual de activación/desactivación y documentar el comportamiento esperado cuando un dispositivo se encuentra activo, inactivo u offline.</td>
+    <td>5</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-15 / US-16</td>
+    <td>Consumo en tiempo real e historial</td>
+    <td>T43</td>
+    <td>Reportes de consumo energético</td>
+    <td>Validar las vistas de consumo, historial y analítica, verificando que los datos se presenten de forma comprensible para usuarios residenciales y comerciales.</td>
+    <td>6</td>
+    <td>Alexander Fernandez</td>
+    <td>U202019498</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-17 / US-29</td>
+    <td>Alertas y notificaciones</td>
+    <td>T44</td>
+    <td>Módulo de notificaciones</td>
+    <td>Implementar o estabilizar la sección de notificaciones para representar alertas de consumo elevado, mensajes del sistema y eventos relevantes.</td>
+    <td>6</td>
+    <td>Ghorghet Tuncar</td>
+    <td>U20241e107</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-32 / US-34</td>
+    <td>Perfil y preferencias</td>
+    <td>T45</td>
+    <td>Gestión de datos del usuario</td>
+    <td>Revisar formularios de perfil, preferencias de alertas y configuración de comunicación con el usuario.</td>
+    <td>4</td>
+    <td>Sebastian Tavara</td>
+    <td>U20241e179</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-36 / US-37</td>
+    <td>Filtrar y exportar historial</td>
+    <td>T46</td>
+    <td>Filtros y exportación CSV</td>
+    <td>Documentar la selección de rangos de fechas, la consulta de historial y la exportación de información para análisis externo.</td>
+    <td>5</td>
+    <td>Ronal Toro</td>
+    <td>U20241e367</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-40</td>
+    <td>Gestionar múltiples locales</td>
+    <td>T47</td>
+    <td>Organización por sedes/locales</td>
+    <td>Representar el flujo de administración de sedes, habitaciones, grupos y dispositivos dentro de la plataforma.</td>
+    <td>5</td>
+    <td>Ronal Toro</td>
+    <td>U20241e367</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-11</td>
+    <td>Endpoints CRUD Dispositivos</td>
+    <td>T48</td>
+    <td>Validación CRUD de colecciones</td>
+    <td>Probar operaciones GET, POST, PUT y DELETE para las colecciones principales mediante Swagger, Thunder Client o Postman.</td>
+    <td>7</td>
+    <td>Alexander Fernandez</td>
+    <td>U202019498</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-13 / TS-15</td>
+    <td>Autenticación y seguridad</td>
+    <td>T49</td>
+    <td>Revisión de inicio de sesión</td>
+    <td>Validar el flujo de acceso, manejo de credenciales, respuesta del endpoint de autenticación y protección básica de rutas.</td>
+    <td>5</td>
+    <td>Ghorghet Tuncar</td>
+    <td>U20241e107</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-Deployment</td>
+    <td>Despliegue final</td>
+    <td>T50</td>
+    <td>Configuración Render y evidencia pública</td>
+    <td>Verificar que el frontend y backend estén disponibles públicamente, registrar URLs y capturas de ejecución.</td>
+    <td>6</td>
+    <td>Alexander Fernandez</td>
+    <td>U202019498</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+Durante este Sprint, el equipo trabajo en el cierre final de los repositorios principales y en la alineacion del informe con la implementacion real. Las evidencias principales se encuentran en los historiales de commits, ramas de release y tags de version:
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Repository</b></td>
+    <td><b>Branch</b></td>
+    <td><b>Development Evidence</b></td>
+    <td><b>Scope / Result</b></td>
+    <td><b>Status</b></td>
+  </tr>
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td>Actualización de Dashboard y vistas internas</td>
+    <td>Se consolidaron las vistas de dashboard, facturación, notificaciones, inicio de sesión y módulos internos de la Web Application.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td>Configuración de conexión con backend</td>
+    <td>Se revisó la configuración de entorno para consumir la API desplegada y reducir la dependencia de datos simulados.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Frontend</td>
+    <td>main</td>
+    <td>Mejoras de navegación y presentación</td>
+    <td>Se corrigieron rutas, enlaces del Sidebar y consistencia visual entre módulos.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td>Validación de endpoints REST</td>
+    <td>Se probaron endpoints de usuarios, dispositivos, autenticación y demás recursos principales mediante Swagger/Thunder Client.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Backend</td>
+    <td>main</td>
+    <td>Despliegue en Render</td>
+    <td>Se publicó el Backend Web Service y se verificó su respuesta desde una URL pública.</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Report</td>
+    <td>develop</td>
+    <td>Actualización de Sprint 4</td>
+    <td>Se incorporaron planificación, backlog, evidencias de desarrollo, ejecución, servicios, despliegue y colaboración del Sprint 4.</td>
+    <td>Completed</td>
+  </tr>
+</table>
+
+* **Backend Platform:** https://github.com/1ASI0730-2610-20177-Nex/Backend/commits/main/
+* **Frontend Web App:** https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
+* **Landing Page:** https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main/
+* **Report:** https://github.com/1ASI0730-2610-20177-Nex/Report/commits/main/
+
+**Frontend Web Application development evidence**
+
+<img src="assets/FrontendCommit1" alt="Backend Sprint 4 commits evidence 1"></img><br>
+<img src="assets/FrontendCommit2" alt="Backend Sprint 4 commits evidence 2"></img><br>
+
+**Backend Platform development evidence**
+
+<img src="assets/BackendCommit1" alt="Frontend Sprint 4 tags evidence"></img><br>
+
+**Landing Page development evidence**
+
+<img src="assets/LandingCommit1" alt="Landing Page Sprint 4 commits evidence 1"></img><br>
+<img src="assets/LandingCommit2" alt="Landing Page Sprint 4 commits evidence 2"></img><br>
+
+**Project Report development evidence**
+
+<img src="assets/ReportCommit1" alt="Report Sprint 4 commits evidence 1"></img><br>
+<img src="assets/ReportCommit2" alt="Report Sprint 4 commits evidence 2"></img><br>
+
+Como cierre tecnico, el backend incorpora un flujo de Event Integration interno: los eventos de dominio se mantienen dentro de cada bounded context, se traducen a integration events desde application/interfaces y se consumen despues del commit transaccional. Los eventos reforzados incluyen `OperationModeActivatedEvent`, `UserRegisteredEvent`, `SubscriptionActivatedEvent`, `PaymentRegisteredEvent`, `DeviceAssignedToRoomEvent`, `EnergyThresholdExceededEvent`, `SupportTicketCreatedEvent` y `MaintenanceTicketCreatedEvent`. Notifications los usa para crear alertas y Reporting los conserva como actividad para auditoria funcional.
+
+En IAM se refuerzan los puertos `HashingService` y `TokenService`, manteniendo BCrypt para credenciales y JWT Bearer para autenticacion. En la Web Application se mantiene la organizacion por bounded contexts y se corrige Workplace para que el geocoding sea resuelto por servicios de application/infrastructure. El informe se actualiza para que diagramas, README, backlog, deployment y evidencias reflejen el producto final y no una version parcial.
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+La ejecucion del Sprint 4 se valida mediante rutas publicas, pantallas funcionales de la Web Application, documentacion del backend y enlaces de release de los repositorios.
+
+| Artifact | URL / Route | Expected result |
+|--|--|--|
+| Backend Health | https://electrocorp-platform.onrender.com/health | Respuesta JSON con estado operativo del servicio. |
+| Backend Root | https://electrocorp-platform.onrender.com/ | Respuesta publica para confirmar disponibilidad del backend. |
+| Swagger UI | https://electrocorp-platform.onrender.com/swagger-ui/index.html | Interfaz de documentacion del API REST accesible desde navegador. |
+| OpenAPI JSON | https://electrocorp-platform.onrender.com/v3/api-docs | Contrato OpenAPI disponible con esquema Bearer JWT. |
+| Reporting Activity | https://electrocorp-platform.onrender.com/api/v1/reports/activity | Ruta preparada para consultar actividad generada por integration events. |
+| Web App Login | https://electrocorp-webapp.onrender.com/iam/login | Pantalla de autenticacion conectada con IAM. |
+| Web App Workplace | https://electrocorp-webapp.onrender.com/spaces/sites | Gestion de sedes, habitaciones y asignaciones de dispositivos. |
+| Web App Energy Reports | https://electrocorp-webapp.onrender.com/energy/reports | Visualizacion de reportes, consumo energetico y metas. |
+| Landing Page | https://upc-pre-202610-1asi0729-11896-ecorp.github.io/electrocorp-website/ | Sitio publico con propuesta de valor, CTA y acceso hacia la Web Application. |
+
+**Backend Platform execution evidence**
+
+<img src="assets/md-images-chapter5/platform-deployed.jpeg" alt="Backend deployed root evidence"></img><br>
+<img src="assets/md-images-chapter5/platform-deployed-health.jpeg" alt="Backend deployed health evidence"></img><br>
+<img src="assets/md-images-chapter5/platform-deployed-swagger.jpeg" alt="Backend deployed Swagger UI evidence"></img><br>
+<img src="assets/md-images-chapter5/platform-deployed-api-docs.jpeg" alt="Backend deployed OpenAPI JSON evidence"></img><br>
+
+**Frontend Web Application execution evidence**
+
+<img src="assets/md-images-chapter5/webapp-deployed.jpeg" alt="Frontend Web Application deployed evidence"></img><br>
+
+**Landing Page execution evidence**
+
+<img src="assets/md-images-chapter5/website-deployed.jpeg" alt="Landing Page deployed evidence"></img><br>
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+La documentacion de servicios se mantiene mediante Swagger/OpenAPI y se complementa con la estructura del codigo por bounded contexts. Esto permite revisar rutas, recursos, seguridad y ejemplos de interaccion sin depender unicamente del informe.
+
+* **Swagger UI:** https://electrocorp-platform.onrender.com/swagger-ui/index.html
+* **OpenAPI JSON:** https://electrocorp-platform.onrender.com/v3/api-docs
+* **Seguridad:** OpenAPI documenta autenticacion HTTP Bearer con formato JWT.
+* **Credenciales:** las contrasenas se almacenan con BCrypt mediante `HashingService`; no se persisten como texto plano.
+* **Servicios de aplicacion:** controllers delgados delegan en command services y query services por contexto.
+* **Event Integration:** los integration events conectan IAM, Billing, Workplace, Device Control, Energy Monitoring, Notifications, Reporting y Service Management sin agregar endpoints publicos innecesarios.
+* **Error handling:** se conserva `ErrorResource` como contrato publico y se centraliza la respuesta de errores mediante el manejo global compartido.
+
+**Bearer JWT authorization evidence**
+
+<img src="assets/md-images-chapter5/platform-bearer.jpeg" alt="Swagger Bearer JWT authorization evidence"></img><br>
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+El despliegue final considera las tres superficies principales del producto y el repositorio del informe. Cada repositorio mantiene ramas de desarrollo, release o main segun corresponda al flujo Gitflow aplicado durante el cierre.
+
+| Component | Platform | Deployment / Version evidence |
+|--|--|--|
+| Landing Page | GitHub Pages | Publicacion desde `main` y release `v4.0.0`, con CTA hacia la Web Application. |
+| Web Application | Render | Release `v4.0.0` integrada a `main`, con rutas de IAM, Billing, Workplace, Energy, Notifications, Reporting y Service Management. |
+| Backend Platform | Render | Release `v2.0.0` integrada a `main`, con health check, Swagger/OpenAPI y API REST por bounded contexts. |
+| Database | Render PostgreSQL | Base de datos PostgreSQL disponible para persistencia de usuarios, planes, sedes, dispositivos, lecturas, alertas, reportes y tickets. |
+| Project Report | GitHub Repository | Informe actualizado en ramas de documentacion y Gitflow hasta `main`, con diagramas y secciones finales sincronizadas. |
+
+**Backend Platform deployment evidence**
+
+<img src="assets/md-images-chapter5/platform-deployment.jpeg" alt="Backend platform deployment evidence"></img><br>
+
+**Database deployment evidence**
+
+<img src="assets/md-images-chapter5/database-deployment.jpeg" alt="Render PostgreSQL database deployment evidence"></img><br>
+
+**Frontend Web Application deployment evidence**
+
+<img src="assets/md-images-chapter5/webapp-deployment.jpeg" alt="Frontend Web Application deployment evidence"></img><br>
+
+**Landing Page deployment evidence**
+
+<img src="assets/md-images-chapter5/website-deployment.jpeg" alt="Landing Page deployment evidence"></img><br>
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 4, el equipo enfoco la colaboracion en cerrar brechas de coherencia entre producto, codigo, despliegues y documentacion. La coordinacion fue clave porque el valor de la entrega final no dependia solo de compilar, sino de que cada modulo pudiera explicarse desde las historias de usuario y desde la arquitectura.
+
+| Area | Collaboration insight |
+|--|--|
+| Backend | Se reforzo la separacion DDD mediante puertos, command/query services, eventos de integracion, seguridad JWT/BCrypt y documentacion OpenAPI. |
+| Frontend | Se mantuvo la arquitectura por contextos y se corrigieron flujos de Workplace para que la capa presentation delegue en servicios de application/infrastructure. |
+| Product Scope | Las historias se revisaron contra la funcionalidad real, dejando explicitas las capacidades implementadas, reforzadas o preparadas para evolucion posterior. |
+| Deployment | Los repositorios principales se ordenaron con Gitflow, releases y tags finales para sustentar la trazabilidad academica. |
+| Documentation | El informe se actualizo con Sprint 4, diagramas, evidencias de servicios y texto alineado al estado real de ElectroCorp. |
+
+**Project Report collaboration evidence**
+
+<img src="assets/md-images-chapter5/insight-report-sprint-4.jpeg" alt="Report Sprint 4 insights evidence"></img><br>
+<img src="assets/md-images-chapter5/contribuitors-report-sprint-4.jpeg" alt="Report Sprint 4 contributors evidence"></img><br>
+
+**Backend Platform collaboration evidence**
+
+<img src="assets/md-images-chapter5/insight-platform-sprint-4.jpeg" alt="Backend Sprint 4 insights evidence"></img><br>
+<img src="assets/md-images-chapter5/contribuitors-platform-sprint-4.jpeg" alt="Backend Sprint 4 contributors evidence"></img><br>
+
+**Frontend Web Application collaboration evidence**
+
+<img src="assets/md-images-chapter5/insight-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 insights evidence"></img><br>
+<img src="assets/md-images-chapter5/contribuitors-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 contributors evidence"></img><br>
+
+**Landing Page collaboration evidence**
+
+<img src="assets/md-images-chapter5/insight-website-sprint-4.jpeg" alt="Landing Page Sprint 4 insights evidence"></img><br>
+<img src="assets/md-images-chapter5/contribuitors-website-sprint-4.jpeg" alt="Landing Page Sprint 4 contributors evidence"></img><br>
+
 ### 5.3.1. Diseño de Entrevistas
+
+
+
 ### 5.3.2. Registro de Entrevistas
+
+
 ### 5.3.3. Evaluaciones según heurísticas
 ## 5.4. Video About-the-Product.
 # Conclusiones
 ## Conclusiones y recomendaciones
 ## Video About-the-Team.
 # Bibliografía 
+
+- Promart. (s.f.). Smatrul Enchufe Inteligente Wifi Compatible con Alexa Google Home. https://www.promart.pe/smatrul-enchufe-inteligente-wifi-compatible-con-alexa-google-home-1001455515/p
+- Instituto Nacional de Estadística e Informática. (2018). Perú: Características de las viviendas particulares y los hogares. Acceso a servicios básicos (Publicación Digital Lib1538). https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1538/parte01.pdf
+
 # Anexos
