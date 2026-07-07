@@ -1256,49 +1256,49 @@ El wireframe define la estructura básica de la landing page en bloques principa
 <br>
 Es la página principal de bienvenida. Su objetivo es explicar brevemente el valor de la plataforma y permitir que los usuarios nuevos o recurrentes accedan rápidamente a las secciones principales.
 <br>
-<img src="assets/WireframeInicio.png"><br>
+<img src="assets/WireframeInicio.png"><br><br>
 
 
 Es el formulario de registro. Aquí los usuarios ingresan sus datos personales básicos para crear una nueva cuenta y poder empezar a configurar su perfil dentro de la aplicación.
 <br>
-<img src="assets/WireframeRegistrarse.png"><br>
+<img src="assets/WireframeRegistrarse.png"><br><br>
 
 
 Es la pantalla de acceso seguro. Permite a los usuarios registrados ingresar a la plataforma usando sus credenciales para continuar gestionando su información de manera privada.
 <br>
-<img src="assets/WireframeIniciarSesion.png"><br>
+<img src="assets/WireframeIniciarSesion.png"><br><br>
 
 
 
 Es el panel de control (Dashboard). Ofrece una vista rápida y general de todo el sistema, mostrando indicadores clave y accesos directos a las funciones más importantes para facilitar la navegación.
 <br>
-<img src="assets/WireframeInicioApp.png"><br>
+<img src="assets/WireframeInicioApp.png"><br><br>
 
 
 
 Es el núcleo de gestión. Permite al usuario supervisar y controlar el flujo de energía en tiempo real, facilitando la toma de decisiones sobre el uso de sus recursos energéticos.
 <br>
-<img src="assets/WireframeCentroEnergetico.png"><br>
+<img src="assets/WireframeCentroEnergetico.png"><br><br>
 
 
 Es el área de análisis de datos. Presenta gráficos detallados y comparativas para que el usuario pueda entender mejor sus patrones de consumo y cómo ha evolucionado el uso de energía.
 <br>
-<img src="assets/WireframeAnaliticaAvanzada.png"><br>
+<img src="assets/WireframeAnaliticaAvanzada.png"><br><br>
 
 
 Es el gestor de equipos. Desde aquí, el usuario puede añadir nuevos dispositivos, configurar sus parámetros de funcionamiento y monitorear el estado de cada uno de ellos individualmente.
 <br>
-<img src="assets/WireframeDispositivos.png"><br>
+<img src="assets/WireframeDispositivos.png"><br><br>
 
 
 Es el archivo de actividades. Muestra un registro ordenado cronológicamente de todas las acciones pasadas, eventos y datos de consumo, permitiendo realizar consultas para auditorías o seguimiento.
 <br>
-<img src="assets/WireframeHistorial.png"><br>
+<img src="assets/WireframeHistorial.png"><br><br>
 
 
 Es el asistente inteligente. Esta sección utiliza inteligencia artificial para analizar el comportamiento del usuario y ofrecer recomendaciones personalizadas que ayudan a optimizar el ahorro energético.
 <br>
-<img src="assets/WireframeIAEnergetica.png"><br>
+<img src="assets/WireframeIAEnergetica.png"><br><br>
 
 
 
