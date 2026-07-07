@@ -3084,6 +3084,7 @@ Durante el Sprint 3 el equipo afrontó un incremento de complejidad al trabajar 
 - La concentración de una gran parte del backend en un único commit dificulta la trazabilidad individual. Para el siguiente Sprint se acordó trabajar con ramas `feature/*`, Pull Requests pequeños y commits semánticos por cada caso de uso.
 - Las tareas de despliegue deben asignarse desde el inicio del Sprint y no únicamente al final, debido a que requieren configuración de secretos, base de datos y compatibilidad entre entornos.
 
+### 5.2.4. Sprint 4
 
 ### 5.3.1. Diseño de Entrevistas
 
