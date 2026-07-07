@@ -3611,35 +3611,43 @@ El backend desplegado permite consumir endpoints REST desde clientes externos. D
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 4, el equipo enfoco la colaboracion en cerrar brechas de coherencia entre producto, codigo, despliegues y documentacion. La coordinacion fue clave porque el valor de la entrega final no dependia solo de compilar, sino de que cada modulo pudiera explicarse desde las historias de usuario y desde la arquitectura.
+Durante el Sprint 4 el equipo se enfocó en cerrar brechas técnicas y documentales detectadas en el Sprint anterior. La colaboración fue principalmente orientada a integración, pruebas, corrección de evidencias y validación del despliegue. Cada integrante participó desde un aspecto específico, manteniendo comunicación constante para asegurar que el informe y el producto estén alineados.
 
-| Area | Collaboration insight |
-|--|--|
-| Backend | Se reforzo la separacion DDD mediante puertos, command/query services, eventos de integracion, seguridad JWT/BCrypt y documentacion OpenAPI. |
-| Frontend | Se mantuvo la arquitectura por contextos y se corrigieron flujos de Workplace para que la capa presentation delegue en servicios de application/infrastructure. |
-| Product Scope | Las historias se revisaron contra la funcionalidad real, dejando explicitas las capacidades implementadas, reforzadas o preparadas para evolucion posterior. |
-| Deployment | Los repositorios principales se ordenaron con Gitflow, releases y tags finales para sustentar la trazabilidad academica. |
-| Documentation | El informe se actualizo con Sprint 4, diagramas, evidencias de servicios y texto alineado al estado real de ElectroCorp. |
+<table align="center" border="1" width="100%" style="text-align:left; border-collapse:collapse;">
+  <tr>
+    <td><b>Team Member</b></td>
+    <td><b>Contribution during Sprint 4</b></td>
+  </tr>
+  <tr>
+    <td><b>Tavara Correa, Sebastian Oswaldo</b></td>
+    <td>Apoyó la organización de evidencias, revisión del informe, actualización de secciones de Sprint Review y validación general de la documentación para TB2.</td>
+  </tr>
+  <tr>
+    <td><b>Tuncar Vila, Ghorghet Saul</b></td>
+    <td>Colaboró en la revisión de servicios, notificaciones, autenticación, criterios HTTP y consistencia de la documentación técnica de Swagger/OpenAPI.</td>
+  </tr>
+  <tr>
+    <td><b>Cabrejos Chocco, Diego Alexander</b></td>
+    <td>Lideró la revisión visual del frontend, navegación interna, presentación de evidencias de la Web Application y actualización del contenido del Sprint 4 dentro del informe.</td>
+  </tr>
+  <tr>
+    <td><b>Fernandez Garfias, Alexander Piero</b></td>
+    <td>Lideró la estabilización del backend, validación de endpoints REST, despliegue en Render y revisión de pruebas mediante Thunder Client/Swagger.</td>
+  </tr>
+  <tr>
+    <td><b>Toro Turpo, Ronal</b></td>
+    <td>Apoyó la revisión de persistencia en MySQL, validación de colecciones, organización de dispositivos/sedes y revisión de flujos de datos para reportes.</td>
+  </tr>
+</table>
 
-**Project Report collaboration evidence**
+**Principales aprendizajes de colaboración:**
 
-<img src="assets/md-images-chapter5/insight-report-sprint-4.jpeg" alt="Report Sprint 4 insights evidence"></img><br>
-<img src="assets/md-images-chapter5/contribuitors-report-sprint-4.jpeg" alt="Report Sprint 4 contributors evidence"></img><br>
-
-**Backend Platform collaboration evidence**
-
-<img src="assets/md-images-chapter5/insight-platform-sprint-4.jpeg" alt="Backend Sprint 4 insights evidence"></img><br>
-<img src="assets/md-images-chapter5/contribuitors-platform-sprint-4.jpeg" alt="Backend Sprint 4 contributors evidence"></img><br>
-
-**Frontend Web Application collaboration evidence**
-
-<img src="assets/md-images-chapter5/insight-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 insights evidence"></img><br>
-<img src="assets/md-images-chapter5/contribuitors-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 contributors evidence"></img><br>
-
-**Landing Page collaboration evidence**
-
-<img src="assets/md-images-chapter5/insight-website-sprint-4.jpeg" alt="Landing Page Sprint 4 insights evidence"></img><br>
-<img src="assets/md-images-chapter5/contribuitors-website-sprint-4.jpeg" alt="Landing Page Sprint 4 contributors evidence"></img><br>
+- La integración entre frontend y backend exige mantener contratos claros y actualizados; una diferencia en nombres de campos, rutas o URLs puede bloquear la validación completa del producto.
+- Las pruebas CRUD por colección ayudan a demostrar con mayor claridad que el backend no solo existe, sino que realmente permite crear, leer, actualizar y eliminar información.
+- La documentación de Swagger/OpenAPI facilitó que los integrantes no especializados en backend pudieran comprender la estructura de los servicios.
+- El despliegue debe validarse desde herramientas externas como Thunder Client, porque una aplicación puede funcionar localmente y fallar al publicarse por problemas de CORS, variables de entorno o base de datos.
+- Para futuras iteraciones, se recomienda mantener capturas organizadas por carpeta, usar nombres consistentes para imágenes y registrar commits semánticos por cada funcionalidad importante.
+- El Sprint 4 permitió consolidar una versión más presentable y defendible de ElectroCorp, articulando la propuesta visual, la lógica de negocio, la persistencia y la evidencia técnica en un solo flujo de entrega.
 
 ### 5.3.1. Diseño de Entrevistas
 Las entrevistas de validacion mantienen el mismo enfoque de la seccion 2.2, pero ahora se orientan a evaluar el producto construido durante AV2. El objetivo es validar si la Landing Page, la Web Application y el backend documentado comunican claramente el valor de ElectroCorp y si los usuarios entienden los flujos principales.
