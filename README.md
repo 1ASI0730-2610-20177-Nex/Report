@@ -2435,11 +2435,12 @@ Las entrevistas de validacion mantienen el mismo enfoque de la seccion 2.2, pero
 
 #### Segmento 1
 
-| N | Datos | Imagen referencial
+| N | Datos | Descripcion |Imagen referencial
 |--|--|--|
-|1  | Nombre: Miguel<br>Apellido: Torres <br>Edad: 20<br>Distrito: Chosica |<img src="assets/entrevista2Miguel.jpeg">
-|2  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
-|3  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+|1  | Nombre: Miguel<br>Apellido: Torres <br>Edad: 20<br>Distrito: Chosica | Miguel, durante la entrevista pudo validar que la propuesta de ElectroCorp es bastante clara. Entendio perfectamente que la plataforma sirve para monitorear el consumo eléctrico en tiempo real, lo que le permitio identificar qué aparatos gastan más y así reducir tus facturas. Le parece que el flujo para registrarte y elegir un plan es bastante intuitivo y sencillo de seguir.
+Sobre la organización, sientes que la estructura de la aplicación es clara, facilitando la gestión de dispositivos por hogar o ambiente sin complicaciones. Además, consideras que la interfaz es lo suficientemente simple para que otros miembros de tu familia la usen sin necesidad de explicaciones previas. En cuanto a lo que te genera más confianza, destacas las alertas y el monitoreo en tiempo real; sin embargo, tu principal duda es la compatibilidad de la plataforma con dispositivos adicionales, como computadoras o equipos con sistema operativo iOS.|<img src="assets/entrevista2Miguel.jpeg">
+|2  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:  | |<img src="assets/.png">
+|3  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:  | |<img src="assets/.png">
 
 #### Segmento 2
 
