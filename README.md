@@ -3417,47 +3417,197 @@ La ejecucion del Sprint 4 se valida mediante rutas publicas, pantallas funcional
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-La documentacion de servicios se mantiene mediante Swagger/OpenAPI y se complementa con la estructura del codigo por bounded contexts. Esto permite revisar rutas, recursos, seguridad y ejemplos de interaccion sin depender unicamente del informe.
+Durante este Sprint se reforzó la documentación de servicios REST para demostrar que el Backend Web Service permite validar operaciones principales de la plataforma. La documentación se apoya en Swagger/OpenAPI y en pruebas complementarias realizadas con Thunder Client o Postman.
 
-* **Swagger UI:** https://electrocorp-platform.onrender.com/swagger-ui/index.html
-* **OpenAPI JSON:** https://electrocorp-platform.onrender.com/v3/api-docs
-* **Seguridad:** OpenAPI documenta autenticacion HTTP Bearer con formato JWT.
-* **Credenciales:** las contrasenas se almacenan con BCrypt mediante `HashingService`; no se persisten como texto plano.
-* **Servicios de aplicacion:** controllers delgados delegan en command services y query services por contexto.
-* **Event Integration:** los integration events conectan IAM, Billing, Workplace, Device Control, Energy Monitoring, Notifications, Reporting y Service Management sin agregar endpoints publicos innecesarios.
-* **Error handling:** se conserva `ErrorResource` como contrato publico y se centraliza la respuesta de errores mediante el manejo global compartido.
+**Base URL pública:**
+
+```text
+https://electrocorp-platform-u1f4.onrender.com
+```
+
+**Base URL local de desarrollo:**
+
+```text
+http://localhost:5000
+```
+
+**Endpoints documentados y validados durante el Sprint 4:**
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Context</b></td>
+    <td><b>Resource</b></td>
+    <td><b>Method</b></td>
+    <td><b>Endpoint</b></td>
+    <td><b>Description</b></td>
+    <td><b>Expected Response</b></td>
+  </tr>
+  <tr>
+    <td>IAM</td>
+    <td>Authentication</td>
+    <td>POST</td>
+    <td><code>/api/v1/authentication/sign-in</code></td>
+    <td>Permite iniciar sesión con credenciales registradas.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Profiles</td>
+    <td>Users</td>
+    <td>GET</td>
+    <td><code>/api/v1/users</code></td>
+    <td>Lista los usuarios registrados en el sistema.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Profiles</td>
+    <td>Users</td>
+    <td>POST</td>
+    <td><code>/api/v1/users</code></td>
+    <td>Registra un nuevo usuario dentro de la plataforma.</td>
+    <td>201 Created</td>
+  </tr>
+  <tr>
+    <td>Device Control</td>
+    <td>Devices</td>
+    <td>GET</td>
+    <td><code>/api/v1/devices</code></td>
+    <td>Lista todos los dispositivos disponibles.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Device Control</td>
+    <td>Devices</td>
+    <td>GET</td>
+    <td><code>/api/v1/devices/{id}</code></td>
+    <td>Obtiene un dispositivo por identificador.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Device Control</td>
+    <td>Devices</td>
+    <td>PUT</td>
+    <td><code>/api/v1/devices/{id}</code></td>
+    <td>Actualiza la información de un dispositivo existente.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Device Control</td>
+    <td>Devices</td>
+    <td>DELETE</td>
+    <td><code>/api/v1/devices/{id}</code></td>
+    <td>Elimina un dispositivo del sistema.</td>
+    <td>204 No Content</td>
+  </tr>
+  <tr>
+    <td>Energy Monitoring</td>
+    <td>Consumptions</td>
+    <td>GET</td>
+    <td><code>/api/v1/consumptions</code></td>
+    <td>Consulta los registros de consumo energético.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Notifications</td>
+    <td>Notifications</td>
+    <td>GET</td>
+    <td><code>/api/v1/notifications</code></td>
+    <td>Consulta notificaciones generadas para el usuario.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Billing</td>
+    <td>Plans / Subscriptions</td>
+    <td>GET</td>
+    <td><code>/api/v1/plans</code></td>
+    <td>Lista planes o información de suscripción disponible.</td>
+    <td>200 OK</td>
+  </tr>
+</table>
+
+**Ejemplo de solicitud para iniciar sesión:**
+
+```json
+{
+  "email": "diego@example.com",
+  "password": "123456789"
+}
+```
+
+**Ejemplo de solicitud para actualizar un dispositivo:**
+
+```json
+{
+  "name": "Enchufe Sala Actualizado",
+  "type": "Smart Plug",
+  "powerWatts": 120,
+  "status": "Active",
+  "homeId": 1
+}
+```
+
+**Ejemplo de respuesta esperada para un dispositivo:**
+
+```json
+{
+  "id": 1,
+  "name": "Enchufe Sala",
+  "type": "Smart Plug",
+  "powerWatts": 120,
+  "status": "Active",
+  "homeId": 1
+}
+```
 
 **Bearer JWT authorization evidence**
 
-<img src="assets/md-images-chapter5/platform-bearer.jpeg" alt="Swagger Bearer JWT authorization evidence"></img><br>
+<img src="assets/Swager.png" alt="Swagger Bearer JWT authorization evidence"></img><br>
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-El despliegue final considera las tres superficies principales del producto y el repositorio del informe. Cada repositorio mantiene ramas de desarrollo, release o main segun corresponda al flujo Gitflow aplicado durante el cierre.
+El Sprint 4 incluyó la verificación del despliegue público de los principales componentes del sistema. Para ello se utilizó Render como plataforma de publicación del frontend y backend, permitiendo que el producto pueda ser revisado desde un navegador y probado mediante herramientas de consumo HTTP.
 
-| Component | Platform | Deployment / Version evidence |
-|--|--|--|
-| Landing Page | GitHub Pages | Publicacion desde `main` y release `v4.0.0`, con CTA hacia la Web Application. |
-| Web Application | Render | Release `v4.0.0` integrada a `main`, con rutas de IAM, Billing, Workplace, Energy, Notifications, Reporting y Service Management. |
-| Backend Platform | Render | Release `v2.0.0` integrada a `main`, con health check, Swagger/OpenAPI y API REST por bounded contexts. |
-| Database | Render PostgreSQL | Base de datos PostgreSQL disponible para persistencia de usuarios, planes, sedes, dispositivos, lecturas, alertas, reportes y tickets. |
-| Project Report | GitHub Repository | Informe actualizado en ramas de documentacion y Gitflow hasta `main`, con diagramas y secciones finales sincronizadas. |
+**Frontend Web Application**
 
-**Backend Platform deployment evidence**
+```text
+https://electrocorp-appweb.onrender.com
+```
 
-<img src="assets/md-images-chapter5/platform-deployment.jpeg" alt="Backend platform deployment evidence"></img><br>
+El frontend desplegado permite visualizar la interfaz principal de ElectroCorp, incluyendo el inicio de sesión, dashboard, facturación y notificaciones. Esta versión representa la aplicación web utilizada para la validación final del producto.
 
-**Database deployment evidence**
+<img src="assets/frontend-signin.png"></img><br>
+<img src="assets/frontend-dashboard.png"></img><br>
+<img src="assets/frontend-billing.png"></img><br>
+<img src="assets/frontend-notifications.png"></img><br>
 
-<img src="assets/md-images-chapter5/database-deployment.jpeg" alt="Render PostgreSQL database deployment evidence"></img><br>
+**Backend Web Service**
 
-**Frontend Web Application deployment evidence**
+```text
+https://electrocorp-platform-u1f4.onrender.com/
+```
 
-<img src="assets/md-images-chapter5/webapp-deployment.jpeg" alt="Frontend Web Application deployment evidence"></img><br>
+El backend desplegado permite consumir endpoints REST desde clientes externos. Durante el Sprint Review se validaron solicitudes de consulta, actualización e inicio de sesión, demostrando que el servicio se encuentra disponible fuera del entorno local.
 
-**Landing Page deployment evidence**
+<img src="assets/backend-devices-getdevices.png"></img><br>
+<img src="assets/backend-devices-getdevicesbyid.png"></img><br>
+<img src="assets/backend-devices-putdevicesbyid.png"></img><br>
+<img src="assets/backend-users-signin.png"></img><br>
 
-<img src="assets/md-images-chapter5/website-deployment.jpeg" alt="Landing Page deployment evidence"></img><br>
+**Configuración de despliegue considerada:**
+
+| Component | Platform | Main configuration | Status |
+| :--- | :--- | :--- | :---: |
+| Frontend Web App | Render | Build del proyecto SPA y publicación de recursos web. | Deployed |
+| Backend Web Service | Render | Ejecución de ASP.NET Core API con endpoints REST. | Deployed |
+| Database | MySQL | Persistencia relacional para usuarios, dispositivos y consumos. | Configured |
+| API Testing | Swagger / Thunder Client | Validación de endpoints GET, POST, PUT y DELETE. | Verified |
+| Source Control | GitHub | Repositorios separados para Report, Landing Page, Frontend y Backend. | Verified |
+
+**Observaciones de despliegue:**
+
+- La URL pública del backend debe mantenerse actualizada dentro de los archivos de entorno del frontend.
+- En producción, las credenciales de base de datos no deben estar escritas directamente en el código fuente.
+- Se recomienda validar CORS después de cada actualización de dominio o despliegue.
+- Para la presentación final se deben incluir capturas claras de cada endpoint probado y de cada vista principal del frontend.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
