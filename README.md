@@ -3305,13 +3305,10 @@ El Sprint Backlog 4 prioriza el cierre final de ElectroCorp como producto integr
 
 Durante este Sprint, el equipo trabajo en el cierre final de los repositorios principales y en la alineacion del informe con la implementacion real. Las evidencias principales se encuentran en los historiales de commits, ramas de release y tags de version:
 
-* **Backend Platform:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-platform/commits/main/
-* **Frontend Web App:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/commits/main/
-* **Landing Page:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website/commits/main/
-* **Report:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-report/commits/main/
-* **Backend Release v2.0.0:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-platform/releases/tag/v2.0.0
-* **Frontend Release v4.0.0:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/releases/tag/v4.0.0
-* **Landing Page Release v4.0.0:** https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website/releases/tag/v4.0.0
+* **Backend Platform:** https://github.com/1ASI0730-2610-20177-Nex/Backend/commits/main/
+* **Frontend Web App:** https://github.com/1ASI0730-2610-20177-Nex/Frontend/commits/main/
+* **Landing Page:** https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main/
+* **Report:** https://github.com/1ASI0730-2610-20177-Nex/Report/commits/main/
 
 **Backend Platform development evidence**
 
