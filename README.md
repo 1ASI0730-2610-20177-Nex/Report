@@ -3086,7 +3086,61 @@ Durante el Sprint 3 el equipo afrontó un incremento de complejidad al trabajar 
 
 
 ### 5.3.1. Diseño de Entrevistas
+
+Las entrevistas de validacion mantienen el mismo enfoque de la seccion 2.2, pero ahora se orientan a evaluar el producto construido durante AV2. El objetivo es validar si la Landing Page, la Web Application y el backend documentado comunican claramente el valor de ElectroCorp y si los usuarios entienden los flujos principales.
+
+##### Preguntas Generales
+
+- Cual es su nombre?
+- Cuantos anos tiene usted?
+- En que ciudad y distrito reside?
+- A que se dedica actualmente?
+- Ha usado antes aplicaciones para controlar consumo electrico, dispositivos inteligentes o servicios de soporte tecnico?
+
+##### Preguntas Especificas
+
+###### Segmento 1: Hogares urbanos con viviendas antiguas
+
+1. Despues de revisar la Landing Page, entiende rapidamente que problema resuelve ElectroCorp?
+2. El mensaje de ahorro de energia y control del hogar le resulta claro y confiable?
+3. El flujo para elegir un plan y crear una cuenta le parece facil de seguir?
+4. Que informacion adicional necesitaria antes de contratar un plan para su hogar?
+5. La Web Application le ayuda a entender como se organizan sedes, habitaciones, grupos de dispositivos y dispositivos?
+6. Los indicadores de consumo, alertas y reportes le parecen utiles para tomar decisiones en casa?
+7. La interfaz le parece suficientemente simple para que otros miembros de su familia tambien puedan usarla?
+8. Que parte del producto le genera mayor confianza y que parte le genera dudas?
+
+###### Segmento 2: Pequenos negocios y talleres en zonas urbanas
+
+1. Despues de revisar la Landing Page, queda claro como ElectroCorp podria ayudar a reducir costos operativos?
+2. El flujo de seleccion de plan le permite identificar cual se ajusta mejor al tamano de su negocio?
+3. La creacion de cuenta y activacion del plan se entiende como un proceso continuo?
+4. La organizacion por sedes, habitaciones, grupos de dispositivos y dispositivos representa adecuadamente la realidad de su negocio?
+5. Las funciones de rutinas, modos de operacion y alertas le parecen utiles para evitar equipos encendidos fuera de horario?
+6. Los reportes de consumo y metas energeticas le ayudarian a identificar desperdicio de energia?
+7. La documentacion o explicacion del servicio le transmite confianza para adoptar la plataforma?
+8. Que cambio priorizaria antes de usar ElectroCorp en un negocio real?
+
+
 ### 5.3.2. Registro de Entrevistas
+
+#### Segmento 1
+
+| N | Datos | Imagen referencial
+|--|--|--|
+|1  | Nombre: Jeremy<br>Apellido: Lampary <br>Edad: 20<br>Distrito: Ate |<img src="assets/md-images-chapter5/seg1-interview2.png">
+|2  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+|3  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+
+#### Segmento 2
+
+| N | Datos | Imagen referencial
+|--|--|--|
+|1  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+|2  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+|3  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+
+
 ### 5.3.3. Evaluaciones según heurísticas
 ## 5.4. Video About-the-Product.
 # Conclusiones
