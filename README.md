@@ -2476,6 +2476,34 @@ A continuación, se presenta la evaluación del sistema basada en las 10 heurís
 ## 5.4. Video About-the-Product.
 # Conclusiones
 ## Conclusiones y recomendaciones
+Conclusiones sobre el proyecto: <br>
+Al finalizar el proceso, confirmamos que el problema principal que enfrentan las familias y pequeños negocios en el Perú no es solo el precio de la domótica, sino la dificultad de instalarla. La necesidad de romper paredes o contratar técnicos especializados crea una barrera que nuestra solución logra eliminar. Al desarrollar un ecosistema tipo "plug-and-play", demostramos que es posible modernizar hogares con más de 10 años de antigüedad sin realizar obras civiles.
+
+Nuestras hipótesis iniciales fueron validadas exitosamente:
+
+La instalación sin obras es clave: Confirmamos que ofrecer un dispositivo que se sobrepone a lo existente es el factor decisivo para que el usuario se atreva a comprar y usar la tecnología.
+
+La importancia del ahorro real: Validamos que mostrar el consumo en Soles (S/) en lugar de solo en vatios es la característica más valorada. Esto permite que el usuario vea un beneficio económico directo, lo cual justifica su inversión y genera confianza.
+
+Confianza mediante la sencillez: Comprobamos que una interfaz intuitiva y en español es fundamental para usuarios que no tienen conocimientos técnicos avanzados, logrando que se sientan en control de su infraestructura eléctrica.
+
+En resumen, logramos cumplir con nuestro objetivo de democratizar el acceso a la domótica, ofreciendo una herramienta que traduce datos técnicos complejos en ahorros financieros claros para el presupuesto familiar o comercial.
+
+
+Recomendaciones: 
+
+Para que ElectroCorp evolucione y se mantenga como una solución competitiva, recomendamos las siguientes acciones:
+
+Adaptabilidad física: Dado que existe una gran variedad de interruptores antiguos, el siguiente paso crítico en el diseño del hardware es crear adaptadores universales. Esto evitará problemas de ajuste físico y ampliará nuestro mercado potencial.
+
+Enfoque en el modelo de negocio: Mantener la venta directa de kits y explorar el modelo de suscripción opcional para funciones avanzadas de análisis, lo cual permitirá financiar la mejora continua del software.
+
+Estrategia comercial: Iniciar alianzas estratégicas con ferreterías locales y potenciar la publicidad digital. Estas son las vías más efectivas para llegar a nuestro segmento objetivo: familias de clase media y dueños de pequeños negocios.
+
+Mejora de la plataforma: Continuar simplificando la interfaz de la aplicación para mantenerla como la opción más accesible del mercado, asegurando que el monitoreo en tiempo real sea siempre la función principal.
+
+Estos pasos aseguran que el proyecto no solo sea un prototipo exitoso, sino un modelo de negocio sostenible que realmente ayuda a los usuarios a optimizar sus gastos eléctricos.
+
 ## Video About-the-Team.
 # Bibliografía 
 
