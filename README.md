@@ -1449,6 +1449,49 @@ El diagrama de clases del backend representa el diseño orientado a objetos del 
 El diagrama de base de datos fue diseñado a partir de los principales procesos identificados en el sistema, como el registro de usuarios, la gestión de dispositivos, la selección de planes de suscripción, el monitoreo del consumo eléctrico y el servicio de notificaciones. A través de este modelo se definieron las entidades principales, como Usuario, Dispositivo, Suscripción, Plan de Suscripción, Consumo Energético y Notificación, junto con sus respectivas relaciones. Esto permite organizar de manera estructurada la información del sistema, facilitando el control de los dispositivos, el análisis del consumo energético y la automatización de alertas dentro de la plataforma.<br>
 <img src="assets/DiagramaERD.png"><br>
 
+Diccionario de Datos:
+| Tabla | Columna | Tipo de dato | Descripción |
+| :--- | :--- | :--- | :--- |
+| **User** | `email` | VARCHAR | Correo electrónico único del usuario. |
+| | `phone_number` | VARCHAR | Número telefónico de contacto. |
+| | `address` | VARCHAR | Domicilio registrado. |
+| | `registered_at` | DATETIME | Fecha y hora de creación de la cuenta. |
+| | `password` | VARCHAR | Contraseña cifrada (hash). |
+| | `account_status` | BOOLEAN | Indica si la cuenta está activa. |
+| **Home** | `address` | VARCHAR | Dirección física de la propiedad. |
+| | `housing_type` | VARCHAR | Clasificación de la vivienda (ej. casa, dpto). |
+| | `registered_at` | DATETIME | Fecha de registro del inmueble. |
+| **Device** | `current_usage` | FLOAT | Consumo actual registrado del dispositivo. |
+| | `max_usage` | FLOAT | Límite máximo de consumo permitido. |
+| | `is_connected` | BOOLEAN | Estado de conexión (conectado/desconectado). |
+| | `type` | VARCHAR | Clasificación o categoría del dispositivo. |
+| | `name` | VARCHAR | Nombre o identificador del dispositivo. |
+| |`status` | VARCHAR | Estado operativo actual del dispositivo. |
+| **Plan** | `plan_name` | VARCHAR | Nombre comercial del plan. |
+| | `price` | DECIMAL | Costo del plan. |
+| | `description` | TEXT | Características del servicio ofrecido. |
+| | `duration_months` | INT | Vigencia total del plan en meses. |
+| **Subscription** | `plan_id` | INT | Identificador del plan relacionado. |
+| | `start_date` | DATE | Fecha de inicio de la suscripción. |
+| | `end_date` | DATE | Fecha de vencimiento. |
+| | `status` | VARCHAR | Estado (ej. activa, cancelada). |
+| | `payment_method` | VARCHAR | Método de pago utilizado. |
+| **TimeSchedule** | `start_time` | TIME | Hora programada de encendido. |
+| | `end_time` | TIME | Hora programada de apagado. |
+| | `scheduled_days` | VARCHAR | Días de la semana activos. |
+| | `status` | BOOLEAN | Estado de la programación (activa/inactiva). |
+| **EnergyConsumption** | `recorded_at` | DATETIME | Momento del registro de consumo. |
+| | `consumption` | FLOAT | Cantidad de recurso consumido. |
+| | `cost` | DECIMAL | Valor monetario del consumo. |
+| **Notification** | `alert_type` | VARCHAR | Categoría de la notificación. |
+| | `alert_message` | TEXT | Texto del mensaje enviado. |
+| | `sent_at` | DATETIME | Fecha y hora exacta del envío. |
+| | `alert_status` | BOOLEAN | Estado de lectura (leída/no leída). |
+| **Alert** | `type` | VARCHAR | Tipo o categoría de la alerta. |
+| | `description` | TEXT | Detalle descriptivo del evento ocurrido. |
+| | `detected_at` | DATETIME | Momento exacto de detección del evento. |
+| | `priority` | VARCHAR | Nivel de importancia (baja, media, alta). |
+
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 
