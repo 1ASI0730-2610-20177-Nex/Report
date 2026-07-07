@@ -2433,23 +2433,22 @@ Las entrevistas de validacion mantienen el mismo enfoque de la seccion 2.2, pero
 
 ### 5.3.2. Registro de Entrevistas
 
-#### Segmento 1
+### Segmento 1
 
-| N | Datos | Descripcion |Imagen referencial
-|--|--|--|
-|1  | Nombre: Miguel<br>Apellido: Torres <br>Edad: 20<br>Distrito: Chosica | Miguel, durante la entrevista pudo validar que la propuesta de ElectroCorp es bastante clara. Entendio perfectamente que la plataforma sirve para monitorear el consumo eléctrico en tiempo real, lo que le permitio identificar qué aparatos gastan más y así reducir tus facturas. Le parece que el flujo para registrarte y elegir un plan es bastante intuitivo y sencillo de seguir.
-Sobre la organización, sientes que la estructura de la aplicación es clara, facilitando la gestión de dispositivos por hogar o ambiente sin complicaciones. Además, consideras que la interfaz es lo suficientemente simple para que otros miembros de tu familia la usen sin necesidad de explicaciones previas. En cuanto a lo que te genera más confianza, destacas las alertas y el monitoreo en tiempo real; sin embargo, tu principal duda es la compatibilidad de la plataforma con dispositivos adicionales, como computadoras o equipos con sistema operativo iOS.|<img src="assets/entrevista2Miguel.jpeg">
-|2  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:  | |<img src="assets/.png">
-|3  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:  | |<img src="assets/.png">
+| N | Datos | Descripcion | Imagen referencial |
+|:---|:---|:---|:---|
+| 1 | **Nombre:** Miguel<br>**Apellido:** Torres<br>**Edad:** 20<br>**Distrito:** Chosica | Miguel, durante la entrevista pudo validar que la propuesta de ElectroCorp es bastante clara. Entendió perfectamente que la plataforma sirve para monitorear el consumo eléctrico en tiempo real, lo que le permitió identificar qué aparatos gastan más y así reducir sus facturas. Le parece que el flujo para registrarse y elegir un plan es bastante intuitivo y sencillo de seguir.<br><br>Sobre la organización, siente que la estructura de la aplicación es clara, facilitando la gestión de dispositivos por hogar o ambiente sin complicaciones. Además, considera que la interfaz es lo suficientemente simple para que otros miembros de su familia la usen sin necesidad de explicaciones previas. En cuanto a lo que le genera más confianza, destaca las alertas y el monitoreo en tiempo real; sin embargo, su principal duda es la compatibilidad de la plataforma con dispositivos adicionales, como computadoras o equipos con sistema operativo iOS. | <img src="assets/entrevista2Miguel.jpeg" width="150"> |
+
+| 2 | **Nombre:**<br>**Apellido:**<br>**Edad:**<br>**Distrito:** | | <img src="assets/.png" width="150"> |
+| 3 | **Nombre:**<br>**Apellido:**<br>**Edad:**<br>**Distrito:** | | <img src="assets/.png" width="150"> |
 
 #### Segmento 2
 
-| N | Datos | Imagen referencial
-|--|--|--|
-|1  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
-|2  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
-|3  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
-
+| N | Datos | Imagen referencial |
+|:---|:---|:---|
+| 1 | **Nombre:**<br>**Apellido:**<br>**Edad:**<br>**Distrito:** | <img src="assets/.png" width="150"> |
+| 2 | **Nombre:**<br>**Apellido:**<br>**Edad:**<br>**Distrito:** | <img src="assets/.png" width="150"> |
+| 3 | **Nombre:**<br>**Apellido:**<br>**Edad:**<br>**Distrito:** | <img src="assets/.png" width="150"> |
 
 
 ### 5.3.3. Evaluaciones según heurísticas
