@@ -3364,56 +3364,93 @@ Durante este Sprint, el equipo trabajo en el cierre final de los repositorios pr
 
 **Frontend Web Application development evidence**
 
-<img src="assets/FrontendCommit1" alt="Backend Sprint 4 commits evidence 1"></img><br>
-<img src="assets/FrontendCommit2" alt="Backend Sprint 4 commits evidence 2"></img><br>
+<img src="assets/FrontendCommit1.png" alt="Backend Sprint 4 commits evidence 1"></img><br>
+<img src="assets/FrontendCommit2.png" alt="Backend Sprint 4 commits evidence 2"></img><br>
 
 **Backend Platform development evidence**
 
-<img src="assets/BackendCommit1" alt="Frontend Sprint 4 tags evidence"></img><br>
+<img src="assets/BackendCommit.png" alt="Frontend Sprint 4 tags evidence"></img><br>
 
 **Landing Page development evidence**
 
-<img src="assets/LandingCommit1" alt="Landing Page Sprint 4 commits evidence 1"></img><br>
-<img src="assets/LandingCommit2" alt="Landing Page Sprint 4 commits evidence 2"></img><br>
+<img src="assets/LandingCommit1.png" alt="Landing Page Sprint 4 commits evidence 1"></img><br>
+<img src="assets/LandingCommit2.png" alt="Landing Page Sprint 4 commits evidence 2"></img><br>
 
 **Project Report development evidence**
 
-<img src="assets/ReportCommit1" alt="Report Sprint 4 commits evidence 1"></img><br>
-<img src="assets/ReportCommit2" alt="Report Sprint 4 commits evidence 2"></img><br>
+<img src="assets/ReportCommit1.png" alt="Report Sprint 4 commits evidence 1"></img><br>
+<img src="assets/ReportCommit2.png" alt="Report Sprint 4 commits evidence 2"></img><br>
 
 Como cierre tecnico, el backend incorpora un flujo de Event Integration interno: los eventos de dominio se mantienen dentro de cada bounded context, se traducen a integration events desde application/interfaces y se consumen despues del commit transaccional. Los eventos reforzados incluyen `OperationModeActivatedEvent`, `UserRegisteredEvent`, `SubscriptionActivatedEvent`, `PaymentRegisteredEvent`, `DeviceAssignedToRoomEvent`, `EnergyThresholdExceededEvent`, `SupportTicketCreatedEvent` y `MaintenanceTicketCreatedEvent`. Notifications los usa para crear alertas y Reporting los conserva como actividad para auditoria funcional.
 
 En IAM se refuerzan los puertos `HashingService` y `TokenService`, manteniendo BCrypt para credenciales y JWT Bearer para autenticacion. En la Web Application se mantiene la organizacion por bounded contexts y se corrige Workplace para que el geocoding sea resuelto por servicios de application/infrastructure. El informe se actualiza para que diagramas, README, backlog, deployment y evidencias reflejen el producto final y no una version parcial.
+
+
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-La ejecucion del Sprint 4 se valida mediante rutas publicas, pantallas funcionales de la Web Application, documentacion del backend y enlaces de release de los repositorios.
+La ejecución del Sprint 4 fue validada mediante pruebas funcionales sobre la Web Application y pruebas de servicios sobre el Backend Web Service. Para el frontend, se verificó la navegación hacia las secciones principales; para el backend, se validó la respuesta de endpoints REST desplegados y documentados.
 
-| Artifact | URL / Route | Expected result |
-|--|--|--|
-| Backend Health | https://electrocorp-platform.onrender.com/health | Respuesta JSON con estado operativo del servicio. |
-| Backend Root | https://electrocorp-platform.onrender.com/ | Respuesta publica para confirmar disponibilidad del backend. |
-| Swagger UI | https://electrocorp-platform.onrender.com/swagger-ui/index.html | Interfaz de documentacion del API REST accesible desde navegador. |
-| OpenAPI JSON | https://electrocorp-platform.onrender.com/v3/api-docs | Contrato OpenAPI disponible con esquema Bearer JWT. |
-| Reporting Activity | https://electrocorp-platform.onrender.com/api/v1/reports/activity | Ruta preparada para consultar actividad generada por integration events. |
-| Web App Login | https://electrocorp-webapp.onrender.com/iam/login | Pantalla de autenticacion conectada con IAM. |
-| Web App Workplace | https://electrocorp-webapp.onrender.com/spaces/sites | Gestion de sedes, habitaciones y asignaciones de dispositivos. |
-| Web App Energy Reports | https://electrocorp-webapp.onrender.com/energy/reports | Visualizacion de reportes, consumo energetico y metas. |
-| Landing Page | https://upc-pre-202610-1asi0729-11896-ecorp.github.io/electrocorp-website/ | Sitio publico con propuesta de valor, CTA y acceso hacia la Web Application. |
+**Frontend Web Application**
 
-**Backend Platform execution evidence**
+URL pública:
 
-<img src="assets/md-images-chapter5/platform-deployed.jpeg" alt="Backend deployed root evidence"></img><br>
-<img src="assets/md-images-chapter5/platform-deployed-health.jpeg" alt="Backend deployed health evidence"></img><br>
-<img src="assets/md-images-chapter5/platform-deployed-swagger.jpeg" alt="Backend deployed Swagger UI evidence"></img><br>
-<img src="assets/md-images-chapter5/platform-deployed-api-docs.jpeg" alt="Backend deployed OpenAPI JSON evidence"></img><br>
+```text
+https://electrocorp-appweb.onrender.com
+```
 
-**Frontend Web Application execution evidence**
+Rutas y vistas revisadas:
 
-<img src="assets/md-images-chapter5/webapp-deployed.jpeg" alt="Frontend Web Application deployed evidence"></img><br>
+| Módulo | Evidencia | Resultado esperado | Estado |
+| :--- | :--- | :--- | :---: |
+| Sign In | Inicio de sesión | Presenta formulario de autenticación y permite iniciar el flujo de acceso. | Passed |
+| Dashboard | Panel principal | Muestra indicadores generales del sistema y accesos a módulos internos. | Passed |
+| Billing | Facturación / planes | Presenta información relacionada con suscripción, plan o pagos. | Passed |
+| Notifications | Notificaciones | Muestra alertas, mensajes y eventos relevantes para el usuario. | Passed |
+| Sidebar / Navigation | Navegación interna | Permite desplazarse entre módulos principales sin romper el flujo de la SPA. | Passed |
 
-**Landing Page execution evidence**
+**Backend Web Service**
 
-<img src="assets/md-images-chapter5/website-deployed.jpeg" alt="Landing Page deployed evidence"></img><br>
+URL pública:
+
+```text
+https://electrocorp-platform-u1f4.onrender.com/
+```
+
+Pruebas realizadas:
+
+| Recurso / Funcionalidad | Método | Ruta referencial | Evidencia | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| Devices | GET | `/api/v1/devices` | Listado de dispositivos desde backend desplegado. | Passed |
+| Devices | GET | `/api/v1/devices/{id}` | Consulta de dispositivo por identificador. | Passed |
+| Devices | PUT | `/api/v1/devices/{id}` | Actualización de información de dispositivo. | Passed |
+| Users / IAM | POST | `/api/v1/authentication/sign-in` | Inicio de sesión mediante endpoint de autenticación. | Passed |
+| API Health | GET | URL pública base | Servicio responde desde Render. | Passed |
+
+**Comandos de ejecución local referenciales:**
+
+```bash
+# Frontend
+npm install
+npm run dev
+npm run build
+```
+
+```bash
+# Backend
+dotnet restore
+dotnet run
+```
+
+**Criterios de validación del Sprint Review:**
+
+| Criterio | Resultado | Estado |
+| :--- | :--- | :---: |
+| Frontend disponible públicamente | La Web Application se encuentra desplegada en Render. | Passed |
+| Backend disponible públicamente | La API se encuentra desplegada en Render. | Passed |
+| Navegación interna | Las vistas principales se muestran correctamente. | Passed |
+| Servicios REST probados | Se evidencian consultas y actualización de recursos. | Passed |
+| Documentación Swagger/OpenAPI | La API mantiene documentación interactiva para revisión técnica. | Passed |
+| Integración final | Se requiere mantener sincronizadas las URLs de entorno y contratos API. | To-Review |
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
