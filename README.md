@@ -2432,6 +2432,25 @@ Las entrevistas de validacion mantienen el mismo enfoque de la seccion 2.2, pero
 
 
 ### 5.3.2. Registro de Entrevistas
+
+#### Segmento 1
+
+| N | Datos | Imagen referencial
+|--|--|--|
+|1  | Nombre: Miguel<br>Apellido: Torres <br>Edad: 20<br>Distrito: Chosica |<img src="assets/entrevista2Miguel.jpeg">
+|2  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+|3  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+
+#### Segmento 2
+
+| N | Datos | Imagen referencial
+|--|--|--|
+|1  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+|2  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+|3  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
+
+
+
 ### 5.3.3. Evaluaciones según heurísticas
 ## 5.4. Video About-the-Product.
 # Conclusiones
