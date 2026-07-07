@@ -3453,22 +3453,6 @@ Durante el Sprint 4, el equipo enfoco la colaboracion en cerrar brechas de coher
 
 ### 5.3.2. Registro de Entrevistas
 
-#### Segmento 1
-
-| N | Datos | Imagen referencial
-|--|--|--|
-|1  | Nombre: Jeremy<br>Apellido: Lampary <br>Edad: 20<br>Distrito: Ate |<img src="assets/md-images-chapter5/seg1-interview2.png">
-|2  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
-|3  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
-
-#### Segmento 2
-
-| N | Datos | Imagen referencial
-|--|--|--|
-|1  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
-|2  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
-|3  | Nombre:  <br>Apellido:  <br>Edad:  <br>Distrito:   |<img src="assets/.png">
-
 
 ### 5.3.3. Evaluaciones según heurísticas
 ## 5.4. Video About-the-Product.
