@@ -3789,6 +3789,10 @@ Estos pasos aseguran que el proyecto no solo sea un prototipo exitoso, sino un m
 - Instituto Nacional de Estadística e Informática. (2018). Perú: Características de las viviendas particulares y los hogares. Acceso a servicios básicos (Publicación Digital Lib1538). https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1538/parte01.pdf
 
 # Anexos
+
+**Link de video de entrevistas de validación
+https://youtu.be/CryRYJ99FOg
+
 ** Link de la Landing Page
 https://1asi0730-2610-20177-nex.github.io/LandingPage/
 
