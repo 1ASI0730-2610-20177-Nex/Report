@@ -3454,20 +3454,6 @@ dotnet run
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-Durante este Sprint se reforzó la documentación de servicios REST para demostrar que el Backend Web Service permite validar operaciones principales de la plataforma. La documentación se apoya en Swagger/OpenAPI y en pruebas complementarias realizadas con Thunder Client o Postman.
-
-**Base URL pública:**
-
-```text
-https://electrocorp-platform-u1f4.onrender.com
-```
-
-**Base URL local de desarrollo:**
-
-```text
-http://localhost:5000
-```
-
 **Endpoints documentados y validados durante el Sprint 4:**
 
 <table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
@@ -3606,7 +3592,7 @@ El Sprint 4 incluyó la verificación del despliegue público de los principales
 **Frontend Web Application**
 
 ```text
-https://electrocorp-appweb.onrender.com
+https://frontend-srlf.onrender.com
 ```
 
 El frontend desplegado permite visualizar la interfaz principal de ElectroCorp, incluyendo el inicio de sesión, dashboard, facturación y notificaciones. Esta versión representa la aplicación web utilizada para la validación final del producto.
@@ -3617,7 +3603,7 @@ El frontend desplegado permite visualizar la interfaz principal de ElectroCorp, 
 **Backend Web Service**
 
 ```text
-https://electrocorp-platform-u1f4.onrender.com/
+https://backend-qjwa.onrender.com/
 ```
 
 El backend desplegado permite consumir endpoints REST desde clientes externos. Durante el Sprint Review se validaron solicitudes de consulta, actualización e inicio de sesión, demostrando que el servicio se encuentra disponible fuera del entorno local.
@@ -3796,3 +3782,11 @@ Estos pasos aseguran que el proyecto no solo sea un prototipo exitoso, sino un m
 - Instituto Nacional de Estadística e Informática. (2018). Perú: Características de las viviendas particulares y los hogares. Acceso a servicios básicos (Publicación Digital Lib1538). https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1538/parte01.pdf
 
 # Anexos
+** Link de la Landing Page
+https://1asi0730-2610-20177-nex.github.io/LandingPage/
+
+** Link del Frontend
+https://frontend-srlf.onrender.com
+
+** Link del Backend
+https://backend-qjwa.onrender.com/
