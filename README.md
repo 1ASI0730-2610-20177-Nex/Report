@@ -3751,7 +3751,7 @@ A continuación, se presenta la evaluación del sistema basada en las 10 heurís
 
 
 ## 5.4. Video About-the-Product.
-<b>Enlace de Seguimiento:</b> <a href="https://www.youtube.com/watch?v=auM0eodQw50" target="_blank"> Video About The Team ElectroCorp</a>
+<b>Enlace de Seguimiento:</b> <a href="https://www.youtube.com/watch?v=auM0eodQw50" target="_blank"> Video About The Product ElectroCorp</a>
 
 # Conclusiones
 ## Conclusiones y recomendaciones
