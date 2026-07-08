@@ -3749,10 +3749,6 @@ A continuación, se presenta la evaluación del sistema basada en las 10 heurís
 
 ## 5.4. Video About-the-Product.
 
-## 5.5. Video About-the-Team.
-
-<b>Enlace de Seguimiento:</b> <a href="https://youtu.be/cc1vFuPtmf8" target="_blank"> Video About The Team ElectroCorp</a>
-
 
 # Conclusiones
 ## Conclusiones y recomendaciones
@@ -3785,6 +3781,8 @@ Mejora de la plataforma: Continuar simplificando la interfaz de la aplicación p
 Estos pasos aseguran que el proyecto no solo sea un prototipo exitoso, sino un modelo de negocio sostenible que realmente ayuda a los usuarios a optimizar sus gastos eléctricos.
 
 ## Video About-the-Team.
+<b>Enlace de Seguimiento:</b> <a href="https://youtu.be/cc1vFuPtmf8" target="_blank"> Video About The Team ElectroCorp</a>
+
 # Bibliografía 
 
 - Promart. (s.f.). Smatrul Enchufe Inteligente Wifi Compatible con Alexa Google Home. https://www.promart.pe/smatrul-enchufe-inteligente-wifi-compatible-con-alexa-google-home-1001455515/p
