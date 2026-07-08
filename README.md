@@ -3596,8 +3596,8 @@ http://localhost:5000
 ```
 
 **Bearer JWT authorization evidence**
-
-<img src="assets/Swager.png" alt="Swagger Bearer JWT authorization evidence"></img><br>
+<img src="assets/Swagger1.png" alt="Swagger Bearer JWT authorization evidence"></img><br>
+<img src="assets/Swagger2.png" alt="Swagger Bearer JWT authorization evidence"></img><br>
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
@@ -3611,10 +3611,8 @@ https://electrocorp-appweb.onrender.com
 
 El frontend desplegado permite visualizar la interfaz principal de ElectroCorp, incluyendo el inicio de sesión, dashboard, facturación y notificaciones. Esta versión representa la aplicación web utilizada para la validación final del producto.
 
-<img src="assets/frontend-signin.png"></img><br>
-<img src="assets/frontend-dashboard.png"></img><br>
-<img src="assets/frontend-billing.png"></img><br>
-<img src="assets/frontend-notifications.png"></img><br>
+<img src="assets/frontend1.png"></img><br>
+<img src="assets/frontend2.png"></img><br>
 
 **Backend Web Service**
 
@@ -3624,10 +3622,8 @@ https://electrocorp-platform-u1f4.onrender.com/
 
 El backend desplegado permite consumir endpoints REST desde clientes externos. Durante el Sprint Review se validaron solicitudes de consulta, actualización e inicio de sesión, demostrando que el servicio se encuentra disponible fuera del entorno local.
 
-<img src="assets/backend-devices-getdevices.png"></img><br>
-<img src="assets/backend-devices-getdevicesbyid.png"></img><br>
-<img src="assets/backend-devices-putdevicesbyid.png"></img><br>
-<img src="assets/backend-users-signin.png"></img><br>
+<img src="assets/backend1.png"></img><br>
+<img src="assets/backend2.png"></img><br>
 
 **Configuración de despliegue considerada:**
 
