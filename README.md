@@ -57,12 +57,14 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 - https://github.com/1ASI0730-2610-20177-Nex/Backend
 
-### **Entrega TB1:**
-[text]
+### **Entrega TB2:**
+Para el TB2, todo el equipo se encargo de resolver los avances para el TB2, arreglando algunas cosas, corrigiendo otras. Se repartio el trabajo y se coordino de forma online.
 
 ##### Participación por integrante:
-
-- 
+<img src="assets/ReportEvidence.png"></img><br>
+<img src="assets/LandingEvidence.png"></img><br>
+<img src="assets/BackendEvidence.png"></img><br>
+<img src="assets/FrontendEvidence.png"></img><br>
 
 # Contenido
 
