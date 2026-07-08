@@ -57,12 +57,14 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 - https://github.com/1ASI0730-2610-20177-Nex/Backend
 
-### **Entrega TB1:**
-[text]
+### **Entrega TB2:**
+Para el TB2, todo el equipo se encargo de resolver los avances para el TB2, arreglando algunas cosas, corrigiendo otras. Se repartio el trabajo y se coordino de forma online.
 
 ##### Participación por integrante:
-
-- 
+<img src="assets/ReportEvidence.png"></img><br>
+<img src="assets/LandingEvidence.png"></img><br>
+<img src="assets/BackendEvidence.png"></img><br>
+<img src="assets/FrontendEvidence.png"></img><br>
 
 # Contenido
 
@@ -192,12 +194,16 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 ## Student Outcome
 
-### Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
+### Objetivo general, ABET – EAC - Student Outcome 5
 
-| Criterio Específico | Acciones realizadas | Conclusiones |
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+En el siguiente cuadro se describen las acciones realizadas y los enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del **ABET – EAC - Student Outcome 5** durante el desarrollo del proyecto **ElectroCorp - Smart Control**. La información se presenta de forma acumulativa para las entregas **AV1, TB1, AV2 y TB2**, considerando las evidencias del informe, los Sprint Backlogs y los Team Collaboration Insights.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Sebastian Tavara**<br>AV1: Realizó entrevistas clave para comprender las necesidades y dificultades de los usuarios.<br>TB1: Comunicó al equipo los hallazgos de las pruebas iniciales realizadas sobre la App Web desplegada, sugiriendo ajustes desde la perspectiva del usuario final.<br>AV2: Comunicó durante las reuniones del equipo los resultados de las revisiones funcionales realizadas sobre el Frontend y el Backend, señalando las evidencias pendientes para el Sprint Review.<br><br>**Diego Cabrejos**<br>AV1: Expuso la estructura y los avances del desarrollo de la Landing Page durante las reuniones del equipo.<br>TB1: Expuso las actualizaciones implementadas en la Landing Page de ElectroCorp, explicando las correcciones de errores y las mejoras visuales realizadas para esta entrega.<br>AV2: Explicó las mejoras realizadas en la navegación del Frontend, la actualización del Sidebar, la incorporación de nuevas rutas y la configuración del entorno para conectar la aplicación con los servicios del Backend.<br><br>**Alexander Fernandez**<br>AV1: Expuso la estructura general de la aplicación, explicó la función de los módulos principales del sistema y comunicó al equipo cómo se relacionaban las secciones del Frontend con la lógica del Backend durante el desarrollo inicial del proyecto.<br>TB1: Explicó el proceso y la configuración técnica requerida para realizar el primer despliegue de la App Web, asegurando que el equipo comprendiera el entorno de producción.<br>AV2: Expuso la implementación de los módulos Analytics y Payments en el Frontend, así como la arquitectura inicial del Backend, explicando la relación entre los controladores, servicios, repositorios, entidades y endpoints REST.<br><br>**Ronal Toro**<br>AV1: Realizó entrevistas clave para el proyecto y presentó las User Stories, el Product Backlog y el Ubiquitous Language.<br>TB1: Comunicó el estado de avance de las historias de usuario durante la revisión del Sprint, validando qué requerimientos se cumplieron con el despliegue.<br>AV2: Explicó al equipo la estructura relacional utilizada para almacenar usuarios, hogares, dispositivos y consumos, además del funcionamiento de las migraciones y la persistencia mediante MySQL.<br><br>**Ghorghet Tuncar**<br>AV1: Expuso en las reuniones de equipo la estructura de las historias de usuario y los criterios de aceptación del proyecto ElectroCorp. Explicó detalladamente el diseño y las interacciones de los Diagramas de Contexto y Contenedores del modelo C4. Además, comunicó las normativas de la Guía de Estilos de Código, asegurando que todos los miembros comprendieran las convenciones a seguir durante el desarrollo.<br>TB1: Sustentó los ajustes arquitectónicos necesarios durante el paso a producción de la App Web, guiando al equipo para mantener los estándares técnicos.<br>AV2: Presentó la documentación de los servicios REST mediante Swagger/OpenAPI y explicó los métodos HTTP, códigos de respuesta y criterios utilizados para validar los endpoints del Backend. | **Sebastian Tavara**<br>AV1: Fue importante mantenerse cerca de los usuarios para comprender mejor el problema y obtener una visión más clara de sus necesidades.<br><br>**Alexander Fernandez**<br>AV1: La comunicación oral durante la etapa inicial permitió transmitir con claridad la estructura funcional del sistema y facilitó que el equipo comprendiera cómo se integraban las principales partes de la aplicación.<br><br>**Ghorghet Tuncar**<br>AV1: Durante esta primera etapa, el equipo logró establecer un canal de comunicación oral constante y efectivo. Mediante exposiciones y reuniones regulares, los integrantes comunicaron ideas relacionadas con la arquitectura del sistema, el flujo de desarrollo y las normas de codificación. Esto permitió alinear la visión de ElectroCorp, resolver dudas técnicas y asegurar que todos los miembros compartieran un entendimiento claro de los objetivos iniciales.<br><br>**TB1 (Grupal):** El primer despliegue de la App Web y la actualización de la Landing Page exigieron una coordinación oral precisa. El equipo logró discutir y resolver los retos técnicos relacionados con la publicación del producto, manteniendo una división de tareas clara entre el código estático, la lógica de la aplicación y el proceso de despliegue.<br><br>**AV2 (Grupal):** Durante el Sprint 3, la comunicación oral permitió coordinar el trabajo realizado en el Frontend, Backend y base de datos. Las explicaciones desarrolladas durante las reuniones ayudaron a comprender los contratos REST, las rutas de navegación, la arquitectura del Backend, la estructura de persistencia y las evidencias requeridas para el Sprint Review. Esto facilitó la identificación de funcionalidades completadas, integraciones pendientes y responsabilidades técnicas dentro del equipo. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Sebastian Tavara**<br>AV1: Elaboró el análisis de las entrevistas y el User Persona correspondiente a los segmentos objetivo.<br>TB1: Documentó los reportes de usabilidad y los posibles errores encontrados al interactuar con el primer despliegue de la aplicación.<br>AV2: Registró los resultados de las validaciones funcionales, organizó las evidencias correspondientes al Sprint Review y apoyó en la actualización del estado de las tareas desarrolladas durante el Sprint 3.<br><br>**Diego Cabrejos**<br>AV1: Redactó y estructuró la documentación técnica del Sprint 1, incluyendo el Sprint Planning y el Sprint Backlog. Además, comunicó el progreso del desarrollo mediante mensajes de commit semánticos y descriptivos en el repositorio de la Landing Page.<br>TB1: Documentó los cambios y correcciones realizados en la Landing Page mediante mensajes de commit claros en el repositorio y actualizó la documentación técnica de la interfaz.<br>AV2: Redactó y estructuró la documentación correspondiente al Sprint 3, incluyendo el Sprint Planning, Sprint Backlog, evidencias de desarrollo, ejecución, despliegue y colaboración. También documentó los cambios del Frontend mediante commits relacionados con las rutas, el Sidebar y la configuración del entorno.<br><br>**Alexander Fernandez**<br>AV1: Redactó contenido técnico relacionado con la estructura funcional de la aplicación, describió la organización inicial del sistema y documentó la lógica general de los módulos implementados en el proyecto.<br>TB1: Redactó la documentación técnica sobre el despliegue de la App Web, incluyendo las configuraciones de entorno y dependencias utilizadas en producción.<br>AV2: Documentó mediante commits semánticos la incorporación de Analytics y Payments en el Frontend y la creación de la primera versión del Backend. Asimismo, organizó el código mediante entidades, resources, assemblers, controladores, servicios y repositorios para facilitar su comprensión técnica.<br><br>**Ronal Toro**<br>TB1: Actualizó el Sprint Backlog marcando las tareas completadas y redactó las notas de la versión correspondientes a la primera entrega.<br>AV2: Apoyó en la documentación del modelo relacional, las tablas de usuarios, hogares, dispositivos y consumos, así como en la descripción de las migraciones y las pruebas de persistencia realizadas mediante MySQL.<br><br>**Ghorghet Tuncar**<br>AV1: Redactó y estructuró el Product Backlog y las historias de usuario utilizando el lenguaje Gherkin para asegurar la claridad de los requisitos. Diseñó y documentó la arquitectura del sistema mediante los Diagramas de Contexto y Contenedores. También redactó la Guía de Estilos y Convenciones de Código para estandarizar el desarrollo del proyecto en HTML, CSS, JavaScript y Java.<br>TB1: Actualizó los diagramas de arquitectura para reflejar el entorno de despliegue y registró las nuevas normativas de código adoptadas durante esta fase.<br>AV2: Redactó la documentación de los servicios REST, detallando los endpoints, métodos HTTP, respuestas esperadas y contratos presentados mediante Swagger/OpenAPI. También registró observaciones relacionadas con la validación de solicitudes y el manejo de errores del Backend. | **Sebastian Tavara**<br>AV1: La elaboración del User Persona permitió representar las características, comportamientos y necesidades principales de cada segmento objetivo dentro de un perfil comprensible para todo el equipo.<br><br>**Alexander Fernandez**<br>AV1: La comunicación escrita durante la etapa inicial permitió organizar la estructura del sistema y describir con claridad la función de los módulos principales, facilitando la comprensión del proyecto desde una perspectiva técnica y académica.<br><br>**Ghorghet Tuncar**<br>AV1: Durante el primer avance, el equipo demostró capacidad para documentar técnicamente el proyecto mediante artefactos como el Product Backlog, las historias de usuario escritas bajo el estándar Gherkin, los diagramas de arquitectura C4 y las guías de estilo. Esta documentación permitió que perfiles técnicos y de negocio comprendieran el alcance y las bases del desarrollo de ElectroCorp.<br><br>**TB1 (Grupal):** La comunicación escrita fue fundamental para mantener el control de versiones durante esta etapa. El registro de las actualizaciones del código, los pasos de despliegue y la actualización del Product Backlog permitieron conservar la trazabilidad del proyecto y asegurar la replicabilidad técnica del entorno.<br><br>**AV2 (Grupal):** La comunicación escrita permitió mantener la trazabilidad del Sprint 3 mediante commits, documentación técnica, contratos REST y evidencias de ejecución. La descripción de los endpoints, rutas, migraciones y configuraciones de entorno facilitó la comprensión del funcionamiento general de ElectroCorp y de sus componentes técnicos. Asimismo, la documentación permitió diferenciar las funcionalidades completadas de aquellas que todavía requieren integración, pruebas adicionales o despliegue. |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta.** | **Tavara Correa, Sebastian Oswaldo**<br>**AV1:** Participó en la definición inicial del proyecto, apoyó el levantamiento de información mediante entrevistas y colaboró en la construcción de la base documental de la startup, el problema, los segmentos objetivo y los primeros requisitos del producto.<br>**TB1:** Lideró la configuración base de la Frontend Web Application y el enrutamiento principal de la SPA, permitiendo que el equipo pase de una Landing Page estática hacia una aplicación navegable con rutas de Login, Register y Dashboard.<br>**AV2:** Apoyó el seguimiento del Sprint 3, la actualización de documentación y la organización de evidencias para el Sprint Review, coordinando la revisión de avances del Frontend, Backend y base de datos.<br>**TB2:** Lideró y colaboró en el aspecto de documentación, QA y evidencias finales del Sprint 4. Organizó capturas, revisó el informe, actualizó secciones de Sprint Review y validó que la documentación final estuviera alineada con el producto entregado.<br><br>**Tuncar Vila, Ghorghet Saul**<br>**AV1:** Participó en la organización de historias de usuario, criterios de aceptación, diagramas de arquitectura y guía de estilos, ayudando a que el equipo tuviera una base común para el desarrollo y la documentación técnica.<br>**TB1:** Lideró la presentación de autenticación dentro de la Web App, especialmente la vista de inicio de sesión y la validación visual de formularios, colaborando también en pruebas de navegación y consistencia de interfaz.<br>**AV2:** Lideró la revisión de documentación de servicios, Swagger/OpenAPI, criterios HTTP y validación funcional de endpoints, ayudando a que el equipo pudiera entender y comprobar los contratos REST del Backend.<br>**TB2:** Lideró y colaboró en la revisión de servicios, notificaciones, autenticación, facturación, reportes, criterios HTTP y consistencia de la documentación técnica final mediante Swagger/OpenAPI.<br><br>**Cabrejos Chocco, Diego Alexander**<br>**AV1:** Lideró aspectos visuales de la Landing Page, especialmente estilos globales, modo oscuro, diseño responsivo, revisión visual y apoyo en la documentación del Sprint 1.<br>**TB1:** Lideró el diseño del Home/Dashboard de la Web App, incluyendo el layout principal, Sidebar, Header, tarjetas de resumen energético y conexión visual entre la Landing Page y la aplicación.<br>**AV2:** Lideró la revisión de navegación y experiencia del Frontend, actualización del Sidebar, rutas principales, entorno de producción y apoyo en la integración y documentación del Sprint 3.<br>**TB2:** Lideró la revisión visual del Frontend, la navegación interna, las vistas desplegadas, la presentación de evidencias de la Web Application y la actualización del contenido del Sprint 4 dentro del informe.<br><br>**Fernandez Garfias, Alexander Piero**<br>**AV1:** Lideró la integración de secciones de la Landing Page, el desarrollo central de UI/UX y funcionalidades interactivas como navegación, i18n y elementos dinámicos del sitio.<br>**TB1:** Lideró las mejoras de la Landing Page y la conexión de los call-to-action hacia la Web App, además de participar en la maquetación de vistas principales y en la integración del layout de la aplicación.<br>**AV2:** Lideró los principales incrementos de Analytics y Payments en el Frontend y consolidó la primera versión del Backend Web Service de ElectroCorp, aportando a la arquitectura de controladores, servicios, repositorios, entidades y endpoints REST.<br>**TB2:** Lideró la estabilización del Backend, la validación de endpoints REST, el despliegue en Render y la revisión de pruebas mediante Thunder Client/Swagger, asegurando que los servicios estuvieran listos para la entrega final.<br><br>**Toro Turpo, Ronal**<br>**AV1:** Participó en entrevistas, User Stories, Product Backlog, Ubiquitous Language y apoyo en la validación de requisitos, ayudando a que el equipo definiera el alcance funcional inicial de ElectroCorp.<br>**TB1:** Lideró pruebas de navegación y QA junto con la validación visual de formularios, colaborando en la revisión de la primera versión funcional de la Web App y sus flujos básicos.<br>**AV2:** Colaboró en la revisión del modelo relacional, migraciones de base de datos, persistencia en MySQL y pruebas de flujos relacionados con hogares, dispositivos y consumos.<br>**TB2:** Lideró y colaboró en la revisión de persistencia en MySQL, validación de colecciones, organización de dispositivos y sedes, y revisión de flujos de datos utilizados para reportes y evidencias finales. | **AV1:** En la primera entrega, el equipo logró distribuir responsabilidades iniciales en investigación, diseño, documentación y desarrollo de la Landing Page. Esto permitió establecer una base común del producto y evidenciar liderazgo compartido desde los primeros artefactos del ciclo de vida.<br><br>**TB1:** En la segunda entrega, el liderazgo se orientó a convertir la propuesta visual en una primera Web Application funcional. La división por componentes, rutas, autenticación, dashboard y conexión con la Landing Page permitió que el equipo avance de manera coordinada y con responsabilidades claras.<br><br>**AV2:** En la tercera entrega, el equipo asumió responsabilidades más técnicas al trabajar en Frontend, Backend, base de datos, Swagger/OpenAPI y despliegue. La colaboración por aspectos permitió sostener la integración entre los módulos y documentar evidencias verificables.<br><br>**TB2:** En la entrega final, el equipo consolidó el liderazgo conjunto mediante la asignación de responsables por Frontend, Backend, persistencia, documentación y despliegue. Esta organización permitió cerrar brechas técnicas del Sprint anterior y presentar una versión final más consistente de ElectroCorp. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Tavara Correa, Sebastian Oswaldo**<br>**AV1:** Colaboró en la planificación inicial, organización del informe y revisión de información obtenida en entrevistas, contribuyendo a que el equipo entienda mejor las necesidades de los usuarios.<br>**TB1:** Configuró la base de la SPA y el sistema de rutas, permitiendo que los demás integrantes pudieran desarrollar vistas y componentes sobre una estructura compartida.<br>**AV2:** Apoyó la actualización de evidencias, la revisión del estado de tareas y la organización de información para el Sprint Review, ayudando a mantener trazabilidad del avance.<br>**TB2:** Participó en la actualización final del informe, organizó capturas y evidencias de colaboración y apoyó la revisión de documentación para que las secciones del Sprint 4 mantuvieran coherencia con el avance real del producto.<br><br>**Tuncar Vila, Ghorghet Saul**<br>**AV1:** Colaboró en la definición de reglas de documentación, arquitectura y criterios de aceptación, favoreciendo que los miembros trabajaran con un lenguaje común y criterios compartidos.<br>**TB1:** Implementó y revisó elementos de autenticación y formularios, además de apoyar en validaciones visuales para que la experiencia de usuario fuera comprensible y consistente.<br>**AV2:** Revisó endpoints, criterios HTTP y documentación Swagger/OpenAPI para facilitar que todos los integrantes pudieran validar servicios sin depender únicamente de explicaciones internas.<br>**TB2:** Participó en la validación de servicios, autenticación, notificaciones, facturación y reportes, revisando que los endpoints y criterios técnicos se describieran de forma clara para la sustentación final.<br><br>**Cabrejos Chocco, Diego Alexander**<br>**AV1:** Apoyó en el diseño visual, estilos responsivos, modo oscuro y documentación, contribuyendo a que la Landing Page mantuviera una identidad visual coherente.<br>**TB1:** Desarrolló el Dashboard principal y sus tarjetas de resumen, facilitando que el equipo contara con una vista base para representar la gestión energética del usuario.<br>**AV2:** Coordinó la revisión de navegación del Frontend, actualización de rutas, Sidebar y evidencias visuales, colaborando con la integración del producto y la documentación del Sprint 3.<br>**TB2:** Coordinó la revisión del Frontend desplegado, validó rutas como inicio de sesión, dashboard, facturación y notificaciones, y apoyó la integración de evidencias visuales de la Web Application para demostrar la navegación interna y la estabilización de la interfaz.<br><br>**Fernandez Garfias, Alexander Piero**<br>**AV1:** Colaboró en la integración de componentes de la Landing Page, interacciones y navegación, permitiendo que el sitio comunique de forma clara la propuesta de valor.<br>**TB1:** Ajustó enlaces, mejoras de Landing Page y conexión con la Web App, ayudando a que los call-to-action redirigieran correctamente hacia las vistas implementadas.<br>**AV2:** Implementó módulos de Analytics y Payments y estructuró el Backend inicial, aportando una base de servicios para que el Frontend pudiera evolucionar desde datos simulados hacia integración con API.<br>**TB2:** Validó el Backend desplegado, las rutas principales de la API, los endpoints de dispositivos y autenticación, así como la configuración pública del servicio en Render. También colaboró en pruebas con Swagger/Thunder Client para evidenciar el funcionamiento de los servicios REST.<br><br>**Toro Turpo, Ronal**<br>**AV1:** Colaboró en requisitos, Product Backlog y términos del dominio, favoreciendo que el equipo trabaje con una visión compartida del producto y sus funcionalidades.<br>**TB1:** Participó en pruebas de navegación, validación de formularios y QA de la Web App, ayudando a detectar errores tempranos en la experiencia del usuario.<br>**AV2:** Revisó la base de datos, persistencia y flujos de hogares, dispositivos y consumos, asegurando que las pruebas del Backend utilizaran datos coherentes.<br>**TB2:** Revisó la consistencia de la base de datos MySQL, la persistencia de datos, las relaciones entre colecciones y el flujo de información entre dispositivos, sedes y reportes, asegurando que las pruebas del Backend reflejaran información organizada. | **AV1:** El equipo estableció un entorno colaborativo inicial mediante reuniones remotas, división de tareas y uso de repositorios. Se cumplió la meta de entregar la primera versión desplegada de la Landing Page y la documentación base del proyecto.<br><br>**TB1:** El equipo mejoró su coordinación al trabajar en Landing Page y Web App en paralelo. La planificación por rutas, formularios, dashboard y despliegue permitió cumplir con la primera versión de la aplicación web y mantener continuidad entre el sitio público y la experiencia interna.<br><br>**AV2:** El equipo fortaleció la colaboración técnica al coordinar Frontend, Backend, MySQL, Swagger/OpenAPI y evidencias de ejecución. Esto permitió cumplir con el objetivo de construir una primera API REST documentada y una Web App con módulos más cercanos al negocio.<br><br>**TB2:** El equipo estableció como meta cerrar brechas técnicas y documentales detectadas en el Sprint 3. Para cumplirla, trabajó de forma colaborativa en la estabilización del Frontend, validación del Backend, revisión de persistencia, documentación Swagger/OpenAPI, pruebas externas y despliegue. El resultado fue una entrega final con Web Application y Backend disponibles públicamente, evidencias de ejecución y mejor alineación entre producto e informe. |
 
 # Capitulo I: Introducción
 
@@ -3364,148 +3370,437 @@ Durante este Sprint, el equipo trabajo en el cierre final de los repositorios pr
 
 **Frontend Web Application development evidence**
 
-<img src="assets/FrontendCommit1" alt="Backend Sprint 4 commits evidence 1"></img><br>
-<img src="assets/FrontendCommit2" alt="Backend Sprint 4 commits evidence 2"></img><br>
+<img src="assets/FrontendCommit1.png" alt="Backend Sprint 4 commits evidence 1"></img><br>
+<img src="assets/FrontendCommit2.png" alt="Backend Sprint 4 commits evidence 2"></img><br>
 
 **Backend Platform development evidence**
 
-<img src="assets/BackendCommit1" alt="Frontend Sprint 4 tags evidence"></img><br>
+<img src="assets/BackendCommit.png" alt="Frontend Sprint 4 tags evidence"></img><br>
 
 **Landing Page development evidence**
 
-<img src="assets/LandingCommit1" alt="Landing Page Sprint 4 commits evidence 1"></img><br>
-<img src="assets/LandingCommit2" alt="Landing Page Sprint 4 commits evidence 2"></img><br>
+<img src="assets/LandingCommit1.png" alt="Landing Page Sprint 4 commits evidence 1"></img><br>
+<img src="assets/LandingCommit2.png" alt="Landing Page Sprint 4 commits evidence 2"></img><br>
 
 **Project Report development evidence**
 
-<img src="assets/ReportCommit1" alt="Report Sprint 4 commits evidence 1"></img><br>
-<img src="assets/ReportCommit2" alt="Report Sprint 4 commits evidence 2"></img><br>
+<img src="assets/ReportCommit1.png" alt="Report Sprint 4 commits evidence 1"></img><br>
+<img src="assets/ReportCommit2.png" alt="Report Sprint 4 commits evidence 2"></img><br>
 
 Como cierre tecnico, el backend incorpora un flujo de Event Integration interno: los eventos de dominio se mantienen dentro de cada bounded context, se traducen a integration events desde application/interfaces y se consumen despues del commit transaccional. Los eventos reforzados incluyen `OperationModeActivatedEvent`, `UserRegisteredEvent`, `SubscriptionActivatedEvent`, `PaymentRegisteredEvent`, `DeviceAssignedToRoomEvent`, `EnergyThresholdExceededEvent`, `SupportTicketCreatedEvent` y `MaintenanceTicketCreatedEvent`. Notifications los usa para crear alertas y Reporting los conserva como actividad para auditoria funcional.
 
 En IAM se refuerzan los puertos `HashingService` y `TokenService`, manteniendo BCrypt para credenciales y JWT Bearer para autenticacion. En la Web Application se mantiene la organizacion por bounded contexts y se corrige Workplace para que el geocoding sea resuelto por servicios de application/infrastructure. El informe se actualiza para que diagramas, README, backlog, deployment y evidencias reflejen el producto final y no una version parcial.
+
+
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-La ejecucion del Sprint 4 se valida mediante rutas publicas, pantallas funcionales de la Web Application, documentacion del backend y enlaces de release de los repositorios.
+La ejecución del Sprint 4 fue validada mediante pruebas funcionales sobre la Web Application y pruebas de servicios sobre el Backend Web Service. Para el frontend, se verificó la navegación hacia las secciones principales; para el backend, se validó la respuesta de endpoints REST desplegados y documentados.
 
-| Artifact | URL / Route | Expected result |
-|--|--|--|
-| Backend Health | https://electrocorp-platform.onrender.com/health | Respuesta JSON con estado operativo del servicio. |
-| Backend Root | https://electrocorp-platform.onrender.com/ | Respuesta publica para confirmar disponibilidad del backend. |
-| Swagger UI | https://electrocorp-platform.onrender.com/swagger-ui/index.html | Interfaz de documentacion del API REST accesible desde navegador. |
-| OpenAPI JSON | https://electrocorp-platform.onrender.com/v3/api-docs | Contrato OpenAPI disponible con esquema Bearer JWT. |
-| Reporting Activity | https://electrocorp-platform.onrender.com/api/v1/reports/activity | Ruta preparada para consultar actividad generada por integration events. |
-| Web App Login | https://electrocorp-webapp.onrender.com/iam/login | Pantalla de autenticacion conectada con IAM. |
-| Web App Workplace | https://electrocorp-webapp.onrender.com/spaces/sites | Gestion de sedes, habitaciones y asignaciones de dispositivos. |
-| Web App Energy Reports | https://electrocorp-webapp.onrender.com/energy/reports | Visualizacion de reportes, consumo energetico y metas. |
-| Landing Page | https://upc-pre-202610-1asi0729-11896-ecorp.github.io/electrocorp-website/ | Sitio publico con propuesta de valor, CTA y acceso hacia la Web Application. |
+**Frontend Web Application**
 
-**Backend Platform execution evidence**
+URL pública:
 
-<img src="assets/md-images-chapter5/platform-deployed.jpeg" alt="Backend deployed root evidence"></img><br>
-<img src="assets/md-images-chapter5/platform-deployed-health.jpeg" alt="Backend deployed health evidence"></img><br>
-<img src="assets/md-images-chapter5/platform-deployed-swagger.jpeg" alt="Backend deployed Swagger UI evidence"></img><br>
-<img src="assets/md-images-chapter5/platform-deployed-api-docs.jpeg" alt="Backend deployed OpenAPI JSON evidence"></img><br>
+```text
+https://frontend-srlf.onrender.com
+```
 
-**Frontend Web Application execution evidence**
+Rutas y vistas revisadas:
 
-<img src="assets/md-images-chapter5/webapp-deployed.jpeg" alt="Frontend Web Application deployed evidence"></img><br>
+| Módulo | Evidencia | Resultado esperado | Estado |
+| :--- | :--- | :--- | :---: |
+| Sign In | Inicio de sesión | Presenta formulario de autenticación y permite iniciar el flujo de acceso. | Passed |
+| Dashboard | Panel principal | Muestra indicadores generales del sistema y accesos a módulos internos. | Passed |
+| Billing | Facturación / planes | Presenta información relacionada con suscripción, plan o pagos. | Passed |
+| Notifications | Notificaciones | Muestra alertas, mensajes y eventos relevantes para el usuario. | Passed |
+| Sidebar / Navigation | Navegación interna | Permite desplazarse entre módulos principales sin romper el flujo de la SPA. | Passed |
 
-**Landing Page execution evidence**
+**Backend Web Service**
 
-<img src="assets/md-images-chapter5/website-deployed.jpeg" alt="Landing Page deployed evidence"></img><br>
+URL pública:
+
+```text
+https://backend-qjwa.onrender.com/
+```
+
+Pruebas realizadas:
+
+| Recurso / Funcionalidad | Método | Ruta referencial | Evidencia | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| Devices | GET | `/api/v1/devices` | Listado de dispositivos desde backend desplegado. | Passed |
+| Devices | GET | `/api/v1/devices/{id}` | Consulta de dispositivo por identificador. | Passed |
+| Devices | PUT | `/api/v1/devices/{id}` | Actualización de información de dispositivo. | Passed |
+| Users / IAM | POST | `/api/v1/authentication/sign-in` | Inicio de sesión mediante endpoint de autenticación. | Passed |
+| API Health | GET | URL pública base | Servicio responde desde Render. | Passed |
+
+**Comandos de ejecución local referenciales:**
+
+```bash
+# Frontend
+npm install
+npm run dev
+npm run build
+```
+
+```bash
+# Backend
+dotnet restore
+dotnet run
+```
+
+**Criterios de validación del Sprint Review:**
+
+| Criterio | Resultado | Estado |
+| :--- | :--- | :---: |
+| Frontend disponible públicamente | La Web Application se encuentra desplegada en Render. | Passed |
+| Backend disponible públicamente | La API se encuentra desplegada en Render. | Passed |
+| Navegación interna | Las vistas principales se muestran correctamente. | Passed |
+| Servicios REST probados | Se evidencian consultas y actualización de recursos. | Passed |
+| Documentación Swagger/OpenAPI | La API mantiene documentación interactiva para revisión técnica. | Passed |
+| Integración final | Se requiere mantener sincronizadas las URLs de entorno y contratos API. | To-Review |
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-La documentacion de servicios se mantiene mediante Swagger/OpenAPI y se complementa con la estructura del codigo por bounded contexts. Esto permite revisar rutas, recursos, seguridad y ejemplos de interaccion sin depender unicamente del informe.
+**Endpoints documentados y validados durante el Sprint 4:**
 
-* **Swagger UI:** https://electrocorp-platform.onrender.com/swagger-ui/index.html
-* **OpenAPI JSON:** https://electrocorp-platform.onrender.com/v3/api-docs
-* **Seguridad:** OpenAPI documenta autenticacion HTTP Bearer con formato JWT.
-* **Credenciales:** las contrasenas se almacenan con BCrypt mediante `HashingService`; no se persisten como texto plano.
-* **Servicios de aplicacion:** controllers delgados delegan en command services y query services por contexto.
-* **Event Integration:** los integration events conectan IAM, Billing, Workplace, Device Control, Energy Monitoring, Notifications, Reporting y Service Management sin agregar endpoints publicos innecesarios.
-* **Error handling:** se conserva `ErrorResource` como contrato publico y se centraliza la respuesta de errores mediante el manejo global compartido.
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse:collapse;">
+  <tr>
+    <td><b>Context</b></td>
+    <td><b>Resource</b></td>
+    <td><b>Method</b></td>
+    <td><b>Endpoint</b></td>
+    <td><b>Description</b></td>
+    <td><b>Expected Response</b></td>
+  </tr>
+  <tr>
+    <td>IAM</td>
+    <td>Authentication</td>
+    <td>POST</td>
+    <td><code>/api/v1/authentication/sign-in</code></td>
+    <td>Permite iniciar sesión con credenciales registradas.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Profiles</td>
+    <td>Users</td>
+    <td>GET</td>
+    <td><code>/api/v1/users</code></td>
+    <td>Lista los usuarios registrados en el sistema.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Profiles</td>
+    <td>Users</td>
+    <td>POST</td>
+    <td><code>/api/v1/users</code></td>
+    <td>Registra un nuevo usuario dentro de la plataforma.</td>
+    <td>201 Created</td>
+  </tr>
+  <tr>
+    <td>Device Control</td>
+    <td>Devices</td>
+    <td>GET</td>
+    <td><code>/api/v1/devices</code></td>
+    <td>Lista todos los dispositivos disponibles.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Device Control</td>
+    <td>Devices</td>
+    <td>GET</td>
+    <td><code>/api/v1/devices/{id}</code></td>
+    <td>Obtiene un dispositivo por identificador.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Device Control</td>
+    <td>Devices</td>
+    <td>PUT</td>
+    <td><code>/api/v1/devices/{id}</code></td>
+    <td>Actualiza la información de un dispositivo existente.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Device Control</td>
+    <td>Devices</td>
+    <td>DELETE</td>
+    <td><code>/api/v1/devices/{id}</code></td>
+    <td>Elimina un dispositivo del sistema.</td>
+    <td>204 No Content</td>
+  </tr>
+  <tr>
+    <td>Energy Monitoring</td>
+    <td>Consumptions</td>
+    <td>GET</td>
+    <td><code>/api/v1/consumptions</code></td>
+    <td>Consulta los registros de consumo energético.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Notifications</td>
+    <td>Notifications</td>
+    <td>GET</td>
+    <td><code>/api/v1/notifications</code></td>
+    <td>Consulta notificaciones generadas para el usuario.</td>
+    <td>200 OK</td>
+  </tr>
+  <tr>
+    <td>Billing</td>
+    <td>Plans / Subscriptions</td>
+    <td>GET</td>
+    <td><code>/api/v1/plans</code></td>
+    <td>Lista planes o información de suscripción disponible.</td>
+    <td>200 OK</td>
+  </tr>
+</table>
+
+**Ejemplo de solicitud para iniciar sesión:**
+
+```json
+{
+  "email": "diego@example.com",
+  "password": "123456789"
+}
+```
+
+**Ejemplo de solicitud para actualizar un dispositivo:**
+
+```json
+{
+  "name": "Enchufe Sala Actualizado",
+  "type": "Smart Plug",
+  "powerWatts": 120,
+  "status": "Active",
+  "homeId": 1
+}
+```
+
+**Ejemplo de respuesta esperada para un dispositivo:**
+
+```json
+{
+  "id": 1,
+  "name": "Enchufe Sala",
+  "type": "Smart Plug",
+  "powerWatts": 120,
+  "status": "Active",
+  "homeId": 1
+}
+```
 
 **Bearer JWT authorization evidence**
-
-<img src="assets/md-images-chapter5/platform-bearer.jpeg" alt="Swagger Bearer JWT authorization evidence"></img><br>
+<img src="assets/Swagger1.png" alt="Swagger Bearer JWT authorization evidence"></img><br>
+<img src="assets/Swagger2.png" alt="Swagger Bearer JWT authorization evidence"></img><br>
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-El despliegue final considera las tres superficies principales del producto y el repositorio del informe. Cada repositorio mantiene ramas de desarrollo, release o main segun corresponda al flujo Gitflow aplicado durante el cierre.
+El Sprint 4 incluyó la verificación del despliegue público de los principales componentes del sistema. Para ello se utilizó Render como plataforma de publicación del frontend y backend, permitiendo que el producto pueda ser revisado desde un navegador y probado mediante herramientas de consumo HTTP.
 
-| Component | Platform | Deployment / Version evidence |
-|--|--|--|
-| Landing Page | GitHub Pages | Publicacion desde `main` y release `v4.0.0`, con CTA hacia la Web Application. |
-| Web Application | Render | Release `v4.0.0` integrada a `main`, con rutas de IAM, Billing, Workplace, Energy, Notifications, Reporting y Service Management. |
-| Backend Platform | Render | Release `v2.0.0` integrada a `main`, con health check, Swagger/OpenAPI y API REST por bounded contexts. |
-| Database | Render PostgreSQL | Base de datos PostgreSQL disponible para persistencia de usuarios, planes, sedes, dispositivos, lecturas, alertas, reportes y tickets. |
-| Project Report | GitHub Repository | Informe actualizado en ramas de documentacion y Gitflow hasta `main`, con diagramas y secciones finales sincronizadas. |
+**Frontend Web Application**
 
-**Backend Platform deployment evidence**
+```text
+https://frontend-srlf.onrender.com
+```
 
-<img src="assets/md-images-chapter5/platform-deployment.jpeg" alt="Backend platform deployment evidence"></img><br>
+El frontend desplegado permite visualizar la interfaz principal de ElectroCorp, incluyendo el inicio de sesión, dashboard, facturación y notificaciones. Esta versión representa la aplicación web utilizada para la validación final del producto.
 
-**Database deployment evidence**
+<img src="assets/Frontend1.png"></img><br>
+<img src="assets/Frontend2.png"></img><br>
 
-<img src="assets/md-images-chapter5/database-deployment.jpeg" alt="Render PostgreSQL database deployment evidence"></img><br>
+**Backend Web Service**
 
-**Frontend Web Application deployment evidence**
+```text
+https://backend-qjwa.onrender.com/
+```
 
-<img src="assets/md-images-chapter5/webapp-deployment.jpeg" alt="Frontend Web Application deployment evidence"></img><br>
+El backend desplegado permite consumir endpoints REST desde clientes externos. Durante el Sprint Review se validaron solicitudes de consulta, actualización e inicio de sesión, demostrando que el servicio se encuentra disponible fuera del entorno local.
 
-**Landing Page deployment evidence**
+<img src="assets/Backend1.png"></img><br>
+<img src="assets/Backend2.png"></img><br>
 
-<img src="assets/md-images-chapter5/website-deployment.jpeg" alt="Landing Page deployment evidence"></img><br>
+**Configuración de despliegue considerada:**
+
+| Component | Platform | Main configuration | Status |
+| :--- | :--- | :--- | :---: |
+| Frontend Web App | Render | Build del proyecto SPA y publicación de recursos web. | Deployed |
+| Backend Web Service | Render | Ejecución de ASP.NET Core API con endpoints REST. | Deployed |
+| Database | MySQL | Persistencia relacional para usuarios, dispositivos y consumos. | Configured |
+| API Testing | Swagger / Thunder Client | Validación de endpoints GET, POST, PUT y DELETE. | Verified |
+| Source Control | GitHub | Repositorios separados para Report, Landing Page, Frontend y Backend. | Verified |
+
+**Observaciones de despliegue:**
+
+- La URL pública del backend debe mantenerse actualizada dentro de los archivos de entorno del frontend.
+- En producción, las credenciales de base de datos no deben estar escritas directamente en el código fuente.
+- Se recomienda validar CORS después de cada actualización de dominio o despliegue.
+- Para la presentación final se deben incluir capturas claras de cada endpoint probado y de cada vista principal del frontend.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 4, el equipo enfoco la colaboracion en cerrar brechas de coherencia entre producto, codigo, despliegues y documentacion. La coordinacion fue clave porque el valor de la entrega final no dependia solo de compilar, sino de que cada modulo pudiera explicarse desde las historias de usuario y desde la arquitectura.
+Durante el Sprint 4 el equipo se enfocó en cerrar brechas técnicas y documentales detectadas en el Sprint anterior. La colaboración fue principalmente orientada a integración, pruebas, corrección de evidencias y validación del despliegue. Cada integrante participó desde un aspecto específico, manteniendo comunicación constante para asegurar que el informe y el producto estén alineados.
 
-| Area | Collaboration insight |
-|--|--|
-| Backend | Se reforzo la separacion DDD mediante puertos, command/query services, eventos de integracion, seguridad JWT/BCrypt y documentacion OpenAPI. |
-| Frontend | Se mantuvo la arquitectura por contextos y se corrigieron flujos de Workplace para que la capa presentation delegue en servicios de application/infrastructure. |
-| Product Scope | Las historias se revisaron contra la funcionalidad real, dejando explicitas las capacidades implementadas, reforzadas o preparadas para evolucion posterior. |
-| Deployment | Los repositorios principales se ordenaron con Gitflow, releases y tags finales para sustentar la trazabilidad academica. |
-| Documentation | El informe se actualizo con Sprint 4, diagramas, evidencias de servicios y texto alineado al estado real de ElectroCorp. |
+<table align="center" border="1" width="100%" style="text-align:left; border-collapse:collapse;">
+  <tr>
+    <td><b>Team Member</b></td>
+    <td><b>Contribution during Sprint 4</b></td>
+  </tr>
+  <tr>
+    <td><b>Tavara Correa, Sebastian Oswaldo</b></td>
+    <td>Apoyó la organización de evidencias, revisión del informe, actualización de secciones de Sprint Review y validación general de la documentación para TB2.</td>
+  </tr>
+  <tr>
+    <td><b>Tuncar Vila, Ghorghet Saul</b></td>
+    <td>Colaboró en la revisión de servicios, notificaciones, autenticación, criterios HTTP y consistencia de la documentación técnica de Swagger/OpenAPI.</td>
+  </tr>
+  <tr>
+    <td><b>Cabrejos Chocco, Diego Alexander</b></td>
+    <td>Lideró la revisión visual del frontend, navegación interna, presentación de evidencias de la Web Application y actualización del contenido del Sprint 4 dentro del informe.</td>
+  </tr>
+  <tr>
+    <td><b>Fernandez Garfias, Alexander Piero</b></td>
+    <td>Lideró la estabilización del backend, validación de endpoints REST, despliegue en Render y revisión de pruebas mediante Thunder Client/Swagger.</td>
+  </tr>
+  <tr>
+    <td><b>Toro Turpo, Ronal</b></td>
+    <td>Apoyó la revisión de persistencia en MySQL, validación de colecciones, organización de dispositivos/sedes y revisión de flujos de datos para reportes.</td>
+  </tr>
+</table>
 
-**Project Report collaboration evidence**
+**Principales aprendizajes de colaboración:**
 
-<img src="assets/md-images-chapter5/insight-report-sprint-4.jpeg" alt="Report Sprint 4 insights evidence"></img><br>
-<img src="assets/md-images-chapter5/contribuitors-report-sprint-4.jpeg" alt="Report Sprint 4 contributors evidence"></img><br>
-
-**Backend Platform collaboration evidence**
-
-<img src="assets/md-images-chapter5/insight-platform-sprint-4.jpeg" alt="Backend Sprint 4 insights evidence"></img><br>
-<img src="assets/md-images-chapter5/contribuitors-platform-sprint-4.jpeg" alt="Backend Sprint 4 contributors evidence"></img><br>
-
-**Frontend Web Application collaboration evidence**
-
-<img src="assets/md-images-chapter5/insight-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 insights evidence"></img><br>
-<img src="assets/md-images-chapter5/contribuitors-webapp-sprint-4.jpeg" alt="Frontend Sprint 4 contributors evidence"></img><br>
-
-**Landing Page collaboration evidence**
-
-<img src="assets/md-images-chapter5/insight-website-sprint-4.jpeg" alt="Landing Page Sprint 4 insights evidence"></img><br>
-<img src="assets/md-images-chapter5/contribuitors-website-sprint-4.jpeg" alt="Landing Page Sprint 4 contributors evidence"></img><br>
+- La integración entre frontend y backend exige mantener contratos claros y actualizados; una diferencia en nombres de campos, rutas o URLs puede bloquear la validación completa del producto.
+- Las pruebas CRUD por colección ayudan a demostrar con mayor claridad que el backend no solo existe, sino que realmente permite crear, leer, actualizar y eliminar información.
+- La documentación de Swagger/OpenAPI facilitó que los integrantes no especializados en backend pudieran comprender la estructura de los servicios.
+- El despliegue debe validarse desde herramientas externas como Thunder Client, porque una aplicación puede funcionar localmente y fallar al publicarse por problemas de CORS, variables de entorno o base de datos.
+- Para futuras iteraciones, se recomienda mantener capturas organizadas por carpeta, usar nombres consistentes para imágenes y registrar commits semánticos por cada funcionalidad importante.
+- El Sprint 4 permitió consolidar una versión más presentable y defendible de ElectroCorp, articulando la propuesta visual, la lógica de negocio, la persistencia y la evidencia técnica en un solo flujo de entrega.
 
 ### 5.3.1. Diseño de Entrevistas
+Las entrevistas de validacion mantienen el mismo enfoque de la seccion 2.2, pero ahora se orientan a evaluar el producto construido durante AV2. El objetivo es validar si la Landing Page, la Web Application y el backend documentado comunican claramente el valor de ElectroCorp y si los usuarios entienden los flujos principales.
 
+##### Preguntas Generales
+
+- Cual es su nombre?
+- Cuantos anos tiene usted?
+- En que ciudad y distrito reside?
+- A que se dedica actualmente?
+- Ha usado antes aplicaciones para controlar consumo electrico, dispositivos inteligentes o servicios de soporte tecnico?
+
+##### Preguntas Especificas
+
+###### Segmento 1: Hogares urbanos con viviendas antiguas
+
+1. Despues de revisar la Landing Page, entiende rapidamente que problema resuelve ElectroCorp?
+2. El mensaje de ahorro de energia y control del hogar le resulta claro y confiable?
+3. El flujo para elegir un plan y crear una cuenta le parece facil de seguir?
+4. Que informacion adicional necesitaria antes de contratar un plan para su hogar?
+5. La Web Application le ayuda a entender como se organizan sedes, habitaciones, grupos de dispositivos y dispositivos?
+6. Los indicadores de consumo, alertas y reportes le parecen utiles para tomar decisiones en casa?
+7. La interfaz le parece suficientemente simple para que otros miembros de su familia tambien puedan usarla?
+8. Que parte del producto le genera mayor confianza y que parte le genera dudas?
+
+###### Segmento 2: Pequenos negocios y talleres en zonas urbanas
+
+1. Despues de revisar la Landing Page, queda claro como ElectroCorp podria ayudar a reducir costos operativos?
+2. El flujo de seleccion de plan le permite identificar cual se ajusta mejor al tamano de su negocio?
+3. La creacion de cuenta y activacion del plan se entiende como un proceso continuo?
+4. La organizacion por sedes, habitaciones, grupos de dispositivos y dispositivos representa adecuadamente la realidad de su negocio?
+5. Las funciones de rutinas, modos de operacion y alertas le parecen utiles para evitar equipos encendidos fuera de horario?
+6. Los reportes de consumo y metas energeticas le ayudarian a identificar desperdicio de energia?
+7. La documentacion o explicacion del servicio le transmite confianza para adoptar la plataforma?
+8. Que cambio priorizaria antes de usar ElectroCorp en un negocio real?
 
 
 ### 5.3.2. Registro de Entrevistas
 
+### Segmento 1
+
+| N | Datos | Descripcion | Imagen referencial |
+|:---|:---|:---|:---|
+| 1 | **Nombre:** Miguel<br>**Apellido:** Torres<br>**Edad:** 20<br>**Distrito:** Chosica<br>Timming: 00:07-06:27<br>| Miguel, durante la entrevista pudo validar que la propuesta de ElectroCorp es bastante clara. Entendió perfectamente que la plataforma sirve para monitorear el consumo eléctrico en tiempo real, lo que le permitió identificar qué aparatos gastan más y así reducir sus facturas. Le parece que el flujo para registrarse y elegir un plan es bastante intuitivo y sencillo de seguir.<br><br>Sobre la organización, siente que la estructura de la aplicación es clara, facilitando la gestión de dispositivos por hogar o ambiente sin complicaciones. Además, considera que la interfaz es lo suficientemente simple para que otros miembros de su familia la usen sin necesidad de explicaciones previas. En cuanto a lo que le genera más confianza, destaca las alertas y el monitoreo en tiempo real; sin embargo, su principal duda es la compatibilidad de la plataforma con dispositivos adicionales, como computadoras o equipos con sistema operativo iOS. | <img src="assets/entrevista2Miguel.jpeg"> |
+| 2 | **Nombre:** Jesus<br>**Apellido:** Huaman<br>**Edad:** 20<br>**Distrito:** Manchay <br>Timming: 06:27-12:47<br>| El entrevistado es Jesús, de 20 años, vamos a conocer su opinión sobre nuestra propuesta y la plataforma web. En general, su evaluación fue bastante positiva. Jesús comentó que el problema que resolvemos con ElectroCorp se entiende a primera vista y le pareció que la aplicación es muy intuitiva, por lo que no cree que sea difícil de usar, incluso para personas que no están acostumbradas a la tecnología. Sobre el diseño y la seguridad, dijo que el mensaje de ahorro y control del hogar le resultó muy claro y confiable. Valoró bastante que no se le pidan datos personales innecesarios durante el registro, ya que eso le da más tranquilidad. En cuanto a la facilidad de uso, considera que el flujo para elegir un plan y registrarse es sencillo y lógico; cree que cualquier persona puede aprender a usarlo correctamente con muy poco tiempo de práctica. Jesús también entiende perfectamente cómo están organizados los hogares, las habitaciones y los dispositivos, y mencionó que la estructura se siente familiar porque se parece a otras herramientas conocidas del mercado. Además, le parecieron muy útiles los indicadores de consumo y las alertas, ya que considera que presentan la información de una forma tan sencilla que realmente ayudan a las familias a tomar mejores decisiones sobre su gasto de energía. Incluso aseguró que su familia podría manejarla sin problemas, mencionando que, para aquellos que no son muy tecnológicos, una semana de uso sería más que suficiente para que se acostumbren por completo. Como una sugerencia para seguir mejorando, recomendó que sería muy útil incluir más información detallada sobre cómo se gestiona la energía específicamente en empresas o casas antiguas, y que podemos seguir tomando como ejemplo las aplicaciones líderes del mercado para asegurar que el flujo de uso sea siempre lo más amigable posible. En resumen, su opinión nos confirma que nuestra plataforma es clara, fácil de manejar y cumple muy bien con su objetivo de ser una herramienta útil para cualquier hogar. | <img src="assets/entrevista2Jesus.jpeg"> |
+| 3 | **Nombre:** Keidy<br>**Apellido:** Maquera<br>**Edad:** 22<br>**Distrito:** Callao<br>Timming: 12:48-19:15<br> | La entrevistada es Keidy, de nuestro segmento de hogares con infraestructura antigua, quien validó que ElectroCorp es muy intuitivo y fácil de entender, destacando que el mayor punto a favor es la instalación no invasiva que evita obras costosas. Keidy valoró positivamente la claridad de los indicadores de consumo y la organización de la plataforma, afirmando que es una interfaz muy amigable para cualquier miembro de su familia, aunque sugirió que debemos ser más transparentes con los detalles de los planes, la compatibilidad técnica y el funcionamiento del soporte al cliente para generar total tranquilidad en viviendas antiguas.| <img src="assets/entrevista2Keidy.jpeg"> |
+
+#### Segmento 2
+
+| N | Datos | Descripcion | Imagen referencial |
+|:---|:---|:---|:---|
+| 1 | **Nombre:** Richard<br>**Apellido:** Lozano<br>**Edad:** 20<br>**Distrito:** San Martin de Porres <br>Timming: 34:17-40:12<br>| El entrevistado es Richard, quien representa nuestro segmento de pequeños negocios y talleres, para conocer su perspectiva sobre la Landing Page y la plataforma web. Richard entendió perfectamente que nuestro objetivo principal es ayudar a los negocios a ahorrar energía y controlar sus equipos de forma eficiente. Brindo comentarios muy valiosos que nos ayudarán a mejorar la experiencia del usuario. En cuanto a la facilidad de uso, a Richard le pareció que el flujo para elegir un plan es muy claro y sencillo de comparar. Sobre el proceso de registro, lo consideró intuitivo, aunque sugirió algo muy útil: añadir una barra de progreso mientras se crea la cuenta para que el usuario sepa en todo momento cuánto le falta para terminar. También le gustó bastante la forma en que organizamos los dispositivos por áreas, ya que en su negocio tiene varias funciones de almacenamiento y refrigeración, y este orden le facilita mucho el control. Una de las partes que más le llamó la atención fueron las rutinas y las alertas, ya que, para un dueño de negocio, evitar que las luces o equipos se queden encendidos por descuido fuera del horario de trabajo es un alivio total. Además, considera que los reportes de consumo son muy útiles para identificar desperdicios. Como mejora, me propuso que la aplicación no solo nos diga cuánto consumimos, sino que también nos dé recomendaciones personalizadas para ahorrar energía basándose en lo que ya gastamos. Finalmente, Richard me dio una recomendación importante para aumentar la confianza: en lugar de solo mostrar reseñas simples, le gustaría ver casos de éxito reales con resultados comprobados, como ejemplos concretos de cuánto dinero podría ahorrar un negocio específico al usar nuestra plataforma. En resumen, la entrevista fue muy productiva y su opinión confirma que estamos en el camino correcto para ayudar a los pequeños empresarios a optimizar sus costos operativos. | <img src="assets/Entrevista2Richard.jpeg"> |
+| 2 | **Nombre:** Roberto<br>**Apellido:** Mendoza<br>**Edad:** 25<br>**Distrito:** San Juan de Lurigancho <br>Timming: 25:05-34:17<br>| Roberto es un microempresario el cual en su opinión le gustaron varias de las funcions del producto de ElectroCorp como por ejemplo la funcion del control de dispositivos para el ahorro de energia al ser trabajr con varios equipos que consumen mucha electricidad y estos genera un gasto extra en su opinión | <img src="assets/EntrevistaValidacionSeg2.png"> |
+|3 | **Nombre:** Orlando<br>**Apellido:** Trinidad Becerra<br>**Edad:** 48<br>**Distrito:** Lima, La Victoria <br>Timming: 19:17-25:05<br>| Orlando tiene un negocio en el cual maneja varios aparatos que generan gastos electirco por los cual un software que le ayude a gestionar estos apratos le biene muy bien en su opinión ademas de tener mas confianza con respecto a al seguridad de estos previniendo asi incedios y otra catastrofes. | <img src="assets/EntrevistaValidacionSegmento2E2.png"> |
+
 
 ### 5.3.3. Evaluaciones según heurísticas
+
+Para asegurar que el sistema no solo sea funcional (que guarde datos en la BD), sino también usable y accesible, se aplicó una evaluación heurística basada en los principios de Jakob Nielsen y estándares de Inclusive Design.<br><br>
+El presente apartado describe la evaluación de usabilidad aplicada al prototipo funcional. Se seleccionaron diez heurísticas clave orientadas a garantizar una interacción intuitiva y eficiente. La evaluación permitió identificar puntos de mejora en el flujo de registro de usuarios y dispositivos, asegurando que la arquitectura de información sea coherente con las necesidades detectadas en el Modelo Entidad-Relación y las expectativas del usuario final bajo criterios de diseño inclusivo.<br><br>
+
+A continuación, se presenta la evaluación del sistema basada en las 10 heurísticas de Jakob Nielsen, adaptadas a nuestra propuesta.<br><br>
+
+| ID | Heurística / Principio | Eval. (1-5) | Observaciones / Hallazgos |
+| :--- | :--- | :---: | :--- |
+| **H1** | Visibilidad del estado del sistema | 5 | El usuario recibe avisos claros y barras de carga cada vez que guarda información nueva. |
+| **H2** | Relación sistema-mundo real | 4 | Se utilizan términos sencillos y fáciles de entender en lugar de palabras técnicas complejas. |
+| **H3** | Control y libertad del usuario | 4 | Es fácil retroceder, cancelar una acción o salir de cualquier pantalla sin perder el control. |
+| **H4** | Consistencia y estándares | 5 | Todos los botones y menús mantienen el mismo estilo y ubicación en toda la aplicación. |
+| **H5** | Prevención de errores | 5 | El sistema verifica automáticamente que los datos ingresados sean correctos antes de guardarlos. |
+| **H6** | Reconocimiento vs. Recuerdo | 5 | La información guardada aparece en pantalla, así el usuario no tiene que memorizar nada. |
+| **H7** | Flexibilidad y eficiencia | 4 | El proceso para registrar un dispositivo es rápido y requiere muy pocos pasos. |
+| **H8** | Estética y diseño minimalista | 5 | El diseño es limpio y solo muestra la información que el usuario realmente necesita ver. |
+| **H9** | Ayuda reconocimiento de errores | 4 | Si algo sale mal, el sistema explica claramente qué ocurrió y cómo solucionarlo. |
+| **H10** | Inclusive Design | 4 | El diseño es fácil de leer y se adapta correctamente a diferentes tamaños de pantalla. |
+
+
 ## 5.4. Video About-the-Product.
+<b>Enlace de Seguimiento:</b> <a href="https://www.youtube.com/watch?v=auM0eodQw50" target="_blank"> Video About The Product ElectroCorp</a>
+
 # Conclusiones
 ## Conclusiones y recomendaciones
+Conclusiones sobre el proyecto: <br>
+Al finalizar el proceso, confirmamos que el problema principal que enfrentan las familias y pequeños negocios en el Perú no es solo el precio de la domótica, sino la dificultad de instalarla. La necesidad de romper paredes o contratar técnicos especializados crea una barrera que nuestra solución logra eliminar. Al desarrollar un ecosistema tipo "plug-and-play", demostramos que es posible modernizar hogares con más de 10 años de antigüedad sin realizar obras civiles.
+
+Nuestras hipótesis iniciales fueron validadas exitosamente:
+
+La instalación sin obras es clave: Confirmamos que ofrecer un dispositivo que se sobrepone a lo existente es el factor decisivo para que el usuario se atreva a comprar y usar la tecnología.
+
+La importancia del ahorro real: Validamos que mostrar el consumo en Soles (S/) en lugar de solo en vatios es la característica más valorada. Esto permite que el usuario vea un beneficio económico directo, lo cual justifica su inversión y genera confianza.
+
+Confianza mediante la sencillez: Comprobamos que una interfaz intuitiva y en español es fundamental para usuarios que no tienen conocimientos técnicos avanzados, logrando que se sientan en control de su infraestructura eléctrica.
+
+En resumen, logramos cumplir con nuestro objetivo de democratizar el acceso a la domótica, ofreciendo una herramienta que traduce datos técnicos complejos en ahorros financieros claros para el presupuesto familiar o comercial.
+
+
+Recomendaciones: 
+
+Para que ElectroCorp evolucione y se mantenga como una solución competitiva, recomendamos las siguientes acciones:
+
+Adaptabilidad física: Dado que existe una gran variedad de interruptores antiguos, el siguiente paso crítico en el diseño del hardware es crear adaptadores universales. Esto evitará problemas de ajuste físico y ampliará nuestro mercado potencial.
+
+Enfoque en el modelo de negocio: Mantener la venta directa de kits y explorar el modelo de suscripción opcional para funciones avanzadas de análisis, lo cual permitirá financiar la mejora continua del software.
+
+Estrategia comercial: Iniciar alianzas estratégicas con ferreterías locales y potenciar la publicidad digital. Estas son las vías más efectivas para llegar a nuestro segmento objetivo: familias de clase media y dueños de pequeños negocios.
+
+Mejora de la plataforma: Continuar simplificando la interfaz de la aplicación para mantenerla como la opción más accesible del mercado, asegurando que el monitoreo en tiempo real sea siempre la función principal.
+
+Estos pasos aseguran que el proyecto no solo sea un prototipo exitoso, sino un modelo de negocio sostenible que realmente ayuda a los usuarios a optimizar sus gastos eléctricos.
+
 ## Video About-the-Team.
+<b>Enlace de Seguimiento:</b> <a href="https://youtu.be/cc1vFuPtmf8" target="_blank"> Video About The Team ElectroCorp</a>
+
 # Bibliografía 
 
 - Promart. (s.f.). Smatrul Enchufe Inteligente Wifi Compatible con Alexa Google Home. https://www.promart.pe/smatrul-enchufe-inteligente-wifi-compatible-con-alexa-google-home-1001455515/p
 - Instituto Nacional de Estadística e Informática. (2018). Perú: Características de las viviendas particulares y los hogares. Acceso a servicios básicos (Publicación Digital Lib1538). https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1538/parte01.pdf
 
 # Anexos
+
+**Link de video de entrevistas de validación
+https://youtu.be/CryRYJ99FOg
+
+** Link de la Landing Page
+https://1asi0730-2610-20177-nex.github.io/LandingPage/
+
+** Link del Frontend
+https://frontend-srlf.onrender.com
+
+** Link del Backend
+https://backend-qjwa.onrender.com/
